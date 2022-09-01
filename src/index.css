@@ -18,8 +18,7 @@ code {
   padding-right: 12px;
 }
 
-element.style {
-}
+
 a.navbar-brand {
   line-height: 40px !important;
 }
@@ -166,3 +165,54 @@ p .small_card {
   /* left: 50%;
   transform: translate(-50%, -50%);} */
 }
+
+/* login page css */
+
+#loginbg{
+  background: url(/public/assets/images/loginbg.png);
+
+}
+
+.loginleftsection{
+  background: url(/public/assets/images/loginleftimage.png);
+  margin-top: 110px;
+  margin-bottom: 110px;
+
+}
+.loginleftsection h1{
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 170px;
+}
+.loginleftsection p{
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 110px;
+}
+
+.loginrightsection{
+  background-color: #FFFFFF;
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+.loginrightsection a {
+  color: #238ae6;
+  display: inline-block;
+}
+.signinform{
+  padding-left: 60px;
+  padding-top: 60px;
+}
+.signinform1{
+  padding-left: 60px;
+}
+.login input{
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: black;
+  width: 80%;
+}
+.forgotpassword{
+  padding-right: 95px;
+}
+
