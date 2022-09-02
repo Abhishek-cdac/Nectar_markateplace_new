@@ -7,7 +7,7 @@ function LandingBanner() {
         <div class="img-content">
           <img src="/assets/images/BG.webp" alt="" />
         </div>
-        {/* <div class="overlay"></div> */}
+      {/* <div class="overlay"></div> */}
       </div>
       <div class="banner-content">
         <h1>Explore Apps For Nectar</h1>
