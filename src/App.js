@@ -1,20 +1,18 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Example from "./example";
-import Header from "./Components/Header/Header";
-import Header2 from "./Components/Header/Header2";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Landingpage from "./containers/landingpage";
+import LoginPage from "./containers/LoginPage";
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header"> */}
-        {/* <Header/>
-        <Example />
-        <Header2/> */}
-     <Landingpage/>
-      {/* </header> */}
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Landingpage />} />
+          <Route path="/login" element={<LoginPage />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
