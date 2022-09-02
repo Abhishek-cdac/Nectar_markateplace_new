@@ -19,7 +19,7 @@ const BecomeAPartner = () => {
           <div class="row">
             <h5 className="formhead1">Company Details</h5>
 
-            <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-md-6 col-xs-6">
+            <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
               <label className="control-label labelhead" for="inputEmail4">
                 Company Name
               </label>
@@ -27,7 +27,7 @@ const BecomeAPartner = () => {
 
               <input type="text" class="form-control" />
             </div>
-            <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-md-6  col-xs-6">
+            <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
               <label className="labelhead" for="inputEmail4">
                 Company Website
               </label>
@@ -36,7 +36,7 @@ const BecomeAPartner = () => {
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
               <label className="labelhead" for="inputEmail4">
                 First Name
               </label>
@@ -44,7 +44,7 @@ const BecomeAPartner = () => {
 
               <input type="text" class="form-control" />
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
               <label className="labelhead" for="inputEmail4">
                 Last Name
               </label>
@@ -54,7 +54,7 @@ const BecomeAPartner = () => {
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
               <label className="labelhead" for="inputEmail4">
                 Bussiness Registration
               </label>
@@ -67,7 +67,7 @@ const BecomeAPartner = () => {
               </label>
             </div>
 
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
               <label className="labelhead" for="inputEmail4">
                 No. of Employees
               </label>
@@ -82,7 +82,7 @@ const BecomeAPartner = () => {
               <div className="row pt-5">
                 <h5 className="formhead1">Bussiness Address</h5>
               </div>
-              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+              <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
                 <label className="labelhead" for="inputEmail4">
                   Country
                 </label>
@@ -91,7 +91,7 @@ const BecomeAPartner = () => {
                 <input type="text" class="form-control" />
               </div>
 
-              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+              <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
                 <label className="labelhead" for="inputEmail4">
                   State
                 </label>
@@ -100,7 +100,7 @@ const BecomeAPartner = () => {
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+              <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
                 <label className="labelhead" for="inputEmail4">
                   City
                 </label>
@@ -108,7 +108,7 @@ const BecomeAPartner = () => {
 
                 <input type="text" class="form-control" />
               </div>
-              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+              <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
                 <label className="labelhead" for="inputEmail4">
                   Street Address
                 </label>
@@ -118,7 +118,7 @@ const BecomeAPartner = () => {
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+              <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
                 <label className="labelhead" for="inputEmail4">
                   Email
                 </label>
@@ -128,7 +128,7 @@ const BecomeAPartner = () => {
                 <input type="text" class="form-control" />
               </div>
 
-              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+              <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
                 <label className="labelhead" for="inputEmail4">
                   Data Centers
                 </label>
@@ -144,7 +144,7 @@ const BecomeAPartner = () => {
               <div className="row pt-5">
                 <h5 className="formhead1">Expertise / Interest</h5>
               </div>
-              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+              <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
                 <label
                   style={{ marginBottom: 13 }}
                   className=""
@@ -157,7 +157,7 @@ const BecomeAPartner = () => {
                 <input type="text" class="form-control" />
               </div>
 
-              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+              <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-sm-3 col-md-6 col-xs-6 col-6 col-lg-6 col-xl-6">
                 <label
                   className=" "
                   style={{ marginBottom: 13 }}
