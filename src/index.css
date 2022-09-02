@@ -361,4 +361,51 @@ $carousel-transition-duration:2s
   padding-right: 95px;
 }
 
+ /* Become a nectar css */
+
+
+ .formhead1{
  
+  padding-right: 1100px ;
+  }
+ 
+  .labelhead{
+   margin-right:480px ;
+   margin-top: 10px;
+   margin-bottom: 13px;
+   font-size: 14px;
+   
+  }
+ 
+  .formbtn {
+   color: white;
+   background-color: orangered;
+  }
+
+
+  /* accordian  */
+
+  .accordian_heading{
+    font-size: 15px;
+    color: #000;
+   opacity: 100%;
+   font-family: 'Lato', sans-serif;
+   font-weight: 550px ;
+  
+    
+  }
+  
+  .accordian_description{
+    font-size: 13px;
+  
+  }
+  
+  .reseller_partner{
+    border-radius: 50px solid orange;
+    /* display: flex;
+    flex-direction: row; */
+    width: 300px;
+    
+    margin-left: 500px;
+  
+  }
