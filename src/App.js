@@ -1,6 +1,8 @@
 import "./App.css";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Landingpage from "./containers/landingpage";
+
+
 import LoginPage from "./containers/LoginPage";
 import BecomeAPartner from "./Components/Header/BecomeAPartner";
 
@@ -15,6 +17,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </>
+
   );
 }
 

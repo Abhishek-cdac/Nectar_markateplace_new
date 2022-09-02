@@ -12,6 +12,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 /* //header */
 .Logo {
   display: flex;
@@ -37,21 +38,26 @@ a.navbar-brand {
 .white-color {
   color: black;
 }
+
 .navbar-collapse {
   justify-content: flex-end;
 }
+
 .become_partner {
   color: #238ae6;
 }
+
 .btn-register {
   background-color: coral;
   color: white;
   border-radius: 3px;
   border: none;
 }
+
 .nav_register {
   padding-top: 8px;
 }
+
 .header-right-ul #search {
   background: transparent;
   border-radius: 0;
@@ -61,20 +67,24 @@ a.navbar-brand {
   opacity: 0.6;
   width: 16rem;
 }
+
 .header-right-ul #search::placeholder {
   color: black;
   font-size: 14px;
 }
+
 .searchtop button {
   background: transparent;
   border: none;
   position: relative;
   right: 14%;
 }
+
 .header_icon {
   font-size: 24px;
   color: black;
 }
+
 .header_icon_user {
   font-size: 24px;
   color: black;
@@ -94,6 +104,7 @@ a.navbar-brand {
   transform: translate(-50%, -50%);
   width: 80%;
   text-align: center;
+
   color: #ffffff;
   line-height: 1.5;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -121,6 +132,7 @@ a.navbar-brand {
   font-size: 16px;
   border-radius: 4px;
 }
+
 .image1 {
   position: absolute;
   z-index: 99999;
@@ -129,6 +141,7 @@ a.navbar-brand {
   transform: translate(-50%, -50%);
   width: 60%;
 }
+
 .landing_card1 {
   position: absolute;
   z-index: 99999;
@@ -139,16 +152,20 @@ a.navbar-brand {
   text-align: center;
   color: #000;
   line-height: 1.5;
+
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 .card-header {
   font-weight: 400;
   font-size: x-large;
 }
+
 p.card-text {
   font-size: small;
 }
+
 #landing_banner2 {
   background: url(/public/assets/images/Rectangle-437.webp);
   /* min-height: 280px; */
@@ -157,15 +174,19 @@ p.card-text {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
 .small_card {
   flex-direction: row;
+
   margin-top: 2%;
   height: auto;
   margin-right: 2%;
 }
+
 p .small_card {
   font-size: 10px;
 }
+
 .card-img-top {
   width: 30%;
 }
@@ -173,12 +194,65 @@ p .small_card {
 .landing_card2 {
   display: flex;
   flex-direction: column;
+
   top: 25%;
   position: relative;
   /* top: 65%; */
   /* left: 50%;
   transform: translate(-50%, -50%);} */
 }
+
+
+
+
+/*Review Form*/
+.backgroundimage-review-form {
+  background: url(/public/assets/images/Group\ 2985.png);
+  top: 2268px;
+  width: 1920px;
+  height: 881px;
+  opacity: 1;
+}
+
+.content-review-form {
+  left: 621px;
+  width: 686px;
+  height: 62px;
+  text-align: left;
+  font: normal normal normal 52px/31px Lato;
+  letter-spacing: 0px;
+  color: #474747;
+  opacity: 1;
+
+}
+
+.textfield-review-form {
+  width: 1062px;
+  height: 93px;
+  background: #1291C9 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  opacity: 1;
+
+}
+
+.textfieldwords {
+  top: 2747px;
+  left: 429px;
+  width: 1062px;
+  height: 179px;
+  background: #1291C9 0% 0% no-repeat padding-box;
+  border-radius: 7px;
+  opacity: 1;
+}
+.btn-review-form {
+
+
+  background: #F16728 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  left: 1119px;
+  width: 255px;
+  height: 52px
 
  
 /* Toggle */
@@ -246,9 +320,32 @@ p .small_card {
 .toggleLabel {
   margin: auto;
   padding-top: 2%;
+
 }
 
 
+
+
+
+/*footer navbar*/
+
+
+.navbar-brand {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  width: 399px;
+  height: 15px;
+  opacity: 0.5;
+  position: relative;
+  left: 762px;
+}
+/*Netar CRM*/
+.backgroundimage-CRM{
+width: 1920px;
+height: 557px;
+background:  url(/public/assets/images/Group\ 3001.png) 
+}
 
 /* Review Slider */
 .ReviewHeading {
@@ -433,4 +530,5 @@ $carousel-transition-duration:2s
     margin-left: 500px;
   
   }
+
 

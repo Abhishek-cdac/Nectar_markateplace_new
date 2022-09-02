@@ -30,7 +30,7 @@ function Header2() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav header-right-ul">
               <div className="searchtop">
-                <div className="input-group" style={{paddingTop:"7px"}}>
+                <div className="input-group" style={{ paddingTop: "7px" }}>
                   <input
                     type="search"
                     className="form-control"
@@ -39,7 +39,7 @@ function Header2() {
                     id="search"
                   />
                   <button type="submit" className="input-group-text">
-                  <i class="fa fa-search" aria-hidden="true"></i>
+                    <i class="fa fa-search" aria-hidden="true"></i>
                   </button>
                 </div>
               </div>
