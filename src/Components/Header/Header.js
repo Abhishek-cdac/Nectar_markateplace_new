@@ -22,7 +22,7 @@ function Header() {
                 </a>
               </li>
               <li class="nav-item nav_register">
-                <button class="btn-register"  href="#">
+                <button class="btn-register" href="#">
                   Register
                 </button>
               </li>
