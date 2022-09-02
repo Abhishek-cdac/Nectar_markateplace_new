@@ -4,10 +4,10 @@ import dummyData from "../../containers/Dummydata";
 function card2() {
   console.log("dummydata", dummyData);
   return (
-    <div className="row">
+    <div className="row" style={{justifyContent:"center"}}>
       {dummyData &&
         dummyData.CardData.map((data) => (
-          <div className="card  small_card col-12 col-sm-6 col-md-4">
+          <div className="card  small_card col-12 col-sm-6 col-md-3">
             <img src={data.image} style={{height:"61px",width:"81px",paddingTop:"20px"}} alt="..." />
             <div class="card-body">
               <h5 class="card-title">{data.title}</h5>
