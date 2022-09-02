@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Accordian,AccodionPartner} from "./Accordian";
 
 const Toggle = () => {
   const [value, setValue] = useState(false);
@@ -24,23 +25,20 @@ const Toggle = () => {
           />
           <label className="react-switch-label" htmlFor={`react-switch-new`}>
             {" "}
-            {/* {!value ? ( */}
             <div className="toggleLabel">
               <h4>Reseller</h4>
             </div>
-            {/* ) : ( */}
             <div className="toggleLabel">
               <h4>Partner</h4>
             </div>
-            {/* )} */}
             <span className={`react-switch-button`}>
-              {/* <h5 className="toggleSwitchLabel">Reseller</h5> */}
-
               <div className="toggleSwitchLabel">
                 {!value ? <h4>Reseller</h4> : <h4>Partner</h4>}
               </div>
-            </span>
+            </span> 
           </label>
+          {!value ?(
+          <Accordian/>) :( <AccodionPartner/>)}
           {/* {!value ? (
             <div>
               <h1>Reseller</h1>
@@ -51,7 +49,6 @@ const Toggle = () => {
             </div>
           )} */}
         </div>
-        
       </>
     </div>
   );

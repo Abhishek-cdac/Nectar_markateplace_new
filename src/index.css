@@ -409,6 +409,10 @@ $carousel-transition-duration:2s
 
   /* accordian  */
 
+  .accordion {
+    margin-top:5%
+  }
+
   .accordian_heading{
     font-size: 15px;
     color: #000;
