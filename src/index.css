@@ -21,8 +21,7 @@ code {
   height: 44px;
 }
 
-element.style {
-}
+
 a.navbar-brand {
   /* line-height: 40px !important; */
   padding-left: 5px;
@@ -181,6 +180,7 @@ p .small_card {
   transform: translate(-50%, -50%);} */
 }
 
+ 
 /* Toggle */
 
 .react-switch-checkbox {
@@ -333,3 +333,104 @@ img {
 /* .carousel-item{
 $carousel-transition-duration:2s
 } */
+
+ 
+/* login page css */
+
+#loginbg{
+  background: url(/public/assets/images/loginbg.png);
+
+}
+
+.loginleftsection{
+  background: url(/public/assets/images/loginleftimage.png);
+  margin-top: 110px;
+  margin-bottom: 110px;
+
+}
+.loginleftsection h1{
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 170px;
+}
+.loginleftsection p{
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 110px;
+}
+
+.loginrightsection{
+  background-color: #FFFFFF;
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+.loginrightsection a {
+  color: #238ae6;
+  display: inline-block;
+}
+.signinform{
+  padding-left: 60px;
+  padding-top: 60px;
+}
+.signinform1{
+  padding-left: 60px;
+}
+.login input{
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: black;
+  width: 80%;
+}
+.forgotpassword{
+  padding-right: 95px;
+}
+
+ /* Become a nectar css */
+
+
+ .formhead1{
+ 
+  padding-right: 1100px ;
+  }
+ 
+  .labelhead{
+   margin-right:480px ;
+   margin-top: 10px;
+   margin-bottom: 13px;
+   font-size: 14px;
+   
+  }
+ 
+  .formbtn {
+   color: white;
+   background-color: orangered;
+  }
+
+
+  /* accordian  */
+
+  .accordian_heading{
+    font-size: 15px;
+    color: #000;
+   opacity: 100%;
+   font-family: 'Lato', sans-serif;
+   font-weight: 550px ;
+  
+    
+  }
+  
+  .accordian_description{
+    font-size: 13px;
+  
+  }
+  
+  .reseller_partner{
+    border-radius: 50px solid orange;
+    /* display: flex;
+    flex-direction: row; */
+    width: 300px;
+    
+    margin-left: 500px;
+  
+  }
+
