@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {Accordian,AccodionPartner} from "./Accordian";
+import { Accordian, AccodionPartner } from "./Accordian";
 
 const Toggle = () => {
   const [value, setValue] = useState(false);
@@ -9,13 +9,12 @@ const Toggle = () => {
   };
 
   return (
-    <div className="Toggle_main">
-      {" "}
-      <>
+    <>
+      <div className="Toggle_main">
         <div className="Faq_heading">
           <h2>Frequently Asked Questions</h2>
         </div>
-        <div style={{ marginLeft: "65px", marginTop: "10px" }}>
+        <div className="switch_toggle">
           <input
             checked={value}
             onChange={handleToggle}
@@ -35,22 +34,12 @@ const Toggle = () => {
               <div className="toggleSwitchLabel">
                 {!value ? <h4>Reseller</h4> : <h4>Partner</h4>}
               </div>
-            </span> 
+            </span>
           </label>
-          {!value ?(
-          <Accordian/>) :( <AccodionPartner/>)}
-          {/* {!value ? (
-            <div>
-              <h1>Reseller</h1>
-            </div>
-          ) : (
-            <div>
-              <h1>Partner</h1>
-            </div>
-          )} */}
         </div>
-      </>
-    </div>
+      </div>
+      <div>{!value ? <Accordian /> : <AccodionPartner />}</div>
+    </>
   );
 };
 

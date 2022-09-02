@@ -22,7 +22,6 @@ code {
   height: 44px;
 }
 
-
 a.navbar-brand {
   /* line-height: 40px !important; */
   padding-left: 5px;
@@ -48,7 +47,7 @@ a.navbar-brand {
 }
 
 .btn-register {
-  background-color: coral;
+  background-color: rgb(241, 103, 40);
   color: white;
   border-radius: 3px;
   border: none;
@@ -194,7 +193,6 @@ p .small_card {
 .landing_card2 {
   display: flex;
   flex-direction: column;
-
   top: 25%;
   position: relative;
   /* top: 65%; */
@@ -202,60 +200,43 @@ p .small_card {
   transform: translate(-50%, -50%);} */
 }
 
-
-
-
 /*Review Form*/
-.backgroundimage-review-form {
-  background: url(/public/assets/images/Group\ 2985.png);
-  top: 2268px;
-  width: 1920px;
-  height: 881px;
-  opacity: 1;
+.Testimonal_Home {
+  background: url(/public/assets/images/Group_2985.png);
+  height: 440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border:0.5px solid grey;
+  margin-top:4%;
+}
+.testimonal_heading {
+  text-align: center;
+  margin-top: 2%;
+}
+.testimonalInput {
+  background-color: #1291c9;
+  border: 10px solid #fff;
+  border-radius: 15px;
+}
+::placeholder {
+  color: #fff !important;
 }
 
-.content-review-form {
-  left: 621px;
-  width: 686px;
-  height: 62px;
-  text-align: left;
-  font: normal normal normal 52px/31px Lato;
-  letter-spacing: 0px;
-  color: #474747;
-  opacity: 1;
-
+.submit_form {
+  background-color: rgb(241, 103, 40);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+.form-testimonal {
+  display: inline-block;
+  text-align: -webkit-center;
+  margin-top: 2%;
 }
 
-.textfield-review-form {
-  width: 1062px;
-  height: 93px;
-  background: #1291C9 0% 0% no-repeat padding-box;
-  border-radius: 7px;
-  opacity: 1;
-
-}
-
-.textfieldwords {
-  top: 2747px;
-  left: 429px;
-  width: 1062px;
-  height: 179px;
-  background: #1291C9 0% 0% no-repeat padding-box;
-  border-radius: 7px;
-  opacity: 1;
-}
-.btn-review-form {
-
-
-  background: #F16728 0% 0% no-repeat padding-box;
-  border-radius: 4px;
-  opacity: 1;
-  left: 1119px;
-  width: 255px;
-  height: 52px;
-}
- 
-/* Toggle */
+/* Toggle  FAQ*/
 
 .react-switch-checkbox {
   height: 0;
@@ -270,17 +251,18 @@ p .small_card {
   cursor: pointer;
   width: 270px;
   height: 53px;
+  left:38%;
   background: #fff;
-  border:2px solid grey;
+  border: 2px solid grey;
   border-radius: 100px;
   position: relative;
   transition: background-color 0.2s;
 }
 
-.toggleSwitchLabel{
+.toggleSwitchLabel {
   padding-top: 8%;
   padding-left: 25%;
-  color:#fff
+  color: #fff;
 }
 
 .react-switch-label .react-switch-button {
@@ -313,38 +295,21 @@ p .small_card {
   background-position: center center;
 }
 
-.Togglemain {
-  margin-top: "15px";
+.Toggle_main {
+  text-align: center;
+  margin-top: 3%;
 }
 
 .toggleLabel {
   margin: auto;
   padding-top: 2%;
-
 }
 
-
-
-
-
-/*footer navbar*/
-
-
-.navbar-brand_footer {
-  text-align: left;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  width: 399px;
-  height: 15px;
-  opacity: 0.5;
-  position: relative;
-  left: 762px;
-}
 /*Netar CRM*/
-.backgroundimage-CRM{
-width: 1920px;
-height: 557px;
-background:  url(/public/assets/images/Group\ 3001.png) 
+.backgroundimage-CRM {
+  width: 1920px;
+  height: 557px;
+  background: url(/public/assets/images/Group\ 3001.png);
 }
 
 /* Review Slider */
@@ -431,33 +396,30 @@ img {
 $carousel-transition-duration:2s
 } */
 
- 
 /* login page css */
 
-#loginbg{
+#loginbg {
   background: url(/public/assets/images/loginbg.png);
-
 }
 
-.loginleftsection{
+.loginleftsection {
   background: url(/public/assets/images/loginleftimage.png);
   margin-top: 110px;
   margin-bottom: 110px;
-
 }
-.loginleftsection h1{
+.loginleftsection h1 {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 170px;
 }
-.loginleftsection p{
+.loginleftsection p {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 110px;
 }
 
-.loginrightsection{
-  background-color: #FFFFFF;
+.loginrightsection {
+  background-color: #ffffff;
   margin-top: 110px;
   margin-bottom: 110px;
 }
@@ -465,74 +427,64 @@ $carousel-transition-duration:2s
   color: #238ae6;
   display: inline-block;
 }
-.signinform{
+.signinform {
   padding-left: 60px;
   padding-top: 60px;
 }
-.signinform1{
+.signinform1 {
   padding-left: 60px;
 }
-.login input{
+.login input {
   outline: 0;
   border-width: 0 0 1px;
   border-color: black;
   width: 80%;
 }
-.forgotpassword{
+.forgotpassword {
   padding-right: 95px;
 }
 
- /* Become a nectar css */
+/* Become a nectar css */
 
+.formhead1 {
+  padding-right: 1100px;
+}
 
- .formhead1{
- 
-  padding-right: 1100px ;
-  }
- 
-  .labelhead{
-   margin-right:480px ;
-   margin-top: 10px;
-   margin-bottom: 13px;
-   font-size: 14px;
-   
-  }
- 
-  .formbtn {
-   color: white;
-   background-color: orangered;
-  }
+.labelhead {
+  margin-right: 480px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  font-size: 14px;
+}
 
+.formbtn {
+  color: white;
+  background-color: orangered;
+}
 
-  /* accordian  */
+/* accordian  */
 
-  .accordion {
-    margin-top:5%
-  }
+.accordion {
+  margin-top: 5%;
+}
 
-  .accordian_heading{
-    font-size: 15px;
-    color: #000;
-   opacity: 100%;
-   font-family: 'Lato', sans-serif;
-   font-weight: 550px ;
-  
-    
-  }
-  
-  .accordian_description{
-    font-size: 13px;
-  
-  }
-  
-  .reseller_partner{
-    border-radius: 50px solid orange;
-    /* display: flex;
+.accordian_heading {
+  font-size: 15px;
+  color: #000;
+  opacity: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 550px;
+}
+
+.accordian_description {
+  font-size: 13px;
+}
+
+.reseller_partner {
+  border-radius: 50px solid orange;
+  /* display: flex;
     flex-direction: row; */
-    width: 300px;
-    
-    margin-left: 500px;
-  
-  }
+  width: 300px;
 
-
+  margin-left: 500px;
+}
