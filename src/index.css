@@ -321,25 +321,8 @@ p .small_card {
 
 
 
-/*footer navbar*/
 
 
-.navbar-brand {
-  text-align: left;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  width: 399px;
-  height: 15px;
-  opacity: 0.5;
-  position: relative;
-  left: 762px;
-}
-/*Netar CRM*/
-.backgroundimage-CRM{
-width: 1920px;
-height: 557px;
-background:  url(/public/assets/images/Group\ 3001.png) 
-}
 
 /* Review Slider */
 .ReviewHeading {
@@ -525,4 +508,12 @@ $carousel-transition-duration:2s
   
   }
 
+/*Nectar CRM*/
+
+.backgroundimage-CRM {
+
+  background: url(/public/assets/images/Group\ 3001.png);
+ 
+
+}
 
