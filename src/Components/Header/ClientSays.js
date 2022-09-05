@@ -4,10 +4,10 @@ import dummyData from "../../containers/Dummydata";
 function ClientSays() {
   return (
     <div>
-      <section id="Slider_reviews" style={{height:"420px"}}>
+      <section id="Slider_reviews" style={{height:"420px",marginTop:"2%"}}>
         <div className="container">
           <div className="ReviewHeading">
-            <h3>What Our User Says</h3>
+            <h2>What Our User Says</h2>
             <p>
               At Nectar Infotel, our endeavour is to offer world-class active -
               passive Telecom OSS/BSS & other IT/ITES service s and add maximum
