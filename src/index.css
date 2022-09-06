@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,8 +14,9 @@ code {
 /* //header */
 .header_logo {
   width: 66px;
-  height: 44px;
+  height: 50px;
   padding-right: 12px;
+  margin-left: 20px;
 }
 
 
@@ -175,19 +176,20 @@ p .small_card {
 
 .loginleftsection{
   background: url(/public/assets/images/loginleftimage.png);
-  margin-top: 110px;
-  margin-bottom: 110px;
-
+  margin-right: -25px;
 }
 .loginleftsection h1{
   text-align: center;
   color: #FFFFFF;
-  margin-top: 170px;
+  padding-top: 170px;
+  margin-top: 110px;
 }
 .loginleftsection p{
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 110px;
+  padding-bottom: 225px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .loginrightsection{
@@ -216,3 +218,7 @@ p .small_card {
   padding-right: 95px;
 }
 
+.submitbtn{
+  padding-left: 136px;
+  padding-right: 136px;
+}
