@@ -1,3 +1,6 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -249,8 +252,8 @@ p .small_card {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  width: 270px;
-  height: 53px;
+  width: 17em;
+  height: 3.3em;
   left:38%;
   background: #fff;
   border: 2px solid grey;
@@ -261,7 +264,7 @@ p .small_card {
 
 .toggleSwitchLabel {
   padding-top: 8%;
-  padding-left: 25%;
+  padding-left: 0%;
   color: #fff;
 }
 
@@ -487,4 +490,101 @@ $carousel-transition-duration:2s
   width: 300px;
 
   margin-left: 500px;
+}
+
+#productScreen{
+  background-color:#EFE8E8;
+}
+.carousel-prev{
+  width:25%;
+  background: url(/public/assets/images/Avg\ Images/13454.jpg);
+}
+.carousel-next{
+  width:25%;
+  background-color: #238ae6;
+}
+.carousel-product-text{
+  position:relative;
+  left:0%
+}
+.product-container{
+  position: absolute;
+    top: 15%;
+    left: 6%;
+}
+
+.product-banner-content{
+
+  position: absolute;
+  z-index: 99999;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+
+  color: #000;
+  line-height: 1.5;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+
+/* .App {
+  /* width: 50%; */
+  /* margin: 10rem auto; */
+  /* height: 570px; */
+
+
+  .slide img {
+    width: 20rem;
+    margin: 0 auto;
+  }
+  
+  .slide {
+    transform: scale(0.4);
+    transition: transform 300ms;
+    opacity: 0.5;
+  }
+  
+  .activeSlide {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  
+  .arrow {
+    background-color: #EFE8E8;
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .arrow svg {
+    transition: color 300ms;
+  }
+  
+  .arrow svg:hover {
+    color: #68edff;
+  }
+  
+  .next {
+    right: 0%;
+    top: 50%;
+  }
+  
+  .prev {
+    left: 0%;
+    top: 50%;
+  }
+  .product-footer-heading{
+    text-align:center
+  }
+  .product-footer-card{
+  background: url(/public/assets/images/Rectangle-437.webp);
+  /* min-height: 280px; */
+  height: 470px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
