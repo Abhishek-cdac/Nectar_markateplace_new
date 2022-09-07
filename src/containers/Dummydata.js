@@ -49,21 +49,21 @@ const dummyData = {
         {
             id:2,
             image:"/assets/images/CRM.webp",
-            description:"We have been working with NECTOR INFOTEL on the technical tasks for more than 4 years. My particular experience with Nectar Infotel in Operation Department is good. Nectar is supporting us in three important areas with CS, PS and OSS Engineers; improving also the monitoring and incident Management of NOC.",
+            description:"Nectar CRM is not a specificely suppoprted to one organisation.",
             name:"PEPINO PRAZER",
             designation:"COO- Movicel Telecommunication, SA"
         },
         {
             id:3,
             image:"/assets/images/Nectrac.webp",
-            description:"We have been working with NECTOR INFOTEL on the technical tasks for more than 4 years. My particular experience with Nectar Infotel in Operation Department is good. Nectar is supporting us in three important areas with CS, PS and OSS Engineers; improving also the monitoring and incident Management of NOC.",
+            description:"Nectraaa is a Good producr created by the nectar infotel which is standeritized eveything.",
             name:"PEPINO PRAZER",
             designation:"COO- Movicel Telecommunication, SA"
         },
         {
             id:4,
             image:"/assets/images/nT3.webp",
-            description:"We have been working with NECTOR INFOTEL on the technical tasks for more than 4 years. My particular experience with Nectar Infotel in Operation Department is good. Nectar is supporting us in three important areas with CS, PS and OSS Engineers; improving also the monitoring and incident Management of NOC.",
+            description:" Nectar NT3 is supporting us in three important areas with CS, PS and OSS Engineers; improving also the monitoring and incident Management of NOC.",
             name:"PEPINO PRAZER",
             designation:"COO- Movicel Telecommunication, SA"
         }
