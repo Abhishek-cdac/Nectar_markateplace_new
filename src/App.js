@@ -1,8 +1,11 @@
-import "./App.css";
+// import "./App.css";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Landingpage from "./containers/landingpage";
 import LoginPage from "./containers/LoginPage";
 import Register from "./containers/Register";
+// import LoginPage from "./containers/LoginPage";
+import BecomeAPartner from "./Components/Header/BecomeAPartner";
+import Productscreen from "./Components/productScreen";
 
 function App() {
   return (
@@ -12,9 +15,13 @@ function App() {
           <Route path="/" element={<Landingpage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
+          {/* <Route path="/login" element={<LoginPage />} /> */}
+          <Route path="/becomeApartner" element={<BecomeAPartner />} />
+          <Route path="/productscreen" element={<Productscreen/>}/>
         </Routes>
       </BrowserRouter>
     </>
+
   );
 }
 
