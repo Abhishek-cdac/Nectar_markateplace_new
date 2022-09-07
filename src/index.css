@@ -327,9 +327,8 @@ p .small_card {
 }
 /*Netar CRM*/
 .backgroundimage-CRM{
-width: 1920px;
-height: 557px;
-background:  url(/public/assets/images/Group\ 3001.png) 
+background:  url(/public/assets/images/Group\ 3001.png);
+height: 100%;
 }
 
 /* Review Slider */
