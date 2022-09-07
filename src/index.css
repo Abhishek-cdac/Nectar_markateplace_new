@@ -1,3 +1,7 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -18,8 +22,10 @@ code {
   display: flex;
 }
 .header_logo {
-  width: 44px;
-  height: 44px;
+  width: 66px;
+  height: 50px;
+  padding-right: 12px;
+  margin-left: 20px;
 }
 
 a.navbar-brand {
@@ -222,7 +228,7 @@ p .small_card {
   border: 10px solid #fff;
   border-radius: 15px;
 }
-::placeholder {
+.form-group ::placeholder {
   color: #fff !important;
 }
 
@@ -252,8 +258,8 @@ p .small_card {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  width: 270px;
-  height: 53px;
+  width: 17em;
+  height: 3.3em;
   left:38%;
   background: #fff;
   border: 2px solid grey;
@@ -264,7 +270,7 @@ p .small_card {
 
 .toggleSwitchLabel {
   padding-top: 8%;
-  padding-left: 25%;
+  padding-left: 0%;
   color: #fff;
 }
 
@@ -423,22 +429,25 @@ $carousel-transition-duration:2s
 
 .loginleftsection {
   background: url(/public/assets/images/loginleftimage.png);
-  margin-top: 110px;
-  margin-bottom: 110px;
+  margin-right: -25px;
+  height: 695px;
 }
 .loginleftsection h1 {
   text-align: center;
-  color: #ffffff;
-  margin-top: 170px;
+  color: #FFFFFF;
+  padding-top: 170px;
+  margin-top: 110px;
 }
 .loginleftsection p {
   text-align: center;
-  color: #ffffff;
-  margin-bottom: 110px;
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.loginrightsection {
-  background-color: #ffffff;
+.loginrightsection{
+  background-color: #FFFFFF;
+  height: 695px;
   margin-top: 110px;
   margin-bottom: 110px;
 }
@@ -456,57 +465,53 @@ $carousel-transition-duration:2s
 .login input {
   outline: 0;
   border-width: 0 0 1px;
-  border-color: black;
+  border-color: gray;
   width: 80%;
 }
 .forgotpassword {
   padding-right: 95px;
 }
 
-/* Become a nectar css */
-
-.formhead1 {
-  padding-right: 1100px;
+.submitbtn{
+  padding-left: 136px;
+  padding-right: 136px;
+}
+.icon{
+  text-align: center;
 }
 
-.labelhead {
-  margin-right: 480px;
-  margin-top: 10px;
-  margin-bottom: 13px;
-  font-size: 14px;
+/* Registration css */
+.registrationform1{
+  padding-left: 60px;
 }
 
-.formbtn {
-  color: white;
-  background-color: orangered;
+.registrationleftsection{
+  background: url(/public/assets/images/loginleftimage.png);
+  margin-right: -25px;
+  height: 735px;
 }
 
-/* accordian  */
-
-.accordion {
-  margin-top: 5%;
+.registrationleftsection h1{
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 170px;
+  margin-top: 110px;
+}
+.registrationleftsection p{
+  text-align: center;
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.accordian_heading {
-  font-size: 15px;
-  color: #000;
-  opacity: 100%;
-  font-family: "Lato", sans-serif;
-  font-weight: 550px;
+.registrationrightsection{
+  background-color: #FFFFFF;
+  height: 735px;
+  margin-top: 110px;
+  margin-bottom: 110px;
 }
 
-.accordian_description {
-  font-size: 13px;
+.registrationrightsection a {
+  color: #238ae6;
+  display: inline-block;
 }
-
-.reseller_partner {
-  border-radius: 50px solid orange;
-  /* display: flex;
-    flex-direction: row; */
-    width: 300px;
-    
-    margin-left: 500px;
-  
-  }
-
-
