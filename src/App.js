@@ -1,10 +1,9 @@
-import "./App.css";
+// import "./App.css";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Landingpage from "./containers/landingpage";
-import LoginPage from "./containers/LoginPage";
+// import LoginPage from "./containers/LoginPage";
 import BecomeAPartner from "./Components/Header/BecomeAPartner";
-import NectarCRMtabs from "./containers/NectarCRMtabs";
-import NectarCRMoverview from "./containers/NectarCRMoverview";
+import Productscreen from "./Components/productScreen";
 
 function App() {
   return (
@@ -12,13 +11,13 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landingpage />} />
-          <Route path="/login" element={<LoginPage />} />
+          {/* <Route path="/login" element={<LoginPage />} /> */}
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
-          <Route path="/nectarCRM"  element={<NectarCRMtabs  />} />
-       
-                   </Routes>
+          <Route path="/productscreen" element={<Productscreen/>}/>
+        </Routes>
       </BrowserRouter>
     </>
+
   );
 }
 

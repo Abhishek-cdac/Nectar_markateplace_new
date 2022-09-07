@@ -5,10 +5,10 @@ import Toggle from "./Toggle";
 function Frequently() {
   return (
     <div>
-      <section id="faq" style={{ height: "240px" }}>
+      <section id="faq" style={{ height: "600px" }}>
         <div
           className="container"
-          style={{ display: "flex", justifyContent: "center" }}
+          style={{ justifyContent: "center" }}
         >
           <div className="row">
             <div className="col-12 col-md-12 col-sm-6  col-xs-3">
@@ -18,14 +18,14 @@ function Frequently() {
         </div>
        
       </section>
-      <div className="container">
+      {/* <div className="container">
           <div className="row">
             <div className="col-12 col-md-12 col-sm-6  col-xs-3 ">
               <Accordian />
               <br/>
             </div>
           </div>
-        </div>
+        </div> */}
     </div>
   );
 }
