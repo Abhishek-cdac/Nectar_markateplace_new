@@ -12,6 +12,7 @@ const Landingpage = () => {
       <LandingBanner />
       <Landingbanner2 />
       <Frequently/>
+      
       <ClientSays/>
     </div>
   );

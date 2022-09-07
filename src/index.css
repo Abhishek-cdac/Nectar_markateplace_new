@@ -409,3 +409,73 @@ $carousel-transition-duration:2s
     margin-left: 500px;
   
   }
+
+  .vl {
+    border-left: 2px solid #00000078;
+    height: 500px;
+  }
+
+
+
+  /* overview form css */
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+}
+.container{
+    display: flex;
+    
+}
+.midform{
+    padding-left: 100px;
+     width: 50%;
+    padding-top: 50px;
+}
+.midsec{
+    background-color: rgb(248, 247, 247);
+    height: 571.82px;
+}
+.midimg{
+  width: 50%;
+}
+.border-bottom{
+    padding-top: 20px;
+}
+.midpara{
+    color: #08668F;
+    font-size: 11px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.form-check{
+    color: #08668F;
+    font-size: 11px;
+    font-weight: 500;
+}
+.midbutton{
+    width: 200px;
+   margin-left: 250px; 
+   background-color: #f16728;
+   color: white;
+}
+
+
+
+
+/* pricing AND sUBS */
+
+.nectarhead{
+  display: flex;
+  
+
+}
+
+.section-content{
+  background-color: #FFFFFF;
+ margin: 10px 10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
