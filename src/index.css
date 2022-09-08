@@ -515,3 +515,78 @@ $carousel-transition-duration:2s
   color: #238ae6;
   display: inline-block;
 }
+/*Nectar CRM review*/
+.hi{
+  
+  position: absolute;
+  left: 33%;
+  top: 6%;
+  height: 300px;
+
+  
+}
+
+.checked {
+  color: #FF9900;
+
+}
+.unchecked {
+
+  color: #D4D3D1;
+  opacity: 1.5px;
+}
+
+.review_backgraound {
+
+  background: #EFE8E8 0% 0% no-repeat padding-box;
+  height: 100%;
+}
+
+.star {
+  font-size: xx-large;
+  color: #D4D3D1
+}
+/*Review*/
+
+.review_title {
+  margin-top: -60px;
+  margin-left: 80px;
+}
+
+.review_designation {
+  margin-left: 210px;
+  margin-top: -30px;
+
+}
+
+.review_adress {
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+.review_star {
+  margin-left: 70px;
+  margin-top: -20px;
+
+}
+/*Notification*/
+.notification_day{
+  color: rgb(8, 102, 143);
+position: absolute;
+right: 14px;
+ top: 46px;
+
+
+}
+.notification_time{
+  position: absolute;
+  left: 100px;
+  bottom: 2px;
+  font-size: 10px;
+
+}
+.notification_user{
+position: absolute;
+left: 100px;
+top: 30px;
+}

@@ -6,7 +6,15 @@ import Register from "./containers/Register";
 // import LoginPage from "./containers/LoginPage";
 import BecomeAPartner from "./Components/Header/BecomeAPartner";
 import Productscreen from "./Components/productScreen";
-import NectarCRM from "./Components/NectarCRM";
+
+import NectarCRMReview from "./Components/NectarCRMReview";
+import CRMReview from "./Components/CRMreview";
+import Notification from "./Components/Notification";
+import CRM from "./Components/CRM"
+
+
+
+
 
 function App() {
   return (
@@ -18,20 +26,24 @@ function App() {
           <Route path="/register" element={<Register />} />
           {/* <Route path="/login" element={<LoginPage />} /> */}
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
-          <Route path="/productscreen" element={<Productscreen/>}/>
-          <Route path="/nectarcrm" element={<NectarCRM
+          <Route path="/productscreen" element={<Productscreen />} />
+
+
+          <Route path="/nectarcrmreview" element={<NectarCRMReview />} />
+
+          <Route path="/notification" element={<Notification />}></Route>
+          <Route path="/crmreview" element={<CRMReview />}></Route>
+          <Route path="/crm" element={<CRM
             title="Nectar CRM"
             subtext1="The easy to use and customizable CRM for your Marketing, Sales,
-           & Customer Service Teams."
+              & Customer Service Teams."
             subtext2="Better Sales Performance Increased Profitability & 
-          Efficiency CRM Improves Your Customer Service"
+             Efficiency CRM Improves Your Customer Service"
             heading="Get 2 months Free Subscription"
             buttontext="Free Demo"
             buttontext2="Buy Now"
-          />} />
-
-      
-        </Routes>
+             />}></Route>
+         </Routes>
       </BrowserRouter>
     </>
 
