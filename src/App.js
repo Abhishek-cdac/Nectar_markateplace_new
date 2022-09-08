@@ -6,7 +6,7 @@ import Register from "./containers/Register";
 // import LoginPage from "./containers/LoginPage";
 import BecomeAPartner from "./Components/Header/BecomeAPartner";
 import Productscreen from "./Components/productScreen";
-
+import NectarCRMtabs from '../src/containers/NectarCRMtabs'
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
           {/* <Route path="/login" element={<LoginPage />} /> */}
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
           <Route path="/productscreen" element={<Productscreen/>}/>
+          <Route path="nectarCRM" element={<NectarCRMtabs />} />
         </Routes>
       </BrowserRouter>
     </>

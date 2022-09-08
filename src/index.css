@@ -1,7 +1,6 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -22,10 +21,8 @@ code {
   display: flex;
 }
 .header_logo {
-  width: 66px;
-  height: 50px;
-  padding-right: 12px;
-  margin-left: 20px;
+  width: 44px;
+  height: 44px;
 }
 
 a.navbar-brand {
@@ -225,7 +222,7 @@ p .small_card {
   border: 10px solid #fff;
   border-radius: 15px;
 }
-.form-group ::placeholder {
+::placeholder {
   color: #fff !important;
 }
 
@@ -410,25 +407,22 @@ $carousel-transition-duration:2s
 
 .loginleftsection {
   background: url(/public/assets/images/loginleftimage.png);
-  margin-right: -25px;
-  height: 695px;
+  margin-top: 110px;
+  margin-bottom: 110px;
 }
 .loginleftsection h1 {
   text-align: center;
-  color: #FFFFFF;
-  padding-top: 170px;
-  margin-top: 110px;
+  color: #ffffff;
+  margin-top: 170px;
 }
 .loginleftsection p {
   text-align: center;
-  color: #FFFFFF;
-  padding-left: 20px;
-  padding-right: 20px;
+  color: #ffffff;
+  margin-bottom: 110px;
 }
 
-.loginrightsection{
-  background-color: #FFFFFF;
-  height: 695px;
+.loginrightsection {
+  background-color: #ffffff;
   margin-top: 110px;
   margin-bottom: 110px;
 }
@@ -446,53 +440,210 @@ $carousel-transition-duration:2s
 .login input {
   outline: 0;
   border-width: 0 0 1px;
-  border-color: gray;
+  border-color: black;
   width: 80%;
 }
 .forgotpassword {
   padding-right: 95px;
 }
 
-.submitbtn{
-  padding-left: 136px;
-  padding-right: 136px;
+/* Become a nectar css */
+
+.formhead1 {
+  padding-right: 1100px;
 }
-.icon{
+
+.labelhead {
+  margin-right: 480px;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  font-size: 14px;
+}
+
+.formbtn {
+  color: white;
+  background-color: orangered;
+}
+
+/* accordian  */
+
+.accordion {
+  margin-top: 5%;
+}
+
+.accordian_heading {
+  font-size: 15px;
+  color: #000;
+  opacity: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 550px;
+}
+
+.accordian_description {
+  font-size: 13px;
+}
+
+.reseller_partner {
+  border-radius: 50px solid orange;
+  /* display: flex;
+    flex-direction: row; */
+  width: 300px;
+
+  margin-left: 500px;
+}
+
+#productScreen{
+  background-color:#EFE8E8;
+}
+.carousel-prev{
+  width:25%;
+  background: url(/public/assets/images/Avg\ Images/13454.jpg);
+}
+.carousel-next{
+  width:25%;
+  background-color: #238ae6;
+}
+.carousel-product-text{
+  position:relative;
+  left:0%
+}
+.product-container{
+  position: absolute;
+    top: 15%;
+    left: 6%;
+}
+
+.product-banner-content{
+
+  position: absolute;
+  z-index: 99999;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: center;
+
+  color: #000;
+  line-height: 1.5;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+
+/* .App {
+  /* width: 50%; */
+  /* margin: 10rem auto; */
+  /* height: 570px; */
+
+
+  .slide img {
+    width: 20rem;
+    margin: 0 auto;
+  }
+  
+  
+
+  .vl {
+    border-left: 2px solid #00000078;
+    height: 500px;
+  }
+
+
+
+  /* overview form css */
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+}
+.container{
+    display: flex;
+    
+}
+/* .midform{
+    padding-left: 100px;
+     width: 50%;
+    padding-top: 50px;
+    color:#474747;
+} */
+.midsec{
+    background-color: #EFE8E8;
+     
+}
+.border-bottom{
+  color: #474747;
+}
+
+.border-bottom{
+    padding-top: 20px;
+}
+.midpara{
+    color: #08668F;
+    font-size: 11px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.form-check{
+    color: #08668F;
+    font-size: 11px;
+    font-weight: 500;
+}
+.midbutton{
+    width: 200px;
+ 
+   background-color: #f16728;
+   color: white;
+}
+
+/* .nav-pills {
+  --bs-nav-pills-border-radius: 0.375rem;
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg: #f16728;
+ 
+} */
+.buybutton{
+  background-color: #f16728;
+  color: #fff;
+  border: #f16728;
+  border-radius: 10%;
+ 
+}
+
+/* pricing AND sUBS */
+
+
+
+.sup-head{
+ font-size: 14px;
+margin-left: -10px;
+margin-top: -10px;
+ 
+
+}
+/* .card{
+  margin-bottom: 30px;
+  text-align: center;
+} */
+.cardcontent{
+  background-color: #868686;
   text-align: center;
 }
 
-/* Registration css */
-.registrationform1{
-  padding-left: 60px;
-}
 
-.registrationleftsection{
-  background: url(/public/assets/images/loginleftimage.png);
-  margin-right: -25px;
-  height: 735px;
-}
 
-.registrationleftsection h1{
-  text-align: center;
-  color: #FFFFFF;
-  padding-top: 170px;
-  margin-top: 110px;
-}
-.registrationleftsection p{
-  text-align: center;
-  color: #FFFFFF;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
-.registrationrightsection{
+.section-content{
   background-color: #FFFFFF;
-  height: 735px;
-  margin-top: 110px;
-  margin-bottom: 110px;
+ margin: 10px 10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.registrationrightsection a {
-  color: #238ae6;
-  display: inline-block;
+
+.Toggle_pricesubs{
+   margin-right: 200px ;
+   border-radius: none;
 }

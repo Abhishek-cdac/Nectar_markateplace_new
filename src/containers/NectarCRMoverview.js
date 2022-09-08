@@ -5,15 +5,19 @@ import Contact from "../Assets/Contact.svg";
 function NectarCRMoverview() {
   console.log("dummydata", DummyData);
   return (
-    <div className="container  shadow   mb-5 bg-body rounded ">
+    <div className=" ">
       {DummyData &&
         DummyData.TabsData.map((data) => (
-          <div>
-            <div className="row" style={{ textAlign: "center" }}>
-              <h2>{data.title}</h2>
+          <div className="card container ">
+            <div className="row pt-3 text-center">
+             <div className="col-md-12">
+             <h2>{data.title}</h2>
+             </div>
             </div>
-            <div className="row">
-              <p>{data.description}</p>
+            <div className="row text-center">
+             <div className="col-md-12">
+             <p>{data.description}</p>
+             </div>
             </div>
             <div className="row">
               <p class="border-bottom pt-5">{data.head1}</p>
@@ -31,23 +35,23 @@ function NectarCRMoverview() {
             <div className="row">
               <p> {data.head5}</p>
             </div>
-            <div class="midsec pt-5">
-              <div class="container ">
-                <div class="midimg ">
-                  <img src={Contact} alt="" height="500px" />
+            <div class="midsec">
+              <div className="row">
+                <div class="col-md-6">
+                  <img className="img-fluid" src={Contact} alt=""  />
                 </div>
-                <div class="midform p-5"  >
+                <div class="midform p-5 col-md-6" >
                   <h3 style={{color:"#08668F"}}>We Would Love To Hear From You!</h3>
-                  <div class="border-bottom" style={{fontSize:14}}>
+                  <div class="border-bottom border-secondary border-1" >
                     <label for="exampleInputEmail1">Full Name</label>
                   </div>
-                  <div class="border-bottom" style={{fontSize:14}}>
+                  <div class="border-bottom border-secondary" >
                     <label for="exampleInputPassword1">Email ID</label>
                   </div>
-                  <div class="border-bottom" style={{fontSize:14}}>
+                  <div class="border-bottom border-secondary" >
                     <label for="exampleInputPassword1">Password</label>
                   </div>
-                  <div class="border-bottom" style={{fontSize:14}}>
+                  <div class="border-bottom border-secondary">
                     <label for="exampleInputPassword1">Contact Number</label>
                   </div>
                   <div>
@@ -69,11 +73,12 @@ function NectarCRMoverview() {
                       and Privacy Policy.
                     </label>
                   </div>
-                  <br />
-                  <br />
-                  <button type="submit" class="btn  float-right midbutton">
+                  <div className="gap-2 pt-4 d-md-flex justify-content-md-center">
+                  <button type="submit" class="btn   float-center midbutton">
                     Submit
                   </button>
+                  </div>
+                 
                 </div>
               </div>
             </div>

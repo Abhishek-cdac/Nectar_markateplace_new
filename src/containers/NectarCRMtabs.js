@@ -7,9 +7,9 @@ import NectarCRMreviews from "./NectarCRMreviews";
 const NectarCRMtabs = () => {
   return (
     <>
-      <div className="container ">
+      <div className=" ">
         <div className="row ">
-          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <ul class="nav nav-pills navtabs mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
               <button
                 color="red"
