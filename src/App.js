@@ -6,7 +6,6 @@ import Register from "./containers/Register";
 // import LoginPage from "./containers/LoginPage";
 import BecomeAPartner from "./Components/Header/BecomeAPartner";
 import Productscreen from "./Components/productScreen";
-
 import NectarCRMReview from "./Components/NectarCRMReview";
 import CRMReview from "./Components/CRMreview";
 import Notification from "./Components/Notification";
@@ -42,8 +41,8 @@ function App() {
             heading="Get 2 months Free Subscription"
             buttontext="Free Demo"
             buttontext2="Buy Now"
-             />}></Route>
-         </Routes>
+          />}></Route>
+        </Routes>
       </BrowserRouter>
     </>
 

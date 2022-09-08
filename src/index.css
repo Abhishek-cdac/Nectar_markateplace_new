@@ -331,11 +331,6 @@ p .small_card {
   position: relative;
   left: 762px;
 }
-/*Netar CRM*/
-.backgroundimage-CRM{
-background:  url(/public/assets/images/Group\ 3001.png);
-height: 100%;
-}
 
 /* Review Slider */
 .ReviewHeading {
@@ -530,11 +525,6 @@ $carousel-transition-duration:2s
   color: #FF9900;
 
 }
-.unchecked {
-
-  color: #D4D3D1;
-  opacity: 1.5px;
-}
 
 .review_backgraound {
 
@@ -542,7 +532,7 @@ $carousel-transition-duration:2s
   height: 100%;
 }
 
-.star {
+.star_icon {
   font-size: xx-large;
   color: #D4D3D1
 }
@@ -569,7 +559,7 @@ $carousel-transition-duration:2s
   margin-top: -20px;
 
 }
-/*Notification*/
+/*Notification Modal*/
 .notification_day{
   color: rgb(8, 102, 143);
 position: absolute;
@@ -590,3 +580,9 @@ position: absolute;
 left: 100px;
 top: 30px;
 }
+/*Netar CRM page */
+.backgroundimage-CRM{
+  background:  url(/public/assets/images/Group\ 3001.png);
+  height: 100%;
+  }
+  

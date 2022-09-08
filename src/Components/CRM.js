@@ -15,14 +15,8 @@ function CRM({ title, subtext1, subtext2, buttontext2, buttontext, heading }) {
                         <button className="btn btn-lg text-white m-2" style={{ borderRadius: "2px", background: "#F16728", }}>{buttontext2}</button>
                     </div>
                 </div>
-
-
             </div>
-
-
-
         </section>
-
     )
 }
 
