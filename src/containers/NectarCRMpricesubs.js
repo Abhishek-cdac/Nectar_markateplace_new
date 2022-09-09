@@ -135,13 +135,13 @@ const NectarCRMpricesubs = () => {
         </div>
 
         <div className="col-md-10">
-          <div className="row">
-            <div className="d-flex">
-              <div className="justify-content-start">
+          <div className="row ">
+            <div className="d-flex  ">
+              <div className="justify-content-start col-md-5 ">
                 <h2 className=" ">Nectar CRM pricing & plans</h2>
               </div>
 
-              <div className="justify-content-end">
+              <div className="justify-content-end col-md-5">
                 <span
                   className="pt-2  "
                   style={{
