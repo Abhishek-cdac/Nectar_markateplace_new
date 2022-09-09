@@ -5,7 +5,7 @@ function Notification() {
         <>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-sm-12'>
+                    <div className='col-sm-12 col-md-6'>
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Notification
                         </button>
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">

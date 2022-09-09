@@ -31,13 +31,14 @@ function App() {
           <Route path="/nectarcrmreview" element={<NectarCRMReview />} />
 
           <Route path="/notification" element={<Notification />}></Route>
-          <Route path="/crmreview" element={<CRMReview />}></Route>
+          <Route path="/review" element={<CRMReview />}></Route>
           <Route path="/crm" element={<CRM
             title="Nectar CRM"
             subtext1="The easy to use and customizable CRM for your Marketing, Sales,
-              & Customer Service Teams."
-            subtext2="Better Sales Performance Increased Profitability & 
-             Efficiency CRM Improves Your Customer Service"
+            & Customer Service Teams."
+            item1="Better Sales Performance"
+            item2= "Increased Profitability & Efficiency "
+            item3="CRM Improves Your Customer Service"
             heading="Get 2 months Free Subscription"
             buttontext="Free Demo"
             buttontext2="Buy Now"
