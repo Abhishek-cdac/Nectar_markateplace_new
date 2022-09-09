@@ -6,6 +6,7 @@ import Register from "./containers/Register";
 // import LoginPage from "./containers/LoginPage";
 import BecomeAPartner from "./Components/Header/BecomeAPartner";
 import Productscreen from "./Components/productScreen";
+import ForgetPassword from "./containers/ForgetPassword";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           {/* <Route path="/login" element={<LoginPage />} /> */}
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
           <Route path="/productscreen" element={<Productscreen/>}/>
+          <Route path="/forgetpassword" element={<ForgetPassword />} />
         </Routes>
       </BrowserRouter>
     </>
