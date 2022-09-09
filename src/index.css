@@ -613,19 +613,5 @@ $carousel-transition-duration:2s
   background: url(/public/assets/images/Group\ 3001.png);
   height: 100%;
 }
-.text-white-item1{
-  position: absolute;
-  top: 25%;
-  left: 12%;
-}
-.text-white-item2{
-  position: absolute;
-  top: 30%;
-  left: 12%;
-}
-.text-white-item3{
-  position: absolute;
-  top: 35%;
-  left: 12%;
-}
+
 
