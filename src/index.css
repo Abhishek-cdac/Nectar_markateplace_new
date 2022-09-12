@@ -582,3 +582,32 @@ $carousel-transition-duration:2s
   padding: 2%;
   margin: 5%;
 }
+
+/* forget password */
+
+.panel{
+  padding: 15%;
+}
+.panel-body{
+  background: url(/public/assets/images/loginleftimage.png);
+  background-repeat: no-repeat;
+  padding-left: 20%;
+  padding-right: 35%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.panel-body h3{
+  margin-top: 10%;
+}
+.b1{
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+.resetbutton{
+  padding: 2%;
+  background-color: #f16728;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+}
