@@ -20,6 +20,7 @@ code {
 .Logo {
   display: flex;
 }
+
 .header_logo {
   width: 44px;
   height: 44px;
@@ -29,6 +30,7 @@ a.navbar-brand {
   /* line-height: 40px !important; */
   padding-left: 5px;
 }
+
 .verticalLine_header {
   border-right: "1px solid black";
   height: 25px;
@@ -112,6 +114,7 @@ a.navbar-brand {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 .p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -203,6 +206,9 @@ p .small_card {
   transform: translate(-50%, -50%);} */
 }
 
+
+
+
 /*Review Form*/
 .Testimonal_Home {
   background: url(/public/assets/images/Group_2985.png);
@@ -210,19 +216,23 @@ p .small_card {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  border:0.5px solid grey;
-  margin-top:4%;
+  border: 0.5px solid grey;
+  margin-top: 4%;
 }
+
 .testimonal_heading {
   text-align: center;
   margin-top: 2%;
 }
+
 .testimonalInput {
   background-color: #1291c9;
-  border: 10px solid #fff;
-  border-radius: 15px;
+  border:  #1291c9;
+  margin-top: 10px;
+  border-radius: 7px;
 }
-::placeholder {
+
+.form-group ::placeholder {
   color: #fff !important;
 }
 
@@ -233,10 +243,12 @@ p .small_card {
   border-radius: 10px;
   margin-top: 2%;
 }
+
 .form-testimonal {
   display: inline-block;
   text-align: -webkit-center;
   margin-top: 2%;
+  border: #238ae6;
 }
 
 /* Toggle  FAQ*/
@@ -254,7 +266,7 @@ p .small_card {
   cursor: pointer;
   width: 17em;
   height: 3.3em;
-  left:38%;
+  left: 38%;
   background: #fff;
   border: 2px solid grey;
   border-radius: 100px;
@@ -280,7 +292,7 @@ p .small_card {
   box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
 }
 
-.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+.react-switch-checkbox:checked+.react-switch-label .react-switch-button {
   left: calc(100% - 2px);
   transform: translateX(-100%);
 }
@@ -308,11 +320,22 @@ p .small_card {
   padding-top: 2%;
 }
 
-/*Netar CRM*/
-.backgroundimage-CRM {
-  width: 1920px;
-  height: 557px;
-  background: url(/public/assets/images/Group\ 3001.png);
+
+
+
+
+/*footer navbar*/
+
+
+.navbar-brand {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  width: 399px;
+  height: 15px;
+  opacity: 0.5;
+  position: relative;
+  left: 762px;
 }
 
 /* Review Slider */
@@ -322,18 +345,22 @@ p .small_card {
   margin-bottom: 0;
   padding-bottom: 27px;
 }
+
 .ReviewHeading p {
   font-size: 0.8rem;
 }
+
 .carousel-caption {
   position: absolute;
   top: -10%;
   left: 30%;
 }
+
 .carousel-indicators {
   bottom: -40%;
   /* left:60%; */
 }
+
 .carousel-indicators [data-bs-target] {
   border-radius: 50%;
   height: 10px;
@@ -410,11 +437,13 @@ $carousel-transition-duration:2s
   margin-top: 110px;
   margin-bottom: 110px;
 }
+
 .loginleftsection h1 {
   text-align: center;
   color: #ffffff;
   margin-top: 170px;
 }
+
 .loginleftsection p {
   text-align: center;
   color: #ffffff;
@@ -426,23 +455,28 @@ $carousel-transition-duration:2s
   margin-top: 110px;
   margin-bottom: 110px;
 }
+
 .loginrightsection a {
   color: #238ae6;
   display: inline-block;
 }
+
 .signinform {
   padding-left: 60px;
   padding-top: 60px;
 }
+
 .signinform1 {
   padding-left: 60px;
 }
+
 .login input {
   outline: 0;
   border-width: 0 0 1px;
   border-color: black;
   width: 80%;
 }
+
 .forgotpassword {
   padding-right: 95px;
 }
@@ -642,8 +676,104 @@ margin-top: -10px;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-.Toggle_pricesubs{
-   margin-right: 200px ;
-   border-radius: 10%;
+.registrationrightsection a {
+  color: #238ae6;
+  display: inline-block;
 }
+
+/*Nectar CRM review*/
+.review_backgraound {
+
+  background: #EFE8E8 0% 0% no-repeat padding-box;
+  height: 500%;
+
+}
+
+
+.vertical-line{
+  border-right: 1px solid gray;
+  height: 350px;
+
+}
+
+.checked {
+  color: #FF9900;
+
+}
+
+
+
+.star_icon {
+  font-size: xx-large;
+  color: #D4D3D1
+}
+
+/*Review*/
+
+.review_title {
+  margin-top: -60px;
+  margin-left: 80px;
+}
+
+.review_designation {
+  margin-left: 210px;
+  margin-top: -30px;
+
+}
+
+.review_adress {
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+.review_star {
+  margin-left: 70px;
+  margin-top: -20px;
+
+}
+
+/*Notification Modal*/
+.notification_day {
+  color: rgb(8, 102, 143);
+  position: absolute;
+  right: 14px;
+  top: 46px;
+
+
+}
+
+.notification_time {
+  position: absolute;
+  left: 100px;
+  bottom: 2px;
+  font-size: 10px;
+
+}
+
+.notification_user {
+  position: absolute;
+  left: 100px;
+  top: 30px;
+}
+
+/*Netar CRM page */
+.backgroundimage-CRM {
+  background: url(/public/assets/images/Group\ 3001.png);
+  height: 100%;
+}
+.text-white-item1{
+  position: absolute;
+  top: 25%;
+  left: 12%;
+}
+.text-white-item2{
+  position: absolute;
+  top: 30%;
+  left: 12%;
+}
+.text-white-item3{
+  position: absolute;
+  top: 35%;
+  left: 12%;
+}
+

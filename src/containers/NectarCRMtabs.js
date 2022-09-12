@@ -3,7 +3,8 @@ import NectarCRMoverview from "./NectarCRMoverview";
 import NectarCRMpricesubs from "./NectarCRMpricesubs";
 import NectarCRMproductscreen from "./NectarCRMproductscreen";
 import NectarCRMreviews from "./NectarCRMreviews";
-
+import productScreen from '../Components/productScreen'
+import NectarCRMReview from "../Components/NectarCRMReview";
 const NectarCRMtabs = () => {
   return (
     <>
@@ -85,7 +86,7 @@ const NectarCRMtabs = () => {
               role="tabpanel"
               aria-labelledby="pills-productscreen-tab"
             >
-              <NectarCRMproductscreen />
+              <productScreen />
             </div>
             <div
               class="tab-pane fade"
@@ -93,7 +94,7 @@ const NectarCRMtabs = () => {
               role="tabpanel"
               aria-labelledby="pills-review-tab"
             >
-              <NectarCRMreviews />
+             <NectarCRMReview />
             </div>
             <div
               class="tab-pane "
