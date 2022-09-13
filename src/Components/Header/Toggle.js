@@ -25,14 +25,14 @@ const Toggle = () => {
           <label className="react-switch-label" htmlFor={`react-switch-new`}>
             {" "}
             <div className="toggleLabel">
-              <h4>Reseller</h4>
+              <h6>Reseller</h6>
             </div>
             <div className="toggleLabel">
-              <h4>Partner</h4>
+              <h6>Partner</h6>
             </div>
             <span className={`react-switch-button`}>
               <div className="toggleSwitchLabel">
-                {!value ? <h4>Reseller</h4> : <h4>Partner</h4>}
+                {!value ? <h6>Reseller</h6> : <h6>Partner</h6>}
               </div>
             </span>
           </label>
