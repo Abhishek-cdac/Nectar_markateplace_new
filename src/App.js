@@ -9,6 +9,7 @@ import Productscreen from "./Components/productScreen";
 import Cart from "./Components/Cart";
 import ForgetPassword from "./containers/ForgetPassword";
 import TelecomeServices from "./Components/TelecomeServices";
+import HostingServices from "./Components/HostingServices";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/forgetpassword" element={<ForgetPassword />} />
           <Route path="/telecomeservices" element={<TelecomeServices />} />
+          <Route path="/hostingservices" element={<HostingServices />} />
         </Routes>
       </BrowserRouter>
     </>
