@@ -390,13 +390,15 @@ p .small_card {
 
 .loginleftsection {
   background: url(/public/assets/images/loginleftimage.png);
-  margin-right: -25px;
+  margin-right: -29px;
   height: 695px;
 }
 .loginleftsection h1 {
   text-align: center;
   color: #FFFFFF;
   padding-top: 170px;
+  padding-right: 20px;
+  padding-right: 20px;
   margin-top: 110px;
 }
 .loginleftsection p {
@@ -411,10 +413,11 @@ p .small_card {
   height: 695px;
   margin-top: 110px;
   margin-bottom: 110px;
+  
 }
 .loginrightsection a {
   color: #238ae6;
-  display: inline-block;
+  display: inline-block !important;
 }
 .signinform {
   padding-left: 60px;
@@ -448,7 +451,7 @@ p .small_card {
 
 .registrationleftsection{
   background: url(/public/assets/images/loginleftimage.png);
-  margin-right: -25px;
+  margin-right: -29px;
   height: 735px;
 }
 

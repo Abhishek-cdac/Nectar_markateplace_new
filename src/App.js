@@ -10,6 +10,9 @@ import Cart from "./Components/Cart";
 import ForgetPassword from "./containers/ForgetPassword";
 import TelecomeServices from "./Components/TelecomeServices";
 import HostingServices from "./Components/HostingServices";
+import Modal from "./Components/Header/Modal";
+import SideNav from "./Components/SideNav";
+import PartnerDashboard from "./containers/partnerDashboard";
 
 function App() {
   return (
@@ -26,6 +29,11 @@ function App() {
           <Route path="/forgetpassword" element={<ForgetPassword />} />
           <Route path="/telecomeservices" element={<TelecomeServices />} />
           <Route path="/hostingservices" element={<HostingServices />} />
+          <Route path="/modal" element={<Modal />} />
+          {/* Routes of Reseller */}
+          <Route path="reseller" element={<SideNav />}>
+          <Route path="" element={<PartnerDashboard />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
