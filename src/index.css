@@ -586,13 +586,13 @@ $carousel-transition-duration:2s
 /* forget password */
 
 .panel{
-  padding: 15%;
+  padding: 20%;
 }
 .panel-body{
   background: url(/public/assets/images/loginleftimage.png);
   background-repeat: no-repeat;
-  padding-left: 20%;
-  padding-right: 35%;
+  padding-left: 25%;
+  padding-right: 30%;
   padding-top: 3%;
   padding-bottom: 3%;
 }
@@ -610,4 +610,18 @@ $carousel-transition-duration:2s
   border: none;
   border-radius: 5px;
   font-size: large;
+}
+
+/* Telecom Services */
+.telecomeservicetabs{
+  background-color: #EFEFEF;
+  padding: 3%;
+}
+.nectarproduct{
+  background-color: #EFEFEF;
+  padding: 3%;
+}
+.partnerproduct{
+  background-color: #EFEFEF;
+  padding: 3%;
 }
