@@ -146,10 +146,10 @@ function TelecomeServices() {
               <Card2 />
               <div style={{ marginBottom: "10%" }}></div>
             </div>
-            <div className="footer">
-              <Footer />
-            </div>
           </div>
+        </div>
+        <div className="footer">
+          <Footer />
         </div>
       </div>
     </>

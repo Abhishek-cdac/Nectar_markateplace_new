@@ -68,8 +68,8 @@ function Cart() {
           <div className="col-md-4">
             <div className="card1">
               <div className="card">
-              <h5>Product Cost (5 Users): $3432.80</h5>
-              <button>Get Product</button>
+                <h5>Product Cost (5 Users): $3432.80</h5>
+                <button>Get Product</button>
               </div>
             </div>
           </div>
@@ -111,15 +111,15 @@ function Cart() {
         </div>
         <div className="row">
           <div className="col-12">
-            <div className="landing_card2">
+            <div className="landing_card3" style={{ marginBottom: "40%" }}>
               <h1>Explore Nectar's related apps</h1>
               <Card2 />
-              <div style={{ marginBottom: "10%" }}></div>
-            </div>
-            <div className="footer">
-              <Footer />
+              {/* <div style={{ marginBottom: "40%" }}></div> */}
             </div>
           </div>
+        </div>
+        <div className="footer">
+          <Footer />
         </div>
       </div>
     </>
