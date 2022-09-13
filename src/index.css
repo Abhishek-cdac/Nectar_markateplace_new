@@ -625,3 +625,34 @@ $carousel-transition-duration:2s
   background-color: #EFEFEF;
   padding: 3%;
 }
+
+/* Enquiry Form */
+
+.midsec{
+  background-color: #EFE8E8;
+  margin-top: 10%;
+   
+}
+.border-bottom{
+color: #474747;
+}
+
+.border-bottom{
+  padding-top: 20px;
+}
+.midpara{
+  color: #08668F;
+  font-size: 11px;
+  padding-top: 20px;
+  font-weight: 500;
+}
+.form-check{
+  color: #08668F;
+  font-size: 11px;
+  font-weight: 500;
+}
+.midbutton{
+  width: 200px;
+ background-color: #f16728;
+ color: white;
+}
