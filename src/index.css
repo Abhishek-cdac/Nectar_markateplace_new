@@ -256,7 +256,7 @@ p .small_card {
   border: 10px solid #fff;
   border-radius: 15px;
 }
-::placeholder {
+.form-group ::placeholder {
   color: #fff !important;
 }
 
@@ -382,34 +382,42 @@ p .small_card {
   width: 10px;
 }
 
+/* login page css */
+
 #loginbg {
   background: url(/public/assets/images/loginbg.png);
 }
 
 .loginleftsection {
   background: url(/public/assets/images/loginleftimage.png);
-  margin-top: 110px;
-  margin-bottom: 110px;
+  margin-right: -29px;
+  height: 695px;
 }
 .loginleftsection h1 {
   text-align: center;
-  color: #ffffff;
-  margin-top: 170px;
+  color: #FFFFFF;
+  padding-top: 170px;
+  padding-right: 20px;
+  padding-right: 20px;
+  margin-top: 110px;
 }
 .loginleftsection p {
   text-align: center;
-  color: #ffffff;
-  margin-bottom: 110px;
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.loginrightsection {
-  background-color: #ffffff;
+.loginrightsection{
+  background-color: #FFFFFF;
+  height: 695px;
   margin-top: 110px;
   margin-bottom: 110px;
+  
 }
 .loginrightsection a {
   color: #238ae6;
-  display: inline-block;
+  display: inline-block !important;
 }
 .signinform {
   padding-left: 60px;
@@ -421,8 +429,55 @@ p .small_card {
 .login input {
   outline: 0;
   border-width: 0 0 1px;
-  border-color: black;
+  border-color: gray;
   width: 80%;
+}
+.forgotpassword {
+  padding-right: 95px;
+}
+
+.submitbtn{
+  padding-left: 136px;
+  padding-right: 136px;
+}
+.icon{
+  text-align: center;
+}
+
+/* Registration css */
+.registrationform1{
+  padding-left: 60px;
+}
+
+.registrationleftsection{
+  background: url(/public/assets/images/loginleftimage.png);
+  margin-right: -29px;
+  height: 735px;
+}
+
+.registrationleftsection h1{
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 170px;
+  margin-top: 110px;
+}
+.registrationleftsection p{
+  text-align: center;
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.registrationrightsection{
+  background-color: #FFFFFF;
+  height: 735px;
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+
+.registrationrightsection a {
+  color: #238ae6;
+  display: inline-block;
 }
 .forgotpassword {
   padding-right: 95px;
@@ -853,9 +908,9 @@ p .product-banner-content {
 .sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {
   color: rgba(255, 255, 255, 0.25);
 }
-.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
-  /* color: rgba(255, 255, 255, 0.25); */
-}
+/* .sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
+  color: rgba(255, 255, 255, 0.25);
+} */
 .sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
   color: #fff;
   background: #002e5e;
