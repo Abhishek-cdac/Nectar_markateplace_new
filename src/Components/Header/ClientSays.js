@@ -4,7 +4,7 @@ import dummyData from "../../containers/Dummydata";
 function ClientSays() {
   return (
     <div>
-      <section id="Slider_reviews" style={{height:"420px",marginTop:"2%"}}>
+      <section id="Slider_reviews">
         <div className="container">
           <div className="ReviewHeading">
             <h2>What Our User Says</h2>
@@ -92,7 +92,7 @@ function ClientSays() {
                   </p>
                 </div>
               </div>
-              <div class="carousel-item" data-bs-interval="1000">
+              <div class="carousel-item " data-bs-interval="1000">
                 <img
                   src="/assets/images/Avg Images/311285.jpg"
                   class="d-block w-25"

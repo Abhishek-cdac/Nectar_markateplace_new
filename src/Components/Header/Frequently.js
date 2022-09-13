@@ -4,29 +4,15 @@ import Toggle from "./Toggle";
 
 function Frequently() {
   return (
-    <div>
-      <section id="faq" style={{ height: "600px" }}>
-        <div
-          className="container"
-          style={{ justifyContent: "center" }}
-        >
-          <div className="row">
-            <div className="col-12 col-md-12 col-sm-6  col-xs-3">
-              <Toggle />
-            </div>
+    <section id="faq">
+      <div className="container" style={{ justifyContent: "center" }}>
+        <div className="row">
+          <div className="col-12 col-md-12 col-sm-6  col-xs-3">
+            <Toggle />
           </div>
         </div>
-       
-      </section>
-      {/* <div className="container">
-          <div className="row">
-            <div className="col-12 col-md-12 col-sm-6  col-xs-3 ">
-              <Accordian />
-              <br/>
-            </div>
-          </div>
-        </div> */}
-    </div>
+      </div>
+    </section>
   );
 }
 

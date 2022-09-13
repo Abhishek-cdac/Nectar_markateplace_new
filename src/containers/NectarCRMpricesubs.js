@@ -53,6 +53,11 @@ const NectarCRMpricesubs = () => {
               <br />
               <br />
               <h6>Choose Prefferd Users</h6>
+<span>
+<label  style={{border:"1px solid" ,padding:"10px", width:"70px" , height:"45px"}} for="html">User</label>
+<p>To</p>
+</span>
+            
               <h6>Choose Price Range</h6>
               <div>
                 <h6>Choose with Rating</h6>
