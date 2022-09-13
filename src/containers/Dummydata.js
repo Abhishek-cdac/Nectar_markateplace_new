@@ -82,5 +82,61 @@ const dummyData = {
             image: "/assets/images/Airtel.png"
         }
     ],
+    hostingCardData : [
+        {
+            id: "1",
+            image: "/assets/images/jio.png",
+            title:"Cloud Computing Hosting 50 GB",
+            discount:"-53%",
+            price:"$58.00",
+            mrp:"$72.00",
+            taxes:"Inclusive of all taxes"
+        },
+        {
+            id: "2",
+            image: "/assets/images/jio.png",
+            title:"Product Hosting with 20 GB",
+            discount:"-53%",
+            price:"$58.00",
+            mrp:"$72.00",
+            taxes:"Inclusive of all taxes"
+        },
+        {
+            id: "3",
+            image: "/assets/images/jio.png",
+            title:"Product Hosting with 20 GB",
+            discount:"-53%",
+            price:"$58.00",
+            mrp:"$72.00",
+            taxes:"Inclusive of all taxes"
+        },
+        {
+            id: "4",
+            image: "/assets/images/jio.png",
+            title:"Cloud Computing Hosting 50 GB",
+            discount:"-53%",
+            price:"$58.00",
+            mrp:"$72.00",
+            taxes:"Inclusive of all taxes"
+        },
+        {
+            id: "5",
+            image: "/assets/images/jio.png",
+            title:"Product Hosting with 20 GB",
+            discount:"-53%",
+            price:"$58.00",
+            mrp:"$72.00",
+            taxes:"Inclusive of all taxes"
+        },
+        {
+            id: "6",
+            image: "/assets/images/jio.png",
+            title:"Product Hosting with 20 GB",
+            discount:"-53%",
+            price:"$58.00",
+            mrp:"$72.00",
+            taxes:"Inclusive of all taxes"
+        }
+    ],
 }
 export default dummyData
