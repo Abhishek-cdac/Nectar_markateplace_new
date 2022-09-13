@@ -67,6 +67,20 @@ const dummyData = {
             name:"PEPINO PRAZER",
             designation:"COO- Movicel Telecommunication, SA"
         }
-    ]
+    ],
+    partnerCardData : [
+        {
+            id: "1",
+            image: "/assets/images/jio.png"
+        },
+        {
+            id: "2",
+            image: "/assets/images/VI.png"
+        },
+        {
+            id: "3",
+            image: "/assets/images/Airtel.png"
+        }
+    ],
 }
 export default dummyData

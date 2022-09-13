@@ -6,6 +6,9 @@ import Register from "./containers/Register";
 // import LoginPage from "./containers/LoginPage";
 import BecomeAPartner from "./Components/Header/BecomeAPartner";
 import Productscreen from "./Components/productScreen";
+import Cart from "./Components/Cart";
+import ForgetPassword from "./containers/ForgetPassword";
+import TelecomeServices from "./Components/TelecomeServices";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
           {/* <Route path="/login" element={<LoginPage />} /> */}
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
           <Route path="/productscreen" element={<Productscreen/>}/>
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/forgetpassword" element={<ForgetPassword />} />
+          <Route path="/telecomeservices" element={<TelecomeServices />} />
         </Routes>
       </BrowserRouter>
     </>
