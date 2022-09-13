@@ -214,7 +214,7 @@ p .small_card {
 .landing_card2 {
   display: flex;
   flex-direction: column;
-  top: 50%;
+  /* top: 50%; */
   position: relative;
   /* top: 65%; */
   /* left: 50%;
