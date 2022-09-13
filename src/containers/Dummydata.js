@@ -92,6 +92,20 @@ const dummyData = {
             image:"/assets/images/performance-appraisal.png",
             description:" Nectar NT3 is supporting us in three important areas with CS, PS and OSS Engineers; improving also the monitoring and incident Management of NOC.",
         }
-    ]
+    ],
+    partnerCardData : [
+        {
+            id: "1",
+            image: "/assets/images/jio.png"
+        },
+        {
+            id: "2",
+            image: "/assets/images/VI.png"
+        },
+        {
+            id: "3",
+            image: "/assets/images/Airtel.png"
+        }
+    ],
 }
 export default dummyData
