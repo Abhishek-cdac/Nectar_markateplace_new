@@ -68,6 +68,31 @@ const dummyData = {
             designation:"COO- Movicel Telecommunication, SA"
         }
     ],
+    slidesData2 : [
+        {
+            id:1,
+            image:"/assets/images/performance-appraisal.png",
+            description:"We have been working with NECTOR INFOTEL on the technical tasks for more than 4 years. My particular experience with Nectar Infotel in Operation Department is good. Nectar is supporting us in three important areas with CS, PS and OSS Engineers; improving also the monitoring and incident Management of NOC.",
+         
+        },
+        {
+            id:2,
+            image:"/assets/images/performance-appraisal.png",
+            description:"Nectar CRM is not a specificely suppoprted to one organisation.",
+            
+        },
+        {
+            id:3,
+            image:"/assets/images/performance-appraisal.png",
+            description:"Nectraaa is a Good producr created by the nectar infotel which is standeritized eveything.",
+           
+        },
+        {
+            id:4,
+            image:"/assets/images/performance-appraisal.png",
+            description:" Nectar NT3 is supporting us in three important areas with CS, PS and OSS Engineers; improving also the monitoring and incident Management of NOC.",
+        }
+    ],
     partnerCardData : [
         {
             id: "1",
@@ -80,6 +105,62 @@ const dummyData = {
         {
             id: "3",
             image: "/assets/images/Airtel.png"
+        }
+    ],
+    hostingCardData : [
+        {
+            id: "1",
+            image: "/assets/images/jio.png",
+            title:"Cloud Computing Hosting 50 GB",
+            discount:"-53%",
+            price:"$58.00",
+            mrp:"$72.00",
+            taxes:"Inclusive of all taxes"
+        },
+        {
+            id: "2",
+            image: "/assets/images/jio.png",
+            title:"Product Hosting with 20 GB",
+            discount:"-53%",
+            price:"$58.00",
+            mrp:"$72.00",
+            taxes:"Inclusive of all taxes"
+        },
+        {
+            id: "3",
+            image: "/assets/images/jio.png",
+            title:"Product Hosting with 20 GB",
+            discount:"-53%",
+            price:"$58.00",
+            mrp:"$72.00",
+            taxes:"Inclusive of all taxes"
+        },
+        {
+            id: "4",
+            image: "/assets/images/jio.png",
+            title:"Cloud Computing Hosting 50 GB",
+            discount:"-53%",
+            price:"$58.00",
+            mrp:"$72.00",
+            taxes:"Inclusive of all taxes"
+        },
+        {
+            id: "5",
+            image: "/assets/images/jio.png",
+            title:"Product Hosting with 20 GB",
+            discount:"-53%",
+            price:"$58.00",
+            mrp:"$72.00",
+            taxes:"Inclusive of all taxes"
+        },
+        {
+            id: "6",
+            image: "/assets/images/jio.png",
+            title:"Product Hosting with 20 GB",
+            discount:"-53%",
+            price:"$58.00",
+            mrp:"$72.00",
+            taxes:"Inclusive of all taxes"
         }
     ],
 }

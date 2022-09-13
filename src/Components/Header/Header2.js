@@ -56,7 +56,7 @@ function Header2() {
               </li>
               <li class="nav-item">
                 <a class="nav-link header_icon_user" href="#">
-                  <i class="fa fa-user-circle " aria-hidden="true"></i>
+                  <i class="fa fa-user-circle" aria-hidden="true"></i>
                 </a>
               </li>
             </ul>
