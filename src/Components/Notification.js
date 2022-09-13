@@ -47,6 +47,7 @@ function Notification() {
                         </div>
                     </div>
                 </div>
+                <getDetails/>
             </div>
         </>
     )

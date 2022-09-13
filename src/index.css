@@ -614,4 +614,28 @@ $carousel-transition-duration:2s
   height: 100%;
 }
 
+/*HRMS*/
+.title P{
+  display: inline-block;
 
+  padding-left: 5%;
+  text-align: center;
+
+
+}
+
+@media (min-width: 1399px) { 
+#body{
+  
+  display: inline-block;
+  padding-left: 4%;
+  text-align: center;
+
+
+
+}
+
+
+
+
+ }
