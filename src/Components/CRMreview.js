@@ -14,8 +14,8 @@ function CRMReview() {
                     dummydatareview.ReviewData.map((data) => (
                         <div className='col-12 col-sm-6 col-md-8 pt-5'>
                             <img className='Review_icon' src={data.image} style={{ height: "55px" }} alt="..." />
-                            <h5 className="review_title ">{data.title}</h5>
-                            <p className='review_designation'>{data.desiganation}</p>
+                            <h5 className="review_title ">{data.title} <span style={{ fontSize: "15px" }}>{data.desiganation}</span></h5>
+                     
                             <p className='review_adress'>{data.address}</p>
                             <div className='review_star'>
                                 <span class="fa fa-star checked  m-1"></span>
@@ -30,6 +30,8 @@ function CRMReview() {
             </div>
         </div>
     )
+
+
 }
 
 export default CRMReview

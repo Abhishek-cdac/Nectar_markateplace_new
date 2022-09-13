@@ -548,7 +548,7 @@ $carousel-transition-duration:2s
   display: inline-block;
 }
 
-/*Nectar CRM review*/
+/*Nectar CRM review Rating pattern*/
 .review_backgraound {
 
   background: #EFE8E8 0% 0% no-repeat padding-box;
@@ -568,8 +568,6 @@ $carousel-transition-duration:2s
 
 }
 
-
-
 .star_icon {
   font-size: xx-large;
   color: #D4D3D1
@@ -582,15 +580,11 @@ $carousel-transition-duration:2s
   margin-left: 80px;
 }
 
-.review_designation {
-  margin-left: 210px;
-  margin-top: -30px;
 
-}
 
 .review_adress {
   margin-left: 80px;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .review_star {
@@ -623,7 +617,7 @@ $carousel-transition-duration:2s
   top: 30px;
 }
 
-/*Netar CRM page */
+/*Netar CRM page */ 
 .backgroundimage-CRM {
   background: url(/public/assets/images/Group\ 3001.png);
   height: 100%;
