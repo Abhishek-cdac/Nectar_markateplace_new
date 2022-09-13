@@ -3,14 +3,14 @@ import { useState } from "react";
 import Slider from "react-slick";
 import ProductsFooter from "./productsFooter";
 import dummyData from "../containers/Dummydata";
+import Modal from "./Header/Modal";
 
-
-
-function App() {
+function Productscreen() {
+  // Slider
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>
-        <i class="fa fa-angle-right" aria-hidden="true"></i>
+        <i class="fa fa-angle-right product-arrow" aria-hidden="true"></i>
       </div>
     );
   };
@@ -18,9 +18,15 @@ function App() {
   const PrevArrow = ({ onClick }) => {
     return (
       <div className="arrow prev" onClick={onClick}>
-        <i class="fa fa-angle-left" aria-hidden="true"></i>
+        <i class="fa fa-angle-left product-arrow" aria-hidden="true"></i>
       </div>
     );
+  };
+
+  const openImage = () => {
+    const Image = document.getElementById("myImg");
+    const source = Image.src;
+    console.log("hvwfvhgsdgcvdssdajvjc", source);
   };
 
   const [imageIndex, setImageIndex] = useState(0);
@@ -38,29 +44,72 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <section id="productScreen" style={{ height: "35em" }}>
-        <div className="container product-container">
-          {console.log("images", dummyData)}
+    <div>
+      <section id="productScreen">
+        <div className="container">
+          {" "}
           <Slider {...settings}>
-            {dummyData?.slidesData?.map((img, idx) => (
+            {dummyData?.slidesData2?.map((img, idx) => (
               <div
-                className={idx === imageIndex ? "slide activeSlide" : "slide"}
+                className={
+                  idx === imageIndex ? "Prodslide ProdactiveSlide" : "Prodslide"
+                }
               >
-                <img src={img.image} alt={img} />
+                <img
+                  className="productSlideImg"
+                  src={img.image}
+                  alt={img}
+                  onClick={openImage}
+                />
               </div>
             ))}
           </Slider>
-        </div>
-        <div className="product-banner-content">
-          <h4>Description</h4>
+          <div className="product-banner-content">
+            <h2>Description</h2>
 
-          <p>{dummyData.slidesData[imageIndex].description}</p>
+            <p>{dummyData.slidesData2[imageIndex].description}</p>
+          </div>
         </div>
       </section>
-      <ProductsFooter/>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="false"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Modal title
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">...</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ProductsFooter />
     </div>
   );
 }
 
-export default App;
+export default Productscreen;

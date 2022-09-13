@@ -67,6 +67,31 @@ const dummyData = {
             name:"PEPINO PRAZER",
             designation:"COO- Movicel Telecommunication, SA"
         }
+    ],
+    slidesData2 : [
+        {
+            id:1,
+            image:"/assets/images/performance-appraisal.png",
+            description:"We have been working with NECTOR INFOTEL on the technical tasks for more than 4 years. My particular experience with Nectar Infotel in Operation Department is good. Nectar is supporting us in three important areas with CS, PS and OSS Engineers; improving also the monitoring and incident Management of NOC.",
+         
+        },
+        {
+            id:2,
+            image:"/assets/images/performance-appraisal.png",
+            description:"Nectar CRM is not a specificely suppoprted to one organisation.",
+            
+        },
+        {
+            id:3,
+            image:"/assets/images/performance-appraisal.png",
+            description:"Nectraaa is a Good producr created by the nectar infotel which is standeritized eveything.",
+           
+        },
+        {
+            id:4,
+            image:"/assets/images/performance-appraisal.png",
+            description:" Nectar NT3 is supporting us in three important areas with CS, PS and OSS Engineers; improving also the monitoring and incident Management of NOC.",
+        }
     ]
 }
 export default dummyData
