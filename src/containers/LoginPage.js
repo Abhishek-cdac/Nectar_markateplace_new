@@ -112,7 +112,7 @@ function LoginPage() {
                         <p style={{ textAlign: "right" }}>
                           Forgot Password?
                           <span>
-                            <a class="nav-link" href="/">
+                            <a class="nav-link" href="/forgetpassword">
                               Reset here
                             </a>
                           </span>
