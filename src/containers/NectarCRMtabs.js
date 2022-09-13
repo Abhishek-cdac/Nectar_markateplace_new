@@ -3,12 +3,12 @@ import NectarCRMoverview from "./NectarCRMoverview";
 import NectarCRMpricesubs from "./NectarCRMpricesubs";
 import NectarCRMproductscreen from "./NectarCRMproductscreen";
 import NectarCRMreviews from "./NectarCRMreviews";
-import productScreen from '../Components/productScreen'
+import Productscreen from '../Components/productScreen'
 import NectarCRMReview from "../Components/NectarCRMReview";
 const NectarCRMtabs = () => {
   return (
     <>
-      <div className=" ">
+      <div className="container">
         <div className="row ">
           <ul class="nav nav-pills navtabs mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -86,7 +86,7 @@ const NectarCRMtabs = () => {
               role="tabpanel"
               aria-labelledby="pills-productscreen-tab"
             >
-              <productScreen />
+              <Productscreen />
             </div>
             <div
               class="tab-pane fade"

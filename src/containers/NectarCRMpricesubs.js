@@ -3,6 +3,7 @@ import DummyData from "./DummyNectarCRM";
 import { useState } from "react";
 import { Accordian, AccodionPartner } from "../Components/Header/Accordian";
 import CRM from "../Components/CRM";
+import PricingSubDownCard from "./PricingSubDownCard";
 const NectarCRMpricesubs = () => {
   const [value, setValue] = useState(false);
   const handleToggle = () => {
@@ -12,22 +13,20 @@ const NectarCRMpricesubs = () => {
 
   return (
     <>
-      <div className="container">
-        <div className="row">
-          <CRM
-            title="Nectar CRM"
-            subtext1="The easy to use and customizable CRM for your Marketing, Sales,
+      <CRM
+        title="Nectar CRM"
+        subtext1="The easy to use and customizable CRM for your Marketing, Sales,
             & Customer Service Teams."
-            item1="Better Sales Performance"
-            item2="Increased Profitability & Efficiency "
-            item3="CRM Improves Your Customer Service"
-            heading="Get 2 months Free Subscription"
-            buttontext="Free Demo"
-            buttontext2="Buy Now"
-          />
-        </div>
+        item1="Better Sales Performance"
+        item2="Increased Profitability & Efficiency "
+        item3="CRM Improves Your Customer Service"
+        heading="Get 2 months Free Subscription"
+        buttontext="Free Demo"
+        buttontext2="Buy Now"
+      />
+      <div className="container mt-5">
         <div className="row">
-          <div className="col-md-2 p-5">
+          <div className="col-lg-2 p-4">
             <h2>
               sort <sup className="sup-head">Filter By</sup>
             </h2>
@@ -35,13 +34,22 @@ const NectarCRMpricesubs = () => {
             <div>
               <h6 className="pt-5">Choose your prefferd plan</h6>
               <input type="checkbox" id="plan1" name="plan1" />
-              <label for="plan1"> Silver</label>
+              <label for="plan1" style={{ marginLeft: "10px" }}>
+                {" "}
+                Silver
+              </label>
               <br />
               <input type="checkbox" id="plan2" name="plan2" />
-              <label for="plan2"> Gold</label>
+              <label for="plan2" style={{ marginLeft: "10px" }}>
+                {" "}
+                Gold
+              </label>
               <br />
               <input type="checkbox" id="plan3" name="plan3" />
-              <label for="plan3"> Platinum</label>
+              <label for="plan3" style={{ marginLeft: "10px" }}>
+                {" "}
+                Platinum
+              </label>
               <br />
               <br />
               <h6>Choose Prefferd Users</h6>
@@ -53,7 +61,7 @@ const NectarCRMpricesubs = () => {
 
                   <i
                     class="fa fa-star"
-                    style={{ color: "#FF9900" }}
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
                     aria-hidden="true"
                   ></i>
                 </div>
@@ -62,56 +70,56 @@ const NectarCRMpricesubs = () => {
                   <input type="checkbox" id="plan1" name="plan1" />
                   <i
                     class="fa fa-star"
-                    style={{ color: "#FF9900" }}
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
                     aria-hidden="true"
                   ></i>
                   <i
                     class="fa fa-star"
-                    style={{ color: "#FF9900" }}
-                    aria-hidden="true"
-                  ></i>
-                </div>
-
-                <div>
-                  <input type="checkbox" id="plan1" name="plan1" />
-                  <i
-                    class="fa fa-star"
-                    style={{ color: "#FF9900" }}
-                    aria-hidden="true"
-                  ></i>
-                  <i
-                    class="fa fa-star"
-                    style={{ color: "#FF9900" }}
-                    aria-hidden="true"
-                  ></i>
-                  <i
-                    class="fa fa-star"
-                    style={{ color: "#FF9900" }}
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
                     aria-hidden="true"
                   ></i>
                 </div>
 
                 <div>
                   <input type="checkbox" id="plan1" name="plan1" />
+                  <i
+                    class="fa fa-star"
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
+                    aria-hidden="true"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
+                    aria-hidden="true"
+                  ></i>
+                  <i
+                    class="fa fa-star"
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
+                    aria-hidden="true"
+                  ></i>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="plan1" name="plan1" />
 
                   <i
                     class="fa fa-star"
-                    style={{ color: "#FF9900" }}
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
                     aria-hidden="true"
                   ></i>
                   <i
                     class="fa fa-star"
-                    style={{ color: "#FF9900" }}
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
                     aria-hidden="true"
                   ></i>
                   <i
                     class="fa fa-star"
-                    style={{ color: "#FF9900" }}
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
                     aria-hidden="true"
                   ></i>
                   <i
                     class="fa fa-star"
-                    style={{ color: "#FF9900" }}
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
                     aria-hidden="true"
                   ></i>
                 </div>
@@ -120,27 +128,27 @@ const NectarCRMpricesubs = () => {
 
                   <i
                     class="fa fa-star"
-                    style={{ color: "#FF9900" }}
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
                     aria-hidden="true"
                   ></i>
                   <i
                     class="fa fa-star"
-                    style={{ color: "#FF9900" }}
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
                     aria-hidden="true"
                   ></i>
                   <i
                     class="fa fa-star"
-                    style={{ color: "#FF9900" }}
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
                     aria-hidden="true"
                   ></i>
                   <i
                     class="fa fa-star"
-                    style={{ color: "#FF9900" }}
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
                     aria-hidden="true"
                   ></i>
                   <i
                     class="fa fa-star"
-                    style={{ color: "#FF9900" }}
+                    style={{ color: "#FF9900", marginLeft: "10px" }}
                     aria-hidden="true"
                   ></i>
                 </div>
@@ -149,14 +157,14 @@ const NectarCRMpricesubs = () => {
             {/* <div class="vl p-2"></div> */}
           </div>
 
-          <div className="col-md-10">
+          <div className="col-lg-10">
             <div className="row ">
               <div className="d-flex  ">
-                <div className="justify-content-start col-md-5 ">
+                <div className="col-lg-5 ">
                   <h2 className=" ">Nectar CRM pricing & plans</h2>
                 </div>
 
-                <div className="justify-content-end col-md-5">
+                <div className="col-lg-5">
                   <span
                     className="pt-2  "
                     style={{
@@ -176,8 +184,8 @@ const NectarCRMpricesubs = () => {
               {DummyData &&
                 DummyData.pricingSubscriptiondata.map((data) => (
                   <div
-                    className="col-md-3 pt-3 section-content"
-                    style={{ width: 400 }}
+                    className="col-lg-3 pt-3 section-content"
+                    style={{ width: 340 }}
                   >
                     <h4>{data.title}</h4>
                     <div className="Toggle_pricesubs text-center">
@@ -185,12 +193,12 @@ const NectarCRMpricesubs = () => {
                         <input
                           checked={value}
                           onChange={handleToggle}
-                          className="react-switch-checkbox"
+                          className="react-switch-checkbox1"
                           id={`react-switch-new`}
                           type="checkbox"
                         />
                         <label
-                          className="react-switch-label"
+                          className="react-switch-label1"
                           htmlFor={`react-switch-new`}
                         >
                           {" "}
@@ -200,8 +208,8 @@ const NectarCRMpricesubs = () => {
                           <div className="toggleLabel">
                             <h4>Yearly</h4>
                           </div>
-                          <span className={`react-switch-button`}>
-                            <div className="toggleSwitchLabel">
+                          <span className={`react-switch-button1`}>
+                            <div className="toggleSwitchLabel1">
                               {!value ? <h4>Monthly</h4> : <h4>Yearly</h4>}
                             </div>
                           </span>
@@ -210,9 +218,8 @@ const NectarCRMpricesubs = () => {
                     </div>
                     <div
                       style={{
-                        textAlign: "center",
-                        fontWeight: "bold",
-                        marginTop: "30px",
+                      
+                          marginTop: "30px",
                       }}
                     >
                       {!value ? (
@@ -222,14 +229,15 @@ const NectarCRMpricesubs = () => {
                             <p>{data.dollermonth}</p>
                             <h3>{data.heading}</h3>
                           </div>
-                          <div>
-                            <p>{data.desp1}</p>
-                            <p>{data.desp2}</p>
-                            <p>{data.desp3}</p>
-                            <p>{data.desp4}</p>
-                            <p>{data.desp5}</p>
-                            <p>{data.desp6}</p>
-                            <p>{data.desp7}</p>
+                          <div >
+                         
+                            <p > <span className='fa-solid fa-check-double  double_click mx-3 '></span> {data.desp1}</p>
+                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp2}</p>
+                            <p> <span className='fa-solid fa-check-double double_click  mx-3 '></span>{data.desp3}</p>
+                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp4}</p>
+                            <p> <span className='fa-solid fa-check-double double_click  mx-3 '></span>{data.desp5}</p>
+                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp6}</p>
+                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp7}</p>
                           </div>
                         </>
                       ) : (
@@ -240,80 +248,18 @@ const NectarCRMpricesubs = () => {
                             <h3>{data.heading}</h3>
                           </div>
                           <div>
-                            <p>{data.desp1}</p>
-                            <p>{data.desp2}</p>
-                            <p>{data.desp3}</p>
-                            <p>{data.desp4}</p>
-                            <p>{data.desp5}</p>
-                            <p>{data.desp6}</p>
-                            <p>{data.desp7}</p>
+                            <p> <span className='fa-solid fa-check-double  double_click mx-3 '></span>{data.desp1}</p>
+                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp2}</p>
+                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp3}</p>
+                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp4}</p>
+                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp5}</p>
+                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp6}</p>
+                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp7}</p>
                           </div>
                         </>
                       )}
                     </div>
-                    {/* <ul class="nav    nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <button 
-                        class="nav-link active"
-                        id="pills-home-tab"
-                        data-bs-toggle="pill"
-                        data-bs-target="#pills-home"
-                        type="button"
-                        role="tab"
-                        aria-controls="pills-home"
-                        aria-selected="true"
-                      >
-                        Monthly
-                      </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button
-                        class="nav-link"
-                        id="pills-profile-tab"
-                        data-bs-toggle="pill"
-                        data-bs-target="#pills-profile"
-                        type="button"
-                        role="tab"
-                        aria-controls="pills-profile"
-                        aria-selected="false"
-                      >
-                        Yearly
-                      </button>
-                    </li>
-                  </ul> */}
 
-                    {/* <div class="tab-content" id="pills-tabContent">
-                    <div
-                      class="tab-pane fade show active"
-                      id="pills-home"
-                      role="tabpanel"
-                      aria-labelledby="pills-home-tab"
-                    >
-                      ...
-                    </div>
-                    <div
-                      class="tab-pane fade"
-                      id="pills-profile"
-                      role="tabpanel"
-                      aria-labelledby="pills-profile-tab"
-                    >
-                      ...
-                    </div>
-                  </div> */}
-                    {/* <div style={{ textAlign: "center" }}>
-                    <h5>{data.doller}</h5>
-                    <p>{data.dollermonth}</p>
-                    <h3>{data.heading}</h3>
-                  </div> */}
-                    {/* <div>
-                    <p>{data.desp1}</p>
-                    <p>{data.desp2}</p>
-                    <p>{data.desp3}</p>
-                    <p>{data.desp4}</p>
-                    <p>{data.desp5}</p>
-                    <p>{data.desp6}</p>
-                    <p>{data.desp7}</p>
-                  </div> */}
                     <div style={{ borderTop: "2px dashed #00000047" }}></div>
                     <br />
                     <div
@@ -325,10 +271,10 @@ const NectarCRMpricesubs = () => {
                     >
                       <p>{data.desp8}</p>
                     </div>
-                    <div>
+                    <div style={{ marginLeft: 50 }}>
                       <button
                         type="submit"
-                        class="btn"
+                        class="btn "
                         style={{
                           color: "#F16728",
                           border: " 1px solid #F16728",
@@ -360,114 +306,39 @@ const NectarCRMpricesubs = () => {
                 error quisquam perspiciatis ratione quo similique a saepe
                 libero, nisi tenetur at fugit esse recusandae.
               </p>
-              <h1 style={{ textAlign: "center" }}>Results By Filter</h1>
-
-              <p style={{ textAlign: "center" }}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut,
-                debitis!
-              </p>
             </div>
+            <PricingSubDownCard />
 
-            <div className="row">
-              <div className="col-lg-4"></div>
-              {DummyData &&
-                DummyData.carddata.map((data) => (
-                  <div className="col-lg-4">
-                    <div className="card">
-                      <h3 className="mt-3">{data.title}</h3>
-                      <ul
-                        class="nav    nav-pills mb-3"
-                        id="pills-tab"
-                        role="tablist"
-                        style={{
-                          justifyContent: "center",
 
-                          color: "black",
-                        }}
-                      >
-                        <li class="nav-item" role="presentation">
-                          <button
-                            class="nav-link active"
-                            id="pills-home-tab"
-                            data-bs-toggle="pill"
-                            data-bs-target="#pills-home"
-                            type="button"
-                            role="tab"
-                            aria-controls="pills-home"
-                            aria-selected="true"
-                            style={{
-                              backgroundColor: "#f16728",
-                              color: "white",
-                            }}
-                          >
-                            Monthly
-                          </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button
-                            class="nav-link"
-                            id="pills-profile-tab"
-                            data-bs-toggle="pill"
-                            data-bs-target="#pills-profile"
-                            type="button"
-                            role="tab"
-                            aria-controls="pills-profile"
-                            aria-selected="false"
-                          >
-                            Yearly
-                          </button>
-                        </li>
-                      </ul>
-                      {/* <ul
-                  class="nav nav-pills mb-3"
-                  id="pills-tab"
-                  role="tablist"
-                  style={{
-                    justifyContent: "center",
-                    backgroundColor: "#f16728",
-                    color: "black",
-                  }}
-                >
-                  <li class="nav-item" role="presentation">
-                    <button
-                      class="nav-link active"
-                      id="pills-home-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#pills-home"
-                      type="button"
-                      role="tab"
-                      aria-controls="pills-home"
-                      aria-selected="true"
-                    >
-                      Monthly
-                    </button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button
-                      class="nav-link"
-                      id="pills-profile-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#pills-profile"
-                      type="button"
-                      role="tab"
-                      aria-controls="pills-profile"
-                      aria-selected="false"
-                    >
-                      Yearly
-                    </button>
-                  </li>
-                </ul> */}
-                      <div className="cardcontent">
-                        <h3>{data.doller}</h3>
-                        <p>{data.dollermonth}</p>
-                        <h3>{data.desp}</h3>
-                        <button className="buybutton">Buy Now</button>
+            {/* <div className="Toggle_pricesubs text-center">
+                      <div className="switch_toggle">
+                        <input
+                          checked={value}
+                          onChange={handleToggle}
+                          className="react-switch-checkbox1"
+                          id={`react-switch-new`}
+                          type="checkbox"
+                        />
+                        <label
+                          className="react-switch-label1"
+                          htmlFor={`react-switch-new`}
+                        >
+                          {" "}
+                          <div className="toggleLabel">
+                            <h4>Monthly</h4>
+                          </div>
+                          <div className="toggleLabel">
+                            <h4>Yearly</h4>
+                          </div>
+                          <span className={`react-switch-button1`}>
+                            <div className="toggleSwitchLabel1">
+                              {!value ? <h4>Monthly</h4> : <h4>Yearly</h4>}
+                            </div>
+                          </span>
+                        </label>
                       </div>
                     </div>
-                  </div>
-                ))}
-              <div className="col-lg-4"></div>
-            </div>
+                    <div>{!value ? `$80` : `$160`}</div> */}
           </div>
         </div>
       </div>

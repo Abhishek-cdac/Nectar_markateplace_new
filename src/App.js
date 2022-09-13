@@ -9,7 +9,9 @@ import Productscreen from "./Components/productScreen";
 import NectarCRMReview from "./Components/NectarCRMReview";
 import CRMReview from "./Components/CRMreview";
 import Notification from "./Components/Notification";
-import CRM from "./Components/CRM"
+import CRM from "./Components/CRM";
+import NectarCRMtabs from "./containers/NectarCRMtabs";
+import PricingSubDownCard from "./containers/PricingSubDownCard";
 
 
 
@@ -27,22 +29,12 @@ function App() {
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
           <Route path="/productscreen" element={<Productscreen />} />
 
-           <Route path=""></Route>
+          <Route path="nectarCRM" element={<NectarCRMtabs />} />
           <Route path="/nectarcrmreview" element={<NectarCRMReview />} />
 
           <Route path="/notification" element={<Notification />}></Route>
           <Route path="/review" element={<CRMReview />}></Route>
-          <Route path="/crm" element={<CRM
-            title="Nectar CRM"
-            subtext1="The easy to use and customizable CRM for your Marketing, Sales,
-            & Customer Service Teams."
-            item1="Better Sales Performance"
-            item2= "Increased Profitability & Efficiency "
-            item3="CRM Improves Your Customer Service"
-            heading="Get 2 months Free Subscription"
-            buttontext="Free Demo"
-            buttontext2="Buy Now"
-          />}></Route>
+          <Route path="/pricing" element={<PricingSubDownCard />} />
         </Routes>
       </BrowserRouter>
     </>

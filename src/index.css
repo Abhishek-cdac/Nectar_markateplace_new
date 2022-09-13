@@ -320,6 +320,114 @@ p .small_card {
   padding-top: 2%;
 }
 
+/* product toggle */
+
+.react-switch-checkbox1 {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.react-switch-label1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 17em;
+  height: 3.3em;
+  /* left: 38%; */
+  background: #fff;
+  border: 2px solid grey;
+  /* border-radius: 100px; */
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.toggleSwitchLabel1 {
+  padding-top: 8%;
+  padding-left: 0%;
+  color: #fff;
+}
+
+.react-switch-label1 .react-switch-button1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 145px;
+  height: 50px;
+  /* border-radius: 45px; */
+  transition: 0.2s;
+  background: #f16728;
+  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.react-switch-checkbox1:checked+.react-switch-label1 .react-switch-button1 {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+.react-switch-label1:active .react-switch-button1 {
+  width: 60px;
+}
+
+/* product toggle button single card down */
+
+
+.Toggle_pricesubsdown{
+  text-align: center;
+  margin-top: 3%;
+}
+
+.react-switch-checkbox2 {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.react-switch-label2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 17em;
+  height: 3.3em;
+  /* left: 38%; */
+  background: #fff;
+  border: 2px solid grey;
+  /* border-radius: 100px; */
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.toggleSwitchLabel2 {
+  padding-top: 8%;
+  padding-left: 0%;
+  color: #fff;
+}
+
+.react-switch-label2 .react-switch-button2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 145px;
+  height: 50px;
+  /* border-radius: 45px; */
+  transition: 0.2s;
+  background: #f16728;
+  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.react-switch-checkbox2:checked+.react-switch-label2 .react-switch-button2 {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+.react-switch-label2:active .react-switch-button2 {
+  width: 60px;
+}
+
+
+
 
 
 
@@ -644,6 +752,8 @@ html,body{
   color: #fff;
   border: #f16728;
   border-radius: 10%;
+  padding: 10px;
+  width: 100px;
  
 }
 
@@ -777,3 +887,23 @@ margin-top: -10px;
   left: 12%;
 }
 
+/* product nav */
+.nav-pills .nav-link {
+  background-color: #fff;
+  color: #000;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #f16728;
+  color: #fff;
+}
+
+.nav-pills .nav-link {
+ /* border: none; */
+ border-radius: 0%;
+}
+
+
+.double_click{
+  color: #05E223;
+}
