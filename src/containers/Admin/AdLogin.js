@@ -42,38 +42,9 @@ const Login = () => {
               <div className="signinform1">
                 <div className="row">
                   <div className="col-lg-3">
-                    <h6>Log In as</h6>
+                    <h6>Log In as Admin</h6>
                   </div>
-                  <div className="col-lg-2">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="radio"
-                        name="flexRadioDefault"
-                        id="flexRadioDefault1"
-                        value="partner"
-                        onChange={handleToggle}
-                      />
-                      <label class="form-check-label" for="flexRadioDefault1">
-                        Partner
-                      </label>
-                    </div>
-                  </div>
-                  <div className="col-lg-2">
-                    <div class="form-check">
-                      <input
-                        class="form-check-input"
-                        type="radio"
-                        name="flexRadioDefault"
-                        id="flexRadioDefault1"
-                        value={value}
-                        onChange={handleToggle}
-                      />
-                      <label class="form-check-label" for="flexRadioDefault1">
-                        Reseller
-                      </label>
-                    </div>
-                  </div>
+                
                 </div>
               </div>
               <div className="row">
@@ -153,7 +124,7 @@ const Login = () => {
                       </button>
                     </div>
                   </div>
-                  {!value && (
+                  {/* {!value && (
                     <div className="row mb-5">
                       <div className="col-lg-8">
                         <div className="icon">
@@ -170,7 +141,7 @@ const Login = () => {
                         </a>
                       </div>
                     </div>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>
