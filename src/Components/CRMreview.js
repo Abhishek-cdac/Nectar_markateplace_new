@@ -8,14 +8,14 @@ import dummyDataReview from '../containers/DummydataReview'
 function CRMReview() {
     console.log("dummyDataReview", dummyDataReview)
     return (
-        <div className='container pt-5'>
-            <div className='row pt-5'>
+        <div className='container'>
+            <div className='row'>
                 {dummyDataReview &&
                     dummydatareview.ReviewData.map((data) => (
-                        <div className='col-12 col-sm-6 col-md-8 pt-5'>
+                        <div className='col-12 col-sm-6 col-md-8 mt-3'>
                             <img className='Review_icon' src={data.image} style={{ height: "55px" }} alt="..." />
                             <h5 className="review_title ">{data.title} <span style={{ fontSize: "15px" }}>{data.desiganation}</span></h5>
-                     
+
                             <p className='review_adress'>{data.address}</p>
                             <div className='review_star'>
                                 <span class="fa fa-star checked  m-1"></span>

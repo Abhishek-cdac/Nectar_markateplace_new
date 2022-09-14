@@ -17,7 +17,6 @@ function NectarCRMReview() {
                                 <span class="fa fa-star checked m-2"></span>
                                 <span class="justify-content-end">Highly Recommended</span>
                             </div>
-
                             <div className='pt-3'>
                                 <i class="fa-regular fa-star m-2"></i>
                                 <span class="fa fa-star checked m-2"></span>
@@ -51,14 +50,10 @@ function NectarCRMReview() {
                                 <span class="justify-content-end">Not Satisfy</span>
                             </div>
                         </div>
-
-
                     </div>
                     <div className='col-md-2'>
 
                     </div>
-
-
                     <div className='  col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-5 '>
                         <div className="row d-flex justify-content-center">
                             <div className="testimonal_heading">
@@ -98,8 +93,7 @@ function NectarCRMReview() {
                                 <button type="submit" class="btn btn-primary btn-lg submit_form">
                                     Share Your Review
                                 </button>
-
-                            </form>
+                                </form>
                         </div>
                     </div>
                 </div>
