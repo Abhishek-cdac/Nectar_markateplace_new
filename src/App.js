@@ -13,6 +13,7 @@ import HostingServices from "./Components/HostingServices";
 import Modal from "./Components/Header/Modal";
 import SideNav from "./Components/SideNav";
 import PartnerDashboard from "./containers/partnerDashboard";
+import Login from "./containers/Admin/AdLogin";
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           <Route path="reseller" element={<SideNav />}>
           <Route path="" element={<PartnerDashboard />} />
           </Route>
+
+          {/* Routes For Admin Part */}
+          <Route path="admin" element={<Login/>}/>
         </Routes>
       </BrowserRouter>
     </>
