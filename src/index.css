@@ -265,7 +265,6 @@ p .small_card {
   margin-top: 10px;
   border-radius: 7px;
 }
-
 .form-group ::placeholder {
   color: #fff !important;
 }
@@ -363,130 +362,9 @@ p .small_card {
   padding: 60px 0;
 }
 
-/* product toggle */
-
-.react-switch-checkbox1 {
-  height: 0;
-  width: 0;
-  visibility: hidden;
-}
-
-.react-switch-label1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  width: 17em;
-  height: 3.3em;
-  /* left: 38%; */
-  background: #fff;
-  border: 2px solid grey;
-  /* border-radius: 100px; */
-  position: relative;
-  transition: background-color 0.2s;
-}
-
-.toggleSwitchLabel1 {
-  padding-top: 8%;
-  padding-left: 0%;
-  color: #fff;
-}
-
-.react-switch-label1 .react-switch-button1 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 145px;
-  height: 50px;
-  /* border-radius: 45px; */
-  transition: 0.2s;
-  background: #f16728;
-  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
-}
-
-.react-switch-checkbox1:checked+.react-switch-label1 .react-switch-button1 {
-  left: calc(100% - 2px);
-  transform: translateX(-100%);
-}
-
-.react-switch-label1:active .react-switch-button1 {
-  width: 60px;
-}
-
-/* product toggle button single card down */
-
-
-.Toggle_pricesubsdown{
-  text-align: center;
-  margin-top: 3%;
-}
-
-.react-switch-checkbox2 {
-  height: 0;
-  width: 0;
-  visibility: hidden;
-}
-
-.react-switch-label2 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  width: 17em;
-  height: 3.3em;
-  /* left: 38%; */
-  background: #fff;
-  border: 2px solid grey;
-  /* border-radius: 100px; */
-  position: relative;
-  transition: background-color 0.2s;
-}
-
-.toggleSwitchLabel2 {
-  padding-top: 8%;
-  padding-left: 0%;
-  color: #fff;
-}
-
-.react-switch-label2 .react-switch-button2 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 145px;
-  height: 50px;
-  /* border-radius: 45px; */
-  transition: 0.2s;
-  background: #f16728;
-  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
-}
-
-.react-switch-checkbox2:checked+.react-switch-label2 .react-switch-button2 {
-  left: calc(100% - 2px);
-  transform: translateX(-100%);
-}
-
-.react-switch-label2:active .react-switch-button2 {
-  width: 60px;
-}
-
-
-
-
-
-
-
-/*footer navbar*/
-
-
-.navbar-brand {
-  text-align: left;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  width: 399px;
-  height: 15px;
-  opacity: 0.5;
-  position: relative;
-  left: 762px;
+/*Netar CRM*/
+.backgroundimage-CRM {
+  background: url(/public/assets/images/Group\ 3001.png);
 }
 
 /* Review Slider */
@@ -518,30 +396,38 @@ p .small_card {
   width: 10px;
 }
 
+/* login page css */
+
 #loginbg {
   background: url(/public/assets/images/loginbg.png);
 }
 
 .loginleftsection {
   background: url(/public/assets/images/loginleftimage.png);
-  margin-top: 110px;
-  margin-bottom: 110px;
+  margin-right: -29px;
+  height: 695px;
 }
 .loginleftsection h1 {
   text-align: center;
-  color: #ffffff;
-  margin-top: 170px;
+  color: #FFFFFF;
+  padding-top: 170px;
+  padding-right: 20px;
+  padding-right: 20px;
+  margin-top: 110px;
 }
 .loginleftsection p {
   text-align: center;
-  color: #ffffff;
-  margin-bottom: 110px;
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.loginrightsection {
-  background-color: #ffffff;
+.loginrightsection{
+  background-color: #FFFFFF;
+  height: 695px;
   margin-top: 110px;
   margin-bottom: 110px;
+  
 }
 
 .loginleftsection h1 {
@@ -564,7 +450,7 @@ p .small_card {
 
 .loginrightsection a {
   color: #238ae6;
-  display: inline-block;
+  display: inline-block !important;
 }
 
 .signinform {
@@ -579,10 +465,57 @@ p .small_card {
 .login input {
   outline: 0;
   border-width: 0 0 1px;
-  border-color: black;
+  border-color: gray;
   width: 80%;
 }
 
+.forgotpassword {
+  padding-right: 95px;
+}
+
+.submitbtn{
+  padding-left: 136px;
+  padding-right: 136px;
+}
+.icon{
+  text-align: center;
+}
+
+/* Registration css */
+.registrationform1{
+  padding-left: 60px;
+}
+
+.registrationleftsection{
+  background: url(/public/assets/images/loginleftimage.png);
+  margin-right: -29px;
+  height: 735px;
+}
+
+.registrationleftsection h1{
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 170px;
+  margin-top: 110px;
+}
+.registrationleftsection p{
+  text-align: center;
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.registrationrightsection{
+  background-color: #FFFFFF;
+  height: 735px;
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+
+.registrationrightsection a {
+  color: #238ae6;
+  display: inline-block;
+}
 .forgotpassword {
   padding-right: 95px;
 }
@@ -622,7 +555,6 @@ p .small_card {
 .accordian_description {
   font-size: 13px;
 }
-
 .reseller_partner {
   border-radius: 50px solid orange;
   /* display: flex;
@@ -1279,6 +1211,9 @@ p .product-banner-content {
   color: rgba(255, 255, 255, 0.25);
 }
 
+/* .sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
+  color: rgba(255, 255, 255, 0.25);
+} */
 .sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
   color: #fff;
   background: #002e5e;
@@ -1481,4 +1416,212 @@ color: #474747;
   width: 200px;
  background-color: #f16728;
  color: white;
+}
+
+/* Barkha  */
+
+/* *{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  width: 100%;
+}
+.container{
+  display: flex;
+  
+} */
+
+.midsec{
+  background-color: #EFE8E8;
+   
+}
+.border-bottom{
+color: #474747;
+}
+
+.border-bottom{
+  padding-top: 20px;
+}
+.midpara{
+  color: #08668F;
+  font-size: 11px;
+  padding-top: 20px;
+  font-weight: 500;
+}
+.form-check{
+  color: #08668F;
+  font-size: 11px;
+  font-weight: 500;
+}
+.midbutton{
+  width: 200px;
+
+ background-color: #f16728;
+ color: white;
+}
+
+
+.buybutton{
+background-color: #f16728;
+color: #fff;
+border: #f16728;
+border-radius: 10%;
+padding: 10px;
+width: 100px;
+
+}
+
+/* pricing AND sUBS */
+
+
+
+.sup-head{
+font-size: 14px;
+margin-left: -10px;
+margin-top: -10px;
+
+
+}
+
+
+/* product toggle */
+
+.react-switch-checkbox1 {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.react-switch-label1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 17em;
+  height: 3.3em;
+  /* left: 38%; */
+  background: #fff;
+  border: 2px solid grey;
+  /* border-radius: 100px; */
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.toggleSwitchLabel1 {
+  padding-top: 8%;
+  padding-left: 0%;
+  color: #fff;
+}
+
+.react-switch-label1 .react-switch-button1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 145px;
+  height: 50px;
+  /* border-radius: 45px; */
+  transition: 0.2s;
+  background: #f16728;
+  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.react-switch-checkbox1:checked+.react-switch-label1 .react-switch-button1 {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+.react-switch-label1:active .react-switch-button1 {
+  width: 60px;
+}
+
+/* product toggle button single card down */
+
+
+.Toggle_pricesubsdown{
+  text-align: center;
+  margin-top: 3%;
+}
+
+.react-switch-checkbox2 {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.react-switch-label2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 17em;
+  height: 3.3em;
+  /* left: 38%; */
+  background: #fff;
+  border: 2px solid grey;
+  /* border-radius: 100px; */
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.toggleSwitchLabel2 {
+  padding-top: 8%;
+  padding-left: 0%;
+  color: #fff;
+}
+
+.react-switch-label2 .react-switch-button2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 145px;
+  height: 50px;
+  /* border-radius: 45px; */
+  transition: 0.2s;
+  background: #f16728;
+  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.react-switch-checkbox2:checked+.react-switch-label2 .react-switch-button2 {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+.react-switch-label2:active .react-switch-button2 {
+  width: 60px;
+}
+
+.section-content{
+  background-color: #FFFFFF;
+ margin: 10px 10px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/* .App {
+  /* width: 50%; */
+/* margin: 10rem auto; */
+/* height: 570px; */
+}
+
+
+
+/* product nav */
+.nav-pills .nav-link {
+  background-color: #fff;
+  color: #000;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #f16728;
+  color: #fff;
+}
+
+.nav-pills .nav-link {
+ /* border: none; */
+ border-radius: 0%;
+}
+
+
+.double_click{
+  color: #05E223;
+  margin-left: auto;
+  transition: transform 0.15s ease;
 }

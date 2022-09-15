@@ -1,15 +1,26 @@
 import React from "react";
 import NectarCRMoverview from "./NectarCRMoverview";
 import NectarCRMpricesubs from "./NectarCRMpricesubs";
-import NectarCRMproductscreen from "./NectarCRMproductscreen";
-import NectarCRMreviews from "./NectarCRMreviews";
-import Productscreen from '../Components/productScreen'
+import Productscreen from "../Components/productScreen";
 import NectarCRMReview from "../Components/NectarCRMReview";
+import CRM from "../Components/CRM";
 const NectarCRMtabs = () => {
   return (
     <>
-      <div className="container">
+      {/* <div className="container"> */}
         <div className="row ">
+          <CRM
+            title="Nectar CRM"
+            subtext1="The easy to use and customizable CRM for your Marketing, Sales,
+            & Customer Service Teams."
+            item1="Better Sales Performance"
+            item2="Increased Profitability & Efficiency "
+            item3="CRM Improves Your Customer Service"
+            heading="Get 2 months Free Subscription"
+            buttontext="Free Demo"
+            buttontext2="Buy Now"
+          />
+          <div className="container">
           <ul class="nav nav-pills navtabs mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
               <button
@@ -71,6 +82,7 @@ const NectarCRMtabs = () => {
               </button>
             </li>
           </ul>
+          </div>
           <div class="tab-content" id="pills-tabContent">
             <div
               class="tab-pane fade show active"
@@ -78,7 +90,7 @@ const NectarCRMtabs = () => {
               role="tabpanel"
               aria-labelledby="pills-overview-tab"
             >
-               <NectarCRMoverview />
+              <NectarCRMoverview />
             </div>
             <div
               class="tab-pane fade"
@@ -94,7 +106,7 @@ const NectarCRMtabs = () => {
               role="tabpanel"
               aria-labelledby="pills-review-tab"
             >
-             <NectarCRMReview />
+              <NectarCRMReview />
             </div>
             <div
               class="tab-pane "
@@ -106,7 +118,7 @@ const NectarCRMtabs = () => {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 };

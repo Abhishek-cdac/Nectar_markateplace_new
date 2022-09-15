@@ -1,7 +1,6 @@
 import React from "react";
 import DummyData from "./DummyNectarCRM";
-import Contact from "../Assets/Contact.svg";
-
+// import Contact from "../assets/Contact.png"
 function NectarCRMoverview() {
   console.log("dummydata", DummyData);
   return (
@@ -38,7 +37,7 @@ function NectarCRMoverview() {
             <div class="midsec">
               <div className="row">
                 <div class="col-md-6">
-                  <img className="img-fluid" src={Contact} alt=""  />
+                  {/* <img className="img-fluid" src={Contact} alt=""  /> */}
                 </div>
                 <div class="midform p-5 col-md-6" >
                   <h3 style={{color:"#08668F"}}>We Would Love To Hear From You!</h3>

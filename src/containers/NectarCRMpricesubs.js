@@ -13,17 +13,6 @@ const NectarCRMpricesubs = () => {
 
   return (
     <>
-      <CRM
-        title="Nectar CRM"
-        subtext1="The easy to use and customizable CRM for your Marketing, Sales,
-            & Customer Service Teams."
-        item1="Better Sales Performance"
-        item2="Increased Profitability & Efficiency "
-        item3="CRM Improves Your Customer Service"
-        heading="Get 2 months Free Subscription"
-        buttontext="Free Demo"
-        buttontext2="Buy Now"
-      />
       <div className="container mt-5">
         <div className="row">
           <div className="col-lg-2 p-4">
@@ -53,11 +42,21 @@ const NectarCRMpricesubs = () => {
               <br />
               <br />
               <h6>Choose Prefferd Users</h6>
-<span>
-<label  style={{border:"1px solid" ,padding:"10px", width:"70px" , height:"45px"}} for="html">User</label>
-<p>To</p>
-</span>
-            
+              <span>
+                <label
+                  style={{
+                    border: "1px solid",
+                    padding: "10px",
+                    width: "70px",
+                    height: "45px",
+                  }}
+                  for="html"
+                >
+                  User
+                </label>
+                <p>To</p>
+              </span>
+
               <h6>Choose Price Range</h6>
               <div>
                 <h6>Choose with Rating</h6>
@@ -161,37 +160,33 @@ const NectarCRMpricesubs = () => {
             </div>
             {/* <div class="vl p-2"></div> */}
           </div>
+          <div className="row ">
+            <div className="d-flex  ">
+              <div className="col-lg-5 ">
+                <h2 className=" ">Nectar CRM pricing & plans</h2>
+              </div>
 
-          <div className="col-lg-10">
-            <div className="row ">
-              <div className="d-flex  ">
-                <div className="col-lg-5 ">
-                  <h2 className=" ">Nectar CRM pricing & plans</h2>
-                </div>
-
-                <div className="col-lg-5">
-                  <span
-                    className="pt-2  "
-                    style={{
-                      marginLeft: 60,
-                      backgroundColor: "#F16728",
-                      height: 50,
-                      width: 400,
-                      border: "5px dashed #F16728",
-                    }}
-                  >
-                    Get 20%off on yearly subscrition
-                  </span>
-                </div>
+              <div className="col-lg-5">
+                <span
+                  className="pt-2  "
+                  style={{
+                    marginLeft: 60,
+                    backgroundColor: "#F16728",
+                    height: 50,
+                    width: 400,
+                    border: "5px dashed #F16728",
+                  }}
+                >
+                  Get 20%off on yearly subscrition
+                </span>
               </div>
             </div>
+          </div>
+          <div className="col-lg-10">
             <div className="row">
               {DummyData &&
                 DummyData.pricingSubscriptiondata.map((data) => (
-                  <div
-                    className="col-lg-3 pt-3 section-content"
-                    style={{ width: 340 }}
-                  >
+                  <div className="col-lg-4 pt-3 section-content">
                     <h4>{data.title}</h4>
                     <div className="Toggle_pricesubs text-center">
                       <div className="switch_toggle">
@@ -223,8 +218,7 @@ const NectarCRMpricesubs = () => {
                     </div>
                     <div
                       style={{
-                      
-                          marginTop: "30px",
+                        marginTop: "30px",
                       }}
                     >
                       {!value ? (
@@ -234,15 +228,43 @@ const NectarCRMpricesubs = () => {
                             <p>{data.dollermonth}</p>
                             <h3>{data.heading}</h3>
                           </div>
-                          <div >
-                         
-                            <p > <span className='fa-solid fa-check-double  double_click mx-3 '></span> {data.desp1}</p>
-                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp2}</p>
-                            <p> <span className='fa-solid fa-check-double double_click  mx-3 '></span>{data.desp3}</p>
-                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp4}</p>
-                            <p> <span className='fa-solid fa-check-double double_click  mx-3 '></span>{data.desp5}</p>
-                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp6}</p>
-                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp7}</p>
+                          <div>
+                            {/* <i class="fa-regular fa-check-double"></i> */}
+                            <p>
+                              {" "}
+                              <span className="fa-regular fa-check-double double_click mx-3 "></span>{" "}
+                              {data.desp1}
+                            </p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double double_click mx-3 "></span>
+                              {data.desp2}
+                            </p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double double_click  mx-3 "></span>
+                              {data.desp3}
+                            </p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double double_click mx-3 "></span>
+                              {data.desp4}
+                            </p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double double_click  mx-3 "></span>
+                              {data.desp5}
+                            </p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double double_click mx-3 "></span>
+                              {data.desp6}
+                            </p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double double_click mx-3 "></span>
+                              {data.desp7}
+                            </p>
                           </div>
                         </>
                       ) : (
@@ -253,13 +275,41 @@ const NectarCRMpricesubs = () => {
                             <h3>{data.heading}</h3>
                           </div>
                           <div>
-                            <p> <span className='fa-solid fa-check-double  double_click mx-3 '></span>{data.desp1}</p>
-                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp2}</p>
-                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp3}</p>
-                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp4}</p>
-                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp5}</p>
-                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp6}</p>
-                            <p> <span className='fa-solid fa-check-double double_click mx-3 '></span>{data.desp7}</p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double  double_click mx-3 "></span>
+                              {data.desp1}
+                            </p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double double_click mx-3 "></span>
+                              {data.desp2}
+                            </p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double double_click mx-3 "></span>
+                              {data.desp3}
+                            </p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double double_click mx-3 "></span>
+                              {data.desp4}
+                            </p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double double_click mx-3 "></span>
+                              {data.desp5}
+                            </p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double double_click mx-3 "></span>
+                              {data.desp6}
+                            </p>
+                            <p>
+                              {" "}
+                              <span className="fa-solid fa-check-double double_click mx-3 "></span>
+                              {data.desp7}
+                            </p>
                           </div>
                         </>
                       )}
@@ -313,7 +363,6 @@ const NectarCRMpricesubs = () => {
               </p>
             </div>
             <PricingSubDownCard />
-
 
             {/* <div className="Toggle_pricesubs text-center">
                       <div className="switch_toggle">
