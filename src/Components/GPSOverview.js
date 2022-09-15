@@ -26,8 +26,8 @@ function GPSOverview() {
                             ))}
                     </div>
                 </div>
-                <Feature/>
-                <GPSAccordian/>
+                <Feature />
+                <GPSAccordian />
             </div>
         </div>)
 }

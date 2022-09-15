@@ -25,17 +25,17 @@ function NerroTracOverview() {
 
                         </div>
                         <div className='col-lg-4 col-md-12 pt-5'>
-                           
-                                <img className='rounded mx-auto d-block' src='assets/images/Group 3026.png' style={{ height: "65px" }} />
-                                <h3 className='text-center'>Customizable</h3>
-                                <p className='text-center'>Flexibility to customize your issue fields, notifications and workflow.</p>
-                         
+
+                            <img className='rounded mx-auto d-block' src='assets/images/Group 3026.png' style={{ height: "65px" }} />
+                            <h3 className='text-center'>Customizable</h3>
+                            <p className='text-center'>Flexibility to customize your issue fields, notifications and workflow.</p>
+
 
 
 
 
                         </div>
-                  
+
 
 
                     </div>

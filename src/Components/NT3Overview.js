@@ -5,13 +5,13 @@ function NT3Overview() {
         <div className='container'>
             <div className='row'>
                 <div className='row'>
-       
-     
+
+
                     <p className='pt-5'>It adapts to the needs of digital businesses (infrastructure or application service providers, software, telecom) to manage multiple customers, contracts and SLAs Designed by experienced IT service professionals, it has been created to manage the complexity of shared infrastructures. It gives you the ability to analyze the impact of an incident or a change on the various services and contracts that you have to fulfil. It is at the heart of operational activities for service centers. By establishing a single repository shared by all teams, it allows you to define offerings that can fit each customer. It offers the ability to synchronize a central control center with several remote customer instances so to provide them a custom local solution linked with your operations.</p>
                     <h1 className='text-center pt-5'>Feature</h1>
                     <h5 className='text-center'>Nectar GPS tracker give the real experience for the tracking and convey the real time location to the user</h5>
                     <div className="accordion p-5 " id="accordionExample">
-            
+
                         <div className="accordion-item">
                             <h2 className="accordion-header" id="headingTwo">
                                 <button
@@ -22,7 +22,7 @@ function NT3Overview() {
                                     aria-expanded="false"
                                     aria-controls="collapseTwo"
                                 >
-                                   Customizable NT3
+                                    Customizable NT3
                                 </button>
                             </h2>
                             <div
@@ -46,7 +46,7 @@ function NT3Overview() {
                                     aria-expanded="false"
                                     aria-controls="collapseThree"
                                 >
-                                Customizable Workflow
+                                    Customizable Workflow
                                 </button>
                             </h2>
                             <div
@@ -74,7 +74,7 @@ function NT3Overview() {
                                     aria-expanded="false"
                                     aria-controls="collapseFour"
                                 >
-                                Guidelines
+                                    Guidelines
                                 </button>
                             </h2>
                             <div
@@ -102,7 +102,7 @@ function NT3Overview() {
                                     aria-expanded="false"
                                     aria-controls="collapseFive"
                                 >
-                                   User Portal
+                                    User Portal
                                 </button>
                             </h2>
                             <div
@@ -129,7 +129,7 @@ function NT3Overview() {
                                     aria-expanded="false"
                                     aria-controls="collapseFive"
                                 >
-                               Change management
+                                    Change management
                                 </button>
                             </h2>
                             <div
@@ -156,7 +156,7 @@ function NT3Overview() {
                                     aria-expanded="false"
                                     aria-controls="collapseFive"
                                 >
-                               Change management
+                                    Change management
                                 </button>
                             </h2>
                             <div
@@ -183,7 +183,7 @@ function NT3Overview() {
                                     aria-expanded="false"
                                     aria-controls="collapseFive"
                                 >
-                             Problem Management
+                                    Problem Management
                                 </button>
                             </h2>
                             <div
@@ -210,7 +210,7 @@ function NT3Overview() {
                                     aria-expanded="false"
                                     aria-controls="collapseFive"
                                 >
-                             Incident Management
+                                    Incident Management
                                 </button>
                             </h2>
                             <div
@@ -237,7 +237,7 @@ function NT3Overview() {
                                     aria-expanded="false"
                                     aria-controls="collapseFive"
                                 >
-                       Self-handling
+                                    Self-handling
                                 </button>
                             </h2>
                             <div
@@ -263,10 +263,10 @@ function NT3Overview() {
 
                     </div>
 
-                    </div>
-                    </div>
                 </div>
-           
+            </div>
+        </div>
+
     )
 }
 

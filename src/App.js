@@ -46,24 +46,16 @@ function App() {
           <Route path="/" element={<Landingpage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
-     
+
           <Route path="/products" element={<Products />} />
           <Route path="/gpsoverview" element={<GPSOverview />} />
           <Route path="/hrmsoverview" element={<HRMS />} />
-          <Route path="/nt3overview" element={<NT3Overview/>} />
-          <Route path="/nerrotracoverview" element={<NerroTracOverview/>} />
-          <Route path="/ndatuoverview" element={<NDatuOverview/>} />
-          <Route path="/ndatufeatures" element={<NDatuFeatures/>} />
-          <Route path="/feature" element={<Feature/>} />
-          <Route path="/gpsaccordian" element={<GPSAccordian/>}/>
-    
-     
-     
-      
-
-
-
-
+          <Route path="/nt3overview" element={<NT3Overview />} />
+          <Route path="/nerrotracoverview" element={<NerroTracOverview />} />
+          <Route path="/ndatuoverview" element={<NDatuOverview />} />
+          <Route path="/ndatufeatures" element={<NDatuFeatures />} />
+          <Route path="/feature" element={<Feature />} />
+          <Route path="/gpsaccordian" element={<GPSAccordian />} />
           {/* <Route path="/login" element={<LoginPage />} /> */}
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
           <Route path="/productscreen" element={<Productscreen />} />
