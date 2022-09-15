@@ -14,6 +14,7 @@ import Modal from "./Components/Header/Modal";
 import SideNav from "./Components/SideNav";
 import PartnerDashboard from "./containers/partnerDashboard";
 import Login from "./containers/Admin/AdLogin";
+import NectarCRMtabs from "./containers/NectarCRMtabs"
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/telecomeservices" element={<TelecomeServices />} />
           <Route path="/hostingservices" element={<HostingServices />} />
           <Route path="/modal" element={<Modal />} />
+          <Route path="nectarCRM" element={<NectarCRMtabs />} />
           {/* Routes of Reseller */}
           <Route path="reseller" element={<SideNav />}>
           <Route path="" element={<PartnerDashboard />} />
