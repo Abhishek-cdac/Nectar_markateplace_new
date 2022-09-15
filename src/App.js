@@ -24,6 +24,19 @@ import HostingServices from "./Components/HostingServices";
 import Modal from "./Components/Header/Modal";
 import SideNav from "./Components/SideNav";
 import PartnerDashboard from "./containers/partnerDashboard";
+import GPSOverview from "./Components/GPSOverview";
+import Feature from "./Components/Feature";
+import GPSAccordian from "./Components/GPSAccordian";
+import NerroTracOverview from "./Components/NerroTracOverview";
+import NT3Overview from "./Components/NT3Overview";
+import NDatuOverview from "./Components/NDatuOverview";
+import NDatuFeatures from "./Components/NDatuFeatures";
+
+
+
+
+
+
 
 function App() {
   return (
@@ -33,10 +46,23 @@ function App() {
           <Route path="/" element={<Landingpage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/hrms" element={<HRMS/>} />
-          <Route path="/products" element={<Products/>} />
      
-   
+          <Route path="/products" element={<Products />} />
+          <Route path="/gpsoverview" element={<GPSOverview />} />
+          <Route path="/hrmsoverview" element={<HRMS />} />
+          <Route path="/nt3overview" element={<NT3Overview/>} />
+          <Route path="/nerrotracoverview" element={<NerroTracOverview/>} />
+          <Route path="/ndatuoverview" element={<NDatuOverview/>} />
+          <Route path="/ndatufeatures" element={<NDatuFeatures/>} />
+          <Route path="/feature" element={<Feature/>} />
+          <Route path="/gpsaccordian" element={<GPSAccordian/>}/>
+    
+     
+     
+      
+
+
+
 
           {/* <Route path="/login" element={<LoginPage />} /> */}
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
@@ -44,9 +70,9 @@ function App() {
 
 
           <Route path="/nectarcrmreview" element={<NectarCRMReview />} />
-        
-          
-        
+
+
+
 
           <Route path="/notification" element={<Notification />}></Route>
           <Route path="/review" element={<CRMReview />}></Route>
@@ -61,9 +87,9 @@ function App() {
             buttontext="Free Demo"
             buttontext2="Buy Now"
           />} />
-    
-         
-          <Route path="/productscreen" element={<Productscreen/>}/>
+
+
+          <Route path="/productscreen" element={<Productscreen />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/forgetpassword" element={<ForgetPassword />} />
           <Route path="/telecomeservices" element={<TelecomeServices />} />
@@ -71,7 +97,7 @@ function App() {
           <Route path="/modal" element={<Modal />} />
           {/* Routes of Reseller */}
           <Route path="reseller" element={<SideNav />}>
-          <Route path="" element={<PartnerDashboard />} />
+            <Route path="" element={<PartnerDashboard />} />
           </Route>
         </Routes>
       </BrowserRouter>

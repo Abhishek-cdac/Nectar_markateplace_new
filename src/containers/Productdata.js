@@ -9,11 +9,11 @@ const dummydataProduct = {
             productmrp: "M.R.P.:",
             productprice: "$72.00",
             producttaxes: "Inclusive of all taxes",
-            cardButton1:"Add to card",
-            cardButton2:"Buy Now",
+            cardButton1: "Add to card",
+            cardButton2: "Buy Now",
 
         },
-          {
+        {
             id: "1",
             image: "/assets/images/Group 3014.png",
             cardbody: "4G Sim WiFi Router, Plug and Play, LTE Wi-Fi 300H,with Micro SIM Card Slot, LAN wi-fi Router",
@@ -22,8 +22,8 @@ const dummydataProduct = {
             productmrp: "M.R.P.:",
             productprice: "$72.00",
             producttaxes: "Inclusive of all taxes",
-            cardButton1:"Add to card",
-            cardButton2:"Buy Now",
+            cardButton1: "Add to card",
+            cardButton2: "Buy Now",
 
         },
         {
@@ -35,8 +35,8 @@ const dummydataProduct = {
             productmrp: "M.R.P.:",
             productprice: "$72.00",
             producttaxes: "Inclusive of all taxes",
-            cardButton1:"Add to card",
-            cardButton2:"Buy Now",
+            cardButton1: "Add to card",
+            cardButton2: "Buy Now",
 
         },
         {
@@ -48,8 +48,8 @@ const dummydataProduct = {
             productmrp: "M.R.P.:",
             productprice: "$72.00",
             producttaxes: "Inclusive of all taxes",
-            cardButton1:"Add to card",
-            cardButton2:"Buy Now",
+            cardButton1: "Add to card",
+            cardButton2: "Buy Now",
 
         },
         {
@@ -61,8 +61,8 @@ const dummydataProduct = {
             productmrp: "M.R.P.:",
             productprice: "$72.00",
             producttaxes: "Inclusive of all taxes",
-            cardButton1:"Add to card",
-            cardButton2:"Buy Now",
+            cardButton1: "Add to card",
+            cardButton2: "Buy Now",
 
         },
         {
@@ -74,8 +74,8 @@ const dummydataProduct = {
             productmrp: "M.R.P.:",
             productprice: "$72.00",
             producttaxes: "Inclusive of all taxes",
-            cardButton1:"Add to card",
-            cardButton2:"Buy Now",
+            cardButton1: "Add to card",
+            cardButton2: "Buy Now",
 
         },
         {
@@ -87,8 +87,8 @@ const dummydataProduct = {
             productmrp: "M.R.P.:",
             productprice: "$72.00",
             producttaxes: "Inclusive of all taxes",
-            cardButton1:"Add to card",
-            cardButton2:"Buy Now",
+            cardButton1: "Add to card",
+            cardButton2: "Buy Now",
 
         },
         {
@@ -100,15 +100,15 @@ const dummydataProduct = {
             productmrp: "M.R.P.:",
             productprice: "$72.00",
             producttaxes: "Inclusive of all taxes",
-            cardButton1:"Add to card",
-            cardButton2:"Buy Now",
+            cardButton1: "Add to card",
+            cardButton2: "Buy Now",
 
         },
-      
-      
-     
-      
-     
+
+
+
+
+
     ]
 }
 export default dummydataProduct

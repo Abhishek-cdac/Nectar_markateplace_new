@@ -19,18 +19,17 @@ function Products() {
                                     <p >{data.producttaxes}</p>
                                     <button class="btn btn-primary " >{data.cardButton1}</button>
                                     <button class="btn btn-primary m-2" >{data.cardButton2}</button>
-                                    
                                 </div>
                             </div>
                         </div>
-                        
+
                     ))}
-            
-                
-          
+
+
+
             </div>
         </div>
-        )
+    )
 }
 
 export default Products

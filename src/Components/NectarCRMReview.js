@@ -1,7 +1,10 @@
 import React from 'react'
+import CRMReview from './CRMreview'
+
 
 function NectarCRMReview() {
     return (
+        <>
         <section className='review_backgraound'>
             <div className='container '>
                 <div className='row d-flex justify-content-center mb-5'>
@@ -93,12 +96,17 @@ function NectarCRMReview() {
                                 <button type="submit" class="btn btn-primary btn-lg submit_form">
                                     Share Your Review
                                 </button>
-                                </form>
+                            </form>
                         </div>
                     </div>
                 </div>
+                
+      
             </div>
+
         </section >
+        <CRMReview/>
+        </>
 
     )
 }

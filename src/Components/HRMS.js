@@ -10,6 +10,7 @@ function HRMS() {
                         <h5 className='text-center'>Nectar HRMS offers HR resource modules with exceptional features and an intuitive interface. It's easy to set up, configure and use.</h5>
                         <img className="img-fluid mt-5" src='\assets\images\Group 3011.png' />
                         <div className='title'>
+                            <div className='textheading'></div>
                             <p>Core HR</p>
                             <p>Performance Appraisal</p>
                             <p>Payroll</p>
