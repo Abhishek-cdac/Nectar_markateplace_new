@@ -2,7 +2,7 @@ import React from 'react'
 
 function Feature() {
     return (
-        <div className='container-fluid'>
+        <div className='container'>
             <div className='row mb-5 pt-5'>
                 <div className='col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12  text-white pt-5' style={{ background: "#08668F", }}>
                     <h1 className='text-center'>Features</h1>

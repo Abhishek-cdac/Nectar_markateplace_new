@@ -39,6 +39,19 @@ import NDatuFeatures from "./Components/NDatuFeatures";
 
 import Login from "./containers/Admin/AdLogin";
 import NectarCRMtabs from "./containers/NectarCRMtabs"
+import NectarHRMS from "./Components/NectarHRMS";
+import NectarGPS from "./Components/NectarGPS";
+import NerroTrac from "./Components/NerroTrac";
+import ITSMTool from "./Components/ITSMTool";
+import NDatu from "./Components/NDatu";
+import NectarHRMStab from "./Components/NectarHRMStab";
+import NectarGPSTracertab from './Components/NectarGPSTracertab'
+import NerroTractab from './Components/NerroTractab'
+import ITSMTooltab from "./Components/ITSMTooltab";
+import NDatutab from './Components/NDatutab'
+
+
+
 
 function App() {
   return (
@@ -50,6 +63,7 @@ function App() {
           <Route path="/register" element={<Register />} />
 
           <Route path="/products" element={<Products />} />
+          {/*Overview Page*/}
           <Route path="/gpsoverview" element={<GPSOverview />} />
           <Route path="/hrmsoverview" element={<HRMS />} />
           <Route path="/nt3overview" element={<NT3Overview />} />
@@ -58,6 +72,24 @@ function App() {
           <Route path="/ndatufeatures" element={<NDatuFeatures />} />
           <Route path="/feature" element={<Feature />} />
           <Route path="/gpsaccordian" element={<GPSAccordian />} />
+          {/*Header page*/}
+        
+      
+          <Route path="/ndatu" element={<NDatu
+            title="nDatu"
+            subtext1="It is web-based Task Management Tool. It is easily deployable to aid online product for task management with an extensive database."
+            item1="Reporting, Tracking, Assigning & Resolving tasks"
+            item2=" Real Time Tracking & Communication "
+            item3="Manage Multiple Clients"
+
+            heading="Get 2 months Free Subscription"
+            buttontext="Free Demo"
+            buttontext2="Buy Now"
+             />} />
+
+
+
+
           {/* <Route path="/login" element={<LoginPage />} /> */}
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
           <Route path="/productscreen" element={<Productscreen />} />
@@ -89,14 +121,22 @@ function App() {
           <Route path="/telecomeservices" element={<TelecomeServices />} />
           <Route path="/hostingservices" element={<HostingServices />} />
           <Route path="/modal" element={<Modal />} />
-          <Route path="nectarCRM" element={<NectarCRMtabs />} />
+          <Route path="/nectarcrmtab" element={<NectarCRMtabs />} />
+          <Route path="/nectarhrmstab" element={<NectarHRMStab/>} />
+          <Route path="/nectarcrmgpstracertab" element={<NectarGPSTracertab/>}/>
+          <Route path="/nerrotractab" element={<NerroTractab/>}></Route>
+          <Route path="/itsmtooltab" element={<ITSMTooltab/>}></Route>
+          <Route path="ndatutab" element={<NDatutab/>}></Route>
+    
+     
+   
           {/* Routes of Reseller */}
           <Route path="reseller" element={<SideNav />}>
             <Route path="" element={<PartnerDashboard />} />
           </Route>
 
           {/* Routes For Admin Part */}
-          <Route path="admin" element={<Login/>}/>
+          <Route path="admin" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </>
