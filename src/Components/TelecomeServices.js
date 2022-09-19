@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import dummyData from "../containers/Dummydata";
 import Card2 from "../Components/Header/card2";
 import Footer from "./Footer";
 import EnquiryForm from "./EnquiryForm";
+import HostingServices from "./HostingServices";
 
 function TelecomeServices() {
+  const [value, setValue] = useState(false);
+  const handleToggle = () => {
+    setValue(!value);
+    console.log("togglevalue", value);
+  };
   return (
     <>
       <div className="container mt-5">
@@ -48,8 +54,8 @@ function TelecomeServices() {
                   type="radio"
                   name="flexRadioDefault"
                   id="flexRadioDefault1"
-                  //   value={value}
-                  //   onChange={handleToggle}
+                  value={value}
+                  onChange={handleToggle}
                 />
                 <label class="form-check-label" for="flexRadioDefault1">
                   Products
@@ -63,8 +69,8 @@ function TelecomeServices() {
                   type="radio"
                   name="flexRadioDefault"
                   id="flexRadioDefault1"
-                  //   value={value}
-                  //   onChange={handleToggle}
+                  value={value}
+                  onChange={handleToggle}
                 />
                 <label class="form-check-label" for="flexRadioDefault1">
                   Hosting Services
@@ -75,6 +81,7 @@ function TelecomeServices() {
         </div>
         <div className="nectarproduct">
           <div className="row">
+          {/* <div>{!value ? <HostingServices /> : <Footer />}</div> */}
             <div className="col-lg-4">
               <div class="card text-center" style={{ borderRadius: "3px" }}>
                 <div class="card-body">
