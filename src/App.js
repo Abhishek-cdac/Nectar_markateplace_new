@@ -121,12 +121,13 @@ function App() {
           <Route path="/telecomeservices" element={<TelecomeServices />} />
           <Route path="/hostingservices" element={<HostingServices />} />
           <Route path="/modal" element={<Modal />} />
+          {/*All Tab*/}
           <Route path="/nectarcrmtab" element={<NectarCRMtabs />} />
           <Route path="/nectarhrmstab" element={<NectarHRMStab/>} />
           <Route path="/nectarcrmgpstracertab" element={<NectarGPSTracertab/>}/>
           <Route path="/nerrotractab" element={<NerroTractab/>}></Route>
           <Route path="/itsmtooltab" element={<ITSMTooltab/>}></Route>
-          <Route path="ndatutab" element={<NDatutab/>}></Route>
+          <Route path="/ndatutab" element={<NDatutab/>}></Route>
     
      
    

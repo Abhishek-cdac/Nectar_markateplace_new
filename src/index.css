@@ -168,7 +168,7 @@ a.navbar-brand {
 }
 
 p.card-text {
-  font-size: small;
+  font-size: smaller;
 }
 
 #landing_banner2 {
@@ -226,6 +226,12 @@ p .small_card {
 .landing_card2 h1{
   text-align: center;
   margin-bottom: 3%;
+}
+.Learn_card2 {
+  color:#f16728;
+  cursor: "pointer";
+  background: none;
+  border: none;
 }
 .landing_card3 {
   display: flex;
