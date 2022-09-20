@@ -12,11 +12,6 @@ import Notification from "./Components/Notification";
 import CRM from "./Components/CRM"
 import HRMS from "./Components/HRMS";
 import Products from "./Components/Products"
-
-
-
-
-
 import Cart from "./Components/Cart";
 import ForgetPassword from "./containers/ForgetPassword";
 import TelecomeServices from "./Components/TelecomeServices";
@@ -31,12 +26,6 @@ import NerroTracOverview from "./Components/NerroTracOverview";
 import NT3Overview from "./Components/NT3Overview";
 import NDatuOverview from "./Components/NDatuOverview";
 import NDatuFeatures from "./Components/NDatuFeatures";
-
-
-
-
-
-
 import Login from "./containers/Admin/AdLogin";
 import NectarCRMtabs from "./containers/NectarCRMtabs"
 import NectarHRMS from "./Components/NectarHRMS";
@@ -49,6 +38,12 @@ import NectarGPSTracertab from './Components/NectarGPSTracertab'
 import NerroTractab from './Components/NerroTractab'
 import ITSMTooltab from "./Components/ITSMTooltab";
 import NDatutab from './Components/NDatutab'
+import Navbar from './Components/Navbar'
+import ContactDetails from "./Components/ContactDetails";
+
+import Profile from "./Components/Profile";
+import Invoices from "./Components/Invoices";
+
 
 
 
@@ -61,8 +56,13 @@ function App() {
           <Route path="/" element={<Landingpage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
-
           <Route path="/products" element={<Products />} />
+          <Route path="/navbar" element={<Navbar/>}></Route>
+          <Route path="/invoices" element={<Invoices/>}></Route>
+          <Route path="/contactdetails" element={< ContactDetails/>}></Route>
+    
+          <Route path="/profile" element={<Profile/>}></Route>
+  
           {/*Overview Page*/}
           <Route path="/gpsoverview" element={<GPSOverview />} />
           <Route path="/hrmsoverview" element={<HRMS />} />
@@ -73,48 +73,14 @@ function App() {
           <Route path="/feature" element={<Feature />} />
           <Route path="/gpsaccordian" element={<GPSAccordian />} />
           {/*Header page*/}
-        
-      
-          <Route path="/ndatu" element={<NDatu
-            title="nDatu"
-            subtext1="It is web-based Task Management Tool. It is easily deployable to aid online product for task management with an extensive database."
-            item1="Reporting, Tracking, Assigning & Resolving tasks"
-            item2=" Real Time Tracking & Communication "
-            item3="Manage Multiple Clients"
-
-            heading="Get 2 months Free Subscription"
-            buttontext="Free Demo"
-            buttontext2="Buy Now"
-             />} />
-
-
-
-
+          <Route path="/ndatu" element={<NDatu/>} />
           {/* <Route path="/login" element={<LoginPage />} /> */}
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
           <Route path="/productscreen" element={<Productscreen />} />
-
-
           <Route path="/nectarcrmreview" element={<NectarCRMReview />} />
-
-
-
-
           <Route path="/notification" element={<Notification />}></Route>
           <Route path="/review" element={<CRMReview />}></Route>
-          <Route path="/crm" element={<CRM
-            title="Nectar CRM"
-            subtext1="The easy to use and customizable CRM for your Marketing, Sales,
-            & Customer Service Teams."
-            item1="Better Sales Performance"
-            item2="Increased Profitability & Efficiency "
-            item3="CRM Improves Your Customer Service"
-            heading="Get 2 months Free Subscription"
-            buttontext="Free Demo"
-            buttontext2="Buy Now"
-          />} />
-
-
+          <Route path="/crm" element={<CRM/>} />
           <Route path="/productscreen" element={<Productscreen />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/forgetpassword" element={<ForgetPassword />} />
@@ -123,19 +89,15 @@ function App() {
           <Route path="/modal" element={<Modal />} />
           {/*All Tab*/}
           <Route path="/nectarcrmtab" element={<NectarCRMtabs />} />
-          <Route path="/nectarhrmstab" element={<NectarHRMStab/>} />
-          <Route path="/nectarcrmgpstracertab" element={<NectarGPSTracertab/>}/>
-          <Route path="/nerrotractab" element={<NerroTractab/>}></Route>
-          <Route path="/itsmtooltab" element={<ITSMTooltab/>}></Route>
-          <Route path="/ndatutab" element={<NDatutab/>}></Route>
-    
-     
-   
+          <Route path="/nectarhrmstab" element={<NectarHRMStab />} />
+          <Route path="/nectarcrmgpstracertab" element={<NectarGPSTracertab />} />
+          <Route path="/nerrotractab" element={<NerroTractab />}></Route>
+          <Route path="/itsmtooltab" element={<ITSMTooltab />}></Route>
+          <Route path="/ndatutab" element={<NDatutab />}></Route>
           {/* Routes of Reseller */}
           <Route path="reseller" element={<SideNav />}>
             <Route path="" element={<PartnerDashboard />} />
           </Route>
-
           {/* Routes For Admin Part */}
           <Route path="admin" element={<Login />} />
         </Routes>
