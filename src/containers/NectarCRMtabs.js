@@ -7,7 +7,7 @@ import CRM from "../Components/CRM";
 const NectarCRMtabs = () => {
   return (
     <>
-      {/* <div className="container"> */}
+      <div className="container-fluid">
         <div className="row ">
           <CRM
             title="Nectar CRM"
@@ -118,7 +118,7 @@ const NectarCRMtabs = () => {
             </div>
           </div>
         </div>
-      {/* </div> */}
+      </div>
     </>
   );
 };

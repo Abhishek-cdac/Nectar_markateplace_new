@@ -17,6 +17,8 @@ import Login from "./containers/Admin/AdLogin";
 import NectarCRMtabs from "./containers/NectarCRMtabs"
 import Resources from "./Components/Resources";
 import Settings from "./Components/Settings";
+import PricingCard from "./Components/PricingCard"
+import PriceFiltering from "./Components/PriceFiltering";
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
           <Route path="/setting" element={<Settings />} />
           <Route path="/modal" element={<Modal />} />
           <Route path="nectarCRM" element={<NectarCRMtabs />} />
+          <Route path="pricing" element={<PricingCard />} />
+          <Route path="filtering" element={<PriceFiltering />} />
           {/* Routes of Reseller */}
           <Route path="reseller" element={<SideNav />}>
           <Route path="" element={<PartnerDashboard />} />

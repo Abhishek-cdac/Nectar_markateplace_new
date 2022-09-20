@@ -1161,9 +1161,10 @@ color: #474747;
 background-color: #f16728;
 color: #fff;
 border: #f16728;
-border-radius: 10%;
+border-radius: 7px;
 padding: 10px;
-width: 100px;
+width: 200px;
+margin-bottom: 7%;
 
 }
 
