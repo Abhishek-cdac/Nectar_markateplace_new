@@ -107,7 +107,7 @@ function Productscreen() {
           </div>
         </div>
       </div>
-      <ProductsFooter />
+  
     </div>
   );
 }

@@ -4,11 +4,21 @@ import NectarCRMpricesubs from "./NectarCRMpricesubs";
 import Productscreen from "../Components/productScreen";
 import NectarCRMReview from "../Components/NectarCRMReview";
 import CRM from "../Components/CRM";
+import ProductsFooter from "../Components/productsFooter";
+import Card2 from "../Components/Header/card2";
+
+import Header2 from "../Components/Header/Header2";
+import Footer from "../Components/Footer";
+
+
+
+
 const NectarCRMtabs = () => {
   return (
     <>
       {/* <div className="container"> */}
         <div className="row ">
+          <Header2/>
           <CRM
             title="Nectar CRM"
             subtext1="The easy to use and customizable CRM for your Marketing, Sales,
@@ -117,8 +127,11 @@ const NectarCRMtabs = () => {
               <NectarCRMpricesubs />
             </div>
           </div>
+  
         </div>
-      {/* </div> */}
+        <ProductsFooter />
+  {/* </div> */}
+
     </>
   );
 };

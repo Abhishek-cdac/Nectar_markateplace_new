@@ -1,8 +1,9 @@
 import React from 'react'
-function CRM({ title, subtext1, buttontext2, buttontext, heading, item1, item2, item3 }) {
-    return (
-        <>
-            <section className='backgroundimage-CRM'>
+
+function NectarHRMS({ title, subtext1, buttontext2, buttontext, heading, item1, item2, item3 }) {
+  return (
+    <>
+         <section className='backgroundimage-hrms'>
                 <div className='container pt-5'>
                     <div className='row '>
                         <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6'>
@@ -20,10 +21,10 @@ function CRM({ title, subtext1, buttontext2, buttontext, heading, item1, item2, 
                     </div>
                     </div>
             </section>
-        </>
+     
+    </>
 
-
-    )
+  )
 }
 
-export default CRM
+export default NectarHRMS
