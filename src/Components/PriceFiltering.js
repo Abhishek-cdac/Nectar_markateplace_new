@@ -1,4 +1,6 @@
 import React from "react";
+import MultirangeSlider from "./multiRangeSlider";
+import "./multiRangeSlider.css";
 
 function PriceFiltering() {
   return (
@@ -10,8 +12,8 @@ function PriceFiltering() {
               sort <sup className="sup-head">Filter By</sup>
             </h2>
 
-            <div>
-              <h6 className="pt-5">Choose your prefferd plan</h6>
+            <div className="mt-5">
+              <h6>Choose your prefferd plan</h6>
               <input type="checkbox" id="plan1" name="plan1" />
               <label for="plan1" style={{ marginLeft: "10px" }}>
                 {" "}
@@ -32,23 +34,53 @@ function PriceFiltering() {
               <br />
               <br />
               <h6>Choose Prefferd Users</h6>
-              <span>
+              <MultirangeSlider />
+              <div className="mt-4 mb-4">
                 <label
                   style={{
                     border: "1px solid",
-                    padding: "10px",
-                    width: "70px",
-                    height: "45px",
+                    padding: "7px",
+                    width: "56px",
+                    height: "38px",
                   }}
                   for="html"
                 >
                   User
                 </label>
-                <p>To</p>
-              </span>
+                <span>&nbsp;&nbsp;To&nbsp;&nbsp;</span>
+                <span>
+                  {" "}
+                  <label
+                    style={{
+                      border: "1px solid",
+                      padding: "7px",
+                      width: "56px",
+                      height: "38px",
+                    }}
+                    for="html"
+                  >
+                    User
+                  </label>
+                </span>
+                <span>
+                  <button
+                    style={{
+                      marginLeft: "10px",
+                      backgroundColor: "#F16727",
+                      color: "#fff",
+                      border: "none",
+                      height: "38px",
+                      width: "38px",
+                    }}
+                  >
+                    Go
+                  </button>
+                </span>
+              </div>
 
-              <h6>Choose Price Range</h6>
-              <div>
+              <h6 className="mt-3">Choose Price Range</h6>
+              <MultirangeSlider />
+              <div className="mt-4">
                 <h6>Choose with Rating</h6>
                 <div>
                   <input type="checkbox" id="plan1" name="plan1" />
