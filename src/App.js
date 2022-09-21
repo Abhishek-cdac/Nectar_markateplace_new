@@ -17,6 +17,7 @@ import Login from "./containers/Admin/AdLogin";
 import NectarCRMtabs from "./containers/NectarCRMtabs"
 import Resources from "./Components/Resources";
 import Settings from "./Components/Settings";
+import Profile from "./containers/Profile";
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
           <Route path="reseller" element={<SideNav />}>
           <Route path="" element={<PartnerDashboard />} />
           </Route>
-
+          <Route path="profile"  element={<Profile />}/>
           {/* Routes For Admin Part */}
           <Route path="admin" element={<Login/>}/>
         </Routes>
