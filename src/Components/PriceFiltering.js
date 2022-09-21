@@ -80,6 +80,48 @@ function PriceFiltering() {
 
               <h6 className="mt-3">Choose Price Range</h6>
               <MultirangeSlider />
+              <div className="mt-4 mb-4">
+                <label
+                  style={{
+                    border: "1px solid",
+                    padding: "7px",
+                    width: "56px",
+                    height: "38px",
+                  }}
+                  for="html"
+                >
+                  $ abc
+                </label>
+                <span>&nbsp;&nbsp;To&nbsp;&nbsp;</span>
+                <span>
+                  {" "}
+                  <label
+                    style={{
+                      border: "1px solid",
+                      padding: "7px",
+                      width: "56px",
+                      height: "38px",
+                    }}
+                    for="html"
+                  >
+                    $ abc
+                  </label>
+                </span>
+                <span>
+                  <button
+                    style={{
+                      marginLeft: "10px",
+                      backgroundColor: "#F16727",
+                      color: "#fff",
+                      border: "none",
+                      height: "38px",
+                      width: "38px",
+                    }}
+                  >
+                    Go
+                  </button>
+                </span>
+              </div>
               <div className="mt-4">
                 <h6>Choose with Rating</h6>
                 <div>

@@ -18,10 +18,16 @@
 
 .multi-range-slider .bar-left {
     background-color: #0000004A;
+    border-radius: 0%;
+    box-shadow: none;
+    height: 7px;
 }
 
 .multi-range-slider .bar-right {
     background-color: #0000004A;
+    border-radius: 0%;
+    box-shadow: none;
+    height: 7px;
 }
 
 .multi-range-slider .bar-inner-left {
