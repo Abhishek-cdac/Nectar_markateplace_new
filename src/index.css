@@ -21,6 +21,7 @@ code {
 .Logo {
   display: flex;
 }
+
 .header_logo {
   width: 44px;
   height: 44px;
@@ -30,6 +31,7 @@ a.navbar-brand {
   /* line-height: 40px !important; */
   padding-left: 5px;
 }
+
 .verticalLine_header {
   border-right: "1px solid black";
   height: 25px;
@@ -113,6 +115,7 @@ a.navbar-brand {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
 .p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -166,7 +169,7 @@ a.navbar-brand {
 }
 
 p.card-text {
-  font-size: small;
+  font-size: smaller;
 }
 
 #landing_banner2 {
@@ -225,6 +228,12 @@ p .small_card {
   text-align: center;
   margin-bottom: 3%;
 }
+.Learn_card2 {
+  color:#f16728;
+  cursor: "pointer";
+  background: none;
+  border: none;
+}
 .landing_card3 {
   display: flex;
   flex-direction: column;
@@ -235,6 +244,9 @@ p .small_card {
   text-align: center;
   margin-bottom: 3%;
 }
+
+
+
 
 
 /*Review Form*/
@@ -248,15 +260,19 @@ p .small_card {
   border: 0.5px solid grey;
   margin-top: 4%;
 }
+
 .testimonal_heading {
   text-align: center;
   margin-top: 2%;
 }
+
 .testimonalInput {
   background-color: #1291c9;
-  border: 10px solid #fff;
-  border-radius: 15px;
+  border:  #1291c9;
+  margin-top: 10px;
+  border-radius: 7px;
 }
+
 .form-group ::placeholder {
   color: #fff !important;
 }
@@ -268,10 +284,12 @@ p .small_card {
   border-radius: 10px;
   margin-top: 2%;
 }
+
 .form-testimonal {
   display: inline-block;
   text-align: -webkit-center;
   margin-top: 2%;
+  border: #238ae6;
 }
 
 /* Toggle  FAQ*/
@@ -355,6 +373,28 @@ p .small_card {
 .backgroundimage-CRM {
   background: url(/public/assets/images/Group\ 3001.png);
 }
+.backgroundimage-hrms{
+  background: url(/public/assets/images/hrms.png);
+
+}
+.backgroundimage-GPS-Tracer{
+  background: url(/public/assets/images/GPS-Tracer.png);
+
+}
+.backgroundimage-Nerro-Trac{
+  background: url(/public/assets/images/Nerro-Trac.png);
+
+}
+.backgroundimage-ITSMTool{
+  background: url(/public/assets/images/NT3-ITSMTool.png);
+
+}
+.backgroundimage-nDatu{
+  background: url(/public/assets/images/nDatu.png);
+
+}
+
+
 
 /* Review Slider */
 .ReviewHeading {
@@ -363,18 +403,22 @@ p .small_card {
   margin-bottom: 0;
   padding-bottom: 27px;
 }
+
 .ReviewHeading p {
   font-size: 0.8rem;
 }
+
 .carousel-caption {
   position: absolute;
   top: -10%;
   left: 30%;
 }
+
 .carousel-indicators {
   bottom: -40%;
   /* left:60%; */
 }
+
 .carousel-indicators [data-bs-target] {
   border-radius: 50%;
   height: 10px;
@@ -392,6 +436,7 @@ p .small_card {
   margin-right: -29px;
   height: 695px;
 }
+
 .loginleftsection h1 {
   text-align: center;
   color: #FFFFFF;
@@ -400,6 +445,7 @@ p .small_card {
   padding-right: 20px;
   margin-top: 110px;
 }
+
 .loginleftsection p {
   text-align: center;
   color: #FFFFFF;
@@ -407,67 +453,74 @@ p .small_card {
   padding-right: 20px;
 }
 
-.loginrightsection{
+.loginrightsection {
   background-color: #FFFFFF;
   height: 695px;
   margin-top: 110px;
   margin-bottom: 110px;
   
 }
+
 .loginrightsection a {
   color: #238ae6;
   display: inline-block !important;
 }
+
 .signinform {
   padding-left: 60px;
   padding-top: 60px;
 }
+
 .signinform1 {
   padding-left: 60px;
 }
+
 .login input {
   outline: 0;
   border-width: 0 0 1px;
   border-color: gray;
   width: 80%;
 }
+
 .forgotpassword {
   padding-right: 95px;
 }
 
-.submitbtn{
+.submitbtn {
   padding-left: 136px;
   padding-right: 136px;
 }
-.icon{
+
+.icon {
   text-align: center;
 }
 
 /* Registration css */
-.registrationform1{
+.registrationform1 {
   padding-left: 60px;
 }
 
-.registrationleftsection{
+.registrationleftsection {
   background: url(/public/assets/images/loginleftimage.png);
   margin-right: -29px;
   height: 735px;
 }
 
-.registrationleftsection h1{
+.registrationleftsection h1 {
   text-align: center;
   color: #FFFFFF;
   padding-top: 170px;
   margin-top: 110px;
 }
-.registrationleftsection p{
+
+.registrationleftsection p {
   text-align: center;
   color: #FFFFFF;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.registrationrightsection{
+.registrationrightsection {
   background-color: #FFFFFF;
   height: 735px;
   margin-top: 110px;
@@ -478,14 +531,12 @@ p .small_card {
   color: #238ae6;
   display: inline-block;
 }
-.forgotpassword {
-  padding-right: 95px;
-}
 
-/* Become a nectar css */
+/*Nectar CRM review Rating pattern*/
+.review_backgraound {
 
-.formhead1 {
-  padding-right: 1100px;
+  background: #EFE8E8 0% 0% no-repeat padding-box;
+  height: 500%;
 }
 
 .labelhead {
@@ -781,180 +832,74 @@ p .product-banner-content {
 }
 
 
-#layoutError {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-#layoutError #layoutError_content {
-  min-width: 0;
-  flex-grow: 1;
-}
-#layoutError #layoutError_footer {
-  min-width: 0;
+.vertical-line{
+  border-right: 1px solid gray;
+  height: 350px;
+
 }
 
-.img-error {
-  max-width: 20rem;
+.checked {
+  color: #FF9900;
+
 }
 
-.nav .nav-link .sb-nav-link-icon,
-.sb-sidenav-menu .nav-link .sb-nav-link-icon {
-  margin-right: 0.5rem;
-}
-
-.sb-topnav {
-  padding-left: 0;
-  height: 80px;
-  z-index: 1039;
-}
-.sb-topnav .navbar-brand {
-  width: 225px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: 0;
-}
-.sb-topnav.navbar-dark #sidebarToggle {
-  color: rgba(255, 255, 255, 0.5);
-}
-.sb-topnav.navbar-light #sidebarToggle {
-  color: #212529;
-}
-
-.sb-sidenav {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  flex-wrap: nowrap;
-}
-.sb-sidenav .sb-sidenav-menu {
-  flex-grow: 1;
-}
-.sb-sidenav .sb-sidenav-menu .nav {
-  flex-direction: column;
-  flex-wrap: nowrap;
-}
-.sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-heading {
-  padding: 1.75rem 1rem 0.75rem;
-  font-size: 0.75rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-.sb-sidenav .sb-sidenav-menu .nav .nav-link {
-  display: flex;
-  align-items: center;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  position: relative;
-  color: #ffffff;
-  font-family: sans-serif;
-  justify-content: space-between;
-  padding: 20px 25px;
-}
-
-.sb-sidenav .sb-sidenav-menu .nav .nav-link .Nav-label {
-  margin-top: 1rem;
-}
-
-.sb-sidenav .sb-sidenav-menu .nav .nav-link .Nav-label-toggled {
-  display:none
-}
-.sb-sidenav .sb-sidenav-menu .nav .nav-link .icon-toggled {
+.star_icon {
   font-size: xx-large;
+  color: #D4D3D1
 }
 
-.sb-sidenav .sb-sidenav-menu .nav .nav-link .icon {
-  font-size:larger;
+/*Review*/
+
+.review_title {
+  margin-top: -60px;
+  margin-left: 80px;
 }
 
-.sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-nav-link-icon {
-  font-size: 0.9rem;
-}
-.sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-sidenav-collapse-arrow {
-  display: inline-block;
-  margin-left: auto;
-  transition: transform 0.15s ease;
-}
-.sb-sidenav
-  .sb-sidenav-menu
-  .nav
-  .nav-link.collapsed
-  .sb-sidenav-collapse-arrow {
-  transform: rotate(-90deg);
-}
-.sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-nested {
-  margin-left: 1.5rem;
-  flex-direction: column;
-}
-.sb-sidenav .sb-sidenav-footer {
-  padding: 0.75rem;
-  flex-shrink: 0;
+
+
+.review_adress {
+  margin-left: 80px;
+  margin-top: -10px;
 }
 
-.sb-sidenav-dark {
-  /* background-color:var(--primary); */
-  background-color: #1291c9;
-  color: #fff;
+.review_star {
+  margin-left: 70px;
+  margin-top: -20px;
+
 }
 
-.sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading {
-  color: rgba(255, 255, 255, 0.25);
-}
-.sb-sidenav-dark .sb-sidenav-menu .nav-link {
-  color: #434343;
-}
-.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {
-  color: rgba(255, 255, 255, 0.25);
-}
-/* .sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
-  color: rgba(255, 255, 255, 0.25);
-} */
-.sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
-  color: #fff;
-  background: #002e5e;
-}
-.sb-sidenav-dark .sb-sidenav-menu .nav-link.active {
-  color: #fff;
-  background: #002e5e;
-}
-.sb-sidenav-dark .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {
-  color: #fff;
-}
-.sb-sidenav-dark .sb-sidenav-footer {
-  background-color: #343a40;
+/*Notification Modal*/
+.notification_day {
+  color: rgb(8, 102, 143);
+  position: absolute;
+  right: 14px;
+  top: 46px;
+
+
 }
 
-button#sidebarToggle {
-  color: #fff;
+.notification_time {
+  position: absolute;
+  left: 100px;
+  bottom: 2px;
+  font-size: 10px;
+
 }
-.sb-sidenav-light {
-  background-color: #f8f9fa;
-  color: #212529;
+
+.notification_user {
+  position: absolute;
+  left: 100px;
+  top: 30px;
 }
-.sb-sidenav-light .sb-sidenav-menu .sb-sidenav-menu-heading {
-  color: #adb5bd;
+
+/*Netar CRM page */ 
+.backgroundimage-CRM {
+  background: url(/public/assets/images/Group\ 3001.png);
+  height: 100%;
 }
-.sb-sidenav-light .sb-sidenav-menu .nav-link {
-  color: #212529;
-}
-.sb-sidenav-light .sb-sidenav-menu .nav-link .sb-nav-link-icon {
-  color: #adb5bd;
-}
-.sb-sidenav-light .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
-  color: #adb5bd;
-}
-.sb-sidenav-light .sb-sidenav-menu .nav-link:hover {
-  color: #007bff;
-}
-.sb-sidenav-light .sb-sidenav-menu .nav-link.active {
-  color: #007bff;
-}
-.sb-sidenav-light .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {
-  color: #007bff;
-}
-.sb-sidenav-light .sb-sidenav-footer {
-  background-color: #e9ecef;
-}
+
+
+
 
 .footer{
   /* position: fixed; */
@@ -1113,6 +1058,129 @@ color: #474747;
  color: white;
 }
 
+/*HRMS*/
+.title P{
+  display: inline-block;
+
+  padding-left: 4%;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 1199px) {
+  .title p {
+    display: inline-block;
+
+    padding-left: 2%;
+    text-align: center;
+
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .title p {
+    display: inline-block;
+
+    padding-left: 2%;
+    text-align: center;
+    font-size: 12px;
+
+  }
+}
+@media only screen and (max-width: 767px) {
+  .title p {
+    display: inline-block;
+
+   
+    text-align: center;
+    font-size: 9px;
+
+
+  }
+}
+@media only screen and (max-width: 531px) {
+  .title p {
+    display: inline-block;
+
+   
+    text-align: center;
+    font-size: 8px;
+    padding-left: 3%;
+
+
+  }
+}
+@media only screen and (max-width: 531px) {
+  .title p {
+    display: inline-block;
+
+   
+    text-align: center;
+    font-size: 9px;
+    padding-left: 1%;
+
+
+  }
+}
+@media only screen and (max-width: 494px) {
+  .title p {
+    display: inline-block;
+
+   
+    text-align: center;
+    font-size:  9px;
+    padding-left: 2px;
+
+
+
+  }
+}
+@media only screen and (max-width: 475px) {
+  .title p {
+    display: inline-block;
+
+   
+    text-align: center;
+    font-size:  9px;
+    padding-left: 1px;
+
+
+
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .title p {
+    display: inline-block;
+
+   
+    text-align: center;
+    font-size:  6px;
+    padding-left:  2%;
+   
+
+
+
+  }
+}
+
+
+
+
+
+
+
+
+
+.line{
+  border-right: 2px solid white;
+  height: 300px;
+}
+li::marker 
+{
+    font-size: 2rem;
+    font-weight: bolder;
+}
 /* Barkha  */
 
 /* *{
