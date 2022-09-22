@@ -1,9 +1,10 @@
 import React from 'react'
+import Form from './Form'
 
 function HRMS() {
     return (
         <>
-            <div className='container'>
+          
                 <div className='row'>
                     <div className='col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 '>
                         <h1 className='text-center'>Explore Our Top Features</h1>
@@ -21,7 +22,8 @@ function HRMS() {
                         </div>
                     </div>
                 </div>
-            </div>
+                <Form/>
+        
 
         </>
 

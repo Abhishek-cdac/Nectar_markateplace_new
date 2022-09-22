@@ -83,11 +83,11 @@ const Profile = () => {
             </div>
           </div>
          
-            <div className="col-md-4" style={{ justifyContent: "center"  }}>
+            <div className="col-md-6" style={{ justifyContent: "center"  }}>
               <div className="form-group text-center img_upload">
                 <img
                   id="profile"
-                  style={{ maxwidth: "10%", borderRadius: "50%" }}
+                  style={{ maxwidth: "10%", borderRadius: "50%",height:"120px"}}
                   src=""
                   //   {
                   //     userData.profile_img
@@ -101,7 +101,7 @@ const Profile = () => {
                   className=""
                   style={{ marginTop: "-15px", cursor: "pointer" }}
                 >
-                  <i className="fas fa-camera bg-info p-2 rounded-circle text-white"></i>
+                  <i className="fas fa-camera bg-info p-2 rounded-circle text-white "></i>
                   <br />
                   <input
                     id="file"
@@ -122,7 +122,7 @@ const Profile = () => {
                 className="p-3 mb-5 bg-white rounded"
                 style={{ marginTop: "30px" }}
               >
-                <h5>Personal Details</h5>
+                <h4 className="text-center mb-5">Personal Details</h4>
                 <div className="col-md-12">
                   <form className="mx-5">
                     <div className="row mb-3">
@@ -315,9 +315,10 @@ const Profile = () => {
                     </div>
                     <div className="d-grid gap-2 mt-5 mb-3">
                       <button
-                        variant="btn btn-primary"
+                      className="bg-primary p-2"
+                     
                         size="lg"
-                        style={{ width: "100%" }}
+                        style={{ width: "100%",border:"none", color:"white" }}
                         onClick={() => handleEditProfile()}
                       >
                         Update Profile

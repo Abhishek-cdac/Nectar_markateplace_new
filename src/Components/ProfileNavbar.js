@@ -7,6 +7,8 @@ import Invoices from './Invoices'
 
 
 function Navbar() {
+
+
     return (
         <div className="container">
             <ul class="nav nav-pills navtabs mb-3" id="pills-tab" role="tablist">

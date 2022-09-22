@@ -38,11 +38,14 @@ import NectarGPSTracertab from './Components/NectarGPSTracertab'
 import NerroTractab from './Components/NerroTractab'
 import ITSMTooltab from "./Components/ITSMTooltab";
 import NDatutab from './Components/NDatutab'
-import Navbar from './Components/Navbar'
+import ProfileNavbar from './Components/ProfileNavbar'
+
 import ContactDetails from "./Components/ContactDetails";
 
 import Profile from "./Components/Profile";
 import Invoices from "./Components/Invoices";
+import Form from "./Components/Form";
+import GetProduct from "./Components/GetProduct";
 
 
 
@@ -57,9 +60,11 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/navbar" element={<Navbar/>}></Route>
+          <Route path="/navbar" element={<ProfileNavbar/>}></Route>
           <Route path="/invoices" element={<Invoices/>}></Route>
           <Route path="/contactdetails" element={< ContactDetails/>}></Route>
+          <Route path="/form" element={<Form/>}></Route>
+          <Route path="/getproduct" element={<GetProduct/>}></Route>
     
           <Route path="/profile" element={<Profile/>}></Route>
   
