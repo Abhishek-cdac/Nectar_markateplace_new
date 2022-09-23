@@ -259,8 +259,8 @@ p .small_card {
 }
 .testimonalInput {
   background-color: #1291c9;
-  border: 10px solid #fff;
-  border-radius: 15px;
+  /* border: 10px solid #fff; */
+  border-radius: 10px;
 }
 .form-group ::placeholder {
   color: #fff !important;
@@ -1049,6 +1049,9 @@ button#sidebarToggle {
 .panel{
   padding: 20%;
 }
+.panel-body1 {
+  padding-top:5%;
+}
 .panel-body{
   background: url(/public/assets/images/loginleftimage.png);
   background-repeat: no-repeat;
@@ -1056,6 +1059,7 @@ button#sidebarToggle {
   padding-right: 30%;
   padding-top: 3%;
   padding-bottom: 3%;
+  opacity:0.8;
 }
 .panel-body h3{
   margin-top: 10%;

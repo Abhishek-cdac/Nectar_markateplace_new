@@ -14,7 +14,11 @@ import Modal from "./Components/Header/Modal";
 import SideNav from "./Components/SideNav";
 import PartnerDashboard from "./containers/partnerDashboard";
 import Login from "./containers/Admin/AdLogin";
-import NectarCRMtabs from "./containers/NectarCRMtabs"
+import PartnerLanding from "./containers/partnerLanding";
+import NectarCRMtabs from "./containers/NectarCRMtabs";
+import AdLanding from "./containers/Admin/AdLanding";
+import Adcard from "./Components/Admin/Adcard";
+import Ex from "./ex";
 
 function App() {
   return (
@@ -26,7 +30,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           {/* <Route path="/login" element={<LoginPage />} /> */}
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
-          <Route path="/productscreen" element={<Productscreen/>}/>
+          <Route path="/productscreen" element={<Productscreen />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/forgetpassword" element={<ForgetPassword />} />
           <Route path="/telecomeservices" element={<TelecomeServices />} />
@@ -34,16 +38,18 @@ function App() {
           <Route path="/modal" element={<Modal />} />
           <Route path="nectarCRM" element={<NectarCRMtabs />} />
           {/* Routes of Reseller */}
-          <Route path="reseller" element={<SideNav />}>
-          <Route path="" element={<PartnerDashboard />} />
+          <Route path="partner" element={<PartnerLanding />}>
+            <Route path="" element={<PartnerDashboard />} />
           </Route>
 
           {/* Routes For Admin Part */}
-          <Route path="admin" element={<Login/>}/>
+          <Route path="/admin/login" element={<Login />} />
+          <Route path="/admin" element={<AdLanding />}>
+            <Route path="ex" element={<Ex />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
-
   );
 }
 
