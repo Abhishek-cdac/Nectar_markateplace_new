@@ -268,6 +268,8 @@ p .small_card {
 
 .testimonalInput {
   background-color: #1291c9;
+  /* border: 10px solid #fff; */
+  border-radius: 10px;
   border:  #1291c9;
   margin-top: 10px;
   border-radius: 7px;
@@ -832,6 +834,181 @@ p .product-banner-content {
 }
 
 
+#layoutError {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+#layoutError #layoutError_content {
+  min-width: 0;
+  flex-grow: 1;
+}
+#layoutError #layoutError_footer {
+  min-width: 0;
+}
+
+.img-error {
+  max-width: 20rem;
+}
+
+.nav .nav-link .sb-nav-link-icon,
+.sb-sidenav-menu .nav-link .sb-nav-link-icon {
+  margin-right: 0.5rem;
+}
+
+.sb-topnav {
+  padding-left: 0;
+  height: 80px;
+  z-index: 1039;
+}
+.sb-topnav .navbar-brand {
+  width: 225px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0;
+}
+.sb-topnav.navbar-dark #sidebarToggle {
+  color: rgba(255, 255, 255, 0.5);
+}
+.sb-topnav.navbar-light #sidebarToggle {
+  color: #212529;
+}
+
+.sb-sidenav {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex-wrap: nowrap;
+}
+.sb-sidenav .sb-sidenav-menu {
+  flex-grow: 1;
+}
+.sb-sidenav .sb-sidenav-menu .nav {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-heading {
+  padding: 1.75rem 1rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.sb-sidenav .sb-sidenav-menu .nav .nav-link {
+  display: flex;
+  align-items: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  position: relative;
+  color: #ffffff;
+  font-family: sans-serif;
+  justify-content: space-between;
+  padding: 20px 25px;
+}
+
+.sb-sidenav .sb-sidenav-menu .nav .nav-link .Nav-label {
+  margin-top: 1rem;
+}
+
+.sb-sidenav .sb-sidenav-menu .nav .nav-link .Nav-label-toggled {
+  display:none
+}
+.sb-sidenav .sb-sidenav-menu .nav .nav-link .icon-toggled {
+  font-size: xx-large;
+}
+
+.sb-sidenav .sb-sidenav-menu .nav .nav-link .icon {
+  font-size:larger;
+}
+
+.sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-nav-link-icon {
+  font-size: 0.9rem;
+}
+.sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-sidenav-collapse-arrow {
+  display: inline-block;
+  margin-left: auto;
+  transition: transform 0.15s ease;
+}
+.sb-sidenav
+  .sb-sidenav-menu
+  .nav
+  .nav-link.collapsed
+  .sb-sidenav-collapse-arrow {
+  transform: rotate(-90deg);
+}
+.sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-nested {
+  margin-left: 1.5rem;
+  flex-direction: column;
+}
+.sb-sidenav .sb-sidenav-footer {
+  padding: 0.75rem;
+  flex-shrink: 0;
+}
+
+.sb-sidenav-dark {
+  /* background-color:var(--primary); */
+  background-color: #1291c9;
+  color: #fff;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading {
+  color: rgba(255, 255, 255, 0.25);
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link {
+  color: #434343;
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {
+  color: rgba(255, 255, 255, 0.25);
+}
+/* .sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
+  color: rgba(255, 255, 255, 0.25);
+} */
+.sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
+  color: #fff;
+  background: #002e5e;
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link.active {
+  color: #fff;
+  background: #002e5e;
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {
+  color: #fff;
+}
+.sb-sidenav-dark .sb-sidenav-footer {
+  background-color: #343a40;
+}
+
+button#sidebarToggle {
+  color: #fff;
+}
+.sb-sidenav-light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+.sb-sidenav-light .sb-sidenav-menu .sb-sidenav-menu-heading {
+  color: #adb5bd;
+}
+.sb-sidenav-light .sb-sidenav-menu .nav-link {
+  color: #212529;
+}
+.sb-sidenav-light .sb-sidenav-menu .nav-link .sb-nav-link-icon {
+  color: #adb5bd;
+}
+.sb-sidenav-light .sb-sidenav-menu .nav-link .sb-sidenav-collapse-arrow {
+  color: #adb5bd;
+}
+.sb-sidenav-light .sb-sidenav-menu .nav-link:hover {
+  color: #007bff;
+}
+.sb-sidenav-light .sb-sidenav-menu .nav-link.active {
+  color: #007bff;
+}
+.sb-sidenav-light .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {
+  color: #007bff;
+}
+.sb-sidenav-light .sb-sidenav-footer {
+  background-color: #e9ecef;
+}
+
 .vertical-line{
   border-right: 1px solid gray;
   height: 350px;
@@ -989,6 +1166,9 @@ p .product-banner-content {
 .panel{
   padding: 20%;
 }
+.panel-body1 {
+  padding-top:5%;
+}
 .panel-body{
   background: url(/public/assets/images/loginleftimage.png);
   background-repeat: no-repeat;
@@ -996,6 +1176,7 @@ p .product-banner-content {
   padding-right: 30%;
   padding-top: 3%;
   padding-bottom: 3%;
+  opacity:0.8;
 }
 .panel-body h3{
   margin-top: 10%;
