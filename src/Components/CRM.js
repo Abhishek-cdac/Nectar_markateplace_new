@@ -1,4 +1,5 @@
 import React from 'react'
+import "./CRM.css"
 function CRM({ title, subtext1, buttontext2, buttontext, heading, item1, item2, item3 }) {
     return (
         <>

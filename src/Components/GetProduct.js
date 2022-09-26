@@ -1,4 +1,5 @@
 import React from "react";
+import "./GetProduct.css"
 import DummydataGetproduct from "../containers/DummydataGetproduct";
 
 function GetProduct() {

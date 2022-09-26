@@ -1,0 +1,26 @@
+/*Notification Modal*/
+.notification_day {
+    color: rgb(8, 102, 143);
+    position: absolute;
+    right: 14px;
+    top: 46px;
+  
+  
+  }
+  
+  .notification_time {
+    position: absolute;
+    left: 100px;
+    bottom: 2px;
+    font-size: 10px;
+  
+  }
+  
+  .notification_user {
+    position: absolute;
+    left: 100px;
+    top: 30px;
+  }
+  
+  
+  

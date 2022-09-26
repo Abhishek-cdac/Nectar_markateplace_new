@@ -551,11 +551,7 @@ p .small_card {
 }
 
 /*Nectar CRM review Rating pattern*/
-.review_backgraound {
 
-  background: #EFE8E8 0% 0% no-repeat padding-box;
-  height: 500%;
-}
 
 .labelhead {
   margin-right: 480px;
@@ -878,71 +874,6 @@ p .product-banner-content {
 }
 
 
-.vertical-line {
-  border-right: 1px solid gray;
-  height: 350px;
-
-}
-
-.checked {
-  color: #FF9900;
-
-}
-
-.star_icon {
-  font-size: xx-large;
-  color: #D4D3D1
-}
-
-/*Review*/
-
-.review_title {
-  margin-top: -60px;
-  margin-left: 80px;
-}
-
-
-
-.review_adress {
-  margin-left: 80px;
-  margin-top: -10px;
-}
-
-.review_star {
-  margin-left: 70px;
-  margin-top: -20px;
-
-}
-
-/*Notification Modal*/
-.notification_day {
-  color: rgb(8, 102, 143);
-  position: absolute;
-  right: 14px;
-  top: 46px;
-
-
-}
-
-.notification_time {
-  position: absolute;
-  left: 100px;
-  bottom: 2px;
-  font-size: 10px;
-
-}
-
-.notification_user {
-  position: absolute;
-  left: 100px;
-  top: 30px;
-}
-
-/*Netar CRM page */
-.backgroundimage-CRM {
-  background: url(/public/assets/images/Group\ 3001.png);
-  height: 100%;
-}
 
 
 
@@ -1120,116 +1051,6 @@ p .product-banner-content {
   color: white;
 }
 
-/*HRMS*/
-.title P {
-  display: inline-block;
-
-  padding-left: 4%;
-  text-align: center;
-}
-
-
-@media only screen and (max-width: 1199px) {
-  .title p {
-    display: inline-block;
-
-    padding-left: 2%;
-    text-align: center;
-
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .title p {
-    display: inline-block;
-
-    padding-left: 2%;
-    text-align: center;
-    font-size: 12px;
-
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .title p {
-    display: inline-block;
-
-
-    text-align: center;
-    font-size: 9px;
-
-
-  }
-}
-
-@media only screen and (max-width: 531px) {
-  .title p {
-    display: inline-block;
-
-
-    text-align: center;
-    font-size: 8px;
-    padding-left: 3%;
-
-
-  }
-}
-
-@media only screen and (max-width: 531px) {
-  .title p {
-    display: inline-block;
-
-
-    text-align: center;
-    font-size: 9px;
-    padding-left: 1%;
-
-
-  }
-}
-
-@media only screen and (max-width: 494px) {
-  .title p {
-    display: inline-block;
-
-
-    text-align: center;
-    font-size: 9px;
-    padding-left: 2px;
-
-
-
-  }
-}
-
-@media only screen and (max-width: 475px) {
-  .title p {
-    display: inline-block;
-
-
-    text-align: center;
-    font-size: 9px;
-    padding-left: 1px;
-
-
-
-  }
-}
-
-@media only screen and (max-width: 390px) {
-  .title p {
-    display: inline-block;
-
-
-    text-align: center;
-    font-size: 6px;
-    padding-left: 2%;
-
-
-
-
-  }
-}
 
 
 
@@ -1461,71 +1282,13 @@ html,body{
   transition: transform 0.15s ease;
 }
 
-/*GPS overview*/
-.background_feature {
-  background-color: #08668F
-}
-
-/*Get product*/
-.orderdetails_card {
-  height: 350px;
-  width: 330px;
-  border-radius: 15px;
-  box-shadow: 0px 3px 20px #00000045;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-}
-
-.horizontal_line {
-  border-top: 1px solid #cac8c8;
-}
-
-.paymentmethod_card {
 
 
-
-  width: 100%;
-  border: 1px solid #707070;
-  border-radius: 27px;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-
-}
-
-.pyment_method {
-
-  width: 100%;
-  background: #E4E2AFD9;
-  border-radius: 6px;
-  border: 0.5px solid #F59E83;
-}
-
-.enterccv {
-  height: 20px;
-  width: 60px;
-  background: white;
-  margin-top: -30px;
-  margin-left: 110px;
-  border: 1px solid #EB5C2F;
-
-
-
-}
-
-.green-color {
-  color: #2DC186;
-}
-
-.btn-success {
-  /* color: #fff; */
-  background-color: #BCE9CAC2;
-  border-color: #bac1bc;
-  width: 200px;
-  border-radius: 5px 5px 5px 5px;
-}
 /* .contents{
   position: relative;
   margin-right: 50px;
-} */
-/* .crm-overview .card.container {
+} 
+.crm-overview .card.container {
   margin-bottom: 40px;
   border: none;
 } */

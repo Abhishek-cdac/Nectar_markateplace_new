@@ -1,5 +1,7 @@
 import React from "react";
 import CRMReview from "./CRMreview";
+import './CRMreview.css'
+
 
 function NectarCRMReview() {
   return (

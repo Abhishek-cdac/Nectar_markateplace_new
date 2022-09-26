@@ -1,4 +1,5 @@
 import React from 'react'
+import './Notification.css'
 import Header2 from './Header/Header2'
 
 function Notification() {
