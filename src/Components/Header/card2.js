@@ -21,7 +21,7 @@ function Card2() {
                 borderRight: "0.5px solid grey",
                 height: "auto",
                 margin: "2%",
-                opacity:0.5,
+                opacity: 0.5,
               }}
             ></div>
             <div class="card-body">
@@ -32,7 +32,8 @@ function Card2() {
               </p>
               <button
                 className="Learn_card2"
-                onClick={() => navigate("/nectarCRM")}
+                onClick={() => navigate("/nectarcrmtab")}
+
               >
                 <h6>
                   Learn more <i className="fa fa-long-arrow-right"></i>
