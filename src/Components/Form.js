@@ -3,8 +3,8 @@ import Contact from "../assets/Contact.png"
 
 function Form() {
   return (
-
     <div class="midsec">
+      <div className='container'>
       <div className="row">
         <div class="col-md-6">
           <img className="img-fluid" src={Contact} alt="" />
@@ -49,6 +49,7 @@ function Form() {
           </div>
 
         </div>
+      </div>
       </div>
     </div>
 

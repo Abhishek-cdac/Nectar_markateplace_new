@@ -2,7 +2,7 @@ import React from 'react'
 
 function NerroTracOverview() {
     return (
-        <div className='container'>
+     
             <div className='row pt-2'>
                 <div className='col  text-white pt-5' style={{ background: "#08668F", }}>
                     <h1 className='text-center'>Features</h1>
@@ -44,7 +44,7 @@ function NerroTracOverview() {
 
                 </div>
             </div>
-        </div>
+    
 
 
 

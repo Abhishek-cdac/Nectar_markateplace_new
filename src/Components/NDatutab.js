@@ -15,6 +15,7 @@ import NerroTracOverview from './NerroTracOverview'
 import Contact from "../assets/Contact.png"
 import NDatu from './NDatu'
 import NDatuOverview from './NDatuOverview'
+import Form from './Form'
 
 function NectarHRMStab() {
   return (
@@ -23,17 +24,17 @@ function NectarHRMStab() {
       <div className="row ">
         <Header2 />
         <NDatu
-            title="nDatu"
-            subtext1="It is web-based Task Management Tool. It is easily deployable to aid online product for task management with an extensive database."
-            item1="Reporting, Tracking, Assigning & Resolving tasks"
-            item2=" Real Time Tracking & Communication "
-            item3="Manage Multiple Clients"
+          title="nDatu"
+          subtext1="It is web-based Task Management Tool. It is easily deployable to aid online product for task management with an extensive database."
+          item1="Reporting, Tracking, Assigning & Resolving tasks"
+          item2=" Real Time Tracking & Communication "
+          item3="Manage Multiple Clients"
 
-            heading="Get 2 months Free Subscription"
-            buttontext="Free Demo"
-            buttontext2="Buy Now"
-             />
-    
+          heading="Get 2 months Free Subscription"
+          buttontext="Free Demo"
+          buttontext2="Buy Now"
+        />
+
         <div className="container">
           <ul class="nav nav-pills navtabs mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -104,57 +105,9 @@ function NectarHRMStab() {
             role="tabpanel"
             aria-labelledby="pills-overview-tab"
           >
-<NDatuOverview />
-            <div className='container'>
-            <div class="midsec">
-              <div className="row">
-                <div class="col-md-6">
-                  <img className="img-fluid" src={Contact} alt="" />
-                </div>
-                <div class="midform p-5 col-md-6" >
-                  <h3 style={{ color: "#08668F" }}>We Would Love To Hear From You!</h3>
-                  <div class="border-bottom border-secondary border-1" >
-                    <label for="exampleInputEmail1">Full Name</label>
-                  </div>
-                  <div class="border-bottom border-secondary" >
-                    <label for="exampleInputPassword1">Email ID</label>
-                  </div>
-                  <div class="border-bottom border-secondary" >
-                    <label for="exampleInputPassword1">Password</label>
-                  </div>
-                  <div class="border-bottom border-secondary">
-                    <label for="exampleInputPassword1">Contact Number</label>
-                  </div>
-                  <div>
-                    <p class="midpara"  >
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Omnis expedita fugit quae quo minima aliquam. Veniam
-                      doloremque nesciunt distinctio asperiores pariatur.
-                    </p>
-                  </div>
-
-                  <div class="form-check">
-                    <input
-                      type="checkbox"
-                      class="form-check-input"
-                      id="exampleCheck1"
-                    />
-                    <label class="form-check-label" for="exampleCheck1">
-                      I agree to the Terms of Service, Marketplace Terms of Use
-                      and Privacy Policy.
-                    </label>
-                  </div>
-                  <div className="gap-2 pt-4 d-md-flex justify-content-md-center">
-                    <button type="submit" class="btn   float-center midbutton">
-                      Submit
-                    </button>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-          </div>
+            <NDatuOverview />
+            <Form/>
+        
           </div>
           <div
             class="tab-pane fade"
