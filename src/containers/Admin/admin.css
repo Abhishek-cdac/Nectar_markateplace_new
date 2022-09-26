@@ -1,0 +1,141 @@
+#AdLogin {
+  background-image: url(/public/assets/images/Login_bg.webp);
+  height: 100vh;
+}
+
+.adminLogTitle {
+  justify-content: center;
+  font-weight: 400;
+}
+
+.AdLoginContainer {
+  padding-top: 10%;
+}
+
+.loginTitle {
+  color: white;
+}
+
+.AdLogmain {
+  margin: top 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .AdLoginContainer {
+    padding-top: 13% !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 993px) {
+  .AdLoginContainer {
+    padding-top: 7% !important;
+  }
+}
+
+@media screen and (min-width: 994px) {
+  .AdLoginContainer {
+    padding-top: 10%;
+  }
+}
+.adminLoginCont {
+  background-image: linear-gradient(227deg, #3ed1fd 0%, #817fff 100%);
+}
+
+.AdLoginForm input {
+  background-color: transparent;
+  border-color: white;
+  opacity: 0.8;
+  color: white;
+}
+.AdLoginForm ::placeholder {
+  color: white;
+  opacity: 0.5;
+  font-size: small;
+}
+
+#AdLogin h6 {
+  color: white;
+  font-size: small;
+}
+
+.Adforgotpassword {
+  color: white;
+  font-size: xx-small;
+  text-align: end;
+  opacity: 0.7;
+}
+
+.AdLoginbutton {
+  background-color: #f16728;
+  color: white;
+}
+
+/* //Dashboard Cards css */
+
+.AdCardHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  font-size:medium;
+  opacity:0.8;
+  font-family: sans-serif;
+}
+
+.adcardfooter {
+    display: flex;
+    justify-content: space-between;
+    top: 10px;
+    position: relative;
+    font-size:small;
+    opacity:0.9;
+    font-family: sans-serif;
+  }
+
+.AdCard1 {
+  background-image: url(/public/assets/images/adcard1.svg);
+  width: 15em;
+  height: 8em;
+  margin-left: 2em;
+  border-radius: 10%;
+  color: white;
+}
+.AdCard2 {
+  background-image: url(/public/assets/images/Adcard2.svg);
+  width: 15em;
+  height: 8em;
+  margin-left: 2em;
+  border-radius: 10%;
+  color: white;
+}
+
+.AdCard3 {
+  background-image: url(/public/assets/images/Adcard3.svg);
+  width: 15em;
+  height: 8em;
+  margin-left: 2em;
+  border-radius: 10%;
+  color: white;
+}
+
+.AdCard4 {
+  background-image: url(/public/assets/images/Adcard4.svg);
+  width: 15em;
+  height: 8em;
+  margin-left: 2em;
+  border-radius: 10%;
+  color: white;
+}
+/* 
+//Scetion 2 graph and pie  */
+
+#AdChart1 { 
+    display: flex;
+    flex-basis: 60%;
+    margin: 30px 10px;
+    background-color: white;
+}
+#AdPie{
+    display: flex;
+    flex-basis: 30%;
+    background-color: white;
+    margin: 30px 10px;
+}
