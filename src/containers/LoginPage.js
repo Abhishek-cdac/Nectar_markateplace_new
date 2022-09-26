@@ -29,7 +29,7 @@ function LoginPage() {
             <div className="col-lg-6">
               <div className="loginrightsection">
                 <div className="row mt-3">
-                  <div className="col-lg-6 mt-3">
+                  <div className="col-lg-5 mt-3">
                     <img className="header_logo" src="assets/images/logo.png" />
                     <a
                       class="navbar-brand"
@@ -44,11 +44,11 @@ function LoginPage() {
                       &nbsp;&nbsp;Marketplace
                     </a>
                   </div>
-                  <div className="col-lg-6 mt-3">
+                  <div className="col-lg-7 mt-3">
                     New to The Product?
-                    <a class="nav-link" href="/register">
+                    <span><a class="nav-link" href="/register">
                       Register Here
-                    </a>
+                    </a></span>
                   </div>
                 </div>
                 <div className="row">
