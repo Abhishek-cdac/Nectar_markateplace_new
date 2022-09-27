@@ -39,6 +39,7 @@ import NDatutab from './Components/NDatutab'
 
 import Resources from "./Components/Resources";
 import Settings from "./Components/Settings";
+import ShippingAddress from "./Components/ShippingAddress";
 
 
 function App() {
@@ -110,7 +111,7 @@ function App() {
           <Route path="/nerrotractab" element={<NerroTractab/>}></Route>
           <Route path="/itsmtooltab" element={<ITSMTooltab/>}></Route>
           <Route path="/ndatutab" element={<NDatutab/>}></Route>
-    
+          <Route path="/shipping" element={<ShippingAddress />} />
    
           {/* Routes of Reseller */}
           <Route path="reseller" element={<SideNav />}>
