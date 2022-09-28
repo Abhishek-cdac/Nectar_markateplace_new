@@ -1,33 +1,50 @@
-import React from "react";
-import Adcard from "./Components/Admin/Adcard";
-import shooping from "./assets/shooping.svg";
-import { AdcardData } from "./utils/AdcardData";
-import PieChart from "./Components/Admin/piechart";
-import Adchart1 from "./Components/Admin/AdDashChart1";
+import React from 'react'
+import Tables from './Components/Admin/Tables'
+import dummyData from './containers/Dummydata'
 
 const ex = () => {
-  return (
-    <>
-      <div className="row">
-        {console.log(AdcardData)}
-        {AdcardData.map((item) => {
-          return (
-            <Adcard
-              NoOfProducts={item.NoOfProducts}
-              image={item.image}
-              footeritem={item.footeritem}
-              footerNo={item.footerNo}
-              className={item.className}
-            />
-          );
-        })}
-      </div>
-      <div className="row">
-        <Adchart1 />
-        <PieChart />
-      </div>
-    </>
-  );
-};
+const column = [
+    {heading:"Name" , value:"name"},
+    {heading:"Email" , value:"email"},
+    {heading:"Phone" , value:"phone"},
+    {heading:"city" , value:"adress.city"}
+]
 
-export default ex;
+const data = [
+    {
+        id:"01",
+        name:"nagasai",
+        email:"nagasai@gmail.com",
+        phone:"9941555",
+        adress : {
+            city:"tadepalligudem",
+        }
+    },
+    {
+        id:"02",
+        name:"chaitanya",
+        email:"chaitanay@gmail.com",
+        phone:"991322255",
+        adress : {
+            city:"hyderabad",
+        }
+    },
+    {
+        id:"01",
+        name:"swaru",
+        email:"swaru@gmail.com",
+        phone:"112345666",
+        adress : {
+            city:"pune",
+        }
+    },
+]
+
+  return (
+    <div>
+      <Tables column ={column} data ={data} />
+    </div>
+  )
+}
+
+export default ex

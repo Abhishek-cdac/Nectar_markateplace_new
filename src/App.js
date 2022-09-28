@@ -36,6 +36,8 @@ import NectarGPSTracertab from "./Components/NectarGPSTracertab";
 import NerroTractab from "./Components/NerroTractab";
 import ITSMTooltab from "./Components/ITSMTooltab";
 import NDatutab from "./Components/NDatutab";
+import ProductChart from "./Components/Admin/AdDashProdChart";
+import AdDAshboard from "./containers/Admin/AdDashboard";
 import Resources from "./Components/Resources";
 import Settings from "./Components/Settings";
 
@@ -129,7 +131,8 @@ function App() {
           {/* Routes For Admin Part */}
           <Route path="/admin/login" element={<Login />} />
           <Route path="/admin" element={<AdLanding />}>
-            <Route path="ex" element={<Ex />} />
+            <Route path="" element={<AdDAshboard />} />
+            <Route path="ex2" element={<Ex/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

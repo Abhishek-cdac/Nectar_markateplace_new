@@ -168,6 +168,223 @@ const dummyData = {
       taxes: "Inclusive of all taxes",
     },
   ],
+
+  WorldMapDataHeading: [
+   { heading:"country", value:"Country"},
+    {heading:"users",value:"users"} ,
+    {heading:"status", value:"status"},
+  ],
+  WorldMapData: [
+    {
+      Country: "us",
+      users: "1325",
+      status: "Active",
+    },
+    {
+      Country: "India",
+      users: "1325",
+      status: "Active",
+    },
+    {
+      Country: "Pakistan",
+      users: "1325",
+      status: "Active",
+    },
+    {
+      Country: "Australia",
+      users: "1325",
+      status: "Active",
+    },
+  ],
+  GraphData: [
+    {
+      name: "Jan",
+      TotalClickable: 4000,
+      productViews: 2400,
+      amt: 2210,
+    },
+    {
+      name: "Feb",
+      TotalClickable: 3000,
+      productViews: 1398,
+      amt: 2210,
+    },
+    {
+      name: "Mar",
+      TotalClickable: 2000,
+      productViews: 4800,
+      amt: 2290,
+    },
+    {
+      name: "Apr",
+      TotalClickable: 2780,
+      productViews: 3908,
+      amt: 2000,
+    },
+    {
+      name: "May",
+      TotalClickable: 3500,
+      productViews: 1800,
+      amt: 3500,
+    },
+    {
+      name: "Jun",
+      TotalClickable: 5000,
+      productViews: 2800,
+      amt: 5000,
+    },
+    {
+      name: "Jul",
+      TotalClickable: 3490,
+      productViews: 3300,
+      amt: 3500,
+    },
+    {
+      name: "Aug",
+      TotalClickable: 3190,
+      productViews: 3300,
+      amt: 2100,
+    },
+    {
+      name: "Sep",
+      TotalClickable: 2890,
+      productViews: 2300,
+      amt: 2100,
+    },
+    {
+      name: "Oct",
+      TotalClickable: 2590,
+      productViews: 4300,
+      amt: 1800,
+    },
+    {
+      name: "Nov",
+      TotalClickable: 1590,
+      productViews: 3300,
+      amt: 1500,
+    },
+    {
+      name: "Dec",
+      TotalClickable: 1090,
+      productViews: 4300,
+      amt: 700,
+    },
+  ],
+  progressUsersData: [
+    {
+      name: "user",
+    },
+    {
+      name: "Partner",
+    },
+    {
+      name: "Reseller",
+    },
+    {
+      name: "RequestedDemo",
+    },
+  ],
+  progressCard: [
+    {
+      title: "Nectar CRm",
+    },
+    {
+      title: "Nectar Hrms",
+    },
+    {
+      title: "Nectar_Gps Tracking",
+    },
+    {
+      title: "NerroTRac-bugTracker",
+    },
+    {
+      title: "NT3s Tools",
+    },
+    {
+      title: "nDatu task",
+    },
+  ],
+
+  DahsTable2Head: [
+    { heading: "Date", value: "date" },
+    { heading: "orderId", value: "orderId" },
+    { heading: "customer", value: "customer" },
+    { heading: "Revenue", value: "Revenue" },
+    { heading: "Region", value: "Region" },
+    { heading: "Status", value: "status" },
+  ],
+  DashTable2: [
+    {
+      date: "12-08-2022",
+      orderId: "#23456",
+      customer: "Miachale",
+      Revenue: "23213$",
+      Region: "India",
+      status: "InActive",
+    },
+    {
+      date: "12-08-2022",
+      orderId: "#23456",
+      customer: "Miachale",
+      Revenue: "23213$",
+      Region: "India",
+      status: "InActive",
+    },
+    {
+      date: "12-08-2022",
+      orderId: "#23456",
+      customer: "Miachale",
+      Revenue: "23213$",
+      Region: "India",
+      status: "InActive",
+    },
+    {
+      date: "12-08-2022",
+      orderId: "#23456",
+      customer: "Miachale",
+      Revenue: "23213$",
+      Region: "India",
+      status: "InActive",
+    },
+    {
+      date: "12-08-2022",
+      orderId: "#23456",
+      customer: "Miachale",
+      Revenue: "23213$",
+      Region: "India",
+      status: "InActive",
+    },
+    {
+      date: "12-08-2022",
+      orderId: "#23456",
+      customer: "Miachale",
+      Revenue: "23213$",
+      Region: "India",
+      status: "InActive",
+    },
+  ],
+  pieChartData: [
+    {
+      users: "Partner",
+      sales: "122$",
+      Per: "55%",
+    },
+    {
+      users: "Reseller",
+      sales: "1350$",
+      Per: "18%",
+    },
+    {
+      users: "Email",
+      sales: "956$",
+      Per: "89%",
+    },
+    {
+      users: "other",
+      sales: "22$",
+      Per: "12%",
+    }
+  ],
   Getproduct: [
     {
       id: "1",
@@ -190,5 +407,5 @@ const dummyData = {
       Balance: "View Crypto Balance",
     },
   ],
-};
+}
 export default dummyData;
