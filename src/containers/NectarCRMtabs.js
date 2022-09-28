@@ -5,10 +5,7 @@ import Productscreen from "../Components/productScreen";
 import NectarCRMReview from "../Components/NectarCRMReview";
 import CRM from "../Components/CRM";
 import ProductsFooter from "../Components/productsFooter";
-import Card2 from "../Components/Header/card2";
-
 import Header2 from "../Components/Header/Header2";
-import Footer from "../Components/Footer";
 
 
 
@@ -16,7 +13,7 @@ import Footer from "../Components/Footer";
 const NectarCRMtabs = () => {
   return (
     <>
-      {/* <div className="container"> */}
+      <div className="container-fluid">
         <div className="row ">
           <Header2/>
           <CRM
@@ -130,7 +127,7 @@ const NectarCRMtabs = () => {
   
         </div>
         <ProductsFooter />
-  {/* </div> */}
+  </div>
 
     </>
   );

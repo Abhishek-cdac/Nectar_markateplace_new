@@ -1,10 +1,10 @@
 export const PartnerTabs = Object.freeze([
   { label: "Dashboard", link: "partner", icon: "/assets/images/dashboard.webp" },
-  { label: "Telecom", link: "#", icon: "/assets/images/partner.webp" },
-  { label: "Become partner", link: "#", icon: "/assets/images/ORDER.webp" },
-  { label: "Resources", link: "#", icon: "/assets/images/PAYMENT.webp" },
+  { label: "Telecom", link: "telecomeservices", icon: "/assets/images/partner.webp" },
+  { label: "Become partner", link: "becomeApartner", icon: "/assets/images/ORDER.webp" },
+  { label: "Resources", link: "resources", icon: "/assets/images/PAYMENT.webp" },
   { label: "Profile", link: "#", icon: "/assets/images/PRODUCT.webp" },
-  { label: "Settings", link: "#", icon: "/assets/images/CUSTOMER.webp" },
+  { label: "Settings", link: "setting", icon: "/assets/images/CUSTOMER.webp" },
 ]);
 
 export const AdminTabs = Object.freeze([
