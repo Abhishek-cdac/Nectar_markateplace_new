@@ -48,6 +48,7 @@ import ProductChart from "./Components/Admin/AdDashProdChart";
 import AdDAshboard from "./containers/Admin/AdDashboard";
 import Resources from "./Components/Resources";
 import Settings from "./Components/Settings";
+import SupportAndOffer from "./containers/SupportAndOffer"
 
 function App() {
   return (
@@ -122,6 +123,8 @@ function App() {
             <Route path="" element={<AdDAshboard />} />
             <Route path="ex2" element={<Ex/>}/>
           </Route>
+            <Route path="supportAndoffer" element={<SupportAndOffer />} />
+
         </Routes>
       </BrowserRouter>
     </>
