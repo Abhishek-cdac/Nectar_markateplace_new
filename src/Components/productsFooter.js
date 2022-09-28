@@ -6,7 +6,7 @@ import Header2 from "./Header/Header2";
 function productsFooter() {
   return (
     <div>
-      {" "}
+     
       <section id="product-footer-card">
         <div className="container product-container-footer">
           <div className="product-footer-heading">

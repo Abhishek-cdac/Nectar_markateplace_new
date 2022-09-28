@@ -49,12 +49,12 @@ function ReviewForm() {
     <section className="Testimonal_Home">
       <div className="container">
         <div className="row d-flex justify-content-center">
-            <div className="testimonal_heading">
-              <h2>Please Leave us a Testimonal</h2>
-            </div>
+          <div className="testimonal_heading">
+            <h2>Please Leave us a Testimonal</h2>
+          </div>
           <form className="form-testimonal">
-          <div class="form-group col-md-8 ">
-             
+            <div class="form-group col-md-8 ">
+
               <input
                 type="text"
                 class="form-control  form-control-lg testimonalInput"
@@ -62,10 +62,10 @@ function ReviewForm() {
                 aria-describedby="emailHelp"
                 placeholder="Your user name"
               />
-             
+
             </div>
             <div class="form-group col-md-8 ">
-            
+
               <input
                 type="email"
                 class="form-control form-control-lg testimonalInput"

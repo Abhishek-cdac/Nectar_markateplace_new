@@ -15,7 +15,7 @@ const DummyData = {
 
   pricingSubscriptiondata: [
     {
-      id: "1",
+      id: "2",
       title: "Silver",
       doller: "$60",
       dollermonth: "per month",
@@ -32,7 +32,7 @@ const DummyData = {
       desp8: "$35 whrn you renew the product",
     },
     {
-      id: "2",
+      id: "3",
       title: "Gold ",
       doller: "$80",
       dollermonth: "per month",

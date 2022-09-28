@@ -3,7 +3,9 @@ import dummyData from "../containers/Dummydata";
 import Card2 from "../Components/Header/card2";
 import Footer from "./Footer";
 import EnquiryForm from "./EnquiryForm";
-import HostingServices from "./HostingServices";
+import Header2 from "./Header/Header2";
+import SideNav from "./SideNav";
+import { PartnerTabs } from "../utils/Tabs";
 
 function TelecomeServices() {
   const [value, setValue] = useState(false);
@@ -13,7 +15,8 @@ function TelecomeServices() {
   };
   return (
     <>
-      <div className="container mt-5">
+    <Header2 />
+      <div className="container-fluid mt-5">
         <div className="row">
           <div className="col-lg-6">
             <h2 style={{ color: "#1291C9" }}>Telecom Services</h2>

@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import Header2 from "./Header/Header2";
+import SideNav from "./SideNav";
+import { PartnerTabs } from "../utils/Tabs";
 
 function Settings() {
   const [passwordType, setPasswordType] = useState("Old password");
@@ -42,9 +45,13 @@ function Settings() {
 
   return (
     <>
-      <div className="container">
+    <Header2 />
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-2 col-lg-2">
+          <SideNav Tabs = {PartnerTabs}/>
+          </div>
+          <div className="col-12 col-lg-4">
             <label for="oldpassword" className="mt-3">Old Password <span style={{color:"red"}}>*</span></label>
             <div className="input-group">
               <input

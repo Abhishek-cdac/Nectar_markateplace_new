@@ -1,9 +1,7 @@
-// import "./App.css";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Landingpage from "./containers/landingpage";
 import LoginPage from "./containers/LoginPage";
 import Register from "./containers/Register";
-// import LoginPage from "./containers/LoginPage";
 import BecomeAPartner from "./Components/Header/BecomeAPartner";
 import Productscreen from "./Components/productScreen";
 import NectarCRMReview from "./Components/NectarCRMReview";
@@ -12,13 +10,11 @@ import Notification from "./Components/Notification";
 import CRM from "./Components/CRM";
 import HRMS from "./Components/HRMS";
 import Products from "./Components/Products";
-
 import Cart from "./Components/Cart";
 import ForgetPassword from "./containers/ForgetPassword";
 import TelecomeServices from "./Components/TelecomeServices";
 import HostingServices from "./Components/HostingServices";
 import Modal from "./Components/Header/Modal";
-import SideNav from "./Components/SideNav";
 import PartnerDashboard from "./containers/partnerDashboard";
 import GPSOverview from "./Components/GPSOverview";
 import Feature from "./Components/Feature";
@@ -32,34 +28,49 @@ import Login from "./containers/Admin/AdLogin";
 import PartnerLanding from "./containers/partnerLanding";
 import NectarCRMtabs from "./containers/NectarCRMtabs";
 import AdLanding from "./containers/Admin/AdLanding";
-import Adcard from "./Components/Admin/Adcard";
 import Ex from "./ex";
-import NectarHRMS from "./Components/NectarHRMS";
-import NectarGPS from "./Components/NectarGPS";
-import NerroTrac from "./Components/NerroTrac";
-import ITSMTool from "./Components/ITSMTool";
 import NDatu from "./Components/NDatu";
 import NectarHRMStab from "./Components/NectarHRMStab";
 import NectarGPSTracertab from "./Components/NectarGPSTracertab";
 import NerroTractab from "./Components/NerroTractab";
 import ITSMTooltab from "./Components/ITSMTooltab";
 import NDatutab from "./Components/NDatutab";
-import Resources from './Components/Resources';
-import Settings from './Components/Settings';
-import Profile from "./containers/Profile";
-import SupportAndOffer from "./containers/SupportAndOffer";
-
+import ProfileNavbar from "./Components/ProfileNavbar";
+import ContactDetails from "./Components/ContactDetails";
+import Profile from "./Components/Profile";
+import Invoices from "./Components/Invoices";
+import Form from "./Components/Form";
+import GetProduct from "./Components/GetProduct";
+import OrderManagment from "./containers/Admin/OrderManagment";
+import OrderManagmentModal from "./containers/Admin/OrderManagmentModal";
+import Orderinvoices from "./containers/Admin/Orderinvoices";
+import ProductChart from "./Components/Admin/AdDashProdChart";
+import AdDAshboard from "./containers/Admin/AdDashboard";
+import Resources from "./Components/Resources";
+import Settings from "./Components/Settings";
+import SupportAndOffer from "./containers/SupportAndOffer"
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
+          
+       
+
           <Route path="/" element={<Landingpage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
-
           <Route path="/products" element={<Products />} />
+          <Route path="/navbar" element={<ProfileNavbar />}></Route>
+          <Route path="/invoices" element={<Invoices />}></Route>
+          <Route path="/contactdetails" element={<ContactDetails />}></Route>
+          <Route path="/form" element={<Form />}></Route>
+          <Route path="/getproduct" element={<GetProduct />}></Route>
+
+          <Route path="/profile" element={<Profile />}></Route>
+          <Route path="/orderinvoices" element={<Orderinvoices/>}></Route>
+
           {/*Overview Page*/}
           <Route path="/gpsoverview" element={<GPSOverview />} />
           <Route path="/hrmsoverview" element={<HRMS />} />
@@ -70,53 +81,20 @@ function App() {
           <Route path="/feature" element={<Feature />} />
           <Route path="/gpsaccordian" element={<GPSAccordian />} />
           {/*Header page*/}
-
-          <Route
-            path="/ndatu"
-            element={
-              <NDatu
-                title="nDatu"
-                subtext1="It is web-based Task Management Tool. It is easily deployable to aid online product for task management with an extensive database."
-                item1="Reporting, Tracking, Assigning & Resolving tasks"
-                item2=" Real Time Tracking & Communication "
-                item3="Manage Multiple Clients"
-                heading="Get 2 months Free Subscription"
-                buttontext="Free Demo"
-                buttontext2="Buy Now"
-              />
-            }
-          />
-
+          <Route path="/ndatu" element={<NDatu />} />
           {/* <Route path="/login" element={<LoginPage />} /> */}
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
           <Route path="/productscreen" element={<Productscreen />} />
-
           <Route path="/nectarcrmreview" element={<NectarCRMReview />} />
-
           <Route path="/notification" element={<Notification />}></Route>
           <Route path="/review" element={<CRMReview />}></Route>
-          <Route
-            path="/crm"
-            element={
-              <CRM
-                title="Nectar CRM"
-                subtext1="The easy to use and customizable CRM for your Marketing, Sales,
-            & Customer Service Teams."
-                item1="Better Sales Performance"
-                item2="Increased Profitability & Efficiency "
-                item3="CRM Improves Your Customer Service"
-                heading="Get 2 months Free Subscription"
-                buttontext="Free Demo"
-                buttontext2="Buy Now"
-              />
-            }
-          />
-
+          <Route path="/crm" element={<CRM />} />
           <Route path="/productscreen" element={<Productscreen />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/forgetpassword" element={<ForgetPassword />} />
           <Route path="/telecomeservices" element={<TelecomeServices />} />
           <Route path="/hostingservices" element={<HostingServices />} />
+       
           <Route path="/resources" element={<Resources />} />
           <Route path="/setting" element={<Settings />} />
           <Route path="/modal" element={<Modal />} />
@@ -132,15 +110,18 @@ function App() {
           <Route path="/ndatutab" element={<NDatutab />}></Route>
 
           {/* Routes of partner */}
-
           <Route path="partner" element={<PartnerLanding />}>
             <Route path="" element={<PartnerDashboard />} />
           </Route>
-          <Route path="profile"  element={<Profile />}/>
           {/* Routes For Admin Part */}
+          <Route path="/ordermanagmentmodal" element={<OrderManagmentModal/>} />
+          <Route path="/ordermanagment" element={<OrderManagment/>} />
           <Route path="/admin/login" element={<Login />} />
           <Route path="/admin" element={<AdLanding />}>
+        
             <Route path="ex" element={<Ex />} />
+            <Route path="" element={<AdDAshboard />} />
+            <Route path="ex2" element={<Ex/>}/>
           </Route>
             <Route path="supportAndoffer" element={<SupportAndOffer />} />
 

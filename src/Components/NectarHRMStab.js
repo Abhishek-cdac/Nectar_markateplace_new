@@ -1,7 +1,5 @@
 import React from 'react'
 import Header2 from './Header/Header2'
-import CRM from './CRM'
-import NectarCRMoverview from '../containers/NectarCRMoverview'
 import NectarCRMReview from './NectarCRMReview'
 import NectarCRMpricesubs from '../containers/NectarCRMpricesubs'
 import Productscreen from './productScreen'
@@ -21,7 +19,7 @@ function NectarHRMStab() {
             heading="Get 2 months Free Subscription"
             buttontext="Free Demo"
             buttontext2="Buy Now"
-          />
+             />
         <div className="container">
         <ul class="nav nav-pills navtabs mb-3" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">

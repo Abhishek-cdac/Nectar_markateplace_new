@@ -1,6 +1,9 @@
 import React from "react";
 
+import { useNavigate } from "react-router-dom";
+
 function Header2() {
+  const navigate = useNavigate();
   return (
     <div className="top_header">
       <nav class="navbar navbar-expand-lg bg-light">
@@ -46,7 +49,10 @@ function Header2() {
 
               <li class="nav-item">
                 <a class="nav-link header_icon" href="#">
-                  <i class="fa fa-bell-o" aria-hidden="true"></i>
+                  <i class="fa fa-bell-o" aria-hidden="true" 
+                  onClick={()=> navigate ("/notification")}
+                  
+                  ></i>
                 </a>
               </li>
               <li class="nav-item">

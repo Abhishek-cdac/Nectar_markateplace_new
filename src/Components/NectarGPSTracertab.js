@@ -1,13 +1,9 @@
 import React from 'react'
 import Header2 from './Header/Header2'
-import CRM from './CRM'
-import NectarCRMoverview from '../containers/NectarCRMoverview'
 import NectarCRMReview from './NectarCRMReview'
 import NectarCRMpricesubs from '../containers/NectarCRMpricesubs'
 import Productscreen from './productScreen'
 import ProductsFooter from './productsFooter'
-import NectarHRMS from './NectarHRMS'
-import HRMS from './HRMS'
 import NectarGPS from './NectarGPS'
 import GPSOverview from './GPSOverview'
 
