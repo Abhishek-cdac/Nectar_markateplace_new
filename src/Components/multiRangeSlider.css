@@ -1,0 +1,42 @@
+.multi-range-slider .ruler .ruler-rule {
+    display: none;
+}
+.multi-range-slider {
+    border: none;
+    box-shadow: none;
+}
+
+.multi-range-slider .thumb::before {
+    border-radius: 10%;
+    border: 1px solid #F16727;
+    background-color: #F16727;
+    box-shadow: none;
+    width: 12px;
+    height: 22px;
+    content: "=";
+}
+
+.multi-range-slider .bar-left {
+    background-color: #0000004A;
+    border-radius: 0%;
+    box-shadow: none;
+    height: 7px;
+}
+
+.multi-range-slider .bar-right {
+    background-color: #0000004A;
+    border-radius: 0%;
+    box-shadow: none;
+    height: 7px;
+}
+
+.multi-range-slider .bar-inner-left {
+    background-color: #F16727;
+}
+.multi-range-slider .bar-inner-right {
+    background-color: #F16727;
+}
+
+.multi-range-slider .bar-inner{
+    background-color: #F16727;
+}

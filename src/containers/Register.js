@@ -13,7 +13,7 @@ function Register() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <div className="registrationleftsection">
+              <div className="registrationleftsection" style={{marginLeft:"10px"}}>
                 <h1>Welcome to Nectar Marketplace</h1>
                 <p>
                   Nectar Infotel Solution Pvt. Ltd. is a leading International
@@ -29,7 +29,7 @@ function Register() {
             <div className="col-lg-6">
               <div className="registrationrightsection">
                 <div className="row mt-3">
-                  <div className="col-lg-6 mt-3">
+                  <div className="col-lg-5 mt-3">
                     <img className="header_logo" src="assets/images/logo.png" />
                     <a
                       class="navbar-brand"
@@ -44,7 +44,7 @@ function Register() {
                       &nbsp;&nbsp;Marketplace
                     </a>
                   </div>
-                  <div className="col-lg-6 mt-3">
+                  <div className="col-lg-7 mt-3">
                     Already Have an Account?
                     <a class="nav-link" href="/login">
                       Sign In
