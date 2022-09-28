@@ -1,0 +1,17 @@
+.ordermanagmemt_modal {
+  width: 190px;
+  height: 540px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 50px#00000057;
+
+  opacity: 1;
+}
+.form-check-input:checked {
+    background-color: black;
+    border-color: #adb5bd;
+}
+body.modal-open {
+    overflow: inherit;
+    padding-right: 0 !important;
+}

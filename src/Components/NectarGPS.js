@@ -17,21 +17,6 @@ function NectarGPS({
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <h2 className="text-white">{title}</h2>
             <p className="text-white">{subtext1}</p>
-            <p className=" text-white ">
-              {" "}
-              <span className="fa-solid fa-check-double text-white mx-3 "></span>
-              {item1}
-            </p>
-            <p className=" text-white ">
-              {" "}
-              <span className="fa-solid fa-check-double text-white mx-3"></span>
-              {item2}
-            </p>
-            <p className="  text-white ">
-              {" "}
-              <span className="fa-solid fa-check-double text-white mx-3"></span>
-              {item3}
-            </p>
           </div>
           <div
             className="col-xs-12 col-sm-12 col-md-6 col-lg-6 my-5 "

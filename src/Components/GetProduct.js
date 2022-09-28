@@ -1,5 +1,5 @@
 import React from "react";
-import "./GetProduct.css"
+import "./GetProduct.css";
 import DummydataGetproduct from "../containers/DummydataGetproduct";
 
 function GetProduct() {
@@ -12,11 +12,13 @@ function GetProduct() {
               <p>1 Payment for Product & Organization </p>
             </div>
             <div className="col-md-6  ">
-              <p className="my-5">
-                Wipro Technologies Pvt. Ltd. Nectar HRMS for 8 Users, Gold Plan
-              </p>
+              {DummydataGetproduct &&
+                DummydataGetproduct.productandorganizationdata.map((data) => (
+                  <p className="my-5">{data.Organization}</p>
+                ))}
             </div>
           </div>
+
           <div className="row">
             <div className="col-md-12">
               <p className="mx-4">2 Select Payment Method</p>
@@ -198,14 +200,20 @@ function GetProduct() {
                       src="/assets/images/NFT-png.png"
                     ></img>
                   </span>
-                  <p className="text-end" style={{ color: "#1291C9" }}>
-                    View Crypto Balance
-                  </p>
+                  {DummydataGetproduct &&
+                    DummydataGetproduct.productandorganizationdata.map(
+                      (data) => (
+                        <p className="text-end" style={{ color: "#1291C9" }}>
+                          {data.Balance}
+                        </p>
+                      )
+                    )}
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div className="col-md-4 mt-5">
           {DummydataGetproduct &&
             DummydataGetproduct.Getproduct.map((data) => (

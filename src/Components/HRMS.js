@@ -1,5 +1,6 @@
 import React from "react";
 import Form from "./Form";
+import "./HRSM.css";
 
 function HRMS() {
   return (

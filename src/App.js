@@ -26,8 +26,13 @@ import NerroTracOverview from "./Components/NerroTracOverview";
 import NT3Overview from "./Components/NT3Overview";
 import NDatuOverview from "./Components/NDatuOverview";
 import NDatuFeatures from "./Components/NDatuFeatures";
+
 import Login from "./containers/Admin/AdLogin";
+import PartnerLanding from "./containers/partnerLanding";
 import NectarCRMtabs from "./containers/NectarCRMtabs";
+import AdLanding from "./containers/Admin/AdLanding";
+import Adcard from "./Components/Admin/Adcard";
+import Ex from "./ex";
 import NectarHRMS from "./Components/NectarHRMS";
 import NectarGPS from "./Components/NectarGPS";
 import NerroTrac from "./Components/NerroTrac";
@@ -44,12 +49,18 @@ import Profile from "./Components/Profile";
 import Invoices from "./Components/Invoices";
 import Form from "./Components/Form";
 import GetProduct from "./Components/GetProduct";
+import OrderManagment from "./containers/Admin/OrderManagment";
+import OrderManagmentModal from "./containers/Admin/OrderManagmentModal";
+import Orderinvoices from "./containers/Admin/Orderinvoices";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
+          
+       
+
           <Route path="/" element={<Landingpage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
@@ -61,6 +72,7 @@ function App() {
           <Route path="/getproduct" element={<GetProduct />}></Route>
 
           <Route path="/profile" element={<Profile />}></Route>
+          <Route path="/orderinvoices" element={<Orderinvoices/>}></Route>
 
           {/*Overview Page*/}
           <Route path="/gpsoverview" element={<GPSOverview />} />
@@ -85,7 +97,7 @@ function App() {
           <Route path="/forgetpassword" element={<ForgetPassword />} />
           <Route path="/telecomeservices" element={<TelecomeServices />} />
           <Route path="/hostingservices" element={<HostingServices />} />
-          <Route path="/modal" element={<Modal />} />
+       
           {/*All Tab*/}
           <Route path="/nectarcrmtab" element={<NectarCRMtabs />} />
           <Route path="/nectarhrmstab" element={<NectarHRMStab />} />
@@ -96,12 +108,19 @@ function App() {
           <Route path="/nerrotractab" element={<NerroTractab />}></Route>
           <Route path="/itsmtooltab" element={<ITSMTooltab />}></Route>
           <Route path="/ndatutab" element={<NDatutab />}></Route>
-          {/* Routes of Reseller */}
-          <Route path="reseller" element={<SideNav />}>
-            <Route path="pattern" element={<PartnerDashboard />} />
+
+          {/* Routes of partner */}
+          <Route path="partner" element={<PartnerLanding />}>
+            <Route path="" element={<PartnerDashboard />} />
           </Route>
           {/* Routes For Admin Part */}
-          <Route path="admin" element={<Login />} />
+          <Route path="/ordermanagmentmodal" element={<OrderManagmentModal/>} />
+          <Route path="/ordermanagment" element={<OrderManagment/>} />
+          <Route path="/admin/login" element={<Login />} />
+          <Route path="/admin" element={<AdLanding />}>
+        
+            <Route path="ex" element={<Ex />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
