@@ -47,6 +47,8 @@ import NDatutab from "./Components/NDatutab";
 import Resources from './Components/Resources';
 import Settings from './Components/Settings';
 import Profile from "./containers/Profile";
+import SupportAndOffer from "./containers/SupportAndOffer";
+
 
 function App() {
   return (
@@ -140,6 +142,8 @@ function App() {
           <Route path="/admin" element={<AdLanding />}>
             <Route path="ex" element={<Ex />} />
           </Route>
+            <Route path="supportAndoffer" element={<SupportAndOffer />} />
+
         </Routes>
       </BrowserRouter>
     </>
