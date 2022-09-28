@@ -1,7 +1,5 @@
 import React from 'react'
 import Header2 from './Header/Header2'
-import CRM from './CRM'
-import NectarCRMoverview from '../containers/NectarCRMoverview'
 import NectarCRMReview from './NectarCRMReview'
 import NectarCRMpricesubs from '../containers/NectarCRMpricesubs'
 import Productscreen from './productScreen'

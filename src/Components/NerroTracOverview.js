@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function NerroTracOverview() {
     return (
@@ -52,4 +52,4 @@ function NerroTracOverview() {
     )
 }
 
-export default NerroTracOverview
+export default NerroTracOverview;

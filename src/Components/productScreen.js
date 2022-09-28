@@ -1,9 +1,7 @@
 import "../App.css";
 import { useState } from "react";
 import Slider from "react-slick";
-import ProductsFooter from "./productsFooter";
 import dummyData from "../containers/Dummydata";
-import Modal from "./Header/Modal";
 
 function Productscreen() {
   // Slider

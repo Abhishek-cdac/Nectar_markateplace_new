@@ -1,0 +1,29 @@
+.resourcecard .card {
+    flex-direction: row;
+    height: 280px;
+  }
+  .resourcecard .card img {
+    width: 30%;
+  }
+
+  .resourcecard .card button{
+    background-color: #f16728;
+    color: #fff;
+    border: #fff;
+  }
+
+  .resourcecard1 .card {
+    flex-direction: row;
+    height: 280px;
+    background-color: #1291C9;
+    color: #fff;
+  }
+  .resourcecard1 .card img {
+    width: 30%;
+  }
+
+  .resourcecard1 .card button{
+    background-color: #f16728;
+    color: #fff;
+    border: #fff;
+  }

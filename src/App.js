@@ -1,9 +1,7 @@
-// import "./App.css";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Landingpage from "./containers/landingpage";
 import LoginPage from "./containers/LoginPage";
 import Register from "./containers/Register";
-// import LoginPage from "./containers/LoginPage";
 import BecomeAPartner from "./Components/Header/BecomeAPartner";
 import Productscreen from "./Components/productScreen";
 import NectarCRMReview from "./Components/NectarCRMReview";
@@ -17,7 +15,6 @@ import ForgetPassword from "./containers/ForgetPassword";
 import TelecomeServices from "./Components/TelecomeServices";
 import HostingServices from "./Components/HostingServices";
 import Modal from "./Components/Header/Modal";
-import SideNav from "./Components/SideNav";
 import PartnerDashboard from "./containers/partnerDashboard";
 import GPSOverview from "./Components/GPSOverview";
 import Feature from "./Components/Feature";
@@ -31,12 +28,7 @@ import Login from "./containers/Admin/AdLogin";
 import PartnerLanding from "./containers/partnerLanding";
 import NectarCRMtabs from "./containers/NectarCRMtabs";
 import AdLanding from "./containers/Admin/AdLanding";
-import Adcard from "./Components/Admin/Adcard";
 import Ex from "./ex";
-import NectarHRMS from "./Components/NectarHRMS";
-import NectarGPS from "./Components/NectarGPS";
-import NerroTrac from "./Components/NerroTrac";
-import ITSMTool from "./Components/ITSMTool";
 import NDatu from "./Components/NDatu";
 import NectarHRMStab from "./Components/NectarHRMStab";
 import NectarGPSTracertab from "./Components/NectarGPSTracertab";
@@ -52,6 +44,10 @@ import GetProduct from "./Components/GetProduct";
 import OrderManagment from "./containers/Admin/OrderManagment";
 import OrderManagmentModal from "./containers/Admin/OrderManagmentModal";
 import Orderinvoices from "./containers/Admin/Orderinvoices";
+import ProductChart from "./Components/Admin/AdDashProdChart";
+import AdDAshboard from "./containers/Admin/AdDashboard";
+import Resources from "./Components/Resources";
+import Settings from "./Components/Settings";
 
 function App() {
   return (
@@ -98,6 +94,9 @@ function App() {
           <Route path="/telecomeservices" element={<TelecomeServices />} />
           <Route path="/hostingservices" element={<HostingServices />} />
        
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/setting" element={<Settings />} />
+          <Route path="/modal" element={<Modal />} />
           {/*All Tab*/}
           <Route path="/nectarcrmtab" element={<NectarCRMtabs />} />
           <Route path="/nectarhrmstab" element={<NectarHRMStab />} />
@@ -120,6 +119,8 @@ function App() {
           <Route path="/admin" element={<AdLanding />}>
         
             <Route path="ex" element={<Ex />} />
+            <Route path="" element={<AdDAshboard />} />
+            <Route path="ex2" element={<Ex/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
