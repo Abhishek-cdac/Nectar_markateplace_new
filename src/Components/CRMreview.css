@@ -1,0 +1,36 @@
+/*Review*/
+
+.review_backgraound {
+
+    background: #EFE8E8 0% 0% no-repeat padding-box;
+    height: 500%;
+  }
+
+.vertical-line {
+  border-right: 1px solid gray;
+  height: 350px;
+}
+
+.checked {
+  color: #ff9900;
+}
+
+.star_icon {
+  font-size: xx-large;
+  color: #d4d3d1;
+}
+
+.review_title {
+  margin-top: -60px;
+  margin-left: 80px;
+}
+
+.review_adress {
+  margin-left: 80px;
+  margin-top: -10px;
+}
+
+.review_star {
+  margin-left: 70px;
+  margin-top: -20px;
+}

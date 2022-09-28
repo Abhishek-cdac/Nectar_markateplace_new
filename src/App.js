@@ -10,7 +10,6 @@ import Notification from "./Components/Notification";
 import CRM from "./Components/CRM";
 import HRMS from "./Components/HRMS";
 import Products from "./Components/Products";
-
 import Cart from "./Components/Cart";
 import ForgetPassword from "./containers/ForgetPassword";
 import TelecomeServices from "./Components/TelecomeServices";
@@ -36,6 +35,15 @@ import NectarGPSTracertab from "./Components/NectarGPSTracertab";
 import NerroTractab from "./Components/NerroTractab";
 import ITSMTooltab from "./Components/ITSMTooltab";
 import NDatutab from "./Components/NDatutab";
+import ProfileNavbar from "./Components/ProfileNavbar";
+import ContactDetails from "./Components/ContactDetails";
+import Profile from "./Components/Profile";
+import Invoices from "./Components/Invoices";
+import Form from "./Components/Form";
+import GetProduct from "./Components/GetProduct";
+import OrderManagment from "./containers/Admin/OrderManagment";
+import OrderManagmentModal from "./containers/Admin/OrderManagmentModal";
+import Orderinvoices from "./containers/Admin/Orderinvoices";
 import ProductChart from "./Components/Admin/AdDashProdChart";
 import AdDAshboard from "./containers/Admin/AdDashboard";
 import Resources from "./Components/Resources";
@@ -46,11 +54,22 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          
+       
+
           <Route path="/" element={<Landingpage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
-
           <Route path="/products" element={<Products />} />
+          <Route path="/navbar" element={<ProfileNavbar />}></Route>
+          <Route path="/invoices" element={<Invoices />}></Route>
+          <Route path="/contactdetails" element={<ContactDetails />}></Route>
+          <Route path="/form" element={<Form />}></Route>
+          <Route path="/getproduct" element={<GetProduct />}></Route>
+
+          <Route path="/profile" element={<Profile />}></Route>
+          <Route path="/orderinvoices" element={<Orderinvoices/>}></Route>
+
           {/*Overview Page*/}
           <Route path="/gpsoverview" element={<GPSOverview />} />
           <Route path="/hrmsoverview" element={<HRMS />} />
@@ -61,53 +80,20 @@ function App() {
           <Route path="/feature" element={<Feature />} />
           <Route path="/gpsaccordian" element={<GPSAccordian />} />
           {/*Header page*/}
-
-          <Route
-            path="/ndatu"
-            element={
-              <NDatu
-                title="nDatu"
-                subtext1="It is web-based Task Management Tool. It is easily deployable to aid online product for task management with an extensive database."
-                item1="Reporting, Tracking, Assigning & Resolving tasks"
-                item2=" Real Time Tracking & Communication "
-                item3="Manage Multiple Clients"
-                heading="Get 2 months Free Subscription"
-                buttontext="Free Demo"
-                buttontext2="Buy Now"
-              />
-            }
-          />
-
+          <Route path="/ndatu" element={<NDatu />} />
           {/* <Route path="/login" element={<LoginPage />} /> */}
           <Route path="/becomeApartner" element={<BecomeAPartner />} />
           <Route path="/productscreen" element={<Productscreen />} />
-
           <Route path="/nectarcrmreview" element={<NectarCRMReview />} />
-
           <Route path="/notification" element={<Notification />}></Route>
           <Route path="/review" element={<CRMReview />}></Route>
-          <Route
-            path="/crm"
-            element={
-              <CRM
-                title="Nectar CRM"
-                subtext1="The easy to use and customizable CRM for your Marketing, Sales,
-            & Customer Service Teams."
-                item1="Better Sales Performance"
-                item2="Increased Profitability & Efficiency "
-                item3="CRM Improves Your Customer Service"
-                heading="Get 2 months Free Subscription"
-                buttontext="Free Demo"
-                buttontext2="Buy Now"
-              />
-            }
-          />
-
+          <Route path="/crm" element={<CRM />} />
           <Route path="/productscreen" element={<Productscreen />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/forgetpassword" element={<ForgetPassword />} />
           <Route path="/telecomeservices" element={<TelecomeServices />} />
           <Route path="/hostingservices" element={<HostingServices />} />
+       
           <Route path="/resources" element={<Resources />} />
           <Route path="/setting" element={<Settings />} />
           <Route path="/modal" element={<Modal />} />
@@ -123,14 +109,16 @@ function App() {
           <Route path="/ndatutab" element={<NDatutab />}></Route>
 
           {/* Routes of partner */}
-
           <Route path="partner" element={<PartnerLanding />}>
             <Route path="" element={<PartnerDashboard />} />
           </Route>
-
           {/* Routes For Admin Part */}
+          <Route path="/ordermanagmentmodal" element={<OrderManagmentModal/>} />
+          <Route path="/ordermanagment" element={<OrderManagment/>} />
           <Route path="/admin/login" element={<Login />} />
           <Route path="/admin" element={<AdLanding />}>
+        
+            <Route path="ex" element={<Ex />} />
             <Route path="" element={<AdDAshboard />} />
             <Route path="ex2" element={<Ex/>}/>
           </Route>

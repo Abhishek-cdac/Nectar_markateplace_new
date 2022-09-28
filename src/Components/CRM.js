@@ -1,4 +1,5 @@
 import React from 'react'
+import "./CRM.css"
 function CRM({ title, subtext1, buttontext2, buttontext, heading, item1, item2, item3 }) {
     return (
         <>
@@ -18,7 +19,7 @@ function CRM({ title, subtext1, buttontext2, buttontext, heading, item1, item2, 
                             <button className="btn btn-lg text-white m-2" style={{ borderRadius: "2px", background: "#F16728", }}>{buttontext2}</button>
                         </div>
                     </div>
-                    </div>
+                </div>
             </section>
         </>
 

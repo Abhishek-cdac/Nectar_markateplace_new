@@ -1,6 +1,7 @@
 import React from 'react'
 import dummydatareview from '../containers/DummydataReview'
 import dummyDataReview from '../containers/DummydataReview'
+import './CRMreview.css'
 
 
 

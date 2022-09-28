@@ -4,7 +4,7 @@ import NDatuFeatures from './NDatuFeatures'
 function NDatuOverview() {
     return (
         <div>
-            <div className='container'>
+           
                 <div className='row pt-2'>
                     <div className='col  text-white pt-5' style={{ background: "#08668F", }}>
                         <h1 className='text-center'>Benefits</h1>
@@ -33,7 +33,7 @@ function NDatuOverview() {
 
                     </div>
                 </div>
-            </div>
+         
             <NDatuFeatures />
 
         </div>
