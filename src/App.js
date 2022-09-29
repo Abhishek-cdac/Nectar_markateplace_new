@@ -132,7 +132,7 @@ function App() {
           <Route path="/admin/login" element={<Login />} />
           <Route path="/admin" element={<AdLanding />}>
             <Route path="" element={<AdDAshboard />} />
-            <Route path="ex2" element={<Ex/>}/>
+            <Route path="ex2" element={<Ex />} />
           </Route>
         </Routes>
       </BrowserRouter>
