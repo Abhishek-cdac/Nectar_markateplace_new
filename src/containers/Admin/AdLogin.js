@@ -14,7 +14,6 @@ const Login = () => {
     setData({ ...data, [e.target.name]: e.target.value });
   };
 
-
   const handleSubmit = () => {
     console.log(data);
   };
@@ -26,7 +25,10 @@ const Login = () => {
             <div className=" col-lg-6 adminLoginCont">
               <div className="row adminLogTitle">
                 <div className="col-lg-6 mt-4">
-                  <img className="header_logo" src="assets/images/60-X-60.png"/>
+                  <img
+                    className="header_logo"
+                    src="assets/images/60-X-60.png"
+                  />
                   <a
                     class="navbar-brand_adLogin"
                     href="#"

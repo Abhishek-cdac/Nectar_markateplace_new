@@ -176,22 +176,22 @@ function LoginPage() {
                       </div>
                     </div>
                     {!value && (
-                    <div className="row mb-5">
-                      <div className="col-lg-8">
-                        <div className="icon">
-                          <h6>Or Log In Using</h6>
+                      <div className="row mb-5">
+                        <div className="col-lg-8">
+                          <div className="icon">
+                            <h6>Or Log In Using</h6>
+                          </div>
+                        </div>
+                        <div className="col-lg-4">
+                          <a href="#">
+                            <i class="fa-brands fa-google fa-lg"></i>
+                          </a>
+                          &nbsp;&nbsp;&nbsp;
+                          <a href="#">
+                            <i class="fa-brands fa-linkedin fa-lg"></i>
+                          </a>
                         </div>
                       </div>
-                      <div className="col-lg-4">
-                        <a href="#">
-                          <i class="fa-brands fa-google fa-lg"></i>
-                        </a>
-                        &nbsp;&nbsp;&nbsp;
-                        <a href="#">
-                          <i class="fa-brands fa-linkedin fa-lg"></i>
-                        </a>
-                      </div>
-                    </div>
                     )}
                   </div>
                 </div>

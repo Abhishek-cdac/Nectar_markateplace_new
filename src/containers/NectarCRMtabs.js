@@ -13,21 +13,21 @@ import Header2 from "../Components/Header/Header2";
 const NectarCRMtabs = () => {
   return (
     <>
-      <div className="container-fluid">
-        <div className="row ">
-          <Header2/>
-          <CRM
-            title="Nectar CRM"
-            subtext1="The easy to use and customizable CRM for your Marketing, Sales,
+      {/* <div className="container"> */}
+      <div className="row ">
+        <Header2 />
+        <CRM
+          title="Nectar CRM"
+          subtext1="The easy to use and customizable CRM for your Marketing, Sales,
             & Customer Service Teams."
-            item1="Better Sales Performance"
-            item2="Increased Profitability & Efficiency "
-            item3="CRM Improves Your Customer Service"
-            heading="Get 2 months Free Subscription"
-            buttontext="Free Demo"
-            buttontext2="Buy Now"
-          />
-          <div className="container">
+          item1="Better Sales Performance"
+          item2="Increased Profitability & Efficiency "
+          item3="CRM Improves Your Customer Service"
+          heading="Get 2 months Free Subscription"
+          buttontext="Free Demo"
+          buttontext2="Buy Now"
+        />
+        <div className="container">
           <ul class="nav nav-pills navtabs mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
               <button
@@ -89,45 +89,45 @@ const NectarCRMtabs = () => {
               </button>
             </li>
           </ul>
-          </div>
-          <div class="tab-content" id="pills-tabContent">
-            <div
-              class="tab-pane fade show active"
-              id="pills-overview"
-              role="tabpanel"
-              aria-labelledby="pills-overview-tab"
-            >
-              <NectarCRMoverview />
-            </div>
-            <div
-              class="tab-pane fade"
-              id="pills-productscreen"
-              role="tabpanel"
-              aria-labelledby="pills-productscreen-tab"
-            >
-              <Productscreen />
-            </div>
-            <div
-              class="tab-pane fade"
-              id="pills-review"
-              role="tabpanel"
-              aria-labelledby="pills-review-tab"
-            >
-              <NectarCRMReview />
-            </div>
-            <div
-              class="tab-pane "
-              id="pills-pricingsubs"
-              role="tabpanel"
-              aria-labelledby="pills-pricingsubs-tab"
-            >
-              <NectarCRMpricesubs />
-            </div>
-          </div>
-  
         </div>
-        <ProductsFooter />
-  </div>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-overview"
+            role="tabpanel"
+            aria-labelledby="pills-overview-tab"
+          >
+            <NectarCRMoverview />
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-productscreen"
+            role="tabpanel"
+            aria-labelledby="pills-productscreen-tab"
+          >
+            <Productscreen />
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-review"
+            role="tabpanel"
+            aria-labelledby="pills-review-tab"
+          >
+            <NectarCRMReview />
+          </div>
+          <div
+            class="tab-pane "
+            id="pills-pricingsubs"
+            role="tabpanel"
+            aria-labelledby="pills-pricingsubs-tab"
+          >
+            <NectarCRMpricesubs />
+          </div>
+        </div>
+
+      </div>
+      <ProductsFooter />
+      {/* </div> */}
 
     </>
   );

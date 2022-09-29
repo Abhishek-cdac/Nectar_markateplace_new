@@ -1,0 +1,55 @@
+/*Get product*/
+.orderdetails_card {
+    height: 350px;
+    width: 330px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 20px #00000045;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+  }
+  
+  .horizontal_line {
+    border-top: 1px solid #cac8c8;
+  }
+  
+  .paymentmethod_card {
+  
+  
+  
+    width: 100%;
+    border: 1px solid #707070;
+    border-radius: 27px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+  
+  }
+  
+  .pyment_method {
+  
+    width: 100%;
+    background: #E4E2AFD9;
+    border-radius: 6px;
+    border: 0.5px solid #F59E83;
+  }
+  
+  .enterccv {
+    height: 20px;
+    width: 60px;
+    background: white;
+    margin-top: -30px;
+    margin-left: 110px;
+    border: 1px solid #EB5C2F;
+  
+  
+  
+  }
+  
+  .green-color {
+    color: #2DC186;
+  }
+  
+  .btn-success {
+    /* color: #fff; */
+    background-color: #BCE9CAC2;
+    border-color: #bac1bc;
+    width: 200px;
+    border-radius: 5px 5px 5px 5px;
+  }

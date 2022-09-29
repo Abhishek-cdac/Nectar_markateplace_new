@@ -32,9 +32,8 @@ function Card2() {
               </p>
               <button
                 className="Learn_card2"
-                onClick={() => navigate("/nectarcrmtab")}
-
-              >
+                onClick={() => navigate(data.url)}
+                 >
                 <h6>
                   Learn more <i className="fa fa-long-arrow-right"></i>
                 </h6>
