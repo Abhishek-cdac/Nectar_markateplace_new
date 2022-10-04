@@ -113,6 +113,25 @@ const dummyData = {
             image: "/assets/images/Airtel.png"
         }
     ],
+    DeleteData : [
+        {
+            id: "1",
+            deletetitle:"   Delete Order Managment",
+            deletedescription:"Are you sure you want to delete this ordermanagment "
+          
+        },
+        {
+            id: "2",
+            deletetitle:"",
+            deletedescription:""
+           
+        },
+       
+    ],
+
+   
+
+
     hostingCardData : [
         {
             id: "1",
@@ -160,6 +179,7 @@ const dummyData = {
             taxes:"Inclusive of all taxes"
         },
         
+      
     ],
 }
 export default dummyData;

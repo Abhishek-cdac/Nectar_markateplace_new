@@ -42,13 +42,13 @@ import Invoices from "./Components/Invoices";
 import Form from "./Components/Form";
 import GetProduct from "./Components/GetProduct";
 import OrderManagment from "./containers/Admin/OrderManagment";
-import OrderManagmentModal from "./containers/Admin/OrderManagmentModal";
+
 import Orderinvoices from "./containers/Admin/Orderinvoices";
 import ProductChart from "./Components/Admin/AdDashProdChart";
 import AdDAshboard from "./containers/Admin/AdDashboard";
 import Resources from "./Components/Resources";
 import Settings from "./Components/Settings";
-import SupportAndOffer from "./containers/SupportAndOffer"
+import DeleteModal from "./containers/Admin/DeleteModal";
 
 function App() {
   return (
@@ -114,7 +114,9 @@ function App() {
             <Route path="" element={<PartnerDashboard />} />
           </Route>
           {/* Routes For Admin Part */}
-          <Route path="/ordermanagmentmodal" element={<OrderManagmentModal/>} />
+          
+          <Route path="/deletemodal" element={<DeleteModal/>}></Route>
+
           <Route path="/ordermanagment" element={<OrderManagment/>} />
           <Route path="/admin/login" element={<Login />} />
           <Route path="/admin" element={<AdLanding />}>
@@ -123,8 +125,6 @@ function App() {
             <Route path="" element={<AdDAshboard />} />
             <Route path="ex2" element={<Ex/>}/>
           </Route>
-            <Route path="supportAndoffer" element={<SupportAndOffer />} />
-
         </Routes>
       </BrowserRouter>
     </>
