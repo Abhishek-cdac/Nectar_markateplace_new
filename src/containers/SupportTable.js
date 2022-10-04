@@ -5,9 +5,9 @@ import ReactPaginate from "react-paginate";
 const SupportTable = () => {
   //pagination
   const [pageNumber, setPageNumber] = useState(0);
-  const usersPerPage = 5;
+  const usersPerPage = 10;
   const pagesVisited = pageNumber * usersPerPage;
-  const pageCount = Math.ceil(DummyData?.viewActiveOffer.length / usersPerPage);
+  const pageCount = Math.ceil(DummyData?.viewActiveOfferData.length / usersPerPage);
   const changePage = ({ selected }) => {
     setPageNumber(selected);
   };
@@ -15,14 +15,15 @@ const SupportTable = () => {
     <div className="container-fluid">
       <div className="col-lg-12 col-sm-8 col-md-12">
         <div className="row">
-          <table class="table table-bordered ">
+       <div className="table-responsive">
+       <table class="table table-bordered ">
             <thead>
-              {DummyData &&
+              {/* {DummyData &&
                 DummyData.viewActiveOffer
                   .slice(pagesVisited, pagesVisited + usersPerPage)
                   .map((data) => (
                     <tr>
-                      <th scope="col">{data.offer}</th>
+                      <th scope="col" className="tablehead">{data.offer}</th>
                       <th scope="col">{data.onproduct}</th>
                       <th scope="col">{data.offerDate}</th>
                       <th scope="col">{data.offertype}</th>
@@ -30,16 +31,25 @@ const SupportTable = () => {
                       <th scope="col">{data.Status}</th>
                       <th scope="col">{data.icons}</th>
                     </tr>
-                  ))}
+                  ))} */}
+                   <tr className="viewofferhead">
+                      <th scope="col"><h5>offer</h5></th>
+                      <th scope="col"><h5>onproduct</h5></th>
+                      <th scope="col"><h5>offerDate</h5></th>
+                      <th scope="col"><h5>offertype</h5></th>
+                      <th scope="col"><h5>validity</h5></th>
+                      <th scope="col"><h5>Status</h5></th>
+                      <th scope="col"><h5>icons</h5></th>
+                    </tr>
             </thead>
             <tbody>
               {DummyData &&
                 DummyData.viewActiveOfferData
                   .slice(pagesVisited, pagesVisited + usersPerPage)
                   .map((data) => (
-                    <tr>
-                      <th scope="row">{data.offer}</th>
-
+                    <tr className="viewofferdata">
+                      {/* <th scope="row">{data.offer}</th> */}
+                      <td>{data.offer}</td>
                       <td>{data.onproduct}</td>
                       <td>{data.offerDate}</td>
                       <td>{data.offertype}</td>
@@ -47,13 +57,20 @@ const SupportTable = () => {
                       {/* <button className="paid-btn m-2">{data.Status}</button> */}
                       <td>{data.Status}</td>
 
-                      <i class="fa-regular fa-eye"></i>
+                     <td className="viewactiveoffericons">
+
+
+                      
+
+                     <i class="fa-regular fa-eye"></i>
                       <i class="fa-sharp fa-solid fa-pen"></i>
                       <i class="fa-solid fa-trash"></i>
+                     </td>
                     </tr>
                   ))}
             </tbody>
           </table>
+       </div>
           <div className="col-md-7"></div>
           <div
             className="col-md-5 product_pagination"
@@ -63,9 +80,10 @@ const SupportTable = () => {
               marginTop: "20px",
             }}
           >
+ 
             <ReactPaginate
-              previousLabel={<i class="fa-solid fa-arrow-left fa-lg"></i>}
-              nextLabel={<i class="fa-solid fa-arrow-right fa-lg"></i>}
+              previousLabel={<i class="fa-solid fa-less-than"></i>}
+              nextLabel={<i class="fa-solid fa-greater-than"></i>}
               pageCount={pageCount}
               onPageChange={changePage}
               containerClassName={"paginationBttns"}

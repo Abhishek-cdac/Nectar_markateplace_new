@@ -38,7 +38,7 @@ const SupportAndOffer = () => {
                   <h6>View Active Offers</h6>
                 </div>
                 <span className={`react-switch-button`}>
-                  <div className="toggleSwitchLabel">
+                  <div className="toggleSwitchLabel3">
                     {!value ? (
                       <h6>Create Offer</h6>
                     ) : (
