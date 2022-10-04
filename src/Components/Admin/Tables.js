@@ -30,6 +30,14 @@ const TableBody = ({ item, column }) => (
       if (columnItem.value.includes(".")) {
         const itemSplit = columnItem.value.split("."); ////['adress','city' nothing but for acesss object in object]
         return <td>{item[itemSplit[0]][itemSplit[1]]}</td>;
+      } else if (columnItem.value === "image") {
+        return (
+          <td>
+            <img src={item[`${columnItem.value}`]} alt="No IMage" />
+            {/* <img src="/assets/images/user1.png"/> */}
+            {console.log(item[`${columnItem.value}`])}
+          </td>
+        );
       }
       return <td>{item[`${columnItem.value}`]}</td>;
     })}
