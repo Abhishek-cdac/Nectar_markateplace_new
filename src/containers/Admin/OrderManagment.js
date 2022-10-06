@@ -19,15 +19,14 @@ function OrderManagment() {
                   class="form-control search"
                   id="exampleInputEmail1"
                   placeholder="search"
-                  
                   aria-describedby="emailHelp"
                 />
-                    <i class="fa fa-search position-absolute ml-1"></i>
+                <i class="fa fa-search position-absolute ml-1"></i>
               </div>
             </div>
 
             <div className="col-md-3">
-              <button className="btn-search text-center">Search</button>
+              <button className="btn-sarch text-center">Search</button>
             </div>
 
             <div className="col-md-3 text-end">
