@@ -1,9 +1,9 @@
 import React from "react";
 import "../../containers/Admin/admin.css"
 
-const Progress = ({ProgressclassName}) => {
+const Progress = ({ProgressclassName,progressmain}) => {
   return (
-    <span class="progress DashProCard" style={{ height: "5px" }}>
+    <span class={`progress DashProCard ${progressmain}`} style={{ height: "5px" }}>
       <div
         class={`progress-bar ${ProgressclassName}`}
         role="progressbar"
