@@ -3,6 +3,14 @@
   height: 100vh;
 }
 
+.MarketplaceLogoHead a {
+  color: #666666;
+  font-size: large;
+  font-weight: 600;
+}
+.MarketplaceLogoHead {
+  padding-top: 5%;
+}
 .adminLogTitle {
   justify-content: center;
   font-weight: 400;
@@ -182,12 +190,12 @@
 .WorldMap_img {
   width: 100%;
 }
-.world_table tr,
+/* .world_table tr,
 th {
   font-weight: 200 !important;
   font-size: small !important;
   color: grey;
-}
+} */
 .world_table {
   width: 100% !important;
   margin: 30px 0px 30px 0px;
@@ -199,16 +207,16 @@ th {
   background-color: white;
   margin: 0px 10px 20px;
   height: 20em;
-  border-radius:10px;
+  border-radius: 10px;
   border-radius: 10px;
 }
 
-.grossSqure{
- color:#14ABEF;
- margin: 0px 40px 20px 10px;
+.grossSqure {
+  color: #14abef;
+  margin: 0px 40px 20px 10px;
 }
 .salesSqure {
-  color :#ADE2F9;
+  color: #ade2f9;
 }
 /*  admin Circle Progress */
 #demopro {
@@ -368,7 +376,7 @@ th {
   width: 45%;
   background-color: white;
   margin: 0px 10px;
-  border-radius:10px;
+  border-radius: 10px;
   height: 18em;
   display: flex;
   justify-content: center;
@@ -437,4 +445,198 @@ th {
   background: none;
   border: none;
   font-size: small;
+}
+
+/* //UserManagement */
+
+.adminSecHeading {
+  color: #666666;
+  font-size: large;
+}
+
+.UserManRadio label {
+  margin-right: 10%;
+  color: #666666;
+}
+.UserRadio {
+  margin-right: 3px;
+}
+
+.UserTableTabs {
+  margin: 15px 0 0 0;
+}
+.userTabButton {
+  background-color: #f16728 !important;
+  color: #fff !important;
+}
+.table-nav-link {
+  color: #f16728 !important;
+}
+/* FilterRadio */
+.userMenuFilter {
+  display: flex;
+  justify-content: end;
+}
+.FilterRadioHead {
+  color: #666666;
+  margin: 5px !important;
+  font-size: medium;
+}
+.UserRadioFilter {
+  margin: 0 10px 2px 20px;
+  width: 10px;
+  color: #666666;
+}
+.FilterRadioGroup label {
+  font-size: small;
+  color: #666666;
+}
+.filterMenuBut {
+  border: none;
+  background-color: floralwhite;
+}
+
+/* product Card Toggle */
+
+.AdProdCard {
+  width:20em;
+  /* margin:40px 30px 30px 40px; */
+  margin: 20px 20px 20px 30px
+}
+.cardBodyToggle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AdProdManTitle {
+  color: grey;
+  font-size: medium;
+  padding-left:5px;
+}
+
+.AdProdStar {
+  padding-left:10px
+}
+
+.AdProdMantext {
+  color: grey;
+  font-size: smaller;
+  padding-left:5px;
+}
+
+.AdProdMantextCount {
+  color: grey;
+  font-size: smaller;
+  padding:9% 0 0 5%
+}
+
+.toggle-switch {
+  position: relative;
+  width: 75px;
+  display: inline-block;
+  text-align: left;
+  top: 0px;
+}
+.checkbox {
+  display: none;
+}
+.ProdManLabel {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 0 solid #bbb;
+  border-radius: 20px;
+  height: 30px;
+}
+.inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+.inner:before,
+.inner:after {
+  float: left;
+  width: 50%;
+  height: 36px;
+  padding: 0;
+  line-height: 36px;
+  color: #fff;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.inner:before {
+  content: "YES";
+  padding-left: 10px;
+  background-color: #f16728;
+  color: #fff;
+}
+.inner:after {
+  content: "NO";
+  padding-right: 10px;
+  background-color: #f16728;
+  color: #fff;
+  text-align: right;
+}
+.ProdManSwitch {
+  display: block;
+  width: 24px;
+  margin-right: 2px;
+  margin-top: 2px;
+  height: 25px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 48px;
+  border: 0 solid #bbb;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+.checkbox:checked + .label .inner {
+  margin-left: 0;
+}
+.checkbox:checked + .label .switch {
+  right: 0px;
+}
+
+.ProdcardBottom {
+  display: flex;
+}
+.ProdCardBut {
+  border: none;
+  background-color: #fff;
+  margin-top: 5px;
+}
+
+.ProdManFooter {
+  display: flex;
+  height:30px
+}
+.ProdCardMain {
+  margin-top:3%;
+  height: 20px !important;
+  width:100%
+}
+.ProdManProgress {
+  width:40%;
+  background-color: #f16728;
+}
+.ProdManFooter .heading {
+  width: 22%;
+  color: grey;
+  opacity: 0.9;
+  margin-left:20px;
+}
+.ProdManFooter .ProdManProg {
+  width:50%;
+}
+.ProdManFooter .footer {
+  color:grey;
+  width:18%;
+  font-size:smaller;
+}
+.AdProdSeeReview {
+  color:#666666;
+  font-size: medium;
 }

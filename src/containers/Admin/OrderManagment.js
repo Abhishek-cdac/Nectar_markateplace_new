@@ -14,14 +14,21 @@ function OrderManagment() {
           <div className="row">
             <div className="col-md-6">
               <div class="mb-3">
-                <input
+                {/* <input
                   type="email"
                   class="form-control search"
                   id="exampleInputEmail1"
                   placeholder="search"
                   aria-describedby="emailHelp"
-                />
-                <i class="fa fa-search position-absolute ml-1"></i>
+                /> */}
+                <div class="position-relative">
+                  <i class="fa fa-search position-absolute"></i>
+                  <input
+                    class="form-control"
+                    type="search"
+                    placeholder="search"
+                  />
+                </div>
               </div>
             </div>
 

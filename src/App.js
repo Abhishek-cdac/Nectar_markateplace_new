@@ -49,15 +49,15 @@ import AdDAshboard from "./containers/Admin/AdDashboard";
 import Resources from "./Components/Resources";
 import Settings from "./Components/Settings";
 import DeleteModal from "./containers/Admin/DeleteModal";
+import SupportAndOffer from "./containers/SupportAndOffer";
+import AdUserMan from "./containers/Admin/userManagement/AdUserMan";
+import AdProdMang from "./containers/Admin/ProductManagement/AdProdMang";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
-          
-       
-
           <Route path="/" element={<Landingpage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<Register />} />
@@ -69,7 +69,7 @@ function App() {
           <Route path="/getproduct" element={<GetProduct />}></Route>
 
           <Route path="/profile" element={<Profile />}></Route>
-          <Route path="/orderinvoices" element={<Orderinvoices/>}></Route>
+          <Route path="/orderinvoices" element={<Orderinvoices />}></Route>
 
           {/*Overview Page*/}
           <Route path="/gpsoverview" element={<GPSOverview />} />
@@ -94,7 +94,7 @@ function App() {
           <Route path="/forgetpassword" element={<ForgetPassword />} />
           <Route path="/telecomeservices" element={<TelecomeServices />} />
           <Route path="/hostingservices" element={<HostingServices />} />
-       
+
           <Route path="/resources" element={<Resources />} />
           <Route path="/setting" element={<Settings />} />
           <Route path="/modal" element={<Modal />} />
@@ -114,17 +114,18 @@ function App() {
             <Route path="" element={<PartnerDashboard />} />
           </Route>
           {/* Routes For Admin Part */}
-          
-          <Route path="/deletemodal" element={<DeleteModal/>}></Route>
 
-          <Route path="/ordermanagment" element={<OrderManagment/>} />
+         
           <Route path="/admin/login" element={<Login />} />
           <Route path="/admin" element={<AdLanding />}>
-        
-            <Route path="ex" element={<Ex />} />
+          <Route path="ordermanagment" element={<OrderManagment />} />
+            <Route path="usermanagement" element={<AdUserMan />} />
+            <Route path="productmanagement" element={<AdProdMang />} />
             <Route path="" element={<AdDAshboard />} />
-            <Route path="ex2" element={<Ex/>}/>
+            <Route path="ex2" element={<Ex />} />
+            <Route path="ex" element={<Ex />} />
           </Route>
+          <Route path="supportAndoffer" element={<SupportAndOffer />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -774,6 +774,7 @@ p .product-banner-content {
 
 #layoutSidenav {
   display: flex;
+  width:100%;
 }
 
 /* #layoutSidenav #layoutSidenav_nav {

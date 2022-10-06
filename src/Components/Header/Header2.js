@@ -10,7 +10,7 @@ function Header2() {
         <div class="container-fluid">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <img className="header_logo" src="assets/images/Multilogo.jpg" />
+              <img className="header_logo" src="/assets/images/Multilogo.jpg" />
             </li>
             <li style={{ paddingTop: "5px" }}>
               <div
@@ -23,8 +23,8 @@ function Header2() {
                 }}
               ></div>
             </li>
-            <li class="nav-item">
-              <a class="navbar-brand" href="#">
+            <li class="nav-item MarketplaceLogoHead">
+              <a class="navbar-brand " href="#">
                 Market Place
               </a>
             </li>

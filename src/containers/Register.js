@@ -63,7 +63,7 @@ function Register() {
                           type="radio"
                           name="flexRadioDefault"
                           id="flexRadioDefault1"
-                          value="partner"
+                          value={value}
                           onChange={handleToggle}
                         />
                         <label class="form-check-label" for="flexRadioDefault1">
