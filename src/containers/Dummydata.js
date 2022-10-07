@@ -421,7 +421,18 @@ const dummyData = {
       label: "Subscribed User",
     },
   ],
-
+  productManRadio: [
+    {
+      id: 1,
+      name: "Nectar Products",
+      label: "Nectar Products",
+    },
+    {
+      id: 2,
+      name: "PartnerProducts",
+      label: "Partner Products",
+    },
+  ],
   RegisteredUSers: [
     {
       id: "1",
@@ -690,5 +701,59 @@ const dummyData = {
     },
   ],
 
+  OtherProdCrad: [
+    {
+      id: "1",
+      image: "/assets/images/Wipro-logo.png",
+      title: "Task Management",
+      
+    },
+    {
+      id: "2",
+      image: "/assets/images/techlogo.png",
+      title: "Device Tracker",
+     
+    },
+    {
+      id: "3",
+      image: "/assets/images/Wipro-logo.png",
+      title: "ChatBoat",
+    },
+     
+    {
+      id: "4",
+      image: "/assets/images/inlogo.png",
+      title: "Insightly CRM",
+    },
+    {
+      id: "5",
+      image: "/assets/images/school.png",
+      title: "Insightly CRM",
+      
+    },
+    {
+      id: "6",
+      image: "/assets/images/vp.png",
+      title: "visit plan",
+      
+    },
+    {
+      id: "7",
+      image: "/assets/images/reel.png",
+      title: "Zoho Expanse",
+    },
+    {
+      id: "8",
+      image: "/assets/images/books.png",
+      title: "Multilevel Checklist",
+      
+    },
+    {
+      id: "9",
+      image: "/assets/images/drive.png",
+      title: "Google Drive Integration",
+      
+    },
+  ],
 };
 export default dummyData;

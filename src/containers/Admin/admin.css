@@ -469,6 +469,7 @@ th {
   background-color: #f16728 !important;
   color: #fff !important;
 }
+
 .table-nav-link {
   color: #f16728 !important;
 }
@@ -482,11 +483,13 @@ th {
   margin: 5px !important;
   font-size: medium;
 }
+
 .UserRadioFilter {
   margin: 0 10px 2px 20px;
   width: 10px;
   color: #666666;
 }
+
 .FilterRadioGroup label {
   font-size: small;
   color: #666666;
@@ -500,6 +503,7 @@ th {
 
 .AdProdCard {
   width:20em;
+  height:15em;
   /* margin:40px 30px 30px 40px; */
   margin: 20px 20px 20px 30px
 }
@@ -574,7 +578,7 @@ th {
 .inner:after {
   content: "NO";
   padding-right: 10px;
-  background-color: #f16728;
+  background-color: grey;
   color: #fff;
   text-align: right;
 }
@@ -639,4 +643,13 @@ th {
 .AdProdSeeReview {
   color:#666666;
   font-size: medium;
+}
+
+
+/* ProdMan PArtner Card */
+
+.cardHead{
+  display:flex;
+  justify-content: space-around;
+  margin:5%;
 }
