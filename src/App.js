@@ -51,6 +51,7 @@ import Settings from "./Components/Settings";
 import SupportAndOffer from "./containers/SupportAndOffer";
 import AdUserMan from "./containers/Admin/userManagement/AdUserMan";
 import AdProdMang from "./containers/Admin/ProductManagement/AdProdMang";
+import FeedbackandSupport from "./containers/Admin/FeedbackandSupport";
 
 function App() {
   return (
@@ -127,6 +128,8 @@ function App() {
             <Route path="ex" element={<Ex />} />
           </Route>
           <Route path="supportAndoffer" element={<SupportAndOffer />} />
+          <Route path="feedbackandsupport" element={<FeedbackandSupport />} />
+
         </Routes>
       </BrowserRouter>
     </>
