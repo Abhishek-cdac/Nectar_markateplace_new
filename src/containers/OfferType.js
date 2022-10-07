@@ -1,6 +1,19 @@
-import React from "react";
+import React ,{useState} from "react";
 import "./supportoffer.css";
 const OfferType = () => {
+
+  const [file, setFile] = useState("");
+  const handleFileChange = (event) => {
+    var reader = new FileReader();
+    reader.onload = function () {
+      var output = document.getElementById("profile");
+      console.log("output", output);
+      output.src = reader.result;
+    };
+    reader.readAsDataURL(event.target.files[0]);
+    setFile(event.target.files);
+    console.log(file);
+  };
   return (
     <>
       <div className="container-fluid">
@@ -229,7 +242,37 @@ const OfferType = () => {
             style={{ border: "1px solid gray", padding: "5%" }}
           >
             <div className="text-center" style={{ color: "#2D9CCE" }}>
-              <i class="fa-solid fa-upload fa-5x"></i>
+
+
+
+
+            <label
+                  className=""
+                  style={{ marginTop: "-15px", cursor: "pointer" }}
+                >
+                   <i class="fa-solid fa-upload fa-5x"></i>
+                  <br />
+                  <input
+                    id="file"
+                    type="file"
+                    name="file"
+                    onChange={handleFileChange}
+                    className="form-control"
+                    style={{ display: "none" }}
+                  />
+                </label>
+
+
+
+
+
+
+
+
+
+
+
+         
               <h6 className="mt-3">Upload Your Image Here</h6>
             </div>
           </div>
