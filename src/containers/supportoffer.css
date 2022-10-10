@@ -19,7 +19,7 @@
   transition: background-color 0.2s;
 }
 
-.toggleSwitchLabel {
+.toggleSwitchLabel3 {
   padding-top: 8%;
   padding-left: 0%;
   color: #fff;
@@ -62,4 +62,106 @@
 }
 dropdown-toggle:empty::after {
   float: right;
+}
+
+
+
+/* table css */
+
+
+.viewofferhead th{
+  
+   color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.viewofferdata{
+  font-size: medium;
+  color: #939393;
+  
+}
+
+.viewactiveoffericons  i {
+  padding: 8px;
+}
+
+
+
+
+/* .fa-bars:before {
+    / content: "\f0c9"; /
+/ left: 100%; /
+/* position: absolute;
+    left: 100%;
+    top: 90px;
+} */
+/* .modal {
+  position: fixed;
+  top: 130px;
+  left: 455px;
+  z-index: 1050;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+}
+.modal-backdrop.show {
+  opacity: 0;
+}
+.modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+
+  outline: 0;
+}
+
+.btn-search {
+  height: 35px;
+  position: relative;
+  margin-left: 51%;
+  bottom: 53px;
+  width: 50px;
+
+  font: normal normal normal 13px/39px Lato;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  border: none;
+  background: #F16728;
+} */
+
+/* pagiantion */
+
+
+
+.paginationBttns a {
+  padding: 12px;
+  margin: 5px;
+  border-radius: 5px;
+  /* border: 1px solid #0076B5; */
+  /* color: #0076B5; */
+  cursor: pointer;
+  font: 1em sans-serif;
+  font-size: 15px;
+}
+.paginationActive a{
+  /* background-color: #0076B5; */
+}
+.pagination {
+  display: inline-block;
+}
+.product_pagination dl,.product_pagination ol, .product_pagination ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: inherit;
+  text-decoration: none;
+  list-style-type: none;
 }

@@ -171,6 +171,188 @@ const DummyData = {
       validity: "03/03/2022",
       Status: "Active",
     },
+    {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+    {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+    {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+    {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+    {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+    {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+    {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+      {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },  {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+    {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+    {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+    {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+    {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+
+      {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+      {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+      {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },  {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+    {
+     
+      offer: "2Registration Offer",
+      onproduct: "Nectar HRMS",
+    
+      offerDate: "31/12/2021",
+      offertype: "Price deduction 25%",
+      validity: "03/03/2022",
+      Status: "Active",
+    },
+
+    
+    
   ],
 };
 export default DummyData;
