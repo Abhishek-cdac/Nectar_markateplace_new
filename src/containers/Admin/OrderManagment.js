@@ -70,7 +70,7 @@ function OrderManagment() {
                         <td style={{ color: "#3CA3CF" }}>{data.orderId}</td>
                         <td>{data.orderDate}</td>
                         <td>{data.Amount}</td>
-                        <p
+                        <td
                           className={`${
                             data.Status === "PAID"
                               ? "table-paid-btn"
@@ -78,7 +78,7 @@ function OrderManagment() {
                           } m-2`}
                         >
                           {data.Status}
-                        </p>
+                        </td>
                         <td>
                           <i
                             class="fa fa-eye"

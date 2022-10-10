@@ -52,6 +52,8 @@ import DeleteModal from "./containers/Admin/DeleteModal";
 import SupportAndOffer from "./containers/SupportAndOffer";
 import AdUserMan from "./containers/Admin/userManagement/AdUserMan";
 import AdProdMang from "./containers/Admin/ProductManagement/AdProdMang";
+import PaymentManagment from "./containers/Admin/PaymentManagment";
+import Paymentmanagment2 from "./containers/Admin/Paymentmanagment2";
 
 function App() {
   return (
@@ -114,11 +116,13 @@ function App() {
             <Route path="" element={<PartnerDashboard />} />
           </Route>
           {/* Routes For Admin Part */}
+          <Route path="/payment" element={<Paymentmanagment2/>} />
 
-         
+          <Route path="/paymentmanagament" element={<PaymentManagment/>} />
           <Route path="/admin/login" element={<Login />} />
           <Route path="/admin" element={<AdLanding />}>
           <Route path="ordermanagment" element={<OrderManagment />} />
+    
             <Route path="usermanagement" element={<AdUserMan />} />
             <Route path="productmanagement" element={<AdProdMang />} />
             <Route path="" element={<AdDAshboard />} />
