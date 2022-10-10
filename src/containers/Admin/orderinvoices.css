@@ -1,12 +1,107 @@
-.order_invoices {
-  width: 100%;
-  height: 12px;
-  background: #f16728;
+.btn_grandtotal {
+  height: 80px;
+  width: 378px;
+  background: #f16728 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  margin-left: auto;
+  margin-top: -16px;
 }
-.background_orderinvoices{
-    width: 100%;
-    height: auto;
-    background: white;
-    box-shadow: 0px 3px 60px #00000047
+.table_data {
+  width: 250px;
+}
+.table_datatotal {
+  width: 200px;
+}
 
+.btn_invoices .btn-lg {
+  font-size: 20px;
+  border-radius: 10px;
+  width: 20%;
 }
+
+.btn_invoices .btn-primary {
+  color: #fff;
+  background-color: #f16728;
+  border-color: #f16728;
+}
+.btn_invoices .btn-outline-primary {
+  color: #f16728;
+  border-color: #f16728;
+}
+.btn_invoices .btn-outline-secondary {
+  color: #f16728;
+  border-color: #f16728;
+}
+
+.vertical-lineorderinvoices {
+  border-right: 1px solid gray;
+  height: 160px;
+}
+.oranage_borderinvoices {
+  width: 200px;
+  height: 20px;
+  background-color: #f16728;
+}
+.invoice-modal .modal-header {
+  border-top: 10px solid #f16728;
+  align-items: center;
+}
+.invoice-modal .modal-content {
+  border-bottom: 10px solid #f16728;
+}
+
+.marketplace_content {
+  float: right;
+  line-height: 40px;
+  margin-left: 10px;
+  margin-bottom: 0px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .btn_invoices .btn-lg {
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .invoice-modal .modal-title {
+    font-size: 1.5rem;
+  }
+}
+.btn_invoices.mx-5 {
+  display: block;
+  text-align: center;
+}
+
+
+.delete-modal .btn-primary{
+  color: #fff;
+  background-color:#f16728;
+  border-color: #f16728;
+}
+.modal-backdrop {
+  background-color: white;
+}
+i {
+  font-size: 1rem;
+  color: #333;
+  top: .75rem;
+  left: .75rem
+}
+
+.orderinvoices-table th {
+  font-size: 18px !important;
+}
+.orderinvoices-table  {
+  color: #dee2e6;
+}
+
+/* input {
+  padding-left: 2.5rem;
+}
+
+
+input[type='text']{
+  text-align:right;
+  } */
