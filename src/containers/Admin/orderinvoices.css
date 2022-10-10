@@ -90,6 +90,13 @@ i {
   left: .75rem
 }
 
+.orderinvoices-table th {
+  font-size: 18px !important;
+}
+.orderinvoices-table  {
+  color: #dee2e6;
+}
+
 /* input {
   padding-left: 2.5rem;
 }

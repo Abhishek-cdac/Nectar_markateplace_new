@@ -64,29 +64,21 @@ dropdown-toggle:empty::after {
   float: right;
 }
 
-
-
 /* table css */
 
-
-.viewofferhead th{
-  
-   color: #000000;
+.viewofferhead th {
+  color: #000000;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.viewofferdata{
+.viewofferdata {
   font-size: medium;
   color: #939393;
-  
 }
 
-.viewactiveoffericons  i {
+.viewactiveoffericons i {
   padding: 8px;
 }
-
-
-
 
 /* .fa-bars:before {
     / content: "\f0c9"; /
@@ -140,8 +132,6 @@ dropdown-toggle:empty::after {
 
 /* pagiantion */
 
-
-
 .paginationBttns a {
   padding: 12px;
   margin: 5px;
@@ -152,13 +142,15 @@ dropdown-toggle:empty::after {
   font: 1em sans-serif;
   font-size: 15px;
 }
-.paginationActive a{
+.paginationActive a {
   /* background-color: #0076B5; */
 }
 .pagination {
   display: inline-block;
 }
-.product_pagination dl,.product_pagination ol, .product_pagination ul {
+.product_pagination dl,
+.product_pagination ol,
+.product_pagination ul {
   margin-top: 0;
   margin-bottom: 1rem;
   display: inherit;

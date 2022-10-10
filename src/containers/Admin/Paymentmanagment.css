@@ -1,4 +1,4 @@
-/* .backgraound_white {
+.backgraound_white {
   background-color: white;
   box-shadow: 0px 3px 30px #00000012;
   border-radius: 9px;
@@ -7,8 +7,6 @@
 }
 
 input,
-optgroup,
-select,
 textarea .backgraound_white {
   margin: 0;
   font-family: inherit;
@@ -19,7 +17,7 @@ textarea .backgraound_white {
   border: 0.30000001192092896px solid #707070;
   border-radius: 7px;
   opacity: 1;
-  height: 38px;
+
 }
 .backgraound_white span {
   width: 30% !important;
@@ -34,18 +32,16 @@ textarea .backgraound_white {
 }
 .transaction-id::placeholder {
   color: black;
-} */
-.pay-pending-btn{
+}
+.pay-pending-btn {
   font-size: 14px;
   color: #ff0000;
   width: max-content;
-  opacity: 1
-
+  opacity: 1;
 }
-.pay-paid-btn{
+.pay-paid-btn {
   font-size: 14px;
   letter-spacing: 0px;
   color: #05d628;
   opacity: 1;
-
 }

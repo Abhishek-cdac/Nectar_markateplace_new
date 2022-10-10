@@ -190,12 +190,12 @@
 .WorldMap_img {
   width: 100%;
 }
-/* .world_table tr,
+.world_table tr,
 th {
   font-weight: 200 !important;
   font-size: small !important;
   color: grey;
-} */
+}
 .world_table {
   width: 100% !important;
   margin: 30px 0px 30px 0px;

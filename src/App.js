@@ -116,13 +116,17 @@ function App() {
             <Route path="" element={<PartnerDashboard />} />
           </Route>
           {/* Routes For Admin Part */}
-          <Route path="/payment" element={<Paymentmanagment2/>} />
 
-          <Route path="/paymentmanagament" element={<PaymentManagment/>} />
           <Route path="/admin/login" element={<Login />} />
           <Route path="/admin" element={<AdLanding />}>
-          <Route path="ordermanagment" element={<OrderManagment />} />
-    
+            <Route path="paymentmanagament" element={<PaymentManagment />} />
+            <Route
+              path="/admin/paymentmanagament/paymentdetails"
+              element={<Paymentmanagment2 />}
+            />
+
+            <Route path="ordermanagment" element={<OrderManagment />} />
+
             <Route path="usermanagement" element={<AdUserMan />} />
             <Route path="productmanagement" element={<AdProdMang />} />
             <Route path="" element={<AdDAshboard />} />

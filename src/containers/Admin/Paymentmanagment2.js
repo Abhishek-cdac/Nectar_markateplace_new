@@ -14,7 +14,7 @@ function Paymentmanagment2() {
               <a class="navbar-brand" href="#">
                 <i
                   class="fa fa-long-arrow-left"
-                  onClick={() => navigate("/paymentmanagament")}
+                  onClick={() => navigate("/admin/paymentmanagament")}
                   aria-hidden="true"
                 ></i>
                 <img
@@ -23,6 +23,7 @@ function Paymentmanagment2() {
                   //   width="35"
                   //   height="24"
                 />
+                <span className="text-muted">Mark Lorenson</span>
               </a>
             </div>
           </nav>
@@ -36,6 +37,7 @@ function Paymentmanagment2() {
                   <form>
                     <span> Payer Name:</span>
                     <input
+                    style={{height:"38px"}}
                       type="text"
                       name="firstname"
                       className="inputfield "
@@ -46,6 +48,7 @@ function Paymentmanagment2() {
                   <form>
                     <span>Subscription Type:</span>
                     <input
+                      style={{height:"38px"}}
                       type="text"
                       name="firstname"
                       className=""
@@ -57,6 +60,7 @@ function Paymentmanagment2() {
                     <span>Amount Transferred:</span>
 
                     <input
+                      style={{height:"38px"}}
                       type="text"
                       name="firstname"
                       className=""
@@ -68,6 +72,7 @@ function Paymentmanagment2() {
                     <span> Transaction ID:</span>
 
                     <input
+                      style={{height:"38px"}}
                       type="text"
                       name="firstname"
                       className="transaction-id"
@@ -81,6 +86,7 @@ function Paymentmanagment2() {
                     <span> Product Name:</span>
 
                     <input
+                      style={{height:"38px"}}
                       type="text"
                       name="firstname"
                       className=""
@@ -91,6 +97,7 @@ function Paymentmanagment2() {
                   <form>
                     <span>Transaction Mode:</span>
                     <input
+                      style={{height:"38px"}}
                       type="text"
                       name="firstname"
                       className=""
@@ -102,6 +109,7 @@ function Paymentmanagment2() {
                     <span>Invoice Number:</span>
 
                     <input
+                      style={{height:"38px"}}
                       type="text"
                       name="firstname"
                       className="invoice-number"
@@ -114,6 +122,7 @@ function Paymentmanagment2() {
                     <span> Status:</span>
 
                     <input
+                      style={{height:"38px"}}
                       type="text"
                       name="firstname"
                       className=""

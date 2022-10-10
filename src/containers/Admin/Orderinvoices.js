@@ -29,7 +29,7 @@ function Orderinvoices() {
                     <p className="marketplace_content">Marketplace</p>
                   </div>
                 </div>
-                <div class="modal-body m-2">
+                <div class="modal-body m-2" style={{fontSize:"15px"}}>
                   <div class="row">
                     <div class="col-md-6">
                       <div className="vertical-lineorderinvoices">
