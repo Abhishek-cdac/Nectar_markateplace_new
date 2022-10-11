@@ -52,6 +52,8 @@ import DeleteModal from "./containers/Admin/DeleteModal";
 import SupportAndOffer from "./containers/SupportAndOffer";
 import AdUserMan from "./containers/Admin/userManagement/AdUserMan";
 import AdProdMang from "./containers/Admin/ProductManagement/AdProdMang";
+import FeedbackandSupport from "./containers/Admin/FeedbackandSupport";
+import ReportManagement from "./containers/Admin/ReportManagement";
 import PaymentManagment from "./containers/Admin/PaymentManagment";
 import Paymentmanagment2 from "./containers/Admin/Paymentmanagment2";
 
@@ -134,6 +136,8 @@ function App() {
             <Route path="ex" element={<Ex />} />
           </Route>
           <Route path="supportAndoffer" element={<SupportAndOffer />} />
+          <Route path="feedbackandsupport" element={<FeedbackandSupport />} />
+          <Route path="reportmanagement" element={<ReportManagement />} />
         </Routes>
       </BrowserRouter>
     </>
