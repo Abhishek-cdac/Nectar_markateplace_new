@@ -469,6 +469,7 @@ th {
   background-color: #f16728 !important;
   color: #fff !important;
 }
+
 .table-nav-link {
   color: #f16728 !important;
 }
@@ -482,11 +483,13 @@ th {
   margin: 5px !important;
   font-size: medium;
 }
+
 .UserRadioFilter {
   margin: 0 10px 2px 20px;
   width: 10px;
   color: #666666;
 }
+
 .FilterRadioGroup label {
   font-size: small;
   color: #666666;
@@ -500,8 +503,16 @@ th {
 
 .AdProdCard {
   width:20em;
+  height:16em;
   /* margin:40px 30px 30px 40px; */
   margin: 20px 20px 20px 30px
+}
+
+.AdProdCardOther {
+  /* width:20em; */
+  /* height:15em; */
+  /* margin:40px 30px 30px 40px; */
+  margin:30px
 }
 .cardBodyToggle {
   display: flex;
@@ -522,6 +533,8 @@ th {
   color: grey;
   font-size: smaller;
   padding-left:5px;
+  margin-bottom: 0 !important;
+  padding-top:5px
 }
 
 .AdProdMantextCount {
@@ -568,7 +581,7 @@ th {
 .inner:before {
   content: "YES";
   padding-left: 10px;
-  background-color: #f16728;
+  background-color: green;
   color: #fff;
 }
 .inner:after {
@@ -639,4 +652,42 @@ th {
 .AdProdSeeReview {
   color:#666666;
   font-size: medium;
+}
+.AdcardMenu {
+  justify-content: end;
+display: flex !important;
+margin-top: 1em;
+margin-right: 1em;
+border: none;
+  background-color: white;
+}
+.AdEditMenuDrop{
+  transform: translate(125px,36px) !important;
+}
+
+.AdCardIcon{
+  padding-top:3px;
+  padding-right:10px;
+}
+.dropAdd{
+  display: flex;
+  justify-content: center;
+}
+
+/* ProdMan PArtner Card */
+
+.cardHead{
+  display:flex;
+  justify-content: space-around;
+  margin-top:6%;
+}
+
+.AdOtherProdCheck {
+  color:#05d628;
+}
+
+.ProdcardBottomOtherPro {
+  display: flex;
+  justify-content: space-between;
+  margin-top:3%;
 }

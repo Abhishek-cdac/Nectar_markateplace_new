@@ -42,17 +42,20 @@ import Invoices from "./Components/Invoices";
 import Form from "./Components/Form";
 import GetProduct from "./Components/GetProduct";
 import OrderManagment from "./containers/Admin/OrderManagment";
-import OrderManagmentModal from "./containers/Admin/OrderManagmentModal";
+
 import Orderinvoices from "./containers/Admin/Orderinvoices";
 import ProductChart from "./Components/Admin/AdDashProdChart";
 import AdDAshboard from "./containers/Admin/AdDashboard";
 import Resources from "./Components/Resources";
 import Settings from "./Components/Settings";
+import DeleteModal from "./containers/Admin/DeleteModal";
 import SupportAndOffer from "./containers/SupportAndOffer";
 import AdUserMan from "./containers/Admin/userManagement/AdUserMan";
 import AdProdMang from "./containers/Admin/ProductManagement/AdProdMang";
 import FeedbackandSupport from "./containers/Admin/FeedbackandSupport";
 import ReportManagement from "./containers/Admin/ReportManagement";
+import PaymentManagment from "./containers/Admin/PaymentManagment";
+import Paymentmanagment2 from "./containers/Admin/Paymentmanagment2";
 
 function App() {
   return (
@@ -115,15 +118,19 @@ function App() {
             <Route path="" element={<PartnerDashboard />} />
           </Route>
           {/* Routes For Admin Part */}
-          <Route
-            path="/ordermanagmentmodal"
-            element={<OrderManagmentModal />}
-          />
-          <Route path="/ordermanagment" element={<OrderManagment />} />
+
           <Route path="/admin/login" element={<Login />} />
           <Route path="/admin" element={<AdLanding />}>
+            <Route path="paymentmanagament" element={<PaymentManagment />} />
+            <Route
+              path="/admin/paymentmanagament/paymentdetails"
+              element={<Paymentmanagment2 />}
+            />
+
+            <Route path="ordermanagment" element={<OrderManagment />} />
+
             <Route path="usermanagement" element={<AdUserMan />} />
-            <Route path="productmanagement" element={<AdProdMang/>}/>
+            <Route path="productmanagement" element={<AdProdMang />} />
             <Route path="" element={<AdDAshboard />} />
             <Route path="ex2" element={<Ex />} />
             <Route path="ex" element={<Ex />} />
