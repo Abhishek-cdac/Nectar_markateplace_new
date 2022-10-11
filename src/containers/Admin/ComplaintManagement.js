@@ -19,11 +19,14 @@ const ComplaintManagement = () => {
           </div>
         </div>
         <div className="row" style={{ color: "#000000" }}>
+          <div className="table-responsive">
           <Tables
             column={DummyData?.ComplaintManagementHeading}
             data={DummyData.ComplaintManagementData
             }
           />
+          </div>
+        
         </div>
       </div>
     </>
