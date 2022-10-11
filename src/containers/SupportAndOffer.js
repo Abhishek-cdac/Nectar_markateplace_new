@@ -8,10 +8,10 @@ const SupportAndOffer = () => {
 
   console.log(activeButt);
   const [value, setValue] = useState(false);
-  const handleToggle = () => {
-    setValue(!value);
-    console.log("togglevalue", value);
-  };
+  // const handleToggle = () => {
+  //   setValue(!value);
+  //   console.log("togglevalue", value);
+  // };
 
   return (
     <>

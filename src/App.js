@@ -56,6 +56,7 @@ import FeedbackandSupport from "./containers/Admin/FeedbackandSupport";
 import ReportManagement from "./containers/Admin/ReportManagement";
 import PaymentManagment from "./containers/Admin/PaymentManagment";
 import Paymentmanagment2 from "./containers/Admin/Paymentmanagment2";
+import ComplaintManagement from "./containers/Admin/ComplaintManagement";
 
 function App() {
   return (
@@ -134,10 +135,12 @@ function App() {
             <Route path="" element={<AdDAshboard />} />
             <Route path="ex2" element={<Ex />} />
             <Route path="ex" element={<Ex />} />
-          </Route>
-          <Route path="supportAndoffer" element={<SupportAndOffer />} />
+            <Route path="supportAndoffer" element={<SupportAndOffer />} />
           <Route path="feedbackandsupport" element={<FeedbackandSupport />} />
           <Route path="reportmanagement" element={<ReportManagement />} />
+          <Route path="complaintManagement" element={<ComplaintManagement />} />
+          </Route>
+         
         </Routes>
       </BrowserRouter>
     </>
