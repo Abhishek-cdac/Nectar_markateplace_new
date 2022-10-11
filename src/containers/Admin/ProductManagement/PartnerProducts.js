@@ -4,18 +4,22 @@ import Progress from "../../../Components/Admin/Progress";
 
 const PartnerProducts = () => {
   return (
+    <div className="container">
     <div className="row">
       {dummyData?.OtherProdCrad?.map((item) => (
-        <div class="container card AdProdCard">
+        // AdProdCardOther
+        <div class="col-lg-3 col-md-3 card AdProdCardOther">
           <div className="cardHead">
+            
             <img
               class="card-img-top-center"
               src={item.image}
               alt="Card image cap"
-              style={{ width: "50px", height: "30px" }}
+              style={{ width: "51px", height: "51px" }}
             />
-            <p>{item.title}</p>
-          </div><hr style={{border:"1px solid grey"}}/>
+            <p className="AdProdManTitle">{item.title}</p>
+          </div>
+          <hr style={{ border: "1px solid grey" }} />
           <div class="card-body">
             <div className="cardBodyToggle">
               <h5 class="card-title AdProdManTitle">&12345</h5>
@@ -32,16 +36,18 @@ const PartnerProducts = () => {
                 </label>
               </div>
             </div>
-            <p class="card-text AdProdMantext">Last Modified: 15/12/2021</p>
-            <div className="ProdcardBottom">
-              <div className="pt-3 ">
+            <div>
+              <p class="card-text AdProdMantext">Last Modified: 15/12/2021</p>
+              <div className="pt-0">
                 <span class="fa fa-star checked m-2"></span>
                 <span class="fa fa-star checked m-2"></span>
                 <span class="fa fa-star checked m-2"></span>
                 <span class="fa fa-star checked m-2"></span>
                 <span class="fa fa-star checked m-2"></span>
               </div>
-              <button
+            </div>
+            <div className="ProdcardBottomOtherPro">
+              {/* <button
                 type="button"
                 className={`fa fa-caret-down dropdown-toggle-split ProdCardBut`}
                 data-bs-toggle="dropdown"
@@ -73,11 +79,14 @@ const PartnerProducts = () => {
                   <a className="AdProdSeeReview">See all Customer Review's</a>
                 </center>
               </div>
-              <p className="AdProdMantextCount">1,245</p>
+              <p className="AdProdMantextCount">1,245</p> */}
+              <i class="fa fa-check-circle fa-3x AdOtherProdCheck" aria-hidden="true"></i>
+              <span className="AdProdMantext">Verified and Sold by Nectar Infotel Solutions Pvt. Ltd</span>
             </div>
           </div>
         </div>
       ))}
+    </div>
     </div>
   );
 };
