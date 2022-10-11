@@ -40,7 +40,7 @@ function Paymentmanagment2() {
                     style={{height:"38px"}}
                       type="text"
                       name="firstname"
-                      className="inputfield "
+                      className="inputfield paymentManInput"
                       placeholder="Mark Lorenson"
                     />{" "}
                   </form>
@@ -51,7 +51,7 @@ function Paymentmanagment2() {
                       style={{height:"38px"}}
                       type="text"
                       name="firstname"
-                      className=""
+                      className="paymentManInput"
                       placeholder="Partner"
                     />
                   </form>
@@ -63,7 +63,7 @@ function Paymentmanagment2() {
                       style={{height:"38px"}}
                       type="text"
                       name="firstname"
-                      className=""
+                      className="paymentManInput"
                       placeholder="$1000.00"
                     />
                   </form>
@@ -75,7 +75,7 @@ function Paymentmanagment2() {
                       style={{height:"38px"}}
                       type="text"
                       name="firstname"
-                      className="transaction-id"
+                      className="transaction-id paymentManInput"
                       placeholder="#ADFV023658975661"
                     />
                   </form>
@@ -89,7 +89,7 @@ function Paymentmanagment2() {
                       style={{height:"38px"}}
                       type="text"
                       name="firstname"
-                      className=""
+                      className="paymentManInput"
                       placeholder="Nectar HRMS"
                     />
                   </form>
@@ -100,7 +100,7 @@ function Paymentmanagment2() {
                       style={{height:"38px"}}
                       type="text"
                       name="firstname"
-                      className=""
+                      className="paymentManInput"
                       placeholder="Net Banking"
                     />
                   </form>
@@ -112,7 +112,7 @@ function Paymentmanagment2() {
                       style={{height:"38px"}}
                       type="text"
                       name="firstname"
-                      className="invoice-number"
+                      className="invoice-number paymentManInput"
                       placeholder="invoice No. 000098567"
                     />
                   </form>
@@ -125,7 +125,7 @@ function Paymentmanagment2() {
                       style={{height:"38px"}}
                       type="text"
                       name="firstname"
-                      className=""
+                      className="paymentManInput"
                       placeholder="Completed"
                     />
                   </form>

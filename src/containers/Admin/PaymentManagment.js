@@ -27,7 +27,7 @@ function PaymentManagment() {
                   <div class="position-relative">
                     <i class="fa fa-search position-absolute"></i>
                     <input
-                      class="form-control"
+                      class="form-control PaymentInput"
                       type="search"
                       placeholder="search"
                     />
