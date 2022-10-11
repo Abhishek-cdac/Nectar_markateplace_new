@@ -12,7 +12,7 @@ const FeedbackandsupportFilter = () => {
         data-bs-toggle="dropdown"
         aria-expanded="false"
       ></button>
-      <div className="dropdown-menu FilterRadioGroup">
+      <div className="dropdown-menu FilterRadioGroup"  style={{width:'500px' ,paddingLeft:"30px"  }}>
         <p className="FilterRadioHead">Country</p>
         {DummyData?.CountryFilter.map((item) => {
           return (

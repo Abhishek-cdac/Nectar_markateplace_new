@@ -52,6 +52,7 @@ import SupportAndOffer from "./containers/SupportAndOffer";
 import AdUserMan from "./containers/Admin/userManagement/AdUserMan";
 import AdProdMang from "./containers/Admin/ProductManagement/AdProdMang";
 import FeedbackandSupport from "./containers/Admin/FeedbackandSupport";
+import ReportManagement from "./containers/Admin/ReportManagement";
 
 function App() {
   return (
@@ -129,7 +130,7 @@ function App() {
           </Route>
           <Route path="supportAndoffer" element={<SupportAndOffer />} />
           <Route path="feedbackandsupport" element={<FeedbackandSupport />} />
-
+          <Route path="reportmanagement" element={<ReportManagement />} />
         </Routes>
       </BrowserRouter>
     </>
