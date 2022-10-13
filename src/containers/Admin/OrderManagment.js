@@ -97,7 +97,10 @@ function OrderManagment() {
                                   aria-labelledby="exampleModalToggleLabel"
                                   tabindex="-1"
                                 >
-                                  <div class="modal-dialog modal-dialog-centered modal-xl invoice-modal" style={{fontSize:"18px",color:"gray"}}>
+                                  <div
+                                    class="modal-dialog modal-dialog-centered modal-xl invoice-modal"
+                                    style={{ fontSize: "18px", color: "gray" }}
+                                  >
                                     <div class="modal-content">
                                       <div class="modal-header">
                                         <h1
@@ -175,7 +178,13 @@ function OrderManagment() {
                                           </div>
                                         </div>
                                       </div>
-                                      <div className="orderinvoices-table" style={{fontSize:"18px",color:"gray"}}>
+                                      <div
+                                        className="orderinvoices-table"
+                                        style={{
+                                          fontSize: "18px",
+                                          color: "gray",
+                                        }}
+                                      >
                                         <table class="table table-bordered orderinvoices-table">
                                           <thead>
                                             <tr>
