@@ -354,5 +354,136 @@ const DummyData = {
     
     
   ],
+
+
+    AdminReviewFeedbackData: [
+        {
+            id: "1",
+            image: "/assets/images/120129.png",
+            title: "Mark Loreson",
+            desiganation: "(Highly Recommended)",
+            address: " Review on 2 Dec 2021 ,12:00 PM",
+            description: "I am using Nectar HRMS for my organization and i am very happy with the product,even the support team from nectar are very co-operative they help meat every stuck point where ever i feels,Really Highly Appereciated"
+        },
+        {
+            id: "1",
+            image: "/assets/images/120129.png",
+            title: "Mark Loreson",
+            desiganation: "(Highly Recommended)",
+            address: "Review on 2 Dec 2021 ,12:00 PM",
+            description: "I am using Nectar HRMS for my organization and i am very happy with the product,even the support team from nectar are very co-operative they help meat every stuck point where ever i feels,Really Highly Appereciated"
+        },
+        {
+            id: "1",
+            image: "/assets/images/120129.png",
+            title: "Mark Loreson",
+            desiganation: "(Highly Recommended)",
+            address: "Review on 2 Dec 2021 ,12:00 PM",
+            description: "I am using Nectar HRMS for my organization and i am very happy with the product,even the support team from nectar are very co-operative they help meat every stuck point where ever i feels,Really Highly Appereciated"
+        },
+        {
+            id: "1",
+            image: "/assets/images/120129.png",
+            title: "Mark Loreson",
+            desiganation: "(Highly Recommended)",
+            address: "Review on 2 Dec 2021 ,12:00 PM",
+            description: "I am using Nectar HRMS for my organization and i am very happy with the product,even the support team from nectar are very co-operative they help meat every stuck point where ever i feels,Really Highly Appereciated"
+        },
+        {
+            id: "1",
+            image: "/assets/images/120129.png",
+            title: "Mark Loreson",
+            desiganation: "(Highly Recommended)",
+            address: "Review on 2 Dec 2021 ,12:00 PM",
+            description: "I am using Nectar HRMS for my organization and i am very happy with the product,even the support team from nectar are very co-operative they help meat every stuck point where ever i feels,Really Highly Appereciated"
+        },
+        {
+          id: "1",
+          image: "/assets/images/120129.png",
+          title: "Mark Loreson",
+          desiganation: "(Highly Recommended)",
+          address: "Review on 2 Dec 2021 ,12:00 PM",
+          description: "I am using Nectar HRMS for my organization and i am very happy with the product,even the support team from nectar are very co-operative they help meat every stuck point where ever i feels,Really Highly Appereciated"
+      },
+      {
+        id: "1",
+        image: "/assets/images/120129.png",
+        title: "Mark Loreson",
+        desiganation: "(Highly Recommended)",
+        address: "Review on 2 Dec 2021 ,12:00 PM",
+        description: "I am using Nectar HRMS for my organization and i am very happy with the product,even the support team from nectar are very co-operative they help meat every stuck point where ever i feels,Really Highly Appereciated"
+    },
+   
+ 
+    ],
+
+    CountryFilter: [
+      {
+        id: 1,
+        name: "USA",
+        label: "USA",
+      },
+      {
+        id: 2,
+        name: "Canada",
+        label: "Canada",
+      },
+      {
+        id: 3,
+        name: "IND",
+        label: "IND",
+      },
+      {
+        id: 4,
+        name: "UK",
+        label: "UK",
+      },
+      {
+        id: 5,
+        name: "Germany",
+        label: "Germany",
+      },
+    ],
+    Products: [
+      {
+        id: 6,
+        name: "Nectar HRMS",
+        label: "Nectar HRMS",
+      },
+      {
+        id: 7,
+        name: "Nectar CRM",
+        label: "Nectar CRM",
+      },
+      {
+        id: 8,
+        name: "NDatu",
+        label: "NDatu",
+      },
+      {
+        id: 9,
+        name: "NerroTrac",
+        label: "NerroTrac",
+      },
+    ],
+    Date: [
+      {
+        id: 10,
+        name: "Recent",
+        label: "Recent",
+      },
+      {
+        id: 11,
+        name: "Older",
+        label: "Older",
+      },
+      {
+        id:12,
+        name: "Select Date",
+        label: "Select Date",
+      },
+    ],
+  
+
 };
 export default DummyData;

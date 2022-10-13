@@ -6,8 +6,8 @@
   font-size: small;
 }
 
-input,
-textarea .backgraound_white {
+.paymentManInput
+ {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
@@ -17,7 +17,6 @@ textarea .backgraound_white {
   border: 0.30000001192092896px solid #707070;
   border-radius: 7px;
   opacity: 1;
-
 }
 .backgraound_white span {
   width: 30% !important;
