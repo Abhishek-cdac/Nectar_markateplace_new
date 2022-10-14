@@ -833,10 +833,8 @@ const dummyData = {
       name: "Select Date",
       label: "Select Date",
     },
-   
   ],
 
-  
   ProdManCard: [
     {
       id: "1",
@@ -918,20 +916,18 @@ const dummyData = {
       id: "1",
       image: "/assets/images/Wipro-logo.png",
       title: "Task Management",
-      
     },
     {
       id: "2",
       image: "/assets/images/techlogo.png",
       title: "Device Tracker",
-     
     },
     {
       id: "3",
       image: "/assets/images/Wipro-logo.png",
       title: "ChatBoat",
     },
-     
+
     {
       id: "4",
       image: "/assets/images/inlogo.png",
@@ -941,13 +937,11 @@ const dummyData = {
       id: "5",
       image: "/assets/images/school.png",
       title: "Insightly CRM",
-      
     },
     {
       id: "6",
       image: "/assets/images/vp.png",
       title: "visit plan",
-      
     },
     {
       id: "7",
@@ -958,13 +952,63 @@ const dummyData = {
       id: "8",
       image: "/assets/images/books.png",
       title: "Multilevel Checklist",
-      
     },
     {
       id: "9",
       image: "/assets/images/drive.png",
       title: "Google Drive Integration",
-      
+    },
+  ],
+  ComplaintManagement: [
+    {
+      id: "1",
+      cardtitle: "#00125485",
+      cardbody: "I am facing issue with the log in to the HRMS and.....",
+      cardfooter: "25/12/2021, 06:00 PM",
+    },
+    {
+      id: "2",
+      cardtitle: "#00125485",
+      cardbody: "I am facing issue with the log in to the HRMS and.....",
+      cardfooter: "25/12/2021, 06:00 PM",
+    },
+    {
+      id: "3",
+      cardtitle: "#00125485",
+      cardbody: "I am facing issue with the log in to the HRMS and.....",
+      cardfooter: "25/12/2021, 06:00 PM",
+    },
+  ],
+  ComplaintManagementdone: [
+    {
+      id: "1",
+      cardtitle: "#00125485",
+      cardbody: "Closed",
+      cardfooter: "25/12/2021, 06:00 PM",
+    },
+    {
+      id: "2",
+      cardtitle: "#00125485",
+      cardbody: "Closed",
+      cardfooter: "25/12/2021, 06:00 PM",
+    },
+  ],
+  ComplaintManagementinprogress: [
+    {
+      id: "1",
+      cardtitle: "#00125485",
+      cardbody: "I am facing issue with the log in to the HRMS and.....",
+      cardfooter: "25/12/2021, 06:00 PM",
+      carddata:
+        "I have shared the case to the developer and will try to get back to you soon.",
+    },
+    {
+      id: "2",
+      cardtitle: "#00125485",
+      cardbody: "I am facing issue with the log in to the HRMS and.....",
+      cardfooter: "25/12/2021, 06:00 PM",
+      carddata:
+        "I have shared the case to the developer and will try to get back to you soon.",
     },
   ],
 };

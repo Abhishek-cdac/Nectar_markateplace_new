@@ -58,6 +58,7 @@ import PaymentManagment from "./containers/Admin/PaymentManagment";
 import Paymentmanagment2 from "./containers/Admin/Paymentmanagment2";
 import PartnerRegistrationsDetails from "./containers/Admin/PartnerRegistrationsDetails";
 import OpenModal from "./containers/Admin/OpenModal";
+import ProgressBoard from "./Components/Admin/ProgressBoard";
 
 function App() {
   return (
@@ -120,8 +121,12 @@ function App() {
             <Route path="" element={<PartnerDashboard />} />
           </Route>
           {/* Routes For Admin Part */}
-          <Route path="/registrationdetails" element={<PartnerRegistrationsDetails/>} />
-          <Route path="/openmodal" element={<OpenModal/>} />
+          <Route path="/progressboard" element={<ProgressBoard />} />
+          <Route
+            path="/registrationdetails"
+            element={<PartnerRegistrationsDetails />}
+          />
+          <Route path="/openmodal" element={<OpenModal />} />
 
           <Route path="/admin/login" element={<Login />} />
           <Route path="/admin" element={<AdLanding />}>
