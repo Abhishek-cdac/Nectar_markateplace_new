@@ -15,7 +15,7 @@ function TelecomeServices() {
   };
   return (
     <>
-    <Header2 />
+    {/* <Header2 /> */}
       <div className="container-fluid mt-5">
         <div className="row">
           <div className="col-lg-6">
@@ -157,9 +157,9 @@ function TelecomeServices() {
             </div>
           </div>
         </div>
-        <div className="footer">
+        {/* <div className="footer">
           <Footer />
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -845,7 +845,7 @@ p .product-banner-content {
 }
 
 .sb-nav-fixed #layoutSidenav #layoutSidenav_nav {
-  width: 225px;
+  width: 230px;
   /* height: 100vh; */
   z-index: 1038;
   transition: all 0.8s;
@@ -962,7 +962,8 @@ p .product-banner-content {
 }
 
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .icon {
-  font-size:larger;
+  font-size:smaller;
+  margin-right:20px;
 }
 
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-nav-link-icon {
@@ -1543,3 +1544,4 @@ margin-bottom: 7%;
   margin-bottom: 40px;
   border: none;
 } */
+

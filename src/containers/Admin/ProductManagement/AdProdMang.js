@@ -4,14 +4,23 @@ import Progress from "../../../Components/Admin/Progress";
 import dummyData from "../../Dummydata";
 import RadioButton from "../../../Components/Admin/Radio";
 import PartnerProducts from "./PartnerProducts";
+import Modal from "../../../Components/Admin/Modal";
 
 const AdProdMang = () => {
   const [value, setValue] = useState(false);
   const [checkedValue, setIsChecked] = useState(1);
+  const [isOpen, setIsOpen] = useState(false);
+  const [products, setProducts] = useState("");
+
+  const handleMOdal = () => {
+    setIsOpen(!isOpen);
+    console.log(isOpen);
+  };
 
   const handleToggle = () => {
     setValue(!value);
   };
+  const newArray = dummyData?.ProdCardMAn?.splice(6, 3);
   return (
     <>
       <div class="col text-left adminSecHeading">
@@ -49,61 +58,28 @@ const AdProdMang = () => {
                   />
                   <div className="dropdown-menu AdEditMenuDrop">
                     <p className="dropAdd">
-                      <button
-                        // class="fa fa-plus AdCardIcon"
-                        // type="button"
-                        // aria-hidden="true"
-                        // data-toggle="modal"
-                        // data-target="#exampleModal"
-                        type="button" class="btn btn-primary AdCardIcon" data-toggle="modal" data-target="#exampleModal"
-                      >
-                        {" "}
-                      {/* </i> */}
-                     Add
-                      </button>
+                      <i
+                        style={{ paddingRight: "10px" }}
+                        class="fa fa-add AdCardIcon"
+                        aria-hidden="true"
+                        data-bs-toggle="modal"
+                        href=".Ad-Add-Modal-lg"
+                        role="button"
+                      ></i>
+                      <span>Add</span>
                     </p>
-                    <div
-                      class="modal fade"
-                      id="exampleModal"
-                      tabindex="-1"
-                      role="dialog"
-                      aria-labelledby="exampleModalLongTitle"
-                      aria-hidden="true"
-                    >
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">
-                              Modal title
-                            </h5>
-                            <button
-                              type="button"
-                              class="close"
-                              data-dismiss="modal"
-                              aria-label="Close"
-                            >
-                              <span aria-hidden="true">&times;</span>
-                            </button>
-                          </div>
-                          <div class="modal-body">...</div>
-                          <div class="modal-footer">
-                            <button
-                              type="button"
-                              class="btn btn-secondary"
-                              data-dismiss="modal"
-                            >
-                              Close
-                            </button>
-                            <button type="button" class="btn btn-primary">
-                              Save changes
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+
                     <p className="dropAdd">
-                      <i class="fa fa-pencil AdCardIcon" aria-hidden="true"></i>
-                      <a>Edit</a>
+                      <i
+                        class="fa fa-pencil AdCardIcon"
+                        aria-hidden="true"
+                        data-bs-toggle="modal"
+                        href=".Ad-Edit-Modal-long"
+                        role="button"
+                        // data-toggle="modal"
+                        // data-target=".bd-example-modal-lg"
+                      ></i>
+                      <span>Edit</span>
                     </p>
                   </div>
 
@@ -188,6 +164,160 @@ const AdProdMang = () => {
         ) : (
           <PartnerProducts />
         )}
+      </div>
+      {/* Add MOdaal */}
+      <div className="container">
+        <div
+          class="modal fade Ad-Add-Modal-lg AdProdModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myLargeModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg" style={{ display: "block" }}>
+            <div class="modal-content row" style={{ flexDirection: "row" }}>
+              {dummyData?.ProdCardMAn?.map((item) => {
+                return (
+                  <div className="col-lg-4">
+                    {console.log(item)}
+                    <input
+                      type="checkbox"
+                      id="Products"
+                      name="Products"
+                      value={products}
+                    />
+                    <label for="Products">
+                      <img src={item.image} />
+                    </label>
+                  </div>
+                );
+              })}{" "}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Edit Modal  */}
+      <div className="container">
+        <div
+          class="modal fade Ad-Edit-Modal-long AdProdModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="myLargeModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg" style={{ display: "block" }}>
+            <div class="modal-content col" style={{ flexDirection: "column" }}>
+              <form>
+                <div class="form-group row">
+                  <div className=" col AdEditInput">
+                    <label for="Products">visibility</label>
+                    <select
+                      className=" form-control AdInputForm"
+                      placeholder="Visibility"
+                    >
+                      <option selected>Choose...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <p className="AdEditModalText">
+                    This option must vary with the role assigned to the users
+                    like: Super Admin and Admin, If you wish to deactivate the
+                    option please get Support Here.
+                  </p>
+
+                  <div className=" col AdEditInput">
+                    <label for="Products">Discoverability</label>
+                    <select className=" form-control AdInputForm">
+                      <option selected>Choose...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <p className="AdEditModalText">
+                    Configure customers ability to find this app on Marketplace
+                    site.
+                  </p>
+                  <div className=" col AdEditInput">
+                    <label for="Products">Name</label>
+                    <input
+                      className=" form-control AdInputForm"
+                      type="text"
+                      id="Products"
+                      name="Products"
+                      value={products}
+                      placeholder="Enter email"
+                    />
+                  </div>
+                  <p className="AdEditModalText">
+                    Give your app a descriptive name in 40 characters or less,
+                    double check our Branding Guidelines
+                  </p>
+                  <div className=" col AdEditInput">
+                    <label for="Products">Tagline</label>
+                    <input
+                      className=" form-control AdInputForm"
+                      type="text"
+                      id="Products"
+                      name="Products"
+                      value={products}
+                    />
+                  </div>
+                  <p className="AdEditModalText">
+                    Provide a short phrase that summarizes what your product
+                    does in 130 character and or less, Tagline can't end with
+                    punctuation.
+                  </p>
+                  <div className=" col AdEditInput">
+                    <label for="Products">Summary</label>
+                    <input
+                      className=" form-control AdInputForm"
+                      type="text"
+                      id="Products"
+                      name="Products"
+                      value={products}
+                    />
+                  </div>
+                  <p className="AdEditModalText">
+                    Summarize your product functionality in 250 characters or
+                    less. This field is displayed in the in-app version of the
+                    Nectar Marketplace.
+                  </p>
+                  <div className=" col AdEditInput">
+                    <label for="Products">Category</label>
+                    <input
+                      className=" form-control AdInputForm"
+                      type="text"
+                      id="Products"
+                      name="Products"
+                      value={products}
+                    />
+                  </div>
+                  <p className="AdEditModalText">
+                    Choose up to 4 categories that describe your products.
+                  </p>
+                  <div className=" col AdEditInput">
+                    <label for="Products">Status</label>
+                    <select className=" form-control AdInputForm">
+                      <option selected>Choose...</option>
+                      <option value="1">Active</option>
+                      <option value="1">InActive</option>
+                    </select>
+                  </div>
+                </div>
+              </form>
+              <button
+                type="button"
+                className="AdEditModalBut align-self-center col-lg-3 btn-lg"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -461,7 +461,7 @@ const dummyData = {
       customer: "Miachale",
       Revenue: "23213$",
       Region: "India",
-      status: "InActive",
+      status: "Active",
     },
     {
       date: "12-08-2022",
@@ -469,7 +469,7 @@ const dummyData = {
       customer: "Miachale",
       Revenue: "23213$",
       Region: "India",
-      status: "InActive",
+      status: "Active",
     },
     {
       date: "12-08-2022",
@@ -477,7 +477,7 @@ const dummyData = {
       customer: "Miachale",
       Revenue: "23213$",
       Region: "India",
-      status: "InActive",
+      status: "Active",
     },
     {
       date: "12-08-2022",
@@ -485,7 +485,7 @@ const dummyData = {
       customer: "Miachale",
       Revenue: "23213$",
       Region: "India",
-      status: "InActive",
+      status: "Active",
     },
     {
       date: "12-08-2022",
@@ -967,5 +967,8 @@ const dummyData = {
       
     },
   ],
+
+  
+   
 };
 export default dummyData;

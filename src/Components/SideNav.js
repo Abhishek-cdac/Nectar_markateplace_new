@@ -43,6 +43,7 @@ function SideNav({ Tabs }) {
                     }}
                   >
                     <i
+                    style={{color:"#fff"}}
                       class="fa fa-chevron-circle-right"
                       aria-hidden="true"
                     ></i>

@@ -17,13 +17,6 @@ function PaymentManagment() {
             <div className="row">
               <div className="col-md-6">
                 <div class="mb-3">
-                  {/* <input
-                  type="email"
-                  class="form-control search"
-                  id="exampleInputEmail1"
-                  placeholder="search"
-                  aria-describedby="emailHelp"
-                /> */}
                   <div class="position-relative">
                     <i class="fa fa-search position-absolute"></i>
                     <input
