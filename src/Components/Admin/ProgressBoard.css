@@ -30,6 +30,7 @@
   border-left: 1px solid #707070;
   border-right: 1px solid#707070;
   margin: -1px;
+  height: 800px;
 }
 .pending-card .card-title {
   font-size: 12px;
