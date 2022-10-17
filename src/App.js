@@ -72,7 +72,7 @@ function App() {
           <Route path="/form" element={<Form />}></Route>
           <Route path="/getproduct" element={<GetProduct />}></Route>
 
-          <Route path="/profile" element={<Profile />}></Route>
+          
           <Route path="/orderinvoices" element={<Orderinvoices />}></Route>
 
           {/*Overview Page*/}
@@ -87,7 +87,7 @@ function App() {
           {/*Header page*/}
           <Route path="/ndatu" element={<NDatu />} />
           {/* <Route path="/login" element={<LoginPage />} /> */}
-          <Route path="/becomeApartner" element={<BecomeAPartner />} />
+         
           <Route path="/productscreen" element={<Productscreen />} />
           <Route path="/nectarcrmreview" element={<NectarCRMReview />} />
           <Route path="/notification" element={<Notification />}></Route>
@@ -96,10 +96,10 @@ function App() {
           <Route path="/productscreen" element={<Productscreen />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/forgetpassword" element={<ForgetPassword />} />
-          <Route path="/telecomeservices" element={<TelecomeServices />} />
+         
           <Route path="/hostingservices" element={<HostingServices />} />
 
-          <Route path="/resources" element={<Resources />} />
+      
           <Route path="/setting" element={<Settings />} />
           <Route path="/modal" element={<Modal />} />
           {/*All Tab*/}
@@ -116,6 +116,11 @@ function App() {
           {/* Routes of partner */}
           <Route path="partner" element={<PartnerLanding />}>
             <Route path="" element={<PartnerDashboard />} />
+            <Route path="telecomeservices" element={<TelecomeServices />} />
+            <Route path="becomeApartner" element={<BecomeAPartner />} />
+            <Route path="resources" element={<Resources />} />
+            <Route path="profile" element={<Profile />}></Route>
+            <Route path="setting" element={<Settings />} />
           </Route>
           {/* Routes For Admin Part */}
 

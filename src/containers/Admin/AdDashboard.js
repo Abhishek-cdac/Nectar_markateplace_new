@@ -27,7 +27,7 @@ const AdDAshboard = () => {
           );
         })}
       </div>
-      <div className="row">
+      <div className="row" style={{paddingTop:"2em"}}>
         <Adchart1 />
         <PieChart />
         <Worldmap />

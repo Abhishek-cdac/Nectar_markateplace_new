@@ -43,6 +43,7 @@ function SideNav({ Tabs }) {
                     }}
                   >
                     <i
+                    style={{color:"#fff"}}
                       class="fa fa-chevron-circle-right"
                       aria-hidden="true"
                     ></i>
@@ -56,7 +57,7 @@ function SideNav({ Tabs }) {
                         <a
                           className={`nav-link ${isActive ? "active" : ""}`}
                           key={link}
-                          onClick={() => navigate(`/${link}`)}
+                          onClick={() => handleLink(link)}
                         >
                           <img
                             className={toggle == true ? `icon-toggled` : `icon`}

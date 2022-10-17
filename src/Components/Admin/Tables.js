@@ -1,7 +1,7 @@
 import React from "react";
 
 const Tables = ({ column, data }) => {
-  console.log(column, "TableheadData", data);
+  // console.log(column, "TableheadData", data);
   return (
     <div>
       <table class="table world_table">
@@ -34,12 +34,27 @@ const TableBody = ({ item, column }) => (
         return (
           <td>
             <img src={item[`${columnItem.value}`]} alt="No IMage" />
-            {/* <img src="/assets/images/user1.png"/> */}
-            {console.log(item[`${columnItem.value}`])}
+            {/* {console.log(item[`${columnItem.value}`])} */}
+          </td>
+        );
+      } else if (columnItem.value === "status") {
+        return (
+          <td>
+            <i
+              class={`fa fa-square-o ${
+                item[`${columnItem.value}`] === "Active"
+                  ? "tableStatusAct"
+                  : "tableStatusInA"
+              }`}
+              aria-hidden="true"
+            ></i>
+            {item[`${columnItem.value}`]}{" "}
           </td>
         );
       }
-      return <td>{item[`${columnItem.value}`]}</td>;
+      {
+        return <td>{item[`${columnItem.value}`]} </td>;
+      }
     })}
   </tr>
 );
