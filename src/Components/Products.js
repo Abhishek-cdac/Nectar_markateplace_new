@@ -3,12 +3,12 @@ import dummydataProduct from "../containers/Productdata";
 
 function Products() {
   return (
-    <div className="container">
+    <div className="container productContainer">
       <div className="row">
         {dummydataProduct &&
           dummydataProduct.ProductData.map((data) => (
-            <div className="col-lg-3 col-sm-12 col-md-6 mt-3 col-xl-4 col-xs-12 ">
-              <div class="card text-center">
+            <div className="col-lg-3 col-sm-12 col-md-6 mt-3 col-xl-3 col-xs-12 productCardmain">
+              <div class="card text-center productCard">
                 <img
                   class="text-center"
                   src={data.image}

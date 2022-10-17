@@ -45,12 +45,12 @@ function Settings() {
 
   return (
     <>
-    <Header2 />
+    {/* <Header2 /> */}
       <div className="container-fluid">
         <div className="row">
-          <div className="col-2 col-lg-2">
+          {/* <div className="col-2 col-lg-2">
           <SideNav Tabs = {PartnerTabs}/>
-          </div>
+          </div> */}
           <div className="col-12 col-lg-4">
             <label for="oldpassword" className="mt-3">Old Password <span style={{color:"red"}}>*</span></label>
             <div className="input-group">

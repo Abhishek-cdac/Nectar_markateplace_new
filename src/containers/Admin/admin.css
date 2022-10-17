@@ -77,6 +77,22 @@
   color: white;
 }
 
+.tableStatusAct , .tableStatusOpen  {
+  margin-right:5px;
+  background-color: #05D628;
+    font-size: smaller;
+    border-radius: 2px;
+    color: #05D628;
+}
+
+.tableStatusInA , .tableStatusclosed  {
+  margin-right:5px;
+  background-color: #FF0000;
+    font-size: smaller;
+    border-radius: 3px;
+    color: #FF0000;
+}
+
 /* //Dashboard Cards css */
 
 .AdCardHeader {
@@ -106,7 +122,7 @@
   /* background-image: url(/public/assets/images/adcard1.svg);
    */
   background-color: #4746e5;
-  width: 17em;
+  width: 16em;
   height: 7.5em;
   margin-left: 2em;
   border-radius: 5%;
@@ -115,7 +131,7 @@
 .AdCard2 {
   /* background-image: url(/public/assets/images/Adcard2.svg); */
   background-color: #fb8020;
-  width: 17em;
+  width: 16em;
   height: 7.5em;
   margin-left: 2em;
   border-radius: 5%;
@@ -125,7 +141,7 @@
 .AdCard3 {
   /* background-image: url(/public/assets/images/Adcard3.svg); */
   background-color: #65c25e;
-  width: 17em;
+  width: 16em;
   height: 7.5em;
   margin-left: 2em;
   border-radius: 5%;
@@ -135,7 +151,7 @@
 .AdCard4 {
   /* background-image: url(/public/assets/images/Adcard4.svg); */
   background-color: #fc413a;
-  width: 17em;
+  width: 16em;
   height: 7.5em;
   margin-left: 2em;
   border-radius: 5%;
@@ -502,17 +518,17 @@ th {
 /* product Card Toggle */
 
 .AdProdCard {
-  width:20em;
-  height:16em;
+  width: 20em;
+  height: 16em;
   /* margin:40px 30px 30px 40px; */
-  margin: 20px 20px 20px 30px
+  margin: 20px 20px 20px 30px;
 }
 
 .AdProdCardOther {
   /* width:20em; */
   /* height:15em; */
   /* margin:40px 30px 30px 40px; */
-  margin:30px
+  margin: 30px;
 }
 .cardBodyToggle {
   display: flex;
@@ -522,25 +538,25 @@ th {
 .AdProdManTitle {
   color: grey;
   font-size: medium;
-  padding-left:5px;
+  padding-left: 5px;
 }
 
 .AdProdStar {
-  padding-left:10px
+  padding-left: 10px;
 }
 
 .AdProdMantext {
   color: grey;
   font-size: smaller;
-  padding-left:5px;
+  padding-left: 5px;
   margin-bottom: 0 !important;
-  padding-top:5px
+  padding-top: 5px;
 }
 
 .AdProdMantextCount {
   color: grey;
   font-size: smaller;
-  padding:9% 0 0 5%
+  padding: 9% 0 0 5%;
 }
 
 .toggle-switch {
@@ -624,70 +640,134 @@ th {
 
 .ProdManFooter {
   display: flex;
-  height:30px
+  height: 30px;
 }
+
 .ProdCardMain {
-  margin-top:3%;
+  margin-top: 3%;
   height: 20px !important;
-  width:100%
+  width: 100%;
 }
 .ProdManProgress {
-  width:40%;
+  width: 40%;
   background-color: #f16728;
 }
 .ProdManFooter .heading {
   width: 22%;
   color: grey;
   opacity: 0.9;
-  margin-left:20px;
+  margin-left: 20px;
 }
 .ProdManFooter .ProdManProg {
-  width:50%;
+  width: 50%;
 }
 .ProdManFooter .footer {
-  color:grey;
-  width:18%;
-  font-size:smaller;
+  color: grey;
+  width: 18%;
+  font-size: smaller;
 }
 .AdProdSeeReview {
-  color:#666666;
+  color: #666666;
   font-size: medium;
 }
 .AdcardMenu {
   justify-content: end;
-display: flex !important;
-margin-top: 1em;
-margin-right: 1em;
-border: none;
+  display: flex !important;
+  margin-top: 1em;
+  margin-right: 1em;
+  border: none;
   background-color: white;
 }
-.AdEditMenuDrop{
-  transform: translate(125px,36px) !important;
+.AdEditMenuDrop {
+  transform: translate(125px, 36px) !important;
 }
 
-.AdCardIcon{
-  padding-top:3px;
-  padding-right:10px;
+.AdCardIcon {
+  padding-top: 3px;
+  padding-right: 10px;
 }
-.dropAdd{
+.dropAdd {
   display: flex;
   justify-content: center;
 }
 
+.dropAdd span {
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#bbb
+}
+.dropAdd i {
+  color:#bbb;
+  font-size: medium;
+}
+
 /* ProdMan PArtner Card */
 
-.cardHead{
-  display:flex;
+.cardHead {
+  display: flex;
   justify-content: space-around;
-  margin-top:6%;
+  margin-top: 6%;
 }
 
 .AdOtherProdCheck {
-  color:#05d628;
+  color: #05d628;
 }
 
 .ProdcardBottomOtherPro {
   display: flex;
   justify-content: space-between;
-  margin-top:3%;
+  margin-top: 3%;
+}
+
+/* Modal */
+
+.AdProdModal {
+  position: fixed !important;
+  top: 60% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.AdEditInput {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 3%;
+}
+
+.AdEditInput input .AdEditSel {
+  border: 1px solid #707070;
+  /* box-shadow: 5px 5px #707070; */
+}
+ .AdEditInput .input::placeholder {
+  color: red !important;
+  opacity: 1;
+  }
+
+.AdEditInput label {
+  color: #666666;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  padding-right: 20%;
+  padding-left: 5px;
+  width: 30%;
+}
+.AdInputForm {
+  width: 50%;
+  box-shadow:3px 3px #EBEBEB;
+}
+.AdEditModalText {
+  color: #666666;
+  font-size: small;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-left : 33%;
+}
+.AdEditModalBut {
+  background-color: #f16728;
+  color: white;
+  margin: 5% 0 10% 0;
+  border: none;
+  border-radius: 2px;
 }

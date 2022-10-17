@@ -9,7 +9,7 @@ function HostingServices() {
           <div className="row">
             <h6>Nectar Hosting Services</h6>
             {dummyData?.hostingCardData?.map((items) => (
-              <div className="col-lg-4">
+              <div className="col-lg-3" style={{margin:"2em"}}>
                 <div class="card text-center" style={{ borderRadius: "none" }}>
                   <div class="card-body">
                     <img
