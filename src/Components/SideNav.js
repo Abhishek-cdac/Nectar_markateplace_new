@@ -57,7 +57,7 @@ function SideNav({ Tabs }) {
                         <a
                           className={`nav-link ${isActive ? "active" : ""}`}
                           key={link}
-                          onClick={() => navigate(`/${link}`)}
+                          onClick={() => handleLink(link)}
                         >
                           <img
                             className={toggle == true ? `icon-toggled` : `icon`}

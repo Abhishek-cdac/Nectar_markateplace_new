@@ -89,7 +89,7 @@ const dummyData = {
   hostingCardData: [
     {
       id: "1",
-      image: "/assets/images/jio.png",
+      image: "/assets/images/clod.png",
       title: "Cloud Computing Hosting 50 GB",
       discount: "-53%",
       price: "$58.00",
@@ -98,7 +98,7 @@ const dummyData = {
     },
     {
       id: "2",
-      image: "/assets/images/jio.png",
+      image: "/assets/images/web.png",
       title: "Product Hosting with 20 GB",
       discount: "-53%",
       price: "$58.00",
@@ -125,7 +125,7 @@ const dummyData = {
     },
     {
       id: "5",
-      image: "/assets/images/jio.png",
+      image: "/assets/images/web.png",
       title: "Product Hosting with 20 GB",
       discount: "-53%",
       price: "$58.00",
@@ -256,7 +256,7 @@ const dummyData = {
   hostingCardData: [
     {
       id: "1",
-      image: "/assets/images/jio.png",
+      image: "/assets/images/clod.png",
       title: "Cloud Computing Hosting 50 GB",
       discount: "-53%",
       price: "$58.00",
@@ -265,7 +265,7 @@ const dummyData = {
     },
     {
       id: "2",
-      image: "/assets/images/jio.png",
+      image: "/assets/images/web.jpg",
       title: "Product Hosting with 20 GB",
       discount: "-53%",
       price: "$58.00",
@@ -283,7 +283,7 @@ const dummyData = {
     },
     {
       id: "4",
-      image: "/assets/images/jio.png",
+      image: "/assets/images/clod.png",
       title: "Cloud Computing Hosting 50 GB",
       discount: "-53%",
       price: "$58.00",
@@ -292,7 +292,7 @@ const dummyData = {
     },
     {
       id: "5",
-      image: "/assets/images/jio.png",
+      image: "/assets/images/web.jpg",
       title: "Product Hosting with 20 GB",
       discount: "-53%",
       price: "$58.00",

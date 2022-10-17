@@ -1253,9 +1253,20 @@ button#sidebarToggle {
 
 /* Telecom Services */
 .telecomeservicetabs {
-  background-color: #EFEFEF;
-  padding: 3%;
+  /* background-color: #EFEFEF; */
+  margin: 5%;
 }
+
+.telecomeservicetabs label {
+  font-size: medium;
+  color:#474747
+}
+
+.telecomeservicetabs input {
+
+  font-size: medium;
+}
+
 
 .nectarproduct {
   background-color: #EFEFEF;
@@ -1536,12 +1547,22 @@ margin-bottom: 7%;
 
 
 
-/* .contents{
-  position: relative;
-  margin-right: 50px;
-} 
-.crm-overview .card.container {
-  margin-bottom: 40px;
+/* PartnerCard partner  some changes on partner by Nagasai*/
+ 
+.productCard{
+  background-color:#efefefef;
   border: none;
-} */
+}
 
+.productCardmain {
+  margin:3em
+}
+
+.productContainer {
+  background-color:#efefefef;
+}
+
+.resourceCardimg {
+  width:50% !important;
+  /* height:50px */
+}
