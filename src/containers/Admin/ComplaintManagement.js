@@ -3,6 +3,7 @@ import Complaintmanagementfilter from "../../Components/Admin/Complaintmanagemen
 import Tables from "../../Components/Admin/Tables";
 import dummyData from "../Dummydata";
 import DummyData from "../DummyNectarCRM";
+
 const ComplaintManagement = () => {
   return (
     <>
@@ -20,13 +21,11 @@ const ComplaintManagement = () => {
         </div>
         <div className="row" style={{ color: "#000000" }}>
           <div className="table-responsive">
-          <Tables
-            column={DummyData?.ComplaintManagementHeading}
-            data={DummyData.ComplaintManagementData
-            }
-          />
+            <Tables
+              column={DummyData?.ComplaintManagementHeading}
+              data={DummyData.ComplaintManagementData}
+            />
           </div>
-        
         </div>
       </div>
     </>
