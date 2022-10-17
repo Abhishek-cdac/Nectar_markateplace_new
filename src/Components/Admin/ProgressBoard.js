@@ -1,9 +1,11 @@
 import React from "react";
 import "./ProgressBoard.css";
+import { useNavigate } from "react-router-dom";
 
 import dummyData from "../../containers/Dummydata";
 
 function ProgressBoard() {
+  const navigate = useNavigate();
   return (
     <div class="container progresboard">
       <div class="row ">
@@ -13,7 +15,7 @@ function ProgressBoard() {
           {dummyData &&
             dummyData.ComplaintManagement.map((data) => (
               <div className="pending-card mt-3 mx-5">
-                <div class="card w-80">
+                <div class="card w-80"   onClick={()=>navigate("/openmodal")}>
                   <div class="card-body ">
                     <p class="card-title mx-3">{data.cardtitle}</p>
                     <div className="pending-card-icon text-end">

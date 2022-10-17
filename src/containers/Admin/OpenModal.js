@@ -1,7 +1,9 @@
 import React from "react";
 import "./OpenModal.css";
+import { useNavigate } from "react-router-dom";
 
 function OpenModal() {
+  const navigate = useNavigate();
   return (
     <div>
       <div
@@ -34,12 +36,16 @@ function OpenModal() {
               </div>
 
               <button
-              style={{color: "#FB5606 "}}
+                style={{ color: "#FB5606 " }}
                 type="button"
                 class="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
-              >X</button>
+                onClick={()=>navigate("/progressboard")}
+            
+              >
+                X
+              </button>
             </div>
             <div class="modal-body open-modal mb-5">
               <div className="mx-4">
@@ -50,38 +56,7 @@ function OpenModal() {
                   able to track the time sheet.
                 </p>
               </div>
-              {/* <div
-                style={{
-                  borderLeft: "1px solid ",
-                  height: "30px",
-                  marginLeft: "5%",
-                }}
-              ></div>
-              <img
-                src="assets/images/Group 639.png"
-                className="nectar-support-img"
-              ></img>
-              <span className="nectar-supprt-text"><span> Nectar Support:</span><span>Thanks for raising the issue with nectar, we appreciate the effort. Our technical team will look into your issues and try to resolve it ASAP.</span> </span>
-          
-              <div
-                style={{
-                  borderLeft: "1px solid ",
-                  height: "45px",
-                  marginLeft: "5%",
-                }}
-              ></div>
-              <img
-                className="nectar-user-image"
-                src="assets/images/Group 640.png"
-              ></img>
-              <span className="user-text"> User:Thanks For the support</span>
-              <div
-                style={{
-                  borderLeft: "1px solid ",
-                  height: "30px",
-                  marginLeft: "5%",
-                }}
-              ></div> */}
+
               <div className="mx-5">
                 <div class="vtl">
                   <div class="event nectar">
@@ -97,84 +72,73 @@ function OpenModal() {
                     <p class="txt">Thanks For the support</p>
                   </div>
                 </div>
-                </div>
-                {/* <p style={{ fontSize: "13px" }}>
-                <span>Nectar Support:</span>
-                Thanks for raising the issue with nectar, we appreciate the
-                effort.<br></br>
-              </p>
-              <p className="" style={{ fontSize: "13px" }}>
-                Our technical team will look into your issues and try to resolve
-                it ASAP.
-              </p>
-              <p style={{ fontSize: "13px" }}>User:Thanks For the support</p> */}
               </div>
-              <div className="open-modal">
-                <div className="modal-footer open-modal">
-                  <br></br>
-                  <div class="col-md-4 mx-5">
-                    <label
-                      for="inputState"
-                      style={{ fontSize: "12px" }}
-                      class="form-label"
-                    >
-                      Pass the Complaint ticket:
-                    </label>
-                    <select
-                      id="inputState development-team"
-                      className="form-select"
-                    >
-                      <option selected>Development Team</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div class="col-md-3">
-                    <label
-                      for="inputState"
-                      class="form-label"
-                      style={{ fontSize: "12px" }}
-                    >
-                      Set Assignee
-                    </label>
-                    <select id="inputState type-assignee" class="form-select ">
-                      <option selected>
-                        Type assignee Name here followed by @
-                      </option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div class="col-md-3 mx-3">
-                    <label
-                      for="inputState"
-                      class="form-label"
-                      style={{ fontSize: "12px" }}
-                    >
-                      Set Priority
-                    </label>
-                    <select id="inputState high" class="form-select ">
-                      <option selected>High</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div class="col-md-3 mx-5">
-                    <label
-                      for="inputState"
-                      class="form-label"
-                      style={{ fontSize: "12px" }}
-                    >
-                      Move Ticket
-                    </label>
-                    <select id="inputState move-ticket" class="form-select ">
-                      <option selected>Move ticket to In Progress</option>
-                      <option>...</option>
-                    </select>
-                  </div>
+            </div>
+            <div className="open-modal">
+              <div className="modal-footer open-modal">
+                <br></br>
+                <div class="col-md-4 mx-5">
+                  <label
+                    for="inputState"
+                    style={{ fontSize: "12px" }}
+                    class="form-label"
+                  >
+                    Pass the Complaint ticket:
+                  </label>
+                  <select
+                    id="inputState development-team"
+                    className="form-select"
+                  >
+                    <option selected>Development Team</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-3">
+                  <label
+                    for="inputState"
+                    class="form-label"
+                    style={{ fontSize: "12px" }}
+                  >
+                    Set Assignee
+                  </label>
+                  <select id="inputState type-assignee" class="form-select ">
+                    <option selected>
+                      Type assignee Name here followed by @
+                    </option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-3 mx-3">
+                  <label
+                    for="inputState"
+                    class="form-label"
+                    style={{ fontSize: "12px" }}
+                  >
+                    Set Priority
+                  </label>
+                  <select id="inputState high" class="form-select ">
+                    <option selected>High</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-3 mx-5">
+                  <label
+                    for="inputState"
+                    class="form-label"
+                    style={{ fontSize: "12px" }}
+                  >
+                    Move Ticket
+                  </label>
+                  <select id="inputState move-ticket" class="form-select ">
+                    <option selected>Move ticket to In Progress</option>
+                    <option>...</option>
+                  </select>
                 </div>
               </div>
             </div>
           </div>
         </div>
-   
+      </div>
 
       <a
         class="btn btn-primary"
