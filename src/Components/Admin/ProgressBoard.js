@@ -15,7 +15,7 @@ function ProgressBoard() {
           {dummyData &&
             dummyData.ComplaintManagement.map((data) => (
               <div className="pending-card mt-3 mx-5">
-                <div class="card w-80"   onClick={()=>navigate("/openmodal")}>
+                <div class="card w-80" onClick={() => navigate("/openmodal")}>
                   <div class="card-body ">
                     <p class="card-title mx-3">{data.cardtitle}</p>
                     <div className="pending-card-icon text-end">
