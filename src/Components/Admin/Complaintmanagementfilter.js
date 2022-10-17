@@ -2,19 +2,20 @@ import { React, useState } from "react";
 import RadioButton from "./Radio";
 import DummyData from "../../containers/DummyNectarCRM";
 
-const FeedbackandsupportFilter = () => {
-  const [checkedValue, setIsChecked] = useState(null);
+
+const Complaintmanagementfilter = () => {
+    const [checkedValue, setIsChecked] = useState(null);
   return (
     <>
-    <button
+      <button
         type="button"
         className={`fa fa-bars dropdown-toggle-split filterMenuBut`}
         data-bs-toggle="dropdown"
         aria-expanded="false"
       ></button>
       <div className="dropdown-menu FilterRadioGroup"  style={{width:'300px' ,paddingLeft:"30px"  }}>
-        <p className="FilterRadioHead">Country</p>
-        {DummyData?.CountryFilter.map((item) => {
+        <p className="FilterRadioHead">Status</p>
+        {DummyData?.Status.map((item) => {
           return (
             <>
               <RadioButton
@@ -31,8 +32,8 @@ const FeedbackandsupportFilter = () => {
             </>
           );
         })}
-        <p className="FilterRadioHead">Product</p>
-        {DummyData?.Products.map((item) => {
+        <p className="FilterRadioHead">Complaint ID</p>
+        {DummyData?.complaintId.map((item) => {
           return (
             <>
               <RadioButton
@@ -49,8 +50,8 @@ const FeedbackandsupportFilter = () => {
             </>
           );
         })}
-        <p className="FilterRadioHead">Date</p>
-        {DummyData?.Date.map((item) => {
+        <p className="FilterRadioHead">Complaint ID</p>
+        {DummyData?.ComplaintId.map((item) => {
           return (
             <>
               <RadioButton
@@ -74,4 +75,4 @@ const FeedbackandsupportFilter = () => {
   )
 }
 
-export default FeedbackandsupportFilter
+export default Complaintmanagementfilter

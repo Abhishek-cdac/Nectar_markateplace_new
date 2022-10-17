@@ -14,8 +14,9 @@ export const AdminTabs = Object.freeze([
     // { label: "partner Management", link:"#", icon: "/assets/images/partner.webp" },
     { label: "product Management", link: "admin/productmanagement", icon: "/assets/images/PRODUCT.webp" },
     { label: "payment Management", link: "admin/paymentmanagament", icon: "/assets/images/PAYMENT.webp" },
-    { label: "Report Management", link: "#", icon: "/assets/images/REPORT.webp" },
+    {label:"Complaint Mangement" , link:"admin/complaintmanagement" , icon: "/assets/images/partner.webp"},
+    { label: "Report Management", link: "admin/reportmanagement", icon: "/assets/images/REPORT.webp" },
     { label: "Order Management", link: "admin/ordermanagment", icon: "/assets/images/ORDER.webp" },
-    { label: "Feedback && Review", link: "#", icon: "/assets/images/CUSTOMER.webp" },
-    { label: "support && offers", link: "#", icon: "/assets/images/CUSTOMER.webp" },
+    { label: "Feedback && Review", link: "admin/feedbackandsupport", icon: "/assets/images/CUSTOMER.webp" },
+    { label: "Support and Offers", link: "admin/supportAndoffer", icon: "/assets/images/CUSTOMER.webp" },
   ]);

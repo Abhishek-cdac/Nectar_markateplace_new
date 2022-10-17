@@ -8,19 +8,22 @@ const SupportAndOffer = () => {
 
   console.log(activeButt);
   const [value, setValue] = useState(false);
-  const handleToggle = () => {
-    setValue(!value);
-    console.log("togglevalue", value);
-  };
+  // const handleToggle = () => {
+  //   setValue(!value);
+  //   console.log("togglevalue", value);
+  // };
 
   return (
     <>
       <div className="container-fluid">
         <div className="row ">
-          <div className="col-lg-2 col-md-4 mt-4 mb-3 pl-5">
-            Support And Offer
+          <div className="col-lg-12 col-md-4 mt-4 mb-3 pl-5">
+           <h4>
+           Support And Offer
+           </h4>
           </div>
-          <div className="col-lg-6 mb-3">
+         <siv className="row">
+         <div className="col-lg-6 mb-3">
             <ul class="nav nav-tabs UserTableTabs" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button
@@ -64,6 +67,7 @@ const SupportAndOffer = () => {
               </li>
             </ul>
           </div>
+         </siv>
           <hr className="bg-dark bold"></hr>
           <div class="tab-content" id="myTabContent">
             <div
