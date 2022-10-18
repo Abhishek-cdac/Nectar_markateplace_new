@@ -7,6 +7,8 @@ function PricingCard() {
     setValue(!value);
     console.log("togglevalue", value);
   };
+ 
+  
   return (
     <>
       <div className="container">
@@ -25,12 +27,12 @@ function PricingCard() {
                           checked={value}
                           onChange={handleToggle}
                           className="react-switch-checkbox1"
-                          id={`react-switch-new`}
+                          id={`${data.title}`}
                           type="checkbox"
                         />
                         <label
                           className="react-switch-label1"
-                          htmlFor={`react-switch-new`}
+                          htmlFor={`${data.title}`}
                         >
                           {" "}
                           <div className="toggleLabel">

@@ -469,7 +469,7 @@ const dummyData = {
       customer: "Miachale",
       Revenue: "23213$",
       Region: "India",
-      status: "Active",
+      status: "Open",
     },
     {
       date: "12-08-2022",
@@ -501,7 +501,7 @@ const dummyData = {
       customer: "Miachale",
       Revenue: "23213$",
       Region: "India",
-      status: "InActive",
+      status: "In Progress",
     },
   ],
   pieChartData: [
@@ -869,47 +869,56 @@ const dummyData = {
       id: "1",
       image: "/assets/images/CRM.webp",
       title: "Nectar CRM",
+      name:"NectarCrm",
     },
     {
       id: "2",
       image: "/assets/images/HRMS.webp",
       title: "Nectar HRMS",
+      name:"NectarHrms",
     },
     {
       id: "3",
       image: "/assets/images/Nectrac.webp",
       title: "Nectar GPS Tracker",
+      name:"NectarGps",
     },
 
     {
       id: "4",
       image: "/assets/images/Nerrotrac.webp",
       title: "Nerro Trac-Bug Tracker",
+      name:"NectarBug",
     },
     {
       id: "5",
       image: "/assets/images/nT3.webp",
       title: "NT3-ITSM Tool",
+      name:"NectarITSm",
     },
     {
       id: "6",
       image: "/assets/images/Nectar-product-logo_final.webp",
       title: "nDatu- Task Management",
+      name:"nDatu",
     },
     {
       id: "7",
       image: "/assets/images/nBot.png",
       title: "Nerro Trac-Bug Tracker",
+      name:"Nerro",
     },
     {
       id: "8",
       image: "/assets/images/NPS.png",
       title: "NT3-ITSM Tool",
+      name:"NT3"
     },
     {
       id: "9",
       image: "/assets/images/Selfcare.png",
       title: "nDatu- Task Management",
+      name:"nDatu"
     },
   ],
 
@@ -940,7 +949,7 @@ const dummyData = {
     {
       id: "5",
       image: "/assets/images/school.png",
-      title: "Insightly CRM",
+      title: "Schooling",
       
     },
     {

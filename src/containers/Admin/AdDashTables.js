@@ -10,7 +10,7 @@ const AdDashTables = () => {
           <h6 className="Adh6">Recent Orders</h6>
           <button className="dashtableButton"> View  All</button>
         </div>
-        <Tables column={dummyData?.DahsTable2Head} data={dummyData.DashTable2}/>
+        <Tables column={dummyData?.DahsTable2Head} data={dummyData.DashTable2} navigateUrl="/partner" />
       </div>
     </section>
   );

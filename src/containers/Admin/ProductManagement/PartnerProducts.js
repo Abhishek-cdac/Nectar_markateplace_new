@@ -27,10 +27,10 @@ const PartnerProducts = () => {
                 <input
                   type="checkbox"
                   className="checkbox"
-                  name="toggleProd"
-                  id="toggleProd"
+                  name={item.title}
+                  id={item.title}
                 />
-                <label className="label ProdManLabel" htmlFor="toggleProd">
+                <label className="label ProdManLabel" htmlFor={item.title}>
                   <span className="inner ProdManInner" />
                   <span className="switch ProdManSwitch" />
                 </label>
