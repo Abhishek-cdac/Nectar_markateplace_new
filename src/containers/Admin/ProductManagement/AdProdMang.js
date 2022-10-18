@@ -20,7 +20,6 @@ const AdProdMang = () => {
   const handleToggle = () => {
     setValue(!value);
   };
-  const newArray = dummyData?.ProdCardMAn?.splice(6, 3);
   return (
     <>
       <div class="col text-left adminSecHeading">
@@ -97,12 +96,12 @@ const AdProdMang = () => {
                         <input
                           type="checkbox"
                           className="checkbox"
-                          name="toggleProd"
-                          id="toggleProd"
+                          name={item.name}
+                          id={item.name}
                         />
                         <label
                           className="label ProdManLabel"
-                          htmlFor="toggleProd"
+                          htmlFor={item.name}
                         >
                           <span className="inner ProdManInner" />
                           <span className="switch ProdManSwitch" />

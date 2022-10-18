@@ -92,6 +92,13 @@
     border-radius: 3px;
     color: #FF0000;
 }
+.tableStatusPen {
+  margin-right:5px;
+  background-color: #f16728;
+    font-size: smaller;
+    border-radius: 3px;
+    color:#f16728 !important;
+}
 
 /* //Dashboard Cards css */
 
@@ -481,7 +488,12 @@ th {
 .UserTableTabs {
   margin: 15px 0 0 0;
 }
-.userTabButton {
+/* .userTabButton {
+  background-color: #f16728 !important;
+  color: #fff !important;
+} */
+.UserTableTabs .nav-link.active
+{
   background-color: #f16728 !important;
   color: #fff !important;
 }
@@ -521,7 +533,7 @@ th {
   width: 20em;
   height: 16em;
   /* margin:40px 30px 30px 40px; */
-  margin: 20px 20px 20px 30px;
+  margin: 20px 30px 20px 30px;
 }
 
 .AdProdCardOther {
