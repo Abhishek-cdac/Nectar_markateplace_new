@@ -1049,6 +1049,7 @@ const dummyData = {
       moveticketprogress: "Move ticket to In Progress",
       className: "event nectar",
       className2: "event user",
+      url:"progressboard"
     },
   ],
   OrderInvoice: [
