@@ -72,14 +72,13 @@ function PaymentManagment() {
                             <td>{data.TransactionsID}</td>
                             <td>{data.Amount}</td>
                             <td
-                              onClick={() => navigate("paymentdetails")}
+                              onClick={() => navigate(data.url)}
                               className={`${
                                 data.Status === "   PAID"
                                   ? "table-paid-btn"
                                   : "table-pending-btn"
                               } m-2`}
                             >
-                              
                               {data.Status}
                               {console.log(data.Status)}
                             </td>

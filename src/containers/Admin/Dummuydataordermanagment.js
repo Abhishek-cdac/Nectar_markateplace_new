@@ -180,6 +180,7 @@ const Dummuydataordermanagment = {
       TransactionsID: " #ADFV023658975661",
       Amount: " $1000,00.00",
       Status: "   PAID",
+      url:"paymentdetails"
     },
     {
       Organization: "Nectar Pixels",

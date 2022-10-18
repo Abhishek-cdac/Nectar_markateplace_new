@@ -833,10 +833,8 @@ const dummyData = {
       name: "Select Date",
       label: "Select Date",
     },
-   
   ],
 
-  
   ProdManCard: [
     {
       id: "1",
@@ -927,20 +925,18 @@ const dummyData = {
       id: "1",
       image: "/assets/images/Wipro-logo.png",
       title: "Task Management",
-      
     },
     {
       id: "2",
       image: "/assets/images/techlogo.png",
       title: "Device Tracker",
-     
     },
     {
       id: "3",
       image: "/assets/images/Wipro-logo.png",
       title: "ChatBoat",
     },
-     
+
     {
       id: "4",
       image: "/assets/images/inlogo.png",
@@ -956,7 +952,6 @@ const dummyData = {
       id: "6",
       image: "/assets/images/vp.png",
       title: "visit plan",
-      
     },
     {
       id: "7",
@@ -967,17 +962,154 @@ const dummyData = {
       id: "8",
       image: "/assets/images/books.png",
       title: "Multilevel Checklist",
-      
     },
     {
       id: "9",
       image: "/assets/images/drive.png",
       title: "Google Drive Integration",
-      
     },
   ],
-
-  
-   
+  ComplaintManagement: [
+    {
+      id: "1",
+      cardtitle: "#00125485",
+      cardbody: "I am facing issue with the log in to the HRMS and.....",
+      cardfooter: "25/12/2021, 06:00 PM",
+    },
+    {
+      id: "2",
+      cardtitle: "#00125485",
+      cardbody: "I am facing issue with the log in to the HRMS and.....",
+      cardfooter: "25/12/2021, 06:00 PM",
+    },
+    {
+      id: "3",
+      cardtitle: "#00125485",
+      cardbody: "I am facing issue with the log in to the HRMS and.....",
+      cardfooter: "25/12/2021, 06:00 PM",
+    },
+  ],
+  ComplaintManagementdone: [
+    {
+      id: "1",
+      cardtitle: "#00125485",
+      cardbody: "Closed",
+      cardfooter: "25/12/2021, 06:00 PM",
+    },
+    {
+      id: "2",
+      cardtitle: "#00125485",
+      cardbody: "Closed",
+      cardfooter: "25/12/2021, 06:00 PM",
+    },
+  ],
+  ComplaintManagementinprogress: [
+    {
+      id: "1",
+      cardtitle: "#00125485",
+      cardbody: "I am facing issue with the log in to the HRMS and.....",
+      cardfooter: "25/12/2021, 06:00 PM",
+      carddata:
+        "I have shared the case to the developer and will try to get back to you soon.",
+    },
+    {
+      id: "2",
+      cardtitle: "#00125485",
+      cardbody: "I am facing issue with the log in to the HRMS and.....",
+      cardfooter: "25/12/2021, 06:00 PM",
+      carddata:
+        "I have shared the case to the developer and will try to get back to you soon.",
+    },
+  ],
+  openmodaldata: [
+    {
+      ComplaintNumber: "Complaint Number:",
+      number: "#254 |",
+      Complaintdate: "Complaint Date:",
+      date: "12/12/2021, 04:00 PM",
+      img: "assets/images/Wipro-logo.png",
+      imgnectar: "assets/images/Nectar HRMS.png",
+      IssueCommented:
+        "  Issue Commented: I am not able to access the HRMS log insection, once the employee are logged in and after that theissues are not",
+      IssueCommented2: "able to track the time sheet.",
+      NectarSupport: "Nectar Support:",
+      NectarSupportdata:
+        " Thanks for raising the issue with nectar, we appreciate the effort. Our technical team wil look into your issues and try to resolve it ASAP.",
+      User: "User:",
+      userdata: "Thanks For the support ",
+      complaintticket: "Pass the Complaint ticket:",
+      developmentteam: "Development Team ",
+      option: "...",
+      setAssignee: "Set Assignee",
+      namefollowed: "Type assignee Name here followed by @",
+      setpriority: " Set Priority",
+      high: "High",
+      option2: "...",
+      moveticket: "Move Ticket",
+      moveticketprogress: "Move ticket to In Progress",
+      className: "event nectar",
+      className2: "event user",
+      url:"progressboard"
+    },
+  ],
+  OrderInvoice: [
+    {
+      OrderInvoice: "Order Invoice",
+      img: "assets/images/60-X-60.png",
+      marketplace: "Marketplace",
+      orderno: "Order Number:",
+      no: "110",
+      date: " Order Date:",
+      orderDate: "16/08/2021: 18:06 PM",
+      orderId: "order Id",
+      id: "126589857",
+      payername: "Payer Name",
+      name: " Mark Lorenson",
+      companyname: "   Nectar Infotel Solutions Pvt. Ltd.",
+      office: "Tech Office",
+      address:
+        "  Office No. 11, Block-4A (SEZ), SP Infocity IT Park,Phursungi, Pune-Saswad Road,Pune, Maharashtra-412308,   India.",
+      phoneno: "Tel : +91 (20) 2698 2255",
+      product: "Product Name",
+      description: "Discription",
+      unit: "Unit",
+      vat: "VAT %",
+      total: "Total ",
+      productname: "Nectar HRMS",
+      employee: "Employee Management with the",
+      employee2: "10 User and full services allocated",
+      unitdata: "2",
+      vatdata: "10%",
+      totaldata: "$10254.00",
+      btn: "  Grand Total",
+      grandtotal: "  $12344.00",
+      printbtn: "Print Order",
+      download: "Download",
+      cancel: "   Cancel",
+    },
+  ],
+  Paymentmanagment2: [
+    {
+      url: "/admin/paymentmanagament",
+      name: "Mark Lorenson",
+      img: "/assets/images/user3.png",
+      title: "Payment Management",
+      payername: "Payer Name:",
+      placeholder: "Mark Lorenson",
+      subscriptiontype: "Subscription Type: ",
+      placeholderpatner: "patner",
+      amount: "Amount Transferred:",
+      placeholderamount: "$1000.00",
+      transactionid: " Transaction ID:",
+      placeholdertransactionid: "#ADFV023658975661",
+      productname: "Product Name: ",
+      transactionmode: "Transaction Mode:",
+      placeholdertrasactionmode: "Net Banking",
+      invoiceno: "Invoice Number:",
+      placeholderinvoiceno: "invoice No. 000098567",
+      status: "Status: ",
+      placeholderstatus: "Completed",
+    },
+  ],
 };
 export default dummyData;
