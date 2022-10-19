@@ -23,24 +23,10 @@
   display: inline-block;
 }
 
-.amount-transfer input {
-  width: 58%;
-}
 .invoice-number::placeholder {
   color: #3ca3cf;
 }
 .transaction-id::placeholder {
   color: black;
 }
-.pay-pending-btn {
-  font-size: 14px;
-  color: #ff0000;
-  width: max-content;
-  opacity: 1;
-}
-.pay-paid-btn {
-  font-size: 14px;
-  letter-spacing: 0px;
-  color: #05d628;
-  opacity: 1;
-}
+

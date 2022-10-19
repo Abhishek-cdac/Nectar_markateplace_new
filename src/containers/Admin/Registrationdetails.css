@@ -1,0 +1,21 @@
+.assign-lead-to .form-select {
+  display: inline;
+  width: 60%;
+  height: 38px;
+  font-size: small;
+
+  background-color: #f2f2f3;
+
+  border: 0.30000001192092896px solid #707070;
+  border-radius: 7px;
+}
+
+.btn-submit {
+  color: #fff;
+  background-color: #f16728;
+  border-color: #f16728;
+}
+.btn-cancel {
+  color: #f16728;
+  border-color: #f16728;
+}
