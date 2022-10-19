@@ -61,3 +61,7 @@
   margin-top: -20px;
   margin-left: 27px;
 }
+
+.pending-card-icon.text-end {
+    padding-right: 20px;
+}
