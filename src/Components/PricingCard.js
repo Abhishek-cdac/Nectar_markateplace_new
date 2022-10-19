@@ -21,7 +21,7 @@ function PricingCard() {
                     <h4 class="card-title">
                       <h4>{data.title}</h4>
                     </h4>
-                    <div className="Toggle_pricesubs text-center">
+                    {/* <div className="Toggle_pricesubs text-center">
                       <div className="switch_toggle">
                         <input
                           checked={value}
@@ -46,6 +46,24 @@ function PricingCard() {
                               {!value ? <h4>Monthly</h4> : <h4>Yearly</h4>}
                             </div>
                           </span>
+                        </label>
+                      </div>
+                    </div> */}
+                    <div className="cardBodyToggle">
+                      <h5 class="card-title AdProdManTitle">&12345</h5>
+                      <div className="toggle-switch prodPricingtoggle-switch">
+                        <input
+                          type="checkbox"
+                          className="checkbox"
+                          name={data.title}
+                          id={data.title}
+                        />
+                        <label
+                          className="label ProdPricingCardLabel"
+                          htmlFor={data.title}
+                        >
+                          <span className="inner ProdPricingInner" />
+                          <span className="switch ProdPricingCardSwitch" />
                         </label>
                       </div>
                     </div>
