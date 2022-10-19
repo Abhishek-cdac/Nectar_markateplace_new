@@ -9,7 +9,7 @@ body {
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #EFEFEF;
+  background-color: #efefef;
 }
 
 code {
@@ -214,9 +214,6 @@ p.card-text {
   margin: auto;
 }
 
-
-
-
 p .small_card {
   font-size: 10px;
 }
@@ -259,10 +256,6 @@ p .small_card {
   margin-bottom: 3%;
 }
 
-
-
-
-
 /*Review Form*/
 .Testimonal_Home {
   background: url(/public/assets/images/Group_2985.png);
@@ -284,7 +277,7 @@ p .small_card {
   background-color: #1291c9;
   /* border: 10px solid #fff; */
   border-radius: 10px;
-  border:  #1291c9;
+  border: #1291c9;
   margin-top: 10px;
   border-radius: 7px;
 }
@@ -307,7 +300,6 @@ p .small_card {
   margin-top: 2%;
   border: #238ae6;
 }
-
 
 /* Toggle  FAQ*/
 
@@ -353,7 +345,7 @@ p .small_card {
   box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
 }
 
-.react-switch-checkbox:checked+.react-switch-label .react-switch-button {
+.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
   left: calc(100% - 0px);
   transform: translateX(-100%);
 }
@@ -393,30 +385,23 @@ p .small_card {
 
 .backgroundimage-hrms {
   background: url(/public/assets/images/hrms.png);
-
 }
 
 .backgroundimage-GPS-Tracer {
   background: url(/public/assets/images/GPS-Tracer.png);
-
 }
 
 .backgroundimage-Nerro-Trac {
   background: url(/public/assets/images/Nerro-Trac.png);
-
 }
 
 .backgroundimage-ITSMTool {
   background: url(/public/assets/images/NT3-ITSMTool.png);
-
 }
 
 .backgroundimage-nDatu {
   background: url(/public/assets/images/nDatu.png);
-
 }
-
-
 
 /* Review Slider */
 .ReviewHeading {
@@ -461,7 +446,7 @@ p .small_card {
 
 .loginleftsection h1 {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 170px;
   padding-right: 20px;
   padding-right: 20px;
@@ -470,17 +455,16 @@ p .small_card {
 
 .loginleftsection p {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .loginrightsection {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 695px;
   margin-top: 110px;
   margin-bottom: 110px;
-
 }
 
 .loginrightsection a {
@@ -530,20 +514,20 @@ p .small_card {
 
 .registrationleftsection h1 {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 170px;
   margin-top: 110px;
 }
 
 .registrationleftsection p {
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .registrationrightsection {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 735px;
   margin-top: 110px;
   margin-bottom: 110px;
@@ -555,7 +539,6 @@ p .small_card {
 }
 
 /*Nectar CRM review Rating pattern*/
-
 
 .labelhead {
   margin-right: 480px;
@@ -774,7 +757,7 @@ p .product-banner-content {
 
 #layoutSidenav {
   display: flex;
-  width:100%;
+  width: 100%;
 }
 
 /* #layoutSidenav #layoutSidenav_nav {
@@ -874,10 +857,9 @@ p .product-banner-content {
   /* padding-left: 125px !important; */
   /* top: 80px; */
   left: 0;
-    right: 0;
-    margin: auto;
+  right: 0;
+  margin: auto;
 }
-
 
 #layoutError {
   display: flex;
@@ -955,15 +937,15 @@ p .product-banner-content {
 }
 
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .Nav-label-toggled {
-  display:none
+  display: none;
 }
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .icon-toggled {
   font-size: xx-large;
 }
 
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .icon {
-  font-size:smaller;
-  margin-right:20px;
+  font-size: smaller;
+  margin-right: 20px;
 }
 
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-nav-link-icon {
@@ -1055,20 +1037,18 @@ button#sidebarToggle {
   background-color: #e9ecef;
 }
 
-.vertical-line{
+.vertical-line {
   border-right: 1px solid gray;
   height: 350px;
-
 }
 
 .checked {
-  color: #FF9900;
-
+  color: #ff9900;
 }
 
 .star_icon {
   font-size: xx-large;
-  color: #D4D3D1
+  color: #d4d3d1;
 }
 
 /*Review*/
@@ -1078,8 +1058,6 @@ button#sidebarToggle {
   margin-left: 80px;
 }
 
-
-
 .review_adress {
   margin-left: 80px;
   margin-top: -10px;
@@ -1088,7 +1066,6 @@ button#sidebarToggle {
 .review_star {
   margin-left: 70px;
   margin-top: -20px;
-
 }
 
 /*Notification Modal*/
@@ -1097,8 +1074,6 @@ button#sidebarToggle {
   position: absolute;
   right: 14px;
   top: 46px;
-
-
 }
 
 .notification_time {
@@ -1106,7 +1081,6 @@ button#sidebarToggle {
   left: 100px;
   bottom: 2px;
   font-size: 10px;
-
 }
 
 .notification_user {
@@ -1115,16 +1089,11 @@ button#sidebarToggle {
   top: 30px;
 }
 
-/*Netar CRM page */ 
+/*Netar CRM page */
 .backgroundimage-CRM {
   background: url(/public/assets/images/Group\ 3001.png);
   height: 100%;
 }
-
-
-
-
-
 
 .footer {
   /* position: fixed; */
@@ -1145,7 +1114,6 @@ button#sidebarToggle {
 .info h4 {
   color: #f16728;
 }
-
 
 .dropbtn {
   background-color: #fff;
@@ -1184,7 +1152,7 @@ button#sidebarToggle {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #f1f1f1
+  background-color: #f1f1f1;
 }
 
 /* Show the dropdown menu on hover */
@@ -1221,16 +1189,16 @@ button#sidebarToggle {
   padding: 20%;
 }
 .panel-body1 {
-  padding-top:5%;
+  padding-top: 5%;
 }
-.panel-body{
+.panel-body {
   background: url(/public/assets/images/loginleftimage.png);
   background-repeat: no-repeat;
   padding-left: 25%;
   padding-right: 30%;
   padding-top: 3%;
   padding-bottom: 3%;
-  opacity:0.8;
+  opacity: 0.8;
 }
 
 .panel-body h3 {
@@ -1259,31 +1227,27 @@ button#sidebarToggle {
 
 .telecomeservicetabs label {
   font-size: medium;
-  color:#474747
+  color: #474747;
 }
 
 .telecomeservicetabs input {
-
   font-size: medium;
 }
 
-
 .nectarproduct {
-  background-color: #EFEFEF;
+  background-color: #efefef;
   padding: 3%;
 }
 
 .partnerproduct {
-  background-color: #EFEFEF;
+  background-color: #efefef;
   padding: 3%;
 }
 
 /* Enquiry Form */
 
 .midsec {
-  background-color: #EFE8E8;
-
-
+  background-color: #efe8e8;
 }
 
 .border-bottom {
@@ -1295,14 +1259,14 @@ button#sidebarToggle {
 }
 
 .midpara {
-  color: #08668F;
+  color: #08668f;
   font-size: 11px;
   padding-top: 20px;
   font-weight: 500;
 }
 
 .form-check {
-  color: #08668F;
+  color: #08668f;
   font-size: 11px;
   font-weight: 500;
 }
@@ -1312,15 +1276,6 @@ button#sidebarToggle {
   background-color: #f16728;
   color: white;
 }
-
-
-
-
-
-
-
-
-
 
 .line {
   border-right: 2px solid white;
@@ -1347,8 +1302,7 @@ html,body{
 } */
 
 .midsec {
-  background-color: #EFE8E8;
-
+  background-color: #efe8e8;
 }
 
 .border-bottom {
@@ -1360,14 +1314,14 @@ html,body{
 }
 
 .midpara {
-  color: #08668F;
+  color: #08668f;
   font-size: 11px;
   padding-top: 20px;
   font-weight: 500;
 }
 
 .form-check {
-  color: #08668F;
+  color: #08668f;
   font-size: 11px;
   font-weight: 500;
 }
@@ -1379,30 +1333,23 @@ html,body{
   color: white;
 }
 
-
-.buybutton{
-background-color: #f16728;
-color: #fff;
-border: #f16728;
-border-radius: 7px;
-padding: 10px;
-width: 200px;
-margin-bottom: 7%;
-
+.buybutton {
+  background-color: #f16728;
+  color: #fff;
+  border: #f16728;
+  border-radius: 7px;
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 7%;
 }
 
 /* pricing AND sUBS */
-
-
 
 .sup-head {
   font-size: 14px;
   margin-left: -10px;
   margin-top: -10px;
-
-
 }
-
 
 /* product toggle */
 
@@ -1445,7 +1392,7 @@ margin-bottom: 7%;
   box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
 }
 
-.react-switch-checkbox1:checked+.react-switch-label1 .react-switch-button1 {
+.react-switch-checkbox1:checked + .react-switch-label1 .react-switch-button1 {
   left: calc(100% - 2px);
   transform: translateX(-100%);
 }
@@ -1455,7 +1402,6 @@ margin-bottom: 7%;
 }
 
 /* product toggle button single card down */
-
 
 .Toggle_pricesubsdown {
   text-align: center;
@@ -1501,7 +1447,7 @@ margin-bottom: 7%;
   box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
 }
 
-.react-switch-checkbox2:checked+.react-switch-label2 .react-switch-button2 {
+.react-switch-checkbox2:checked + .react-switch-label2 .react-switch-button2 {
   left: calc(100% - 2px);
   transform: translateX(-100%);
 }
@@ -1511,7 +1457,7 @@ margin-bottom: 7%;
 }
 
 .section-content {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin: 10px 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* .App {
@@ -1519,8 +1465,6 @@ margin-bottom: 7%;
   /* margin: 10rem auto; */
   /* height: 570px; */
 }
-
-
 
 /* product nav */
 .nav-pills .nav-link {
@@ -1538,31 +1482,100 @@ margin-bottom: 7%;
   border-radius: 0%;
 }
 
-
 .double_click {
-  color: #05E223;
+  color: #05e223;
   margin-left: auto;
   transition: transform 0.15s ease;
 }
 
-
-
 /* PartnerCard partner  some changes on partner by Nagasai*/
- 
-.productCard{
-  background-color:#efefefef;
+
+.productCard {
+  background-color: #efefefef;
   border: none;
 }
 
 .productCardmain {
-  margin:3em
+  margin: 3em;
 }
 
 .productContainer {
-  background-color:#efefefef;
+  background-color: #efefefef;
 }
 
 .resourceCardimg {
-  width:50% !important;
+  width: 50% !important;
   /* height:50px */
 }
+
+/* pricing card Toggle */
+.switch.ProdPricingCardSwitch{
+  display: block;
+  width: 7.5em;
+  margin-right: 2px;
+  margin-top: 2px;
+  height: 32px;
+  background-color: #f16728;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 95px;
+  border: 0 solid #bbb;
+  /* border-radius: 20px; */
+  transition: all 0.3s ease-in 0s;
+}
+
+/* .switch.ProdPricingCardSwitch.pricingDown {
+  right:115px !important
+} */
+
+
+.inner.ProdPricingInner:after { 
+  content: "Yearly";
+  padding-right: 10px;
+  color: #f16728 !important; 
+  color: #fff;
+ text-align: right;
+  background-color: white;
+  float: left;
+  width: 50%;
+  height: 36px;
+  /* padding: 0; */
+  line-height: 36px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.inner.ProdPricingInner:before {
+  content: "Monthly";
+  padding-left: 10px;
+  background-color: white !important;
+  color: #f16728 !important;
+  float: left;
+  width: 50%;
+  height: 36px;
+  /* padding: 0; */
+  line-height: 36px;
+  /* color: #fff; */
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.ProdPricingCardLabel {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 0 solid #bbb;
+  border-radius: 20px;
+  /* height: 30px; */
+}
+
+.toggle-switch.prodPricingtoggle-switch {
+  position: relative;
+  width: 15em !important;
+  display: inline-block;
+  border: 1px solid #f16728 !important;
+  /* border-radius: 20px !important; */
+  text-align: left;
+  margin-top:10%;
+  margin-right:10%
+} 
