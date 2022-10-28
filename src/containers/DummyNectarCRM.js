@@ -555,13 +555,14 @@ const DummyData = {
     ],
 
     ComplaintManagementData: [
+  
       {
         id: "1",
         Snumber:"1",
         Complaintid:"#00125485",
         Complaintoverview:"Facing the issue with HRMS login and find the report for the employee",
         date:"05/12/2022,06:00 PM IST",
-        status: "Open",
+        status: "Active",
         
       },
       {
@@ -622,6 +623,39 @@ const DummyData = {
       },
       {
         id: "9",
+        Snumber:"9",
+        Complaintid:"#00125485",
+        Complaintoverview:"NDatu tracking issue",
+        date:"05/12/2022,06:00 PM IST",
+        status: "Open",
+      },
+      {
+        id: "10",
+        Snumber:"9",
+        Complaintid:"#00125485",
+        Complaintoverview:"NDatu tracking issue",
+        date:"05/12/2022,06:00 PM IST",
+        status: "Open",
+      },
+      {
+        id: "11",
+        Snumber:"9",
+        Complaintid:"#00125485",
+        Complaintoverview:"NDatu tracking issue",
+        date:"05/12/2022,06:00 PM IST",
+        status: "Open",
+      },
+      {
+        id: "12",
+        Snumber:"9",
+        Complaintid:"#00125485",
+        Complaintoverview:"NDatu tracking issue",
+        date:"05/12/2022,06:00 PM IST",
+        status: "Open",
+      },
+
+      {
+        id: "13",
         Snumber:"9",
         Complaintid:"#00125485",
         Complaintoverview:"NDatu tracking issue",
