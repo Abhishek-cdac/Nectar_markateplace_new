@@ -4,14 +4,14 @@ const ReportManagement = () => {
   return (
     <>
       <div className="container">
-        <div className="row">
+        <div className="row"  style={{color:"#838383"}}>
           <div className="col col-lg-6">
             <h4 className="mt-4 mb-4">Report Management</h4>
           </div>
           <div>
             <hr />
           </div>
-          <div className="col-lg-6 mt-5">
+          <div className="col-lg-6 ">
             <div className="row m-4">
               <div className="col-lg-3">
                 <label htmlFor="offer">Type: </label>
@@ -21,7 +21,8 @@ const ReportManagement = () => {
                   <select
                     id="disabledSelect"
                     class="form-select mx-2"
-                    style={{ width: "100%" }}
+                    style={{ width: "100%" ,color:"#838383"}}
+                  
                   >
                     <option>Annual</option>
                     <option>Quarterly</option>
@@ -44,7 +45,8 @@ const ReportManagement = () => {
                     value="2018-07-22"
                     placeholder="31/12/2021 | 12:00 AM"
                     style={{
-                      margin: "0px 8px",
+                      color:"#838383"
+,                      margin: "0px 8px",
                       padding: "6px 36px 6px 12px",
                       background: "#fff",
                       border: "1px solid lightgray",
@@ -66,7 +68,7 @@ const ReportManagement = () => {
                   <select
                     id="disabledSelect"
                     class="form-select mx-2"
-                    style={{ width: "100%" }}
+                    style={{ width: "100%" ,color:"#838383"}}
                   >
                     <option>Country</option>
                     <option>India</option>
@@ -89,7 +91,7 @@ const ReportManagement = () => {
                   <select
                     id="disabledSelect"
                     class="form-select mx-2"
-                    style={{ width: "100%" }}
+                    style={{ width: "100%",color:"#838383" }}
                   >
                     <option>Nectar HRMS</option>
 
@@ -102,7 +104,7 @@ const ReportManagement = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 mt-5">
+          <div className="col-lg-6">
             <div className="row m-4">
               <div className="col-lg-3">
                 <label htmlFor="offer" className="mt-2">
@@ -110,11 +112,11 @@ const ReportManagement = () => {
                 </label>
               </div>
               <div className="col-lg-9">
-                <div class="mb-2">
+                <div class="mb-1">
                   <select
                     id="disabledSelect"
                     class="form-select mx-2"
-                    style={{ width: "100%" }}
+                    style={{ width: "100%" ,color:"#838383"}}
                   >
                     <option>Partner Report</option>
                     <option>Registered User Report</option>
@@ -142,6 +144,7 @@ const ReportManagement = () => {
                     placeholder="31/12/2021 | 12:00 AM"
                     style={{
                       margin: "0px 8px",
+                      color:"#838383",
                       padding: "6px 36px 6px 12px",
                       background: "#fff",
                       border: "1px solid lightgray",

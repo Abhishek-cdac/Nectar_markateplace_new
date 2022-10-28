@@ -17,13 +17,13 @@ const SupportAndOffer = () => {
     <>
       <div className="container-fluid">
         <div className="row ">
-          <div className="col-lg-12 col-md-4 mt-4 mb-3 pl-5">
-           <h4>
+          <div className="col-lg-12 col-md-4 mt-2 pl-5">
+           <h4 style={{color:"#6F6F6F"}}>
            Support And Offer
            </h4>
           </div>
          <siv className="row">
-         <div className="col-lg-6 mb-3">
+         <div className="col-lg-6 mb-1">
             <ul class="nav nav-tabs UserTableTabs" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button
@@ -41,7 +41,7 @@ const SupportAndOffer = () => {
                     SetActiveButt("home");
                   }}
                 >
-                  partner
+                  Create Offer
                 </button>
               </li>
               <li class="nav-item" role="presentation">
@@ -62,7 +62,7 @@ const SupportAndOffer = () => {
                     SetActiveButt("profile");
                   }}
                 >
-                  Reseller
+                  View Active Offer
                 </button>
               </li>
             </ul>

@@ -18,7 +18,7 @@ const OfferType = () => {
     <>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-6 mt-5">
+          <div className="col-lg-6 mt-3">
             <div className="row">
               <div className="col-lg-3">
                 <label htmlFor="offer" className="mt-2">
@@ -26,10 +26,10 @@ const OfferType = () => {
                 </label>
               </div>
               <div className="col-lg-9">
-                <div class="mb-3">
+                <div class="mb-4">
                   <select
                     id="disabledSelect"
-                    class="form-select mx-2"
+                    class="form-select"
                     style={{ width: "100%" }}
                   >
                     <option>Promocode</option>
@@ -49,10 +49,10 @@ const OfferType = () => {
                 </label>
               </div>
               <div className="col-lg-9">
-                <div class="mb-3">
+                <div class="mb-4">
                   <select
                     id="disabledSelect"
-                    class="form-select mx-2"
+                    class="form-select"
                     style={{ width: "100%" }}
                   >
                     <option>3 Months</option>
@@ -72,10 +72,10 @@ const OfferType = () => {
                 </label>
               </div>
               <div className="col-lg-9">
-                <div class="mb-3">
+                <div class="mb-4">
                   <select
                     id="disabledSelect"
-                    class="form-select mx-2"
+                    class="form-select"
                     style={{ width: "100%" }}
                   >
                     <option>Nectar HRMS</option>
@@ -95,7 +95,7 @@ const OfferType = () => {
                 </label>
               </div>
               <div className="col-lg-9" >
-                <div class="mb-3 m-2" >
+                <div class="mb-3" >
                   <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">
                       $
@@ -125,18 +125,18 @@ const OfferType = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 mt-5">
-            <div className="row">
+          <div className="col-lg-6 mt-3">
+          <div className="row">
               <div className="col-lg-3">
                 <label htmlFor="offer" className="mt-2">
-                  Offer Type Details:{" "}
+                  Offer Type:{" "}
                 </label>
               </div>
               <div className="col-lg-9">
-                <div class="mb-3">
+                <div class="mb-4">
                   <select
                     id="disabledSelect"
-                    class="form-select mx-2"
+                    class="form-select"
                     style={{ width: "100%" }}
                   >
                     <option>Promocode</option>
@@ -148,7 +148,7 @@ const OfferType = () => {
                   </select>
                 </div>
               </div>
-            </div>
+            </div> 
             <div className="row">
               <div className="col-lg-3">
                 <label htmlFor="offer" className="mt-2">
@@ -156,11 +156,12 @@ const OfferType = () => {
                 </label>
               </div>
               <div className="col-lg-9">
-                <div class="mb-3">
+                <div class="mb-4">
                   <input
                     type="date"
                     style={{
-                      margin: "0px 8px",
+                      margin: "0px 2px",
+                    
                       padding: "6px 36px 6px 12px",
                       background: "#fff",
                       border: "1px solid lightgray",
@@ -173,6 +174,7 @@ const OfferType = () => {
                       type="date"
                       style={{
                         margin: "0px 8px",
+                    
                         padding: "6px 36px 6px 12px",
                         background: "#fff",
                         border: "1px solid lightgray",
@@ -190,10 +192,10 @@ const OfferType = () => {
                 </label>
               </div>
               <div className="col-lg-9">
-                <div class="mb-3">
+                <div class="mb-4">
                   <select
                     id="disabledSelect"
-                    class="form-select mx-2"
+                    class="form-select "
                     style={{ width: "100%" }}
                   >
                     <option>Wipro Bug Tracker</option>
@@ -203,24 +205,24 @@ const OfferType = () => {
                     <option>Nerro Trac-Bug Tracker</option>
                     <option>NT3-ITSM Tool</option>
                   </select>
-                  <p className="mt-1 mx-2">Or Type slowly for your result</p>
+                  <p style={{fontSize:"8px"}}>Or Type slowly for your result</p>
                 </div>
               </div>
             </div>
             <div className="row">
               <div className="col-lg-3">
                 <label htmlFor="offer" className="mt-2">
-                  Offer Valid Date:{" "}
+                  Schedule Offer:{" "}
                 </label>
               </div>
               <div className="col-lg-9">
-                <div class="mb-3">
+                <div class="mb-4">
                   <input
                     type="date"
                     value="2018-07-22"
                     placeholder="31/12/2021 | 12:00 AM"
                     style={{
-                      margin: "0px 8px",
+                      margin: "0px 2px",
                       padding: "6px 36px 6px 12px",
                       background: "#fff",
                       border: "1px solid lightgray",
@@ -235,7 +237,7 @@ const OfferType = () => {
         </div>
         <div
           className="row mt-5"
-          style={{ border: "3px dashed gray", padding: "5%" }}
+          style={{ border: "2px dashed gray", padding: "5%" }}
         >
           <div
             className="col-lg-5"
@@ -248,9 +250,9 @@ const OfferType = () => {
 
             <label
                   className=""
-                  style={{ marginTop: "-15px", cursor: "pointer" }}
+                  style={{ marginTop: "-15px", cursor: "pointer" ,}}
                 >
-                   <i class="fa-solid fa-upload fa-5x"></i>
+                   <i class="fa-solid fa-upload fa-5x" style={{color:"#1291C9 "}}></i>
                   <br />
                   <input
                     id="file"
@@ -277,8 +279,8 @@ const OfferType = () => {
             </div>
           </div>
           <div className="col-lg-7 mt-5">
-            <h2 className="text-center mt-3">Or Drag and Drop the Images</h2>
-            <p className="text-center">
+            <h2 className="text-center mt-3" style={{color :"#B2B2B2"}}>Or Drag and Drop the Images</h2>
+            <p className="text-center" style={{color :"#B2B2B2" ,fontSize:"13px"}}>
               Maximum file size should not more than 10mb{" "}
             </p>
           </div>

@@ -18,7 +18,7 @@ const FeedbackandSupport = () => {
     <div className="container ">
       <div className="row">
         <div className="col col-lg-6">
-          <h4 className="mt-4 mb-4">Users Reviews & Feedback</h4>
+          <h4 className="mt-3 mb-2" style={{color:"#989898"}}>Users Reviews & Feedback</h4>
         </div>
         <div className="col userMenuFilter">
           <FeedbackandsupportFilter />
@@ -26,7 +26,7 @@ const FeedbackandSupport = () => {
         <div>
           <hr />
         </div>
-      </div>
+      </div> 
 
       <div className="row">
         {DummyData &&
@@ -34,11 +34,11 @@ const FeedbackandSupport = () => {
             pagesVisited,
             pagesVisited + usersPerPage
           ).map((data) => (
-            <div className="col-12 col-sm-6 col-lg-8 mt-3">
+            <div className="col-12 col-sm-6 col-lg-8 mt-4 " style={{fontSize:"12px" ,color:"#838383"}}>
               <img
                 className="Review_icon"
                 src={data.image}
-                style={{ height: "55px" }}
+                style={{ height: "40px" }}
                 alt="..."
               />
               <h5 className="review_title ">
