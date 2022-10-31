@@ -214,17 +214,6 @@ const TableBody = ({ item, column, navigateUrl }) => {
                       </div>
                     ))}
 
-                  {/* <i
-                    data-bs-toggle="modal"
-                    href="#exampleModalToggle"
-                    role="button"
-                    // class={`fa fa-square-o ${
-                    //   item[`${columnItem.value}`] === "Active"
-                    //     ? "tableStatusAct"
-                    //     : "tableStatusInA"
-                    // }`}
-                    class="fa-solid fa-square"
-                  ></i> */}
                 </div>
                 {item[`${columnItem.value}`]}{" "}
               </a>
