@@ -42,11 +42,17 @@ function SideNav({ Tabs }) {
                       handleClick();
                     }}
                   >
-                    <i
+                    {toggle == true ? 
+                   ( <i
                     style={{color:"#fff"}}
                       class="fa fa-chevron-circle-right"
                       aria-hidden="true"
-                    ></i>
+                    ></i>):
+                      (<i
+                    style={{color:"#fff"}}
+                      class="fa fa-chevron-circle-`left"
+                      aria-hidden="true"
+                    ></i>)}
                   </button>
                 </div>
                 <div className="nav mt-4">

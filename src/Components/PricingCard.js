@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DummyData from "../containers/DummyNectarCRM";
+import {useNavigate} from 'react-router-dom'
 
 function PricingCard() {
   const [value, setValue] = useState(false);
@@ -7,6 +8,9 @@ function PricingCard() {
     setValue(!value);
     console.log("togglevalue", value);
   };
+  const navigate = useNavigate();
+ 
+  
   return (
     <>
       <div className="container">
@@ -15,35 +19,26 @@ function PricingCard() {
             DummyData.pricingSubscriptiondata.map((data) => (
               <div className="col-lg-4 col-md-6">
                 <div class="card mt-5">
-                  <div class="card-body">
+                  <div class="card-body ProPricingCard">
                     <h4 class="card-title">
                       <h4>{data.title}</h4>
                     </h4>
-                    <div className="Toggle_pricesubs text-center">
-                      <div className="switch_toggle">
+
+                    <div className="cardBodyToggle">
+                      <h5 class="card-title AdProdManTitle">&12345</h5>
+                      <div className="toggle-switch prodPricingtoggle-switch">
                         <input
-                          checked={value}
-                          onChange={handleToggle}
-                          className="react-switch-checkbox1"
-                          id={`react-switch-new`}
                           type="checkbox"
+                          className="checkbox"
+                          name={data.title}
+                          id={data.title}
                         />
                         <label
-                          className="react-switch-label1"
-                          htmlFor={`react-switch-new`}
+                          className="label ProdPricingCardLabel"
+                          htmlFor={data.title}
                         >
-                          {" "}
-                          <div className="toggleLabel">
-                            <h4>Monthly</h4>
-                          </div>
-                          <div className="toggleLabel">
-                            <h4>Yearly</h4>
-                          </div>
-                          <span className={`react-switch-button1`}>
-                            <div className="toggleSwitchLabel1">
-                              {!value ? <h4>Monthly</h4> : <h4>Yearly</h4>}
-                            </div>
-                          </span>
+                          <span className="inner ProdPricingInner" />
+                          <span className="switch ProdPricingCardSwitch" />
                         </label>
                       </div>
                     </div>
@@ -157,14 +152,15 @@ function PricingCard() {
                     >
                       <p>{data.desp8}</p>
                     </div>
-                    <div style={{ marginLeft: 50 }}>
+                    <div style={{ marginLeft: "18%" }}>
                       <button
                         type="submit"
                         class="btn "
+                        onClick={() =>navigate("/cart")}
                         style={{
                           color: "#F16728",
-                          border: " 1px solid #F16728",
-                          fontSize: "12px",
+                          border: " 2px solid #F16728",
+                          fontSize: "medium",
                           margin: 5,
                         }}
                       >
@@ -173,10 +169,11 @@ function PricingCard() {
                       <button
                         type="submit"
                         class="btn"
+                        onClick={() =>navigate("/getproduct")}
                         style={{
                           color: "#F16728",
-                          border: " 1px solid #F16728",
-                          fontSize: "12px",
+                          border: " 2px solid #F16728",
+                          fontSize: "medium",
                         }}
                       >
                         Buy Now

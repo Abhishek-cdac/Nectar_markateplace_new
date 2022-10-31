@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import DummyData from "./DummyNectarCRM";
 const PricingSubDownCard = () => {
-  const [value, setvalue] = useState(false);
+  const [value, setValue] = useState(false);
   const handleToggle = () => {
-    setvalue(!value);
+    setValue(!value);
     console.log("togglevalue", value);
   };
-
   return (
     <>
       <h1 style={{ textAlign: "center" }}>Results By Filter</h1>
@@ -23,15 +22,15 @@ const PricingSubDownCard = () => {
                 <div className="Toggle_pricesubsdown mx-5">
                   <div className="switch_toggle">
                     <input
+                      className="react-switch-checkbox2"
+                      id={data.title}
+                      type="checkbox"
                       checked={value}
                       onChange={handleToggle}
-                      className="react-switch-checkbox2"
-                      id={`react-switch-new`}
-                      type="checkbox"
                     />
                     <label
                       className="react-switch-label2"
-                      htmlFor={`react-switch-new`}
+                      htmlFor={data.title}
                     >
                       {" "}
                       <div className="toggleLabel">
@@ -50,7 +49,7 @@ const PricingSubDownCard = () => {
                 </div>
                 {/* <div>{!value ? `$80` : `$160`}</div> */}
 
-                <div className="cardcontent" style={{backgroundColor:"#474747"}}>
+                <div className="cardcontent" style={{backgroundColor:"#474747",padding:"2em",opacity:"0.66"}}>
                   <h4>{data.doller}</h4>
                   <p>{data.dollermonth}</p>
                   <h3>{data.desp}</h3>

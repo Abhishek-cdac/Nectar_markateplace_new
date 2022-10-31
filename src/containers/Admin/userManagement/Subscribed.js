@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Tables from "../../../Components/Admin/Tables";
 import dummyData from "../../Dummydata";
 import ReactPaginate from "react-paginate";
+
 const Subscribed = () => {
-  const [activeButt, SetActiveButt] = React.useState("home");
 
 
   //pagination
@@ -16,15 +16,15 @@ const Subscribed = () => {
   const changePage = ({ selected }) => {
     setPageNumber(selected);
   };
-  console.log(activeButt);
+  // console.log(activeButt);
   return (
     <>
       <ul class="nav nav-tabs UserTableTabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
           <button
-            class={`nav-link active ${
-              activeButt === "home" ? "userTabButton" : "table-nav-link"
-            } `}
+            class={"nav-link active table-nav-link"
+          
+          }
             id="home-tab"
             data-bs-toggle="tab"
             data-bs-target="#home"
@@ -32,18 +32,16 @@ const Subscribed = () => {
             role="tab"
             aria-controls="home"
             aria-selected="true"
-            onClick={() => {
-              SetActiveButt("home");
-            }}
+            // onClick={() => {
+            //   SetActiveButt("home");
+            // }}
           >
             partner
           </button>
         </li>
         <li class="nav-item" role="presentation">
           <button
-            class={`nav-link  ${
-              activeButt === "profile" ? "userTabButton" : "table-nav-link"
-            } `}
+            class={"nav-link table-nav-link"} 
             id="profile-tab"
             data-bs-toggle="tab"
             data-bs-target="#profile"
@@ -51,9 +49,6 @@ const Subscribed = () => {
             role="tab"
             aria-controls="profile"
             aria-selected="false"
-            onClick={() => {
-              SetActiveButt("profile");
-            }}
           >
             Reseller
           </button>

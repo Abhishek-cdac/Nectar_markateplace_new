@@ -56,6 +56,9 @@ import FeedbackandSupport from "./containers/Admin/FeedbackandSupport";
 import ReportManagement from "./containers/Admin/ReportManagement";
 import PaymentManagment from "./containers/Admin/PaymentManagment";
 import Paymentmanagment2 from "./containers/Admin/Paymentmanagment2";
+import PartnerRegistrationsDetails from "./containers/Admin/PartnerRegistrationsDetails";
+import OpenModal from "./containers/Admin/OpenModal";
+import ProgressBoard from "./Components/Admin/ProgressBoard";
 import ComplaintManagement from "./containers/Admin/ComplaintManagement";
 
 function App() {
@@ -73,7 +76,6 @@ function App() {
           <Route path="/form" element={<Form />}></Route>
           <Route path="/getproduct" element={<GetProduct />}></Route>
 
-          
           <Route path="/orderinvoices" element={<Orderinvoices />}></Route>
 
           {/*Overview Page*/}
@@ -88,8 +90,8 @@ function App() {
           {/*Header page*/}
           <Route path="/ndatu" element={<NDatu />} />
           {/* <Route path="/login" element={<LoginPage />} /> */}
-         
-          <Route path="/productscreen" element={<Productscreen />} />
+
+          <Route path="/productscreen" element={<Productscreen />}/>
           <Route path="/nectarcrmreview" element={<NectarCRMReview />} />
           <Route path="/notification" element={<Notification />}></Route>
           <Route path="/review" element={<CRMReview />}></Route>
@@ -97,10 +99,9 @@ function App() {
           <Route path="/productscreen" element={<Productscreen />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/forgetpassword" element={<ForgetPassword />} />
-         
+
           <Route path="/hostingservices" element={<HostingServices />} />
 
-      
           <Route path="/setting" element={<Settings />} />
           <Route path="/modal" element={<Modal />} />
           {/*All Tab*/}
@@ -125,6 +126,12 @@ function App() {
           </Route>
           {/* Routes For Admin Part */}
 
+          <Route
+            path="/registrationdetails"
+            element={<PartnerRegistrationsDetails />}
+          />
+
+          {/* <Route path="/openmodal" element={<OpenModal />} /> */}
           <Route path="/admin/login" element={<Login />} />
           <Route path="/admin" element={<AdLanding />}>
             <Route path="paymentmanagament" element={<PaymentManagment />} />
@@ -141,11 +148,17 @@ function App() {
             <Route path="ex2" element={<Ex />} />
             <Route path="ex" element={<Ex />} />
             <Route path="supportAndoffer" element={<SupportAndOffer />} />
-          <Route path="feedbackandsupport" element={<FeedbackandSupport />} />
-          <Route path="reportmanagement" element={<ReportManagement />} />
-          <Route path="complaintManagement" element={<ComplaintManagement />} />
+            <Route path="feedbackandsupport" element={<FeedbackandSupport />} />
+            <Route path="reportmanagement" element={<ReportManagement />} />
+            <Route
+              path="complaintManagement"
+              element={<ComplaintManagement />}
+            />
+            <Route
+              path="/admin/complaintManagement/progressboard"
+              element={<ProgressBoard />}
+            />
           </Route>
-         
         </Routes>
       </BrowserRouter>
     </>

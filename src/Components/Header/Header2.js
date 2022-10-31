@@ -24,7 +24,7 @@ function Header2() {
               ></div>
             </li>
             <li class="nav-item MarketplaceLogoHead">
-              <a class="navbar-brand " href="#">
+              <a class="navbar-brand " href="/">
                 Market Place
               </a>
             </li>

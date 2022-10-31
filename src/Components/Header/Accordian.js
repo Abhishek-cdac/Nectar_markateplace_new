@@ -9,7 +9,7 @@ export const Accordian = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">
               <button
-                className="accordion-button  accordian_heading"
+                className="accordion-button  accordian_heading LandingPageAccordHead LandingPageAccordHead"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -36,7 +36,7 @@ export const Accordian = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingTwo">
               <button
-                className="accordion-button collapsed  accordian_heading"
+                className="accordion-button collapsed  accordian_heading LandingPageAccordHead"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -63,7 +63,7 @@ export const Accordian = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingThree">
               <button
-                className="accordion-button collapsed  accordian_heading"
+                className="accordion-button collapsed  accordian_heading LandingPageAccordHead"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -91,7 +91,7 @@ export const Accordian = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingFour">
               <button
-                className="accordion-button collapsed   accordian_heading"
+                className="accordion-button collapsed   accordian_heading LandingPageAccordHead"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFour"
@@ -119,7 +119,7 @@ export const Accordian = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingFive">
               <button
-                className="accordion-button collapsed accordian_heading"
+                className="accordion-button collapsed accordian_heading LandingPageAccordHead"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFive"
@@ -148,7 +148,7 @@ export const Accordian = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingSix">
               <button
-                className="accordion-button collapsed accordian_heading"
+                className="accordion-button collapsed accordian_heading LandingPageAccordHead"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseSix"
@@ -190,7 +190,7 @@ export const AccodionPartner = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">
               <button
-                className="accordion-button  accordian_heading"
+                className="accordion-button  accordian_heading LandingPageAccordHead LandingPageAccordHead"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -216,7 +216,7 @@ export const AccodionPartner = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingTwo">
               <button
-                className="accordion-button collapsed  accordian_heading"
+                className="accordion-button collapsed  accordian_heading LandingPageAccordHead"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -240,7 +240,7 @@ export const AccodionPartner = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingThree">
               <button
-                className="accordion-button collapsed  accordian_heading"
+                className="accordion-button collapsed  accordian_heading LandingPageAccordHead"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -268,7 +268,7 @@ export const AccodionPartner = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingFour">
               <button
-                className="accordion-button collapsed   accordian_heading"
+                className="accordion-button collapsed   accordian_heading LandingPageAccordHead"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFour"
@@ -296,7 +296,7 @@ export const AccodionPartner = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingFive">
               <button
-                className="accordion-button collapsed accordian_heading"
+                className="accordion-button collapsed accordian_heading LandingPageAccordHead"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFive"
@@ -325,7 +325,7 @@ export const AccodionPartner = () => {
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingSix">
               <button
-                className="accordion-button collapsed accordian_heading"
+                className="accordion-button collapsed accordian_heading LandingPageAccordHead"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseSix"

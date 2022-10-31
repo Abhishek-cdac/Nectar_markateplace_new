@@ -52,10 +52,10 @@ function ClientSays() {
                   alt="..."
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 style={{ color: "#08668F", fontFamily: "sans-serif" }}>
+                  <h5 style={{ color: "#08668F", fontFamily: "sans-serif",fontSize:"x-large",fontWeight:"600", }}>
                     PEPINO PRAZER
                   </h5>
-                  <h6 style={{ color: "#f16728" }}>
+                  <h6 style={{ color: "#f16728",fontFamily:"cursive",fontSize:"large" }}>
                     COO- Movicel Telecommunication, SA
                   </h6>
                   <p style={{ color: "black", fontFamily: "sans-serif" }}>
@@ -75,10 +75,10 @@ function ClientSays() {
                   alt="..."
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 style={{ color: "#08668F", fontFamily: "sans-serif" }}>
+                  <h5  style={{ color: "#08668F", fontFamily: "sans-serif",fontSize:"x-large",fontWeight:"600", }}>
                     PEPINO PRAZER
                   </h5>
-                  <h6 style={{ color: "#f16728" }}>
+                  <h6 style={{ color: "#f16728",fontFamily:"cursive",fontSize:"large" }}>
                     COO- Movicel Telecommunication, SA
                   </h6>
 
@@ -99,10 +99,10 @@ function ClientSays() {
                   alt="..."
                 />
                 <div class="carousel-caption d-none d-md-block">
-                  <h5 style={{ color: "#08668F", fontFamily: "sans-serif" }}>
+                  <h5  style={{ color: "#08668F", fontFamily: "sans-serif",fontSize:"x-large",fontWeight:"600", }}>
                     PEPINO PRAZER
                   </h5>
-                  <h6 style={{ color: "#f16728" }}>
+                  <h6 style={{ color: "#f16728",fontFamily:"cursive",fontSize:"large" }}>
                     COO- Movicel Telecommunication, SA
                   </h6>
 

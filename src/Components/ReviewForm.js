@@ -53,7 +53,7 @@ function ReviewForm() {
             <h2>Please Leave us a Testimonal</h2>
           </div>
           <form className="form-testimonal">
-            <div class="form-group col-md-8 ">
+            <div class="form-group col-md-6 mb-4">
 
               <input
                 type="text"
@@ -64,7 +64,7 @@ function ReviewForm() {
               />
 
             </div>
-            <div class="form-group col-md-8 ">
+            <div class="form-group col-md-6 mb-4">
 
               <input
                 type="email"
@@ -74,7 +74,7 @@ function ReviewForm() {
                 placeholder="Email Id"
               />
             </div>
-            <div class="form-group col-md-8 ">
+            <div class="form-group col-md-6 mb-4">
               <textarea
                 type="textArea"
                 class="form-control form-control-lg testimonalInput"

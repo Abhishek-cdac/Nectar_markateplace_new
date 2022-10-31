@@ -34,9 +34,9 @@ function Card2() {
                 className="Learn_card2"
                 onClick={() => navigate(data.url)}
                  >
-                <h6>
-                  Learn more <i className="fa fa-long-arrow-right"></i>
-                </h6>
+                <div>
+                Learn More <span> <i className="fa fa-long-arrow-right" style={{color:"#F16728",fontSize:"large"}}/></span></div>
+                
               </button>
             </div>
           </div>
