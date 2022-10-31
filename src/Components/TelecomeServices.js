@@ -111,7 +111,7 @@ function TelecomeServices() {
                 </div>
               </div>
             </div>
-            <h2 className="mt-5">Partner With Nectar Infotel</h2>
+            <h2 className="mt-5" style={{opacity:"0.9"}}>Partner With Nectar Infotel</h2>
           </div>
           <div className="partnerproduct">
             <div className="row">

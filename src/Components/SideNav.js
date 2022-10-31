@@ -50,7 +50,7 @@ function SideNav({ Tabs }) {
                     ></i>):
                       (<i
                     style={{color:"#fff"}}
-                      class="fa fa-chevron-circle-`left"
+                      class="fa fa-chevron-circle-left"
                       aria-hidden="true"
                     ></i>)}
                   </button>
@@ -58,10 +58,11 @@ function SideNav({ Tabs }) {
                 <div className="nav mt-4">
                   {Tabs.map(({ label, link, icon }) => {
                     const isActive = location.pathname.split("/")[1] === link;
+                    console.log("isActive",isActive,link)
                     return (
                       <>
                         <a
-                          className={`nav-link ${isActive ? "active" : ""}`}
+                          className={`nav-link ${ !isActive ? "" : "active"}`}
                           key={link}
                           onClick={() => handleLink(link)}
                         >
