@@ -49,7 +49,7 @@ const PricingSubDownCard = () => {
                 </div>
                 {/* <div>{!value ? `$80` : `$160`}</div> */}
 
-                <div className="cardcontent" style={{backgroundColor:"#474747"}}>
+                <div className="cardcontent" style={{backgroundColor:"#474747",padding:"2em",opacity:"0.66"}}>
                   <h4>{data.doller}</h4>
                   <p>{data.dollermonth}</p>
                   <h3>{data.desp}</h3>

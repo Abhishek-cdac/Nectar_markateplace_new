@@ -32,7 +32,7 @@ const NectarCRMtabs = () => {
             <li class="nav-item" role="presentation">
               <button
                 color="red"
-                class="nav-link active"
+                class="nav-link  productTabs active productTabs"
                 id="pills-overview-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#pills-overview"
@@ -48,7 +48,7 @@ const NectarCRMtabs = () => {
               <button
                 color="orange"
                 appearance="link"
-                class="nav-link"
+                class="nav-link  productTabs"
                 id="pills-productscreen-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#pills-productscreen"
@@ -62,7 +62,7 @@ const NectarCRMtabs = () => {
             </li>
             <li class="nav-item" role="presentation">
               <button
-                class="nav-link "
+                class="nav-link  productTabs "
                 id="pills-review-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#pills-review"
@@ -76,7 +76,7 @@ const NectarCRMtabs = () => {
             </li>
             <li class="nav-item" role="presentation">
               <button
-                class="nav-link"
+                class="nav-link  productTabs"
                 id="pills-pricingsubs-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#pills-pricingsubs"

@@ -16,8 +16,8 @@ function Header() {
                 marginLeft: "5%",
               }}
             ></div>
-            <a class="navbar-brand" href="#">
-              Market Place
+            <a class="navbar-brand" href="/">
+             <h5 style={{fontFamily:'sans-serif',color:"#474747"}}> Market Place</h5>
             </a>
           </div>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -29,7 +29,7 @@ function Header() {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/login" >
-                  Log In
+                  <p style={{fontFamily:'sans-serif',color:"#474747"}}>Log In</p>
                 </a>
               </li>
               <li class="nav-item nav_register">

@@ -548,6 +548,18 @@ const dummyData = {
       Balance: "View Crypto Balance",
     },
   ],
+  loginRadio: [
+    {
+      id: 1,
+      name: "Partner",
+      label: "Partner",
+    },
+    {
+      id: 2,
+      name: "Reseller",
+      label: "Reseller",
+    },
+  ],
   someData: [
     {
       id: 1,

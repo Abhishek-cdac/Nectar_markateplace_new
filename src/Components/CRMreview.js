@@ -13,19 +13,19 @@ function CRMReview() {
             <div className='row'>
                 {dummyDataReview &&
                     dummydatareview.ReviewData.map((data) => (
-                        <div className='col-12 col-sm-6 col-md-8 mt-3'>
+                        <div className='col-12 col-sm-6 col-md-8 mb-5'>
                             <img className='Review_icon' src={data.image} style={{ height: "55px" }} alt="..." />
-                            <h5 className="review_title ">{data.title} <span style={{ fontSize: "15px" }}>{data.desiganation}</span></h5>
+                            <h5 className="review_title">{data.title} <span style={{ fontSize: "15px" }}>{data.desiganation}</span></h5>
 
                             <p className='review_adress'>{data.address}</p>
-                            <div className='review_star'>
+                            <div className='review_star' style={{fontSize:"small"}}>
                                 <span class="fa fa-star checked  m-1"></span>
                                 <span class="fa fa-star checked m-1" ></span>
                                 <span class="fa fa-star checked m-1"></span>
                                 <span class="fa fa-star checked m-1"></span>
                                 <span class="fa fa-star checked m-1"></span>
                             </div>
-                            <h6 className='mt-3'>{data.description}</h6>
+                            <h6 className='mt-4 ReviewsTextProduct'>{data.description}</h6>
                         </div>
                     ))}
             </div>
