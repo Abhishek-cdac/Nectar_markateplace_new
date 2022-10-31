@@ -12,6 +12,14 @@ body {
   background-color: #efefef;
 }
 
+h1 {
+  font-family: sans-serif;
+}
+
+p {
+  font-family:sans-serif;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -23,14 +31,35 @@ code {
 }
 
 .header_logo {
-  width: 44px;
+  width: 48px;
   height: 44px;
+  margin-left: 8px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size:medium
+}
+
+.loginNew{
+  color:grey;
+  font-size:medium;
+  text-align:center;
+}
+
+.loginNew a.nav-link {
+  padding: 0.7rem 0.2rem !important;
 }
 
 a.navbar-brand {
   /* line-height: 40px !important; */
   padding-left: 5px;
+  margin-top:5px
 }
+
+h6.card-title
+{
+  opacity:0.9;
+}
+
 
 .verticalLine_header {
   border-right: "1px solid black";
@@ -256,6 +285,11 @@ p .small_card {
   margin-bottom: 3%;
 }
 
+.LandingPageAccordHead {
+  font-weight:600;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
 /*Review Form*/
 .Testimonal_Home {
   background: url(/public/assets/images/Group_2985.png);
@@ -379,6 +413,36 @@ p .small_card {
 }
 
 /*Netar CRM*/
+
+.CrmReview {
+  color:#707070;
+  opacity:1;
+  font-family:sans-serif;
+  margin-left: 5%;
+}
+.ReviewsTextProduct .review_title .review_adress{
+  color:#707070;
+  font-family:sans-serif;
+}
+.review_title{
+  font-size: medium;
+  font-weight: 600;
+}
+
+.productTabs {
+  font-size: medium;
+  color:#707070;
+  font-weight: 600;
+  opacity:0.8
+}
+.review_adress {
+  font-size:small;
+}
+
+.ReviewsTextProduct {
+  margin-left: 5em;
+}
+
 .backgroundimage-CRM {
   background: url(/public/assets/images/Group\ 3001.png);
 }
@@ -447,8 +511,8 @@ p .small_card {
 .loginleftsection h1 {
   text-align: center;
   color: #ffffff;
-  padding-top: 170px;
-  padding-right: 20px;
+  padding-top: 35%;
+  padding-right: 20px !important;
   padding-right: 20px;
   margin-top: 110px;
 }
@@ -458,6 +522,7 @@ p .small_card {
   color: #ffffff;
   padding-left: 20px;
   padding-right: 20px;
+  font-size:small;
 }
 
 .loginrightsection {
@@ -485,13 +550,27 @@ p .small_card {
   outline: 0;
   border-width: 0 0 1px;
   border-color: gray;
-  width: 80%;
+  background-color:#fff !important;
+  width: 90%;
 }
 
 .forgotpassword {
-  padding-right: 95px;
+  padding-right: 40px;
 }
-
+.forgotpassword p {
+  color:grey;
+  font-family:sans-serif;
+  font-size:medium
+}
+.forgotpassword .nav-link {
+  padding:0em,0em !important;
+}
+.loginText {
+  font-size:medium;
+  color:grey;
+  font-family: sans-serif;
+  margin-right:2em
+}
 .submitbtn {
   padding-left: 136px;
   padding-right: 136px;
@@ -735,7 +814,7 @@ p .product-banner-content {
 }
 
 #product-footer-card {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   height: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1106,9 +1185,17 @@ button#sidebarToggle {
 
 /* cart page css */
 
+.cartPriceCard {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cartCheckBox {
+  margin-top:0.8em !important
+}
+
 .info {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .info h4 {
@@ -1126,10 +1213,16 @@ button#sidebarToggle {
 }
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown {
+.dropdown.CartDropDown {
   position: relative;
   display: inline-block;
-  margin-left: 12%;
+  margin-left: 8%;
+  margin-top:1em !important;
+}
+
+.orderdetails_card span ,p,h6{
+  color:#474747;
+  opacity:0.9;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -1255,7 +1348,7 @@ button#sidebarToggle {
 }
 
 .border-bottom {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .midpara {
@@ -1310,7 +1403,14 @@ html,body{
 }
 
 .border-bottom {
-  padding-top: 20px;
+  /* padding-top: 20px;  */
+}
+
+.overViewText{
+  font-size: medium;
+  font-weight:600;
+  opacity:0.7;
+  color:black;
 }
 
 .midpara {
@@ -1512,14 +1612,14 @@ html,body{
 .switch.ProdPricingCardSwitch{
   display: block;
   width: 7.5em;
-  margin-right: 2px;
-  margin-top: 2px;
-  height: 32px;
+  /* margin-right: 2px; */
+  /* margin-top: 2px; */
+  height: 36px;
   background-color: #f16728;
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 95px;
+  /* right: 95px; */
   border: 0 solid #bbb;
   /* border-radius: 20px; */
   transition: all 0.3s ease-in 0s;
@@ -1532,8 +1632,8 @@ html,body{
 
 .inner.ProdPricingInner:after { 
   content: "Yearly";
-  padding-right: 10px;
-  color: #f16728 !important; 
+  padding-right: 30px;
+  color: #474747 !important; 
   color: #fff;
  text-align: right;
   background-color: white;
@@ -1547,9 +1647,9 @@ html,body{
 }
 .inner.ProdPricingInner:before {
   content: "Monthly";
-  padding-left: 10px;
+  padding-left: 30px;
   background-color: white !important;
-  color: #f16728 !important;
+  color: #474747 !important;
   float: left;
   width: 50%;
   height: 36px;
@@ -1559,15 +1659,43 @@ html,body{
   font-weight: bold;
   box-sizing: border-box;
 }
+.ProPricingCard h4,h5,h3,p {
+  color:#474747;
+}
+.cardcontent h4,p,h3 {
+  color:black;
+}
 
 .ProdPricingCardLabel {
   display: block;
   overflow: hidden;
+  color:#474747;
   cursor: pointer;
   border: 0 solid #bbb;
   border-radius: 20px;
   /* height: 30px; */
 }
+/* Checkout Data */
+.CheckoutCardData h1,h2,h3,h4,h5,h6,p {
+  color:#474747;
+  font-family: sans-serif;
+}
+.cardAnother {
+  margin-top:1em;
+  margin-bottom:0.2em !important;
+}
+.paymentOptions label {
+  color:#474747;
+  font-size:medium;
+  font-family:sans-serif;
+  margin-top:0.4em
+}
+
+.paymentRadio {
+  font-size:medium;
+  margin-top:0.6em
+}
+
 
 .toggle-switch.prodPricingtoggle-switch {
   position: relative;

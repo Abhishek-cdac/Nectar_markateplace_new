@@ -8,7 +8,7 @@ import ReviewForm from "../Components/ReviewForm";
 import Footer from "../Components/Footer";
 const Landingpage = () => {
   return (
-    <div>
+    <div >
       <Header />
       <LandingBanner />
       <Landingbanner2 />

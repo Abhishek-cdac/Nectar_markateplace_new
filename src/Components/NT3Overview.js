@@ -242,7 +242,7 @@ function NT3Overview() {
                             </h2>
                             <div
                                 id="collapseFive"
-                                className="accordion-collapse collapse "
+                                className="accordion-collapse collapse"
                                 aria-labelledby="headingFive"
                                 data-bs-parent="#accordionExample"
                             >
