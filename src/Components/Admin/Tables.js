@@ -7,11 +7,11 @@ const Tables = ({ column, data, navigateUrl }) => {
   return (
     <div>
       <table class="table world_table">
-        <thead>
+        <thead style={{color:"#202020"}}>
           <tr>
             {" "}
             {column?.map((item, index) => (
-              <TableHead item={item} />
+              <TableHead item={item}  />
             ))}
           </tr>
         </thead>

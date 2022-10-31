@@ -12,7 +12,7 @@ const SwitchMenu = () => {
         data-bs-toggle="dropdown"
         aria-expanded="false"
       ></button>
-      <div className="dropdown-menu FilterRadioGroup">
+      <div className="dropdown-menu FilterRadioGroup" style={{width:'230px' ,paddingLeft:"20px"  }}>
         <p className="FilterRadioHead">Country</p>
         {dummyData?.CountryFilter.map((item) => {
           return (

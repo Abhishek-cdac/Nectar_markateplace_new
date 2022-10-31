@@ -19,7 +19,7 @@ const SupportTable = () => {
         <div className="row">
           <div className="table-responsive">
             <table class="table table-bordered ">
-              <thead>
+              <thead >
                 {/* {DummyData &&
                 DummyData.viewActiveOffer
                   .slice(pagesVisited, pagesVisited + usersPerPage)
@@ -34,9 +34,9 @@ const SupportTable = () => {
                       <th scope="col">{data.icons}</th>
                     </tr>
                   ))} */}
-                <tr className="viewofferhead">
+                <tr className="viewofferhead" >
                   <th scope="col">
-                    <h5>offer</h5>
+                    <h5  >offer</h5>
                   </th>
                   <th scope="col">
                     <h5>onproduct</h5>
@@ -64,13 +64,13 @@ const SupportTable = () => {
                     .slice(pagesVisited, pagesVisited + usersPerPage)
                     .map((data) => (
                       <tr className="viewofferdata">
-                        {/* <th scope="row">{data.offer}</th> */}
+                         
                         <td>{data.offer}</td>
                         <td>{data.onproduct}</td>
                         <td>{data.offerDate}</td>
                         <td>{data.offertype}</td>
                         <td>{data.validity}</td>
-                        {/* <button className="paid-btn m-2">{data.Status}</button> */}
+                        
                         <td>{data.Status}</td>
 
                         <td className="viewactiveoffericons">
