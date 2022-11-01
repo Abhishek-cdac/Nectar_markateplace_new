@@ -66,6 +66,7 @@ const AdUserMan = () => {
               display: "inherit",
               marginBottom: "20px",
               marginTop: "20px",
+              justifyContent:"end"
             }}
           >
             <ReactPaginate

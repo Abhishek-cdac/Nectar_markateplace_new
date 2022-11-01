@@ -87,6 +87,7 @@ const Subscribed = () => {
                   display: "inherit",
                   marginBottom: "20px",
                   marginTop: "20px",
+                  justifyContent:"end",
                 }}
               >
                 <ReactPaginate

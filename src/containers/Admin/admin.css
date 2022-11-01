@@ -52,7 +52,7 @@
   background-color: transparent;
   border-color: white;
   opacity: 0.8;
-  color: white;
+  color: black;
 }
 .AdLoginForm ::placeholder {
   color: white;
@@ -170,7 +170,7 @@
 #AdChart1 {
   display: flex;
   flex-basis: 60%;
-  margin: 30px 10px;
+  margin: 30px 5px;
   background-color: white;
   border-radius: 10px;
 }
@@ -178,7 +178,7 @@
   display: flex;
   flex-basis: 30%;
   background-color: white;
-  margin: 30px 10px;
+  margin: 30px 5px;
   border-radius: 10px;
 }
 

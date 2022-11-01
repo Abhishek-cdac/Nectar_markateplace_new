@@ -67,7 +67,7 @@ const Login = () => {
                       onChange={handleChange}
                     />
                     <div className="Adforgotpassword mt-2">
-                      <a class="nav-link" href="forgetPassword">
+                      <a class="nav-link" href="forgetPassword" style={{color:"black"}}>
                         Forgot Your Password ? Reset here.
                       </a>
                     </div>
