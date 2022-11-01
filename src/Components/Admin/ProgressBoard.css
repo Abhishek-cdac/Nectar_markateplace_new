@@ -53,10 +53,9 @@
   opacity: 1;
   color: #666666;
   border: 0.1px solid #707070;
-
 }
 
-.inprogressbody{
+.inprogressbody {
   font-size: 11px;
   margin-top: -20px;
   margin-left: 27px;

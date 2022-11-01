@@ -31,7 +31,7 @@ const TableBody = ({ item, column, navigateUrl }) => {
   return (
     <tr>
       {column.map((columnItem, index) => {
-        if (columnItem.value.includes(".")) {
+        if (columnItem?.value?.includes(".")) {
           const itemSplit = columnItem.value.split("."); ////['adress','city' nothing but for acesss object in object]
           return <td>{item[itemSplit[0]][itemSplit[1]]}</td>;
         } else if (columnItem.value === "image") {

@@ -1,6 +1,7 @@
 import React from "react";
 import "./OrderManagment.css";
 import dummyData from "../Dummydata";
+import Tables from "../../Components/Admin/Tables";
 
 import Dummuydataordermanagment from "./Dummuydataordermanagment";
 
@@ -42,7 +43,13 @@ function OrderManagment() {
           </div>
         </div>
 
-        <div className="row">
+
+        <Tables
+          column={Dummuydataordermanagment?.orderManagment}
+          data={Dummuydataordermanagment.orderManagmentdata}
+        />
+
+        {/* <div className="row">
           <div className="col-lg-12">
             <div className="ordermanagment-table">
               <table class="table ordermanagment-table">
@@ -340,7 +347,7 @@ function OrderManagment() {
               </table>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
