@@ -27,19 +27,19 @@ const Login = () => {
                 <div className="col-lg-6 mt-4">
                   <img
                     className="header_logo"
-                    src="assets/images/60-X-60.png"
+                    src="/assets/images/60-X-60.png"
                   />
                   <a
                     class="navbar-brand_adLogin"
-                    href="#"
+                    href="/admin/login"
                     style={{
                       color: "black",
                       fontSize: "large",
-                      borderLeft: "1px solid black",
+                      // borderLeft: "1px solid black",
                       opacity: "0.8",
                     }}
                   >
-                    &nbsp;&nbsp;Marketplace
+                    Marketplace
                   </a>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const Login = () => {
                       onChange={handleChange}
                     />
                     <div className="Adforgotpassword mt-2">
-                      <a class="nav-link" href="forgetPassword">
+                      <a class="nav-link" href="forgetPassword" style={{color:"black"}}>
                         Forgot Your Password ? Reset here.
                       </a>
                     </div>
