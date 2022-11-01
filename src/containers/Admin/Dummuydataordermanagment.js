@@ -1,21 +1,21 @@
 const Dummuydataordermanagment = {
   orderManagment: [
-    // {
-    //   id: 1,
-    //   Number: "#",
-    //   fullName: "Full Name",
-    //   orderId: "Order ID",
-    //   orderDate: "Order Date",
-    //   Amount: "Amount",
-    //   Status: "Status",
-    //   Action: "Action",
-    // },
-    { heading: "Number", value: "Number" },
-    { heading: "fullName", value: "fullName" },
-    { heading: "orderId", value: "orderId" },
-    { heading: "orderDate", value: "orderDate" },
-    { heading: "Amount", value: "Amount" },
-    { heading: "Status", value: "Status" },
+    {
+      id: 1,
+      Number: "#",
+      fullName: "Full Name",
+      orderId: "Order ID",
+      orderDate: "Order Date",
+      Amount: "Amount",
+      Status: "Status",
+      Action: "Action",
+    },
+    // { heading: "Number", value: "Number" },
+    // { heading: "fullName", value: "fullName" },
+    // { heading: "orderId", value: "orderId" },
+    // { heading: "orderDate", value: "orderDate" },
+    // { heading: "Amount", value: "Amount" },
+    // { heading: "Status", value: "Status" },
   ],
   orderManagmentdata: [
     {

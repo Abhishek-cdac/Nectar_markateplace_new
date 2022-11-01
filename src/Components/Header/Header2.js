@@ -182,7 +182,18 @@ function Header2() {
               </li>
               <li class="nav-item">
                 <a class="nav-link header_icon_user" href="#">
-                  <i class="fa fa-user-circle" aria-hidden="true"></i>
+                  <div class="btn-group logout-dropdown">
+                    <i
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      class="fa fa-user-circle"
+                    ></i>
+                    <ul class="dropdown-menu  ">
+                      <li>
+                        <button className="logout-btn">Log out</button>
+                      </li>
+                    </ul>
+                  </div>
                 </a>
               </li>
             </ul>
