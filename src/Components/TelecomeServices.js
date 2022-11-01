@@ -111,10 +111,12 @@ function TelecomeServices() {
                 </div>
               </div>
             </div>
-            <h2 className="mt-5" style={{opacity:"0.9"}}>Partner With Nectar Infotel</h2>
+            <h2 className="mt-5" style={{ opacity: "0.9" }}>
+              Partner With Nectar Infotel
+            </h2>
           </div>
           <div className="partnerproduct">
-            <div className="row">
+            {/* <div className="row">
               {dummyData?.partnerCardData?.map((img) => (
                 <div className="col-lg-4">
                   <div class="card text-center" style={{ borderRadius: "3px" }}>
@@ -153,7 +155,134 @@ function TelecomeServices() {
                   </div>
                 </div>
               ))}
+            </div> */}
+            <div
+              id="carouselExampleControlsNoTouching"
+              class="carousel slide carousel-partner"
+              data-bs-touch="false"
+              data-bs-interval="false">
+         
+              <div class="carousel-inner ">
+                <div class="carousel-item active">
+                  <div className="row">
+                    {dummyData?.partnerCardData?.map((img) => (
+                      <div className="col-lg-4">
+                        <div
+                          class="card text-center"
+                          style={{ borderRadius: "3px" }}
+                        >
+                          <div class="card-body">
+                            <img
+                              style={{ width: "50%", height: "125px" }}
+                              src={img.image}
+                              alt=""
+                            />
+                            <hr />
+                            <button
+                              style={{
+                                borderRadius: "3px",
+                                float: "left",
+                                // width: "40%",
+                                fontSize: "15px",
+                              }}
+                              href="#"
+                              class="btn btn-primary"
+                            >
+                              Explore Services
+                            </button>
+                            <button
+                              style={{
+                                borderRadius: "3px",
+                                float: "right",
+                                // width: "40%",
+                                fontSize: "15px",
+                              }}
+                              href="#"
+                              class="btn btn-primary"
+                            >
+                              Explore Products
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div className="row">
+                    {dummyData?.partnerCardData?.map((img) => (
+                      <div className="col-lg-4">
+                        <div
+                          class="card text-center"
+                          style={{ borderRadius: "3px" }}
+                        >
+                          <div class="card-body">
+                            <img
+                              style={{ width: "50%", height: "125px" }}
+                              src={img.image}
+                              alt=""
+                            />
+                            <hr />
+                            <button
+                              style={{
+                                borderRadius: "3px",
+                                float: "left",
+                                // width: "40%",
+                                fontSize: "15px",
+                              }}
+                              href="#"
+                              class="btn btn-primary"
+                            >
+                              Explore Services
+                            </button>
+                            <button
+                              style={{
+                                borderRadius: "3px",
+                                float: "right",
+                                // width: "40%",
+                                fontSize: "15px",
+                              }}
+                              href="#"
+                              class="btn btn-primary"
+                            >
+                              Explore Products
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
+
             <div className="row">
               <EnquiryForm />
               <div className="landing_card2 mt-5">

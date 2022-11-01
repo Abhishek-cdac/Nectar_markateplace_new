@@ -101,30 +101,31 @@ function PaymentManagment() {
                   </tbody>
                 </table>
               </div>
-              
             </div>
             <div className="col-md-7"></div>
-              <div
-                className="col-md-5 product_pagination"
-                style={{
-                  display: "inherit",
-                  marginBottom: "20px",
-                  marginTop: "20px",
-                }}
-              >
-                <ReactPaginate
-                  previousLabel={<i class="fa-solid fa-less-than"></i>}
-                  nextLabel={<i class="fa-solid fa-greater-than"></i>}
-                  pageCount={pageCount}
-                  onPageChange={changePage}
-                  containerClassName={"paginationBttns"}
-                  previousLinkClassName={"previousBttn"}
-                  nextLinkClassName={"nextBttn"}
-                  disabledClassName={"paginationDisabled"}
-                  activeClassName={"paginationActive"}
-                />
-              </div>
+            <div
+              className="col-md-5 product_pagination"
+              style={{
+                display: "inherit",
+                marginBottom: "20px",
+                marginTop: "20px",
+              }}
+            >
+              <ReactPaginate
+                previousLabel={<i class="fa-solid fa-less-than"></i>}
+                nextLabel={<i class="fa-solid fa-greater-than"></i>}
+                pageCount={pageCount}
+                onPageChange={changePage}
+                containerClassName={"paginationBttns"}
+                previousLinkClassName={"previousBttn"}
+                nextLinkClassName={"nextBttn"}
+                disabledClassName={"paginationDisabled"}
+                activeClassName={"paginationActive"}
+              />
+            </div>
           </div>
+
+
         </div>
       </div>
     </div>
