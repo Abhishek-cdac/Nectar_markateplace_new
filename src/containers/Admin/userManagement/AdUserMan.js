@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import RadioButton from "../../../Components/Admin/Radio";
 import Tables from "../../../Components/Admin/Tables";
 import dummyData from "../../Dummydata";
+
+import ReactPaginate from "react-paginate";
 import Subscribed from "./Subscribed";
 import SwitchMenu from "../../../Components/Admin/FilterMenu";
 
 const AdUserMan = () => {
   const [checkedValue, setIsChecked] = React.useState(1);
+
+  //pagination
+  const [pageNumber, setPageNumber] = useState(0);
+  const usersPerPage = 3;
+  const pagesVisited = pageNumber * usersPerPage;
+  const pageCount = Math.ceil(dummyData?.RegisteredUSers.length / usersPerPage);
+  const changePage = ({ selected }) => {
+    setPageNumber(selected);
+  };
   console.log(checkedValue);
 
   return (
@@ -40,13 +51,40 @@ const AdUserMan = () => {
           </div>
         </div>
         {checkedValue == 1 ? (
+          <>
           <Tables
             column={dummyData?.usersHeading}
-            data={dummyData.RegisteredUSers}
+            data={dummyData.RegisteredUSers.slice(
+              pagesVisited,
+              pagesVisited + usersPerPage
+            )}
           />
+          <div className="col-md-7"></div>
+          <div
+            className="col-md-5 product_pagination"
+            style={{
+              display: "inherit",
+              marginBottom: "20px",
+              marginTop: "20px",
+            }}
+          >
+            <ReactPaginate
+              previousLabel={<i class="fa-solid fa-less-than"></i>}
+              nextLabel={<i class="fa-solid fa-greater-than"></i>}
+              pageCount={pageCount}
+              onPageChange={changePage}
+              containerClassName={"paginationBttns"}
+              previousLinkClassName={"previousBttn"}
+              nextLinkClassName={"nextBttn"}
+              disabledClassName={"paginationDisabled"}
+              activeClassName={"paginationActive"}
+            />
+          </div>
+          </>
         ) : (
           <Subscribed />
         )}
+    
       </div>
     </div>
   );

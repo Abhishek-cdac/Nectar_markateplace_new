@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 
+import ReactPaginate from "react-paginate";
 import Dummuydataordermanagment from "./Dummuydataordermanagment";
 import Paymentmenu from "../../Components/Admin/Paymentmenu";
 import { useNavigate } from "react-router-dom";
 
 function PaymentManagment() {
+  //pagination
+  const [pageNumber, setPageNumber] = useState(0);
+  const usersPerPage = 10;
+  const pagesVisited = pageNumber * usersPerPage;
+  const pageCount = Math.ceil(
+    Dummuydataordermanagment?.paymentmanagentdata.length / usersPerPage
+  );
+  const changePage = ({ selected }) => {
+    setPageNumber(selected);
+  };
   const navigate = useNavigate();
 
   return (
@@ -12,10 +23,12 @@ function PaymentManagment() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h4 className="my-3">Payment Management</h4>
+            <h4 className="my-3" style={{ color: "#858585" }}>
+              Payment Management
+            </h4>
             <hr className="style1" />
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-4">
                 <div class="mb-3">
                   <div class="position-relative">
                     <i class="fa fa-search position-absolute"></i>
@@ -32,7 +45,7 @@ function PaymentManagment() {
                 <button className="btn-sarch text-center">Search</button>
               </div>
 
-              <div className="col-md-3 text-end">
+              <div className="col-md-5 text-end">
                 {/* <i className="fa fa-bars"></i> */}
                 <Paymentmenu />
               </div>
@@ -59,8 +72,9 @@ function PaymentManagment() {
                   </thead>
                   <tbody>
                     {Dummuydataordermanagment &&
-                      Dummuydataordermanagment.paymentmanagentdata.map(
-                        (data) => (
+                      Dummuydataordermanagment.paymentmanagentdata
+                        .slice(pagesVisited, pagesVisited + usersPerPage)
+                        .map((data) => (
                           <tr>
                             <td scope="row">{data.Organization}</td>
 
@@ -83,12 +97,33 @@ function PaymentManagment() {
                               {console.log(data.Status)}
                             </td>
                           </tr>
-                        )
-                      )}
+                        ))}
                   </tbody>
                 </table>
               </div>
+              
             </div>
+            <div className="col-md-7"></div>
+              <div
+                className="col-md-5 product_pagination"
+                style={{
+                  display: "inherit",
+                  marginBottom: "20px",
+                  marginTop: "20px",
+                }}
+              >
+                <ReactPaginate
+                  previousLabel={<i class="fa-solid fa-less-than"></i>}
+                  nextLabel={<i class="fa-solid fa-greater-than"></i>}
+                  pageCount={pageCount}
+                  onPageChange={changePage}
+                  containerClassName={"paginationBttns"}
+                  previousLinkClassName={"previousBttn"}
+                  nextLinkClassName={"nextBttn"}
+                  disabledClassName={"paginationDisabled"}
+                  activeClassName={"paginationActive"}
+                />
+              </div>
           </div>
         </div>
       </div>

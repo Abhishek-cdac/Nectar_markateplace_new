@@ -12,7 +12,7 @@ const FeedbackandsupportFilter = () => {
         data-bs-toggle="dropdown"
         aria-expanded="false"
       ></button>
-      <div className="dropdown-menu FilterRadioGroup"  style={{width:'300px' ,paddingLeft:"30px"  }}>
+      <div className="dropdown-menu FilterRadioGroup"  style={{width:'230px' ,paddingLeft:"20px"  }}>
         <p className="FilterRadioHead">Country</p>
         {DummyData?.CountryFilter.map((item) => {
           return (
@@ -28,9 +28,26 @@ const FeedbackandsupportFilter = () => {
                 onChange={() => setIsChecked(item.id)}
               />
               <br />
+              
             </>
           );
         })}
+           
+                <div class=" col-lg-8 mb-4"  >
+                  <select
+                    id="disabledSelect"
+                    class="form-select"
+                    style={{ width: "100%" ,fontSize:"12px"}}
+                  >
+                    <option>Promocode</option>
+                    <option>Nectar HRMS</option>
+                    <option>Nectar GPS Tracker</option>
+                    <option>nDatu - Task Manager</option>
+                    <option>Nerro Trac-Bug Tracker</option>
+                    <option>NT3-ITSM Tool</option>
+                  </select>
+                </div>
+             
         <p className="FilterRadioHead">Product</p>
         {DummyData?.Products.map((item) => {
           return (

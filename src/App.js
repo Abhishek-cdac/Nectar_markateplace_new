@@ -91,7 +91,7 @@ function App() {
           <Route path="/ndatu" element={<NDatu />} />
           {/* <Route path="/login" element={<LoginPage />} /> */}
 
-          <Route path="/productscreen" element={<Productscreen />} />
+          <Route path="/productscreen" element={<Productscreen />}/>
           <Route path="/nectarcrmreview" element={<NectarCRMReview />} />
           <Route path="/notification" element={<Notification />}></Route>
           <Route path="/review" element={<CRMReview />}></Route>

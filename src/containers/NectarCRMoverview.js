@@ -22,19 +22,19 @@ function NectarCRMoverview() {
               </div>
             </div>
             <div className="row">
-              <p class="border-bottom pt-5">{data.head1}</p>
+              <p class="border-bottom overViewText pt-3 OverViewText">{data.head1}</p>
             </div>
             <div className="row">
-              <p class="border-bottom">{data.head2}</p>
+              <p class="border-bottom overViewText">{data.head2}</p>
             </div>
             <div className="row">
-              <p class="border-bottom">{data.head3}</p>
+              <p class="border-bottom overViewText">{data.head3}</p>
             </div>
 
             <div className="row">
-              <p class="border-bottom">{data.head4}</p>
+              <p class="border-bottom overViewText">{data.head4}</p>
             </div>
-            <div className="row">
+            <div className="border-bottom overViewText">
               <p> {data.head5}</p>
             </div>
 

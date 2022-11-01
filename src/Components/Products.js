@@ -1,7 +1,9 @@
 import React from "react";
 import dummydataProduct from "../containers/Productdata";
+import {useNavigate} from "react-router-dom"
 
 function Products() {
+  const navigate = useNavigate()
   return (
     <div className="container productContainer">
       <div className="row">
@@ -27,8 +29,8 @@ function Products() {
                     </span>
                   </p>
                   <p>{data.producttaxes}</p>
-                  <button class="btn btn-primary ">{data.cardButton1}</button>
-                  <button class="btn btn-primary m-2">
+                  <button class="btn btn-primary" onClick={()=>navigate("/cart")}>{data.cardButton1}</button>
+                  <button class="btn btn-primary m-2" onClick={() =>navigate("/getproduct")}>
                     {data.cardButton2}
                   </button>
                 </div>
