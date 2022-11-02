@@ -9,10 +9,10 @@ function Resources() {
           <div className="col-lg-12">
             <div class="card">
               <div class="card-body text-center">
-                <h1 class="card-title">Hi, Welcome to Nectar Resouces</h1>
-                <h5 class="card-title1">
+                <h2 class="card-title">Hi, Welcome to Nectar Resouces</h2>
+                <h6 class="card-title1" >
                   Get answers and explore new ways to use Nectar Prosucts
-                </h5>
+                </h6>
                 <div className="text-center">
                   <p
                     style={{
@@ -40,7 +40,7 @@ function Resources() {
                   alt=""
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Getting Started</h5>
+                  <h3 class="card-title">Getting Started</h3>
                   <p class="card-text">
                     Get introduces to the basic learn how to implement NECTAR
                     Product to your business. Refer to our checklist to get
@@ -64,7 +64,7 @@ function Resources() {
                   alt=""
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Documentation</h5>
+                  <h3 class="card-title">Documentation</h3>
                   <p class="card-text">
                     Gain in-depth knowledge of NECTAR'S features on
                     customization, automation, security, etc. and learn how to
@@ -82,7 +82,7 @@ function Resources() {
         </div>
         <div className="row mt-3">
           <div className="col-lg-4">
-            <div className="resourcecard">
+            <div className="resourcecard " >
               <div class="card">
                 <img
                   src="/assets/images/clod.png"
