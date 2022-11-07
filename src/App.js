@@ -60,6 +60,8 @@ import PartnerRegistrationsDetails from "./containers/Admin/PartnerRegistrations
 import OpenModal from "./containers/Admin/OpenModal";
 import ProgressBoard from "./Components/Admin/ProgressBoard";
 import ComplaintManagement from "./containers/Admin/ComplaintManagement";
+import CryptoSigninPage from "./containers/CryptoSigninPage";
+import CongratulationModal from "./containers/CongratulationModal";
 
 function App() {
   return (
@@ -77,6 +79,10 @@ function App() {
           <Route path="/getproduct" element={<GetProduct />}></Route>
 
           <Route path="/orderinvoices" element={<Orderinvoices />}></Route>
+          
+         <Route path="crytosignin" element={<CryptoSigninPage />} />
+         <Route path="congmodal" element={<CongratulationModal/>} />
+
 
           {/*Overview Page*/}
           <Route path="/gpsoverview" element={<GPSOverview />} />
