@@ -1663,17 +1663,13 @@ html,body{
   font-weight: bold;
   box-sizing: border-box;
 }
-.ProPricingCard h4,
+/* .ProPricingCard h4,
 h5,
 h3,
 p {
   color: #474747;
-}
-.cardcontent h4,
-p,
-h3 {
-  /* color:black; */
-}
+} */
+
 
 .ProdPricingCardLabel {
   display: block;

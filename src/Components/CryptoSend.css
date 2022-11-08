@@ -1,0 +1,105 @@
+.crypto-send-modal .modal-content {
+  /* position: relative; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 100%;
+  /* pointer-events: auto; */
+  background-color: #f1f1f1;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 1.3rem;
+  outline: 0;
+  box-shadow: 0px 3px 20px #00000047;
+}
+.crypto-send-modal .modal-header {
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: none;
+}
+.crypto-send-modal .form-control-lg {
+  min-height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 2.25rem;
+  border-radius: 1.3rem;
+}
+.crypto-send-modal .form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  /* color: #212529; */
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #7e7d78;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 58px;
+  text-indent: 72px;
+  border-radius: 1.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.image-scanner {
+  position: absolute;
+  right: 31px;
+  top: 25px;
+  width: 32px;
+}
+.image-search {
+  vertical-align: middle;
+  position: absolute;
+  width: 47px;
+}
+.crypto-send-modal .modal-footer {
+  display: block;
+  text-align: center;
+
+  background-color: white;
+  border-top: 1px solid #dee2e6;
+  border-bottom-right-radius: calc(0.3rem - 1px);
+  border-bottom-left-radius: calc(0.3rem - 1px);
+  border-radius: 1.3rem;
+  border: 1px solid #7e7d78;
+}
+
+.crypto-send-modal .list-group-item {
+  position: relative;
+  display: block;
+  padding: 1.2rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.125);
+  border-right-color: rgba(0, 0, 0, 0.125);
+  border-bottom-color: rgba(0, 0, 0, 0.125);
+  border-left-color: rgba(0, 0, 0, 0.125);
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+.crypto-send-modal .btn-primary {
+  color: #fff;
+  background-color: #f17626;
+  border-color: #f17626;
+  border-radius: 34px;
+  height: 66px;
+  width: 210px;
+}
+
+.crypto-send-modal .modal-footer > * {
+  margin: 2.25rem;
+}

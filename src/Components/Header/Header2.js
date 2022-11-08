@@ -48,7 +48,7 @@ function Header2() {
               </div>
 
               <li class="nav-item">
-                <a class="nav-link header_icon" href="#">
+                <a class="nav-link header_icon notification-modal" href="#">
                   <i
                     class="fa fa-bell-o"
                     aria-hidden="true"
@@ -69,7 +69,7 @@ function Header2() {
               Notification
             </button> */}
                         <div
-                          className="modal fade"
+                          className="modal fade md notification-modal"
                           id="staticBackdrop"
                           data-bs-backdrop="static"
                           data-bs-keyboard="false"
@@ -77,7 +77,7 @@ function Header2() {
                           aria-labelledby="staticBackdropLabel"
                           aria-hidden="true"
                         >
-                          <div className="modal-dialog">
+                          <div className="modal-dialog" style={{width:"400px"}}>
                             <div className="modal-content">
                               <div className="modal-header">
                                 <h5
@@ -87,7 +87,7 @@ function Header2() {
                                 >
                                   Notification
                                 </h5>
-                                <p style={{ color: "#08668F" }}>clear</p>
+                                <p className="notification-header">clear</p>
                               </div>
                               <div className="modal-body">
                                 <img
