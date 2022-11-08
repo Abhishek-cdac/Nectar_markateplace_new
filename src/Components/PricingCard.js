@@ -1,64 +1,79 @@
 import React, { useState } from "react";
 import DummyData from "../containers/DummyNectarCRM";
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
+import { Accordian } from "./Header/Accordian";
+import { AccodionPartner } from "./Header/Accordian";
+import OfferType from "../containers/OfferType";
+import SupportTable from "../containers/SupportTable";
 
 function PricingCard() {
   const [value, setValue] = useState(false);
+
   const handleToggle = () => {
     setValue(!value);
     console.log("togglevalue", value);
   };
   const navigate = useNavigate();
- 
-  
+
   return (
     <>
       <div className="container">
-        <div className="row">
+       
+         <div className="row">
           {DummyData &&
             DummyData.pricingSubscriptiondata.map((data) => (
               <div className="col-lg-4 col-md-6">
-                <div class="card mt-5">
-                  <div class="card-body ProPricingCard">
-                    <h4 class="card-title">
-                      <h4>{data.title}</h4>
-                    </h4>
-
-                    <div className="cardBodyToggle">
-                      <h5 class="card-title AdProdManTitle">&12345</h5>
-                      <div className="toggle-switch prodPricingtoggle-switch">
+                <div className="card">
+                  <div className="card-body">
+                    <div className="Toggle_main">
+                      <div>
+                        <h4>{data.title}</h4>
+                      </div>
+                      <div className="switch_toggle  ">
                         <input
+                          checked={value}
+                          onChange={handleToggle}
+                          className="react-switch-checkbox"
+                          id={`react-switch-new`}
                           type="checkbox"
-                          className="checkbox"
-                          name={data.title}
-                          id={data.title}
                         />
                         <label
-                          className="label ProdPricingCardLabel"
-                          htmlFor={data.title}
+                          className="react-switch-label"
+                          htmlFor={`react-switch-new`}
                         >
-                          <span className="inner ProdPricingInner" />
-                          <span className="switch ProdPricingCardSwitch" />
+                          {" "}
+                          <div className="toggleLabel">
+                            <h6>Monthly</h6>
+                          </div>
+                          <div className="toggleLabel">
+                            <h6>
+
+
+
+
+                              Yearly
+                            </h6>
+                          </div>
+                          <span className={`react-switch-button`}>
+                            <div className="toggleSwitchLabel">
+                              {!value ? <h6>Monthly</h6> : <h6>Yearly</h6>}
+                            </div>
+                          </span>
                         </label>
                       </div>
                     </div>
-                    <div
-                      style={{
-                        marginTop: "30px",
-                      }}
-                    >
+                    <div>
                       {!value ? (
                         <>
-                          <div style={{ textAlign: "center" }}>
+                          <div style={{ textAlign: "center" ,paddingTop:"10px"}}>
                             <h5>{data.doller}</h5>
                             <p>{data.dollermonth}</p>
                             <h3>{data.heading}</h3>
                           </div>
                           <div>
-                            {/* <i class="fa-regular fa-check-double"></i> */}
                             <p>
                               {" "}
-                              <span className="fa-regular fa-check-double double_click mx-3 "></span>{" "}
+                              <span className="fa-solid fa-check-double double_click mx-3 "></span>
                               {data.desp1}
                             </p>
                             <p>
@@ -95,7 +110,7 @@ function PricingCard() {
                         </>
                       ) : (
                         <>
-                          <div style={{ textAlign: "center" }}>
+                          <div style={{ textAlign: "center" ,paddingTop:"10px"}}>
                             <h5>{data.doller1}</h5>
                             <p>{data.dolleryearly}</p>
                             <h3>{data.heading}</h3>
@@ -103,7 +118,7 @@ function PricingCard() {
                           <div>
                             <p>
                               {" "}
-                              <span className="fa-solid fa-check-double  double_click mx-3 "></span>
+                              <span className="fa-solid fa-check-double double_click mx-3 "></span>
                               {data.desp1}
                             </p>
                             <p>
@@ -140,7 +155,6 @@ function PricingCard() {
                         </>
                       )}
                     </div>
-
                     <div style={{ borderTop: "2px dashed #00000047" }}></div>
                     <br />
                     <div
@@ -156,7 +170,7 @@ function PricingCard() {
                       <button
                         type="submit"
                         class="btn "
-                        onClick={() =>navigate("/cart")}
+                        onClick={() => navigate("/cart")}
                         style={{
                           color: "#F16728",
                           border: " 2px solid #F16728",
@@ -169,7 +183,7 @@ function PricingCard() {
                       <button
                         type="submit"
                         class="btn"
-                        onClick={() =>navigate("/getproduct")}
+                        onClick={() => navigate("/getproduct")}
                         style={{
                           color: "#F16728",
                           border: " 2px solid #F16728",
@@ -180,17 +194,21 @@ function PricingCard() {
                       </button>
                     </div>
                     <br />
+             
                   </div>
                 </div>
               </div>
             ))}
-        </div>
+                  
+        </div> 
+        
         <p className="text-center mt-5 mb-5">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
           illo placeat dignissimos voluptates mollitia. Harum, error quisquam
           perspiciatis ratione quo similique a saepe libero, nisi tenetur at
           fugit esse recusandae.
         </p>
+        <div style={{ borderTop: "2px solid #00000047" }}></div>
       </div>
     </>
   );

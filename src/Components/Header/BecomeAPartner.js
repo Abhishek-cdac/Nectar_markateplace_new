@@ -8,7 +8,7 @@ const BecomeAPartner = () => {
           Apply To Become a Nectar Partner
         </h2>
         <div className="row">
-          <p>
+          <p  style={{fontSize:"small" , textAlign:"center"}}>
             Nectar is a global company with diverse partners from around the
             world. Our partners are commited to delivering innovative solution
             and outstanding support in multile language.
@@ -16,12 +16,12 @@ const BecomeAPartner = () => {
         </div>
 
         <form>
-          <div class="row">
-            <h5 className="formhead1">Company Details</h5>
+          <div class="row pt-5 ">
+            <h4 className="formhead1">Company Details</h4>
 
-            <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-md-6 col-xs-6">
+            <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-md-6 col-xs-6 ">
               <label className="control-label labelhead" for="inputEmail4">
-                Company Name
+                Company Name<span class="required" style={{color:"red"}}>*</span>
               </label>
               <br />
 
@@ -29,16 +29,16 @@ const BecomeAPartner = () => {
             </div>
             <div class="col-12 col-md-6 col-xs-12 col-sm-6 col-md-6  col-xs-6">
               <label className="labelhead" for="inputEmail4">
-                Company Website
+                Company Website<span class="required" style={{color:"red"}}>*</span>
               </label>
               <br />
               <input type="text" class="form-control" />
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <div class="row pt-2" >
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
               <label className="labelhead" for="inputEmail4">
-                First Name
+                First Name<span class="required" style={{color:"red"}}>*</span>
               </label>
               <br />
 
@@ -53,23 +53,23 @@ const BecomeAPartner = () => {
               <input type="text" class="form-control" />
             </div>
           </div>
-          <div class="row">
+          <div class="row pt-2">
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <label className="labelhead" for="inputEmail4">
-                Bussiness Registration
+                Bussiness Registration<span class="required" style={{color:"red"}}>*</span>
               </label>
 
               <br />
 
               <input type="text" class="form-control" />
               <label style={{ marginRight: 470 }} for="inputEmail4">
-                Chamber of Commerce
+                <p style={{fontSize:"13px"}}>Chamber of Commerce</p>
               </label>
             </div>
 
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
               <label className="labelhead" for="inputEmail4">
-                No. of Employees
+                No. of Employees<span class="required" style={{color:"red"}}>*</span>
               </label>
               <br />
 
@@ -78,13 +78,13 @@ const BecomeAPartner = () => {
           </div>
 
           <div>
-            <div class="row">
+            <div class="row pt-2">
               <div className="row pt-5">
-                <h5 className="formhead1">Bussiness Address</h5>
+                <h4 className="formhead1">Bussiness Address</h4>
               </div>
               <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <label className="labelhead" for="inputEmail4">
-                  Country
+                  Country<span class="required" style={{color:"red"}}>*</span>
                 </label>
                 <br />
 
@@ -93,34 +93,34 @@ const BecomeAPartner = () => {
 
               <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <label className="labelhead" for="inputEmail4">
-                  State
+                  State<span class="required" style={{color:"red"}}>*</span>
                 </label>
                 <br />
-                <input type="text" class="form-control" />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                <label className="labelhead" for="inputEmail4">
-                  City
-                </label>
-                <br />
-
-                <input type="text" class="form-control" />
-              </div>
-              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                <label className="labelhead" for="inputEmail4">
-                  Street Address
-                </label>
-                <br />
-
                 <input type="text" class="form-control" />
               </div>
             </div>
-            <div class="row">
+            <div class="row pt-2">
               <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <label className="labelhead" for="inputEmail4">
-                  Email
+                  City<span class="required" style={{color:"red"}}>*</span>
+                </label>
+                <br />
+
+                <input type="text" class="form-control" />
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <label className="labelhead" for="inputEmail4">
+                  Street Address<span class="required" style={{color:"red"}}>*</span>
+                </label>
+                <br />
+
+                <input type="text" class="form-control" />
+              </div>
+            </div>
+            <div class="row pt-2">
+              <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <label className="labelhead" for="inputEmail4">
+                  Email<span class="required" style={{color:"red"}}>*</span>
                 </label>
 
                 <br />
@@ -130,7 +130,7 @@ const BecomeAPartner = () => {
 
               <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <label className="labelhead" for="inputEmail4">
-                  Data Centers
+                  Data Centers<span class="required" style={{color:"red"}}>*</span>
                 </label>
                 <br />
 
@@ -140,9 +140,9 @@ const BecomeAPartner = () => {
           </div>
 
           <div>
-            <div class="row">
+            <div class="row pt-2">
               <div className="row pt-5">
-                <h5 className="formhead1">Expertise / Interest</h5>
+                <h4 className="formhead1">Expertise / Interest</h4>
               </div>
               <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <label
@@ -150,7 +150,7 @@ const BecomeAPartner = () => {
                   className=""
                   for="inputEmail4"
                 >
-                  Primary Expertise/interest
+                  Primary Expertise/interest<span class="required" style={{color:"red"}}>*</span>
                 </label>
                 <br />
 
@@ -163,7 +163,7 @@ const BecomeAPartner = () => {
                   style={{ marginBottom: 13 }}
                   for="inputEmail4"
                 >
-                  How did you hear about nectar product partner
+                  How did you hear about nectar product partner<span class="required" style={{color:"red"}}>*</span>
                 </label>
                 <br />
                 <input type="text" class="form-control" />
@@ -172,10 +172,10 @@ const BecomeAPartner = () => {
             <br /> <br />
           </div>
 
-          <div className="row">
-            <h4 style={{ textAlign: "center" }}>
-              I agree to the Terms of Service and Privacy Policy
-            </h4>
+          <div className="row pt-2">
+            <p style={{ textAlign: "center" }}>
+              I agree to the <span style={{color:"#08668F"}}>Terms of Service</span> and <span style={{color:"#08668F"}}>Privacy Policy</span>
+            </p>
 
             <div style={{ textAlign: "center" }}>
               <button type="button" class="btn  formbtn  btn-lg m-4  ">
