@@ -1,37 +1,56 @@
-import React from 'react'
-
+import React from "react";
+import './congratulation.css';
 const CongratulationModal = () => {
+  <style>
+    
+  </style>
   return (
     <>
-    
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  modal
-</button>
+     
+          <button
+            type="button"
+            class="btn btn-primary congratulation-modal"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+              modal
+          </button>
 
- 
-<div class="modal fade  modal-dialog modal-dialog-centered" style={{borderRadius:"50px",  display: 'block',
-  marginLeft: 'auto',
-  marginRight: 'auto', justifyContent:"center "  ,boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}} id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header"   >
-      <img src="https://www.w3schools.com/howto/img_paris.jpg"  height={"50px"} width={'80px'} ma alt="" />
-        
-      </div>
-      <div class="modal-body">
-        <p className='text-center'>Congratulation!</p>
-       <p>You have Successfully shared 43.00ETH to Nectar Infotel Wallet</p>
-      </div>
-      <div class="modal-footer">
-      <p>Go to home page</p>
-      </div>
-    </div>
-  </div>
-</div>
- 
-   
-  </>
-  )
-}
+          <div
+            class="modal fade congratulation-modal"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog congratulation-modal">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+                    className="rounded mx-auto d-block"
+                    height={"50px"}
+                    alt=""
+                  />
+                </div>
+                <div class="modal-body">
+                  <p className="text-center">Congratulations!</p>
+                  <p className="text-center">
+                    {" "}
+                    You have successfully shared 43.88765 ETH to Nectar Infotel
+                    Wallet
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <p>Go to Home Page</p>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+     
+    </>
+  );
+};
 
-export default CongratulationModal
+export default CongratulationModal;
