@@ -8,7 +8,7 @@ const PricingSubDownCard = () => {
   };
   return (
     <>
-      <h1 style={{ textAlign: "center" }}>Results By Filter</h1>
+      <h1 style={{ textAlign: "center" ,paddingTop:"20px" }}>Results By Filter</h1>
       <p style={{ textAlign: "center" }}>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, debitis!
       </p>

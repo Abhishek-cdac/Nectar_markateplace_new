@@ -63,6 +63,8 @@ import ComplaintManagement from "./containers/Admin/ComplaintManagement";
 import Cryptocurrency from "./Components/Cryptocurrency";
 import CryptoHeader from "./Components/CryptoHeader";
 import CryptoSend from "./Components/CryptoSend";
+import CryptoSigninPage from "./containers/CryptoSigninPage";
+import CongratulationModal from "./containers/CongratulationModal";
 
 function App() {
   return (
@@ -83,6 +85,10 @@ function App() {
           <Route path="/cryptoheader" element={<CryptoHeader/>}></Route>
           <Route path='/cryptocurrenvy' element={<Cryptocurrency/>}></Route>
           <Route path="cryptosend" element={<CryptoSend/>}></Route>
+          
+         <Route path="crytosignin" element={<CryptoSigninPage />} />
+         <Route path="congmodal" element={<CongratulationModal/>} />
+
 
           {/*Overview Page*/}
           <Route path="/gpsoverview" element={<GPSOverview />} />
