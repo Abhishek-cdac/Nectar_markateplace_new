@@ -5,7 +5,7 @@ import Header2 from "./Header/Header2";
 function Notification() {
   return (
     <>
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-8">
             <button
@@ -109,6 +109,36 @@ function Notification() {
             </div>
           </div>
         </div>
+      </div> */}
+
+      <div class="dropdown">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Dropdown button
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item" href="#">
+              <h5 className="">Notifications </h5>
+         
+       
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">
+              Another action
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">
+              Something else here
+            </a>
+          </li>
+        </ul>
       </div>
     </>
   );

@@ -1,0 +1,102 @@
+.ethereum-mainnet-dropdown li::marker {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #3ee681;
+  /* position: absolute; */
+  /* left: 57px; */
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.ethereum-mainnet-dropdown .dropdown-toggle {
+  width: 210px;
+  height: 24px;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+.ethereum-mainnet-dropdown .btn {
+  line-height: 6px;
+
+  background-color: transparent;
+}
+.ethereum-mainnet-dropdown .btn-secondary {
+  color: black;
+  border-color: #6c757d;
+}
+.ethereum-mainnet-dropdown .dropdown-toggle::after {
+  display: block;
+  margin-left: 11.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  margin-top: -4px;
+}
+.horizontaly-line-crypto {
+  border-bottom: 1px solid;
+}
+.cripto-img {
+  display: block;
+  text-align: center;
+}
+.cripto-img img.rounded.mx-auto.d-block {
+  display: inline-block !important;
+  margin: 0px 30px !important;
+}
+
+.buy-img {
+  display: inline-block;
+  color: #08668f;
+}
+.assest h1 {
+  border-bottom: 1px solid #979494;
+}
+.assest h1:after {
+  content: "";
+  display: block;
+  border-bottom: 5px solid #08668f;
+  margin-bottom: -2px;
+  max-width: 700px;
+}
+.carousel-control-next,
+  .carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}
+.content-eth{
+  display: inline-block;
+  /* margin-top: -2px; */
+  margin-left: 2%;
+  margin-top: 3%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .metamask-header button {
+    margin-top: 5% !important;
+  }
+  .metamask-header .dropdown.rounded.float-end.me-5 {
+    text-align: center;
+
+    float: none !important;
+  }
+  .metamask-header img.position-absolute.top-0.end-0.mx-5.mt-3 {
+    height: 40px !important;
+    top: 46px !important;
+    right: 6% !important;
+  }
+  .metamask-header .col-md-6.col-sm-12 {
+    text-align: center;
+  }
+  .metamask-header img.metamask-img {
+    height: 50px !important;
+    display: inline-block;
+  }
+  .metamask-header h3.d-md-inline-flex.mx-4 {
+    display: inline-block;
+    margin: 0;
+  }
+}

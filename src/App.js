@@ -60,6 +60,9 @@ import PartnerRegistrationsDetails from "./containers/Admin/PartnerRegistrations
 import OpenModal from "./containers/Admin/OpenModal";
 import ProgressBoard from "./Components/Admin/ProgressBoard";
 import ComplaintManagement from "./containers/Admin/ComplaintManagement";
+import Cryptocurrency from "./Components/Cryptocurrency";
+import CryptoHeader from "./Components/CryptoHeader";
+import CryptoSend from "./Components/CryptoSend";
 
 function App() {
   return (
@@ -77,6 +80,9 @@ function App() {
           <Route path="/getproduct" element={<GetProduct />}></Route>
 
           <Route path="/orderinvoices" element={<Orderinvoices />}></Route>
+          <Route path="/cryptoheader" element={<CryptoHeader/>}></Route>
+          <Route path='/cryptocurrenvy' element={<Cryptocurrency/>}></Route>
+          <Route path="cryptosend" element={<CryptoSend/>}></Route>
 
           {/*Overview Page*/}
           <Route path="/gpsoverview" element={<GPSOverview />} />

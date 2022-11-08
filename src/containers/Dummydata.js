@@ -879,56 +879,56 @@ const dummyData = {
       id: "1",
       image: "/assets/images/CRM.webp",
       title: "Nectar CRM",
-      name:"NectarCrm",
+      name: "NectarCrm",
     },
     {
       id: "2",
       image: "/assets/images/HRMS.webp",
       title: "Nectar HRMS",
-      name:"NectarHrms",
+      name: "NectarHrms",
     },
     {
       id: "3",
       image: "/assets/images/Nectrac.webp",
       title: "Nectar GPS Tracker",
-      name:"NectarGps",
+      name: "NectarGps",
     },
 
     {
       id: "4",
       image: "/assets/images/Nerrotrac.webp",
       title: "Nerro Trac-Bug Tracker",
-      name:"NectarBug",
+      name: "NectarBug",
     },
     {
       id: "5",
       image: "/assets/images/nT3.webp",
       title: "NT3-ITSM Tool",
-      name:"NectarITSm",
+      name: "NectarITSm",
     },
     {
       id: "6",
       image: "/assets/images/Nectar-product-logo_final.webp",
       title: "nDatu- Task Management",
-      name:"nDatu",
+      name: "nDatu",
     },
     {
       id: "7",
       image: "/assets/images/nBot.png",
       title: "Nerro Trac-Bug Tracker",
-      name:"Nerro",
+      name: "Nerro",
     },
     {
       id: "8",
       image: "/assets/images/NPS.png",
       title: "NT3-ITSM Tool",
-      name:"NT3"
+      name: "NT3",
     },
     {
       id: "9",
       image: "/assets/images/Selfcare.png",
       title: "nDatu- Task Management",
-      name:"nDatu"
+      name: "nDatu",
     },
   ],
 
@@ -958,7 +958,6 @@ const dummyData = {
       id: "5",
       image: "/assets/images/school.png",
       title: "Schooling",
-      
     },
     {
       id: "6",
@@ -1061,7 +1060,7 @@ const dummyData = {
       moveticketprogress: "Move ticket to In Progress",
       className: "event nectar",
       className2: "event user",
-      url:"progressboard"
+      url: "progressboard",
     },
   ],
   OrderInvoice: [
@@ -1121,6 +1120,13 @@ const dummyData = {
       placeholderinvoiceno: "invoice No. 000098567",
       status: "Status: ",
       placeholderstatus: "Completed",
+    },
+  ],
+  Cryptocurrency: [
+    {
+      img: "/assets/images/Group 3042.png",
+      money: "$ 150.00 USD ",
+      content: "0.032 ETH",
     },
   ],
 };
