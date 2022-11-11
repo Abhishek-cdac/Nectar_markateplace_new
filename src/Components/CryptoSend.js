@@ -1,23 +1,18 @@
 import React from "react";
 import CryptoHeader from "./CryptoHeader";
+import dummyData from "../containers/Dummydata";
+
 import "./CryptoSend.css";
+import SelectCurrency from "./SelectCurrency";
 
 function CryptoSend() {
   return (
     <div>
-      <CryptoHeader />
-
-      <button
-        type="button"
-        class="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-      >
-        Launch demo modal
+      <button data-bs-toggle="modal" data-bs-target="#exampleModal">
+        kdsg'l;
       </button>
-
       <div
-        class="modal fade crypto-send-modal"
+        className="modal fade crypto-send-modal "
         id="exampleModal"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
@@ -54,55 +49,12 @@ function CryptoSend() {
               ></img>
             </div>
             <div class="modal-footer d-flex justify-content-center">
-              <p>
+              <p style={{ color: "black" }}>
                 You are sending ETH to Nectar Infotel Solutions Pvt. Ltd{" "}
                 <hr></hr>
               </p>
 
-              <table class="table table-bordered">
-                <tbody>
-                  <tr>
-                    <td>
-                      <img
-                        src="/assets/images/doller.png"
-                        style={{ height: "30px" }}
-                      ></img>
-                    </td>
-                    <td>43.88765</td>
-                    <td style={{ color: "#08668F", fontSize: "12px" }}>
-                      Select This Currency
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <img
-                        src="/assets/images/ethereum-1-283135.png"
-                        style={{ height: "30px" }}
-                      ></img>
-                    </td>
-                    <td>US Dollar</td>
-                    <td style={{ color: "#08668F", fontSize: "12px" }}>
-                      Select This Currency
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <img
-                        src="/assets/images/INR.png"
-                        style={{ height: "30px" }}
-                      ></img>
-                    </td>
-                    <td>Larry the Bird</td>
-                    <td style={{ color: "#08668F", fontSize: "12px" }}>
-                      Select This Currency
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <button type="button mt-5" class="btn btn-primary btn-lg">
-              Share
-              </button>
+           
             </div>
           </div>
         </div>

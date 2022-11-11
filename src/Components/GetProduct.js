@@ -3,8 +3,10 @@ import "./GetProduct.css";
 import DummydataGetproduct from "../containers/DummydataGetproduct";
 import Header2 from "./Header/Header2";
 import Footer from "./Footer";
+import { useNavigate } from "react-router-dom";
 
 function GetProduct() {
+  const navigate = useNavigate();
   return (
     <>
       <Header2 />
@@ -227,9 +229,11 @@ function GetProduct() {
                           (data) => (
                             <p
                               className="text-end"
+                              onClick={() => navigate(data.url)}
                               style={{ color: "#1291C9" }}
                             >
                               {data.Balance}
+                           
                             </p>
                           )
                         )}

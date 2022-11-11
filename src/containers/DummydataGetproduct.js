@@ -19,6 +19,7 @@ const DummydataGetproduct = {
       Organization:
         "Wipro Technologies Pvt. Ltd. Nectar CRM for 5 Clients, Platinum Plan",
       Balance: "View Crypto Balance",
+      url:"/crytosignin"
     },
   ],
 };

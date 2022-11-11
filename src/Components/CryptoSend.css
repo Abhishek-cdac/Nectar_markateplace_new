@@ -52,6 +52,7 @@
   vertical-align: middle;
   position: absolute;
   width: 47px;
+  left: 27px;
 }
 .crypto-send-modal .modal-footer {
   display: block;
@@ -100,6 +101,3 @@
   width: 210px;
 }
 
-.crypto-send-modal .modal-footer > * {
-  margin: 2.25rem;
-}

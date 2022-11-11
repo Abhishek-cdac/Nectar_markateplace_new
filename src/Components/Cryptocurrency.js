@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+
 import dummyData from "../containers/Dummydata";
+import CryptoSend from "../Components/CryptoSend";
+
 import "./Cryptocurrency.css";
+import SelectCurrency from "./SelectCurrency";
 
 function Cryptocurrency() {
   return (
@@ -84,17 +88,22 @@ function Cryptocurrency() {
                 src="/assets/images/Group 3044.svg"
                 style={{ height: "50px" }}
               ></img>
+
               <p>buy</p>
             </div>
             <div className="buy-img">
               <img
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
                 class="rounded mx-auto d-block"
                 src="/assets/images/Group 353.svg"
                 style={{ height: "50px" }}
               ></img>
 
               <p>send</p>
+              <SelectCurrency />
             </div>
+
             <div className="buy-img">
               <img
                 class="rounded mx-auto d-block"
@@ -120,16 +129,16 @@ function Cryptocurrency() {
             data-bs-touch="false"
           >
             <div class="carousel-inner">
-              {dummyData&&
-               dummyData.Cryptocurrency.map((data) => (
+              {dummyData &&
+                dummyData.Cryptocurrency.map((data) => (
                   <div class="carousel-item active">
                     <img
-                      src="/assets/images/Group 3042.png"
+                      src={data.img}
                       style={{ height: "80px", marginTop: "-3%" }}
                     ></img>
                     <div className="content-eth">
-                      <h4>0.032 ETH</h4>
-                      <p>$ 150.00 USD</p>
+                      <h4> {data.content}</h4>
+                      <p>{data.money}</p>
                     </div>
 
                     <p className="horizontaly-line-crypto mt-4"></p>
