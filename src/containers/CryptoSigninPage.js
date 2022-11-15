@@ -34,10 +34,11 @@ const CryptoSigninPage = () => {
               }}
             >
               <img
-                style={{ margin: "auto", paddingTop: "70px" }}
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png"
+                style={{ margin: "auto", paddingTop: "50px" }}
+                src="\assets\images\metamask.png"
                 class="card-img-top"
                 alt="..."
+                height={'400px'}
               />
               <div class="card-body">
                 <h5
@@ -59,10 +60,11 @@ const CryptoSigninPage = () => {
               }}
             >
               <img
-                style={{ margin: "auto", paddingTop: "70px" }}
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png"
+                style={{ margin: "auto", paddingTop: "50px" }}
+                src="\assets\images\crypto3.png"
                 class="card-img-top"
                 alt="..."
+                height={'400px'}
               />
               <div class="card-body">
                 <h5
@@ -84,10 +86,11 @@ const CryptoSigninPage = () => {
               }}
             >
               <img
-                style={{ margin: "auto", paddingTop: "70px" }}
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png"
+                style={{ margin: "auto", paddingTop: "50px" }}
+                src="\assets\images\crypto.png"
                 class="card-img-top"
                 alt="..."
+                height={'400px'}
               />
               <div class="card-body">
                 <h5
@@ -101,31 +104,14 @@ const CryptoSigninPage = () => {
           </div>
         </div>
 
-        {/* <div>
-            <div class="row">
-                <div class="col-md-3">
-                    hello
-                </div>
-                <div class="col-md-9">
-                    2nd column
-                </div>
-            </div>
-        </div> */}
-        <div
-          class="card shadow-lg"
-          style={{ height: "300px", border: "1px solid #707070" }}
-        >
-          <div className="row">
+        
+        <div class="card shadow-lg img-fluid"  >
+            <div className="row">
             <div class="col-md-4">
-              <img
-                style={{
-                  marginTop: "80px",
-                  marginLeft: "200px",
-                  height: "125px",
-                  width: "125px",
-                }}
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/640px-Image_created_with_a_mobile_phone.png"
-                class="card-img-top"
+            <img
+                // style={{marginTop:"80px" ,marginLeft:"200px",height:"125px" , width:"125px"}}
+                src="\assets\images\metamask.png"
+                class="card-img-top  rounded mx-auto mt-5 d-block"
                 alt="..."
               />
             </div>

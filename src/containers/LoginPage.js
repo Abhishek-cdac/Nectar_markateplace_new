@@ -3,8 +3,6 @@ import dummyData from "./Dummydata";
 import RadioButton from "../Components/Admin/Radio";
 
 function LoginPage() {
-  //const [checkedValue, setIsChecked] = React.useState("");
-
   const [data, setData] = useState({
     email: "",
     password: "",
@@ -18,14 +16,8 @@ function LoginPage() {
 
     setData({ ...data, [e.target.name]: value });
   };
-  const radioChange = (e) => {
-    //setIsChecked(e);
-    setData({ ...data, radioVal: e });
-    //console.log(checkedValue);
-  };
-  const login = () => {
-    //console.log(checkedValue);
 
+  const login = () => {
     console.log(data);
   };
 
@@ -98,88 +90,24 @@ function LoginPage() {
                     </p>
                   </div>
                 </div>
-                {/* <div className="signinform1">
-                  <div className="row">
-                    <div className="col-lg-3">
-                      <h6>Log In as</h6>
-                    </div>
-                    <div className="col-lg-2">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="flexRadioDefault"
-                          id="flexRadioDefault1"
-                          value="partner"
-                          onChange={handleToggle}
-                        />
-                        <label class="form-check-label" for="flexRadioDefault1">
-                          Partner
-                        </label>
-                      </div>
-                    </div>
-                    <div className="col-lg-2">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="flexRadioDefault"
-                          id="flexRadioDefault1"
-                          value={value}
-                          onChange={handleToggle}
-                        />
-                        <label class="form-check-label" for="flexRadioDefault1">
-                          Reseller
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
 
                 <div class="col-lg-12 UserManRadio">
                   <p style={{ color: "#474747", marginLeft: "3em" }}>
                     <b style={{ marginRight: "3em" }}>Log In As</b>
 
                     {dummyData?.loginRadio.map((item) => {
-                      //console.log(item.id)
                       return (
                         <RadioButton
                           type="radio"
                           value={item.id}
                           id={item.id}
                           name="radioVal"
-                          // style={{marginLeft:"3em"}}
                           className="UserRadio"
                           label={item.label}
-                          /* radio={checkedValue == item.id} */
                           onChange={(e) => haandleChange(e)}
                         />
                       );
                     })}
-
-                    {/* <div>
-                      <input
-                        className="UserRadio"
-                        type="radio"
-                        id="female"
-                        name="gender"
-                        value="Female"
-                        onChange={haandleChange}
-                        checked={gender === "Female"}
-                      />
-                      <label htmlFor="female">partner</label>
-                    </div>
-                    <div>
-                      <input
-                        id="male"
-                        type="radio"
-                        name="gender"
-                        value="Male"
-                        onChange={haandleChange}
-                        checked={gender === "Male"}
-                      />
-                      <label htmlFor="male">Reseller</label>
-                    </div> */}
                   </p>
                 </div>
 
