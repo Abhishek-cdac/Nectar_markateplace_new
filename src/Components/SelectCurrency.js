@@ -84,10 +84,8 @@ function SelectCurrency() {
                 class="btn btn-primary btn-lg"
                 data-bs-toggle="modal"
                 data-bs-target="#congratulationeModal"
-
               >
                 Share
-     
               </button>
             </div>
           </div>

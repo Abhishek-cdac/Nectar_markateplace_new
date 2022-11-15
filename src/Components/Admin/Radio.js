@@ -11,7 +11,7 @@ const RadioButton = ({ type, id, name, label, checked, onChange ,className }) =>
         name={name}
         aria-label={label}
         aria-checked={checked}
-        checked={checked}
+        radio={checked}
         onChange={onChange}
       />
       <label htmlFor={id}>{label}</label>

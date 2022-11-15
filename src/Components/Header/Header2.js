@@ -58,8 +58,8 @@ function Header2() {
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                   ></i>
-                
-                  <Notification/>
+
+                  <Notification />
                 </a>
               </li>
 
