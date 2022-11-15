@@ -1,9 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './congratulation.css';
 const CongratulationModal = () => {
-  <style>
-    
-  </style>
+  
   return (
     <>
      
@@ -42,7 +41,11 @@ const CongratulationModal = () => {
                   </p>
                 </div>
                 <div class="modal-footer">
-                  <p>Go to Home Page</p>
+                 
+ 
+                 <Link to="/nectarcrmtab"> <p style={{color:"black"}}> Go to Home Page</p></Link>
+                 
+                   
                 </div>
               </div>
             </div>
