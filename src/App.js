@@ -65,6 +65,7 @@ import CryptoHeader from "./Components/CryptoHeader";
 import CryptoSend from "./Components/CryptoSend";
 import CryptoSigninPage from "./containers/CryptoSigninPage";
 import CongratulationModal from "./containers/CongratulationModal";
+import SelectCurrency from "./Components/SelectCurrency";
 
 function App() {
   return (
@@ -80,15 +81,15 @@ function App() {
           <Route path="/contactdetails" element={<ContactDetails />}></Route>
           <Route path="/form" element={<Form />}></Route>
           <Route path="/getproduct" element={<GetProduct />}></Route>
+          <Route path="/selectcurrency" element={<SelectCurrency />}></Route>
 
           <Route path="/orderinvoices" element={<Orderinvoices />}></Route>
-          <Route path="/cryptoheader" element={<CryptoHeader/>}></Route>
-          <Route path='/cryptocurrenvy' element={<Cryptocurrency/>}></Route>
-          <Route path="cryptosend" element={<CryptoSend/>}></Route>
-          
-         <Route path="crytosignin" element={<CryptoSigninPage />} />
-         <Route path="congmodal" element={<CongratulationModal/>} />
+          <Route path="/cryptoheader" element={<CryptoHeader />}></Route>
+          <Route path="/cryptocurrenvy" element={<Cryptocurrency />}></Route>
+          <Route path="cryptosend" element={<CryptoSend />}></Route>
 
+          <Route path="crytosignin" element={<CryptoSigninPage />} />
+          <Route path="congmodal" element={<CongratulationModal />} />
 
           {/*Overview Page*/}
           <Route path="/gpsoverview" element={<GPSOverview />} />
@@ -103,7 +104,7 @@ function App() {
           <Route path="/ndatu" element={<NDatu />} />
           {/* <Route path="/login" element={<LoginPage />} /> */}
 
-          <Route path="/productscreen" element={<Productscreen />}/>
+          <Route path="/productscreen" element={<Productscreen />} />
           <Route path="/nectarcrmreview" element={<NectarCRMReview />} />
           <Route path="/notification" element={<Notification />}></Route>
           <Route path="/review" element={<CRMReview />}></Route>
@@ -129,9 +130,10 @@ function App() {
 
           {/* Routes of partner */}
           <Route path="partner" element={<PartnerLanding />}>
+            <Route path="becomeApartner" element={<BecomeAPartner />} />
             <Route path="" element={<PartnerDashboard />} />
             <Route path="telecomeservices" element={<TelecomeServices />} />
-            <Route path="becomeApartner" element={<BecomeAPartner />} />
+
             <Route path="resources" element={<Resources />} />
             <Route path="profile" element={<Profile />}></Route>
             <Route path="setting" element={<Settings />} />

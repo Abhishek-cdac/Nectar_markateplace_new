@@ -3,13 +3,22 @@ import dummyData from "./Dummydata";
 import RadioButton from "../Components/Admin/Radio";
 
 function LoginPage() {
+  const [data, setData] = useState({
+    email: "",
+    password: "",
+  });
+  const { email, password } = data;
 
-  const [checkedValue, setIsChecked] = React.useState(1);
-  console.log(checkedValue);
-  // const handleToggle = () => {
-  //   setValue(!value);
-  //   console.log("togglevalue", value);
-  // };
+  const haandleChange = (e) => {
+    const value =
+      e.target.type === "checkbox" ? e.target.checked : e.target.value;
+
+    setData({ ...data, [e.target.name]: value });
+  };
+
+  const login = () => {
+    console.log(data);
+  };
 
   return (
     <>
@@ -67,50 +76,19 @@ function LoginPage() {
                     <h6>
                       <b style={{ color: "#474747" }}>Sign up</b>
                     </h6>
-                    <p style={{color:"grey",fontFamily:"sans-serif",fontSize:"medium"}}>
+                    <p
+                      style={{
+                        color: "grey",
+                        fontFamily: "sans-serif",
+                        fontSize: "medium",
+                      }}
+                    >
                       To access{" "}
                       <span style={{ color: "#F16728" }}> Nectar </span>{" "}
                       Marketplace
                     </p>
                   </div>
                 </div>
-                {/* <div className="signinform1">
-                  <div className="row">
-                    <div className="col-lg-3">
-                      <h6>Log In as</h6>
-                    </div>
-                    <div className="col-lg-2">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="flexRadioDefault"
-                          id="flexRadioDefault1"
-                          value="partner"
-                          onChange={handleToggle}
-                        />
-                        <label class="form-check-label" for="flexRadioDefault1">
-                          Partner
-                        </label>
-                      </div>
-                    </div>
-                    <div className="col-lg-2">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="flexRadioDefault"
-                          id="flexRadioDefault1"
-                          value={value}
-                          onChange={handleToggle}
-                        />
-                        <label class="form-check-label" for="flexRadioDefault1">
-                          Reseller
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
 
                 <div class="col-lg-12 UserManRadio">
                   <p style={{ color: "#474747", marginLeft: "3em" }}>
@@ -120,14 +98,12 @@ function LoginPage() {
                       return (
                         <RadioButton
                           type="radio"
-                          key={item.id}
+                          value={item.id}
                           id={item.id}
-                          name="radioGroup"
-                          // style={{marginLeft:"3em"}}
+                          name="radioVal"
                           className="UserRadio"
                           label={item.label}
-                          checked={checkedValue === item.id}
-                          onChange={() => setIsChecked(item.id)}
+                          onChange={(e) => haandleChange(e)}
                         />
                       );
                     })}
@@ -137,19 +113,28 @@ function LoginPage() {
                 <div className="row">
                   <div className="signinform1">
                     <div className="login mt-4">
-                      <input placeholder="Enter Email ID" type="text" />
+                      <input
+                        placeholder="Enter Email ID"
+                        type="text"
+                        name="email"
+                        value={email}
+                        onChange={haandleChange}
+                      />
 
                       <input
                         className="mt-2"
                         placeholder="Enter Password"
                         type="password"
+                        name="password"
+                        value={password}
+                        onChange={haandleChange}
                       />
                       <div className="forgotpassword mt-2">
-                        <p style={{ textAlign: "right"}}>
+                        <p style={{ textAlign: "right" }}>
                           Forgot Password?
                           <span>
                             <a class="nav-link" href="/forgetpassword">
-                              Reset here 
+                              Reset here
                             </a>
                           </span>
                         </p>
@@ -165,11 +150,20 @@ function LoginPage() {
                         type="checkbox"
                         class="form-check-input"
                         id="check2"
-                        name="option2"
-                        value="something"
-                        style={{fontSize:"initial",marginTop:"0.4em"}}
+                        name="leaves"
+                        checked={data.isChecked}
+                        onChange={haandleChange}
+                        style={{ fontSize: "initial", marginTop: "0.4em" }}
                       />
-                      <label class="form-check-label" for="check2" style={{fontSize:"medium",color:"#333333",fontFamily:"sans-serif"}}>
+                      <label
+                        class="form-check-label"
+                        for="check2"
+                        style={{
+                          fontSize: "medium",
+                          color: "#333333",
+                          fontFamily: "sans-serif",
+                        }}
+                      >
                         I agree to the{" "}
                         <span>
                           <a
@@ -178,13 +172,13 @@ function LoginPage() {
                             style={{
                               color: "#333333",
                               textDecoration: "underline",
-                              fontSize:"medium",
+                              fontSize: "medium",
                               // color:"grey",
-                              fontFamily:"sans-serif",
-                              padding:"2px",
+                              fontFamily: "sans-serif",
+                              padding: "2px",
                             }}
                           >
-                          Terms of Service, Marketplace Terms
+                            Terms of Service, Marketplace Terms
                           </a>
                         </span>{" "}
                         of Use and{" "}
@@ -195,7 +189,7 @@ function LoginPage() {
                             style={{
                               color: "#333333",
                               textDecoration: "underline",
-                              padding:"2px",
+                              padding: "2px",
                             }}
                           >
                             Privacy Policy
@@ -206,6 +200,7 @@ function LoginPage() {
                     <div className="submitbtn">
                       <div className="row">
                         <button
+                          onClick={login}
                           type="button"
                           class="btn mt-4 mb-5"
                           style={{
@@ -217,7 +212,7 @@ function LoginPage() {
                         </button>
                       </div>
                     </div>
-                    {checkedValue == 1 ? (
+                    {data.radioVal == 1 ? (
                       <div className="row mb-5">
                         <div className="col-lg-8">
                           <div className="icon">
@@ -234,7 +229,9 @@ function LoginPage() {
                           </a>
                         </div>
                       </div>
-                    ) :" "}
+                    ) : (
+                      " "
+                    )}
                   </div>
                 </div>
               </div>

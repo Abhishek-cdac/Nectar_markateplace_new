@@ -1129,5 +1129,55 @@ const dummyData = {
       content: "0.032 ETH",
     },
   ],
+  Cryptocurrencyselect: [
+    {
+      id: 0,
+      img: "/assets/images/doller.png",
+      selectcurrency: "Select This Currency",
+      ruppes: "43.88765",
+    },
+    {
+      id: 1,
+      img: "/assets/images/ethereum-1-283135.png",
+      ruppes: "US Dollar",
+      selectcurrency: "Select This Currency",
+    },
+    {
+      id:2,
+      img: "/assets/images/INR.png",
+      ruppes: "INR Indian Rupees",
+      selectcurrency: "Select This Currency",
+    },
+    {
+      id:3,
+      img: "/assets/images/646673.png",
+      ruppes: "British Pounds",
+      selectcurrency: "Select This Currency",
+    },
+    {id:4,
+      img: "/assets/images/2857905-200.png",
+      ruppes: "UAE Dirham",
+      selectcurrency: "Select This Currency",
+    },
+    {
+      id:5,
+      img: "/assets/images/czech-koruna.png",
+      ruppes: "Czech Koruna",
+      selectcurrency: "Select This Currency",
+    },
+    {
+      id:6,
+      img: "/assets/images/32980.png",
+      ruppes: "Saudi Riyal",
+      selectcurrency: "Select This Currency",
+    },
+  ],
+  Currencyselect: [
+    {
+      img: "/assets/images/32980.png",
+      ruppes: "Saudi Riyal",
+      selectcurrency: "change Currency",
+    },
+  ],
 };
 export default dummyData;
