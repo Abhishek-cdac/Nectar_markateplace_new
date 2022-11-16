@@ -6,7 +6,6 @@ function LoginPage() {
   const [data, setData] = useState({
     email: "",
     password: "",
-    radioVal: "",
   });
   const { email, password } = data;
 

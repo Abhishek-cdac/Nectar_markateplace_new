@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import dummyData from "./Dummydata";
+import RadioButton from "../Components/Admin/Radio";
 function Register() {
   const [data, setData] = useState({
     full_name: "",
@@ -23,6 +24,8 @@ function Register() {
     country,
 
     state,
+    partner,
+    Reseller,
   } = data;
 
   const handleChange = (e) => {
@@ -31,11 +34,11 @@ function Register() {
     setData({ ...data, [e.target.name]: value });
   };
 
-  const [value, setValue] = useState(true);
-  const handleToggle = () => {
-    setValue(!value);
-    console.log("togglevalue", value);
-  };
+  // const [value, setValue] = useState(true);
+  // const handleToggle = () => {
+  //   setValue(!value);
+  //   console.log("togglevalue", value);
+  // };
   const onSubmit = () => {
     console.log(data);
   };
@@ -92,15 +95,15 @@ function Register() {
                     <div className="col-lg-3">
                       <h6>Register as</h6>
                     </div>
-                    <div className="col-lg-2">
+                    {/* <div className="col-lg-2">
                       <div class="form-check">
                         <input
                           class="form-check-input"
                           type="radio"
-                          name="flexRadioDefault"
+                          name="partner"
                           id="flexRadioDefault1"
-                          value={value}
-                          onChange={handleToggle}
+                          value={partner}
+                          onChange={(e) => handleChange(e)}
                           required
                         />
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -113,15 +116,35 @@ function Register() {
                         <input
                           class="form-check-input"
                           type="radio"
-                          name="flexRadioDefault"
+                          name="Reseller"
                           id="flexRadioDefault1"
-                          value={value}
-                          onChange={handleToggle}
+                          value={Reseller}
+                          onChange={handleChange}
                         />
                         <label class="form-check-label" for="flexRadioDefault1">
                           Reseller
                         </label>
                       </div>
+                    </div> */}
+
+                    <div class="col-lg-12 UserManRadio">
+                      <p style={{ color: "#474747", marginLeft: "3em" }}>
+                        <b style={{ marginRight: "3em" }}>Log In As</b>
+
+                        {dummyData?.loginRadio.map((item) => {
+                          return (
+                            <RadioButton
+                              type="radio"
+                              value={item.id}
+                              id={item.id}
+                              name="radioVal"
+                              className="UserRadio"
+                              label={item.label}
+                              onChange={(e) => handleChange(e)}
+                            />
+                          );
+                        })}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -270,7 +293,7 @@ function Register() {
                           </button>
                         </div>
                       </div>
-                      {!value && (
+                      {!data && (
                         <div className="row mb-5">
                           <div className="col-lg-8">
                             <div className="icon">
