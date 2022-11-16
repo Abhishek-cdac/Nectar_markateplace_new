@@ -7,16 +7,17 @@ const CongratulationModal = () => {
       {/* <button
         type="button"
         class="btn btn-primary congratulation-modal"
-      
+        data-bs-toggle="modal"
+        data-bs-target="#congratulationeModal"
       >
         modal
       </button> */}
 
       <div
         class="modal fade congratulation-modal"
-        id="exampleModal"
+        id="congratulationeModal"
         tabindex="-1"
-        aria-labelledby="exampleModalLabel"
+        aria-labelledby="congratulationeModal"
         aria-hidden="true"
       >
         <div class="modal-dialog congratulation-modal">
@@ -39,7 +40,7 @@ const CongratulationModal = () => {
             </div>
             <div class="modal-footer">
               <Link to="/nectarcrmtab">
-                <p style={{ color: "black" }}> Go to Home Page</p>
+                <p style={{ color: "black" }} data-bs-dismiss="modal" aria-label="Close"> Go to Home Page</p>
               </Link>
             </div>
           </div>

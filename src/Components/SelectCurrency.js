@@ -5,8 +5,9 @@ import dummyData from "../containers/Dummydata";
 import "./CryptoSend.css";
 import CryptoSend from "./CryptoSend";
 import { useState } from "react";
-import CongratulationModal from "../containers/CongratulationModal";
+
 import CureencyTable from "../containers/CureencyTable";
+import CongratulationModal from "../containers/CongratulationModal"
 
 function SelectCurrency() {
   const [changeCurr, setChangeCurr] = useState(false);
@@ -91,8 +92,7 @@ function SelectCurrency() {
           </div>
         </div>
       </div>
-
-      <CongratulationModal />
+      <CongratulationModal/>
     </div>
   );
 }
