@@ -53,8 +53,6 @@ function CryptoSend() {
                 You are sending ETH to Nectar Infotel Solutions Pvt. Ltd{" "}
                 <hr></hr>
               </p>
-
-           
             </div>
           </div>
         </div>
