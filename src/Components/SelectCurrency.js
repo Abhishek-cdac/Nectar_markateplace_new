@@ -49,7 +49,7 @@ function SelectCurrency() {
                 src="/assets/images/Group 3046.svg"
               ></img>
             </div>
-            <div class="modal-footer d-flex justify-content-center">
+            <div class="modal-footer justify-content-center">
               <p style={{ color: "black" }}>
                 You are sending ETH to Nectar Infotel Solutions Pvt. Ltd{" "}
                 <hr></hr>
@@ -81,7 +81,7 @@ function SelectCurrency() {
               {changeCurr ? <CureencyTable /> : null}
               <button
                 type="button"
-                style={{ marginTop: "70% " }}
+            
                 class="btn btn-primary btn-lg"
                 data-bs-toggle="modal"
                 data-bs-target="#congratulationeModal"

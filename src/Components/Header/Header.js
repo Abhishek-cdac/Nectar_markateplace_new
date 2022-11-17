@@ -23,7 +23,7 @@ function Header() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link become_partner" aria-current="page" href="/becomeApartner">
+                <a class="nav-link become_partner" aria-current="page" href="/partner">
                   Become a Partner/Reseller
                 </a>
               </li>
