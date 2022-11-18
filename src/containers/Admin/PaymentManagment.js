@@ -23,7 +23,7 @@ function PaymentManagment() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h4 className="my-3" style={{ color: "#858585" }}>
+            <h4 className="my-3" style={{ color: "#666666" }}>
               Payment Management
             </h4>
             <hr className="style1" />
@@ -109,6 +109,7 @@ function PaymentManagment() {
                 display: "inherit",
                 marginBottom: "20px",
                 marginTop: "20px",
+                color:"#8C8C8C"
               }}
             >
               <ReactPaginate

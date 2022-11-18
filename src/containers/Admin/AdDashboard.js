@@ -13,7 +13,7 @@ import AdDashTables from "../../containers/Admin/AdDashTables";
 const AdDAshboard = () => {
   return (
     <>
-      <div className="row">
+      <div className="row" style={{backgroundColor:"#EBEBEB"}}>
         {console.log(AdcardData)}
         {AdcardData.map((item) => {
           return (

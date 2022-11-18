@@ -83,16 +83,18 @@ function SelectCurrency() {
                 style={{ marginTop: "70% " }}
                 class="btn btn-primary btn-lg"
                 data-bs-toggle="modal"
-                data-bs-target="#congratulationeModal"
+                data-bs-target="#congratulationModal"
+                
               >
                 Share
               </button>
+              <CongratulationModal />
             </div>
           </div>
         </div>
       </div>
 
-      <CongratulationModal />
+     
     </div>
   );
 }

@@ -13,7 +13,7 @@ const SupportAndOffer = () => {
       <div className="container-fluid">
         <div className="row ">
           <div className="col-lg-12 col-md-4 mt-2 pl-5">
-           <h4 style={{color:"#6F6F6F"}}>
+           <h4 style={{color:"#666666"}}>
            Support And Offer
            </h4>
           </div>
@@ -30,6 +30,7 @@ const SupportAndOffer = () => {
                   role="tab"
                   aria-controls="home"
                   aria-selected="true"
+                  
                 >
                   Create Offer
                 </button>

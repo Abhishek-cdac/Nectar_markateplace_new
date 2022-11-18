@@ -27,6 +27,7 @@ const AdProdMang = () => {
           checkedValue == 1 ? "Registered User" : "Subscribed User"
         }`}</h4>
       </div>
+      
       <div className="row">
         <div class="col col-lg-6 UserManRadio">
           {dummyData?.productManRadio.map((item) => {
@@ -44,6 +45,7 @@ const AdProdMang = () => {
             );
           })}
         </div>
+        <hr />
         {checkedValue == 1 ? (
           <div className="row">
             {dummyData?.ProdCardMAn?.map((item) => {
