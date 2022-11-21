@@ -11,10 +11,10 @@ import dummyData from "../../containers/Dummydata";
 
 export default function Adchart1() {
   return (
-    <section id="AdChart1">
+    <section id="AdChart1" style={{fontSize:"10px"}}>
       <div>
         {" "}
-        <p className="AdPiehead">Sales Analytics</p>
+        <p className="AdPiehead" style={{color:'#666666'}}>Sales Analytics</p>
         <i class="fa fa-square grossSqure" aria-hidden="true">
           Gross Sales
         </i>

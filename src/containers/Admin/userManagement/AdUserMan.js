@@ -22,7 +22,7 @@ const AdUserMan = () => {
 
   return (
     <div className="container">
-      <div class="row ">
+      <div class="row "  style={{color:"#EBEBEB"}}>
         <div class="col text-left adminSecHeading">
           <h4 className="mt-4 mb-4">{`User Management / ${
             checkedValue == 1 ? "Registered User" : "Subscribed User"
@@ -66,7 +66,8 @@ const AdUserMan = () => {
               display: "inherit",
               marginBottom: "20px",
               marginTop: "20px",
-              justifyContent:"end"
+              justifyContent:"end",
+              color:"#8C8C8C"
             }}
           >
             <ReactPaginate
@@ -79,6 +80,7 @@ const AdUserMan = () => {
               nextLinkClassName={"nextBttn"}
               disabledClassName={"paginationDisabled"}
               activeClassName={"paginationActive"}
+            
             />
           </div>
           </>

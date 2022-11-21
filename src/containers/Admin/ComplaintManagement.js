@@ -20,10 +20,10 @@ const ComplaintManagement = () => {
    };
   return (
     <>
-      <div className="container">
-        <div className="row">
+      <div className="container" >
+        <div className="row" >
           <div className="col col-lg-6">
-            <h4 style={{color:"#8C8C8C"}}>Complaint Management</h4>
+            <h4 style={{color:"#666666"}}>Complaint Management</h4>
           </div>
           <div className="col userMenuFilter">
             <Complaintmanagementfilter />
@@ -36,7 +36,7 @@ const ComplaintManagement = () => {
           <div className="table-responsive">
         
           <Tables
-         
+            
             column={DummyData?.ComplaintManagementHeading}
             data={DummyData.ComplaintManagementData .slice(pagesVisited, pagesVisited + usersPerPage)
             }
@@ -49,6 +49,7 @@ const ComplaintManagement = () => {
                   display: "inherit",
                   marginBottom: "20px",
                   marginTop: "20px",
+                  color:"#8C8C8C"
                 }}
               >
                 <ReactPaginate

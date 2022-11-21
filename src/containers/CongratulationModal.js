@@ -6,7 +6,8 @@ const CongratulationModal = () => {
     <>
       {/* <button
         type="button"
-        class="btn btn-primary congratulation-modal"
+        class="btn btn-primary congratulation-modal "
+        data-bs-toggle="modal" data-bs-target="#exampleModal"
       
       >
         modal
