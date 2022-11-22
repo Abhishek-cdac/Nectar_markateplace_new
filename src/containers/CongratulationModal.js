@@ -40,7 +40,7 @@ const CongratulationModal = () => {
             </div>
             <div class="modal-footer">
               <Link to="/nectarcrmtab">
-                <p style={{ color: "black" }} data-bs-dismiss="modal" aria-label="Close"> Go to Home Page</p>
+                <p data-bs-dismiss="modal" aria-label="Close"> Go to Home Page</p>
               </Link>
             </div>
           </div>

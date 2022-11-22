@@ -103,6 +103,7 @@ function Cryptocurrency() {
               <p>send</p>
               <SelectCurrency />
             </div>
+          
 
             <div className="buy-img">
               <img

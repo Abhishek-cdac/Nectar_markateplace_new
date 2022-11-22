@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import dummyData from "./Dummydata";
 import RadioButton from "../Components/Admin/Radio";
+import {useNavigate} from 'react-router-dom'
 function Register() {
+  const navigate = useNavigate();
   const [data, setData] = useState({
     full_name: "",
     pass: "",
@@ -40,7 +42,9 @@ function Register() {
   //   console.log("togglevalue", value);
   // };
   const onSubmit = () => {
+    navigate("/login")
     console.log(data);
+  
   };
 
   return (
@@ -281,6 +285,7 @@ function Register() {
                       <div className="submitbtn">
                         <div className="row">
                           <button
+
                             type="button"
                             onClick={onSubmit}
                             class="btn mt-4 mb-5"
@@ -289,7 +294,7 @@ function Register() {
                               color: "white",
                             }}
                           >
-                            Log In
+                        Register
                           </button>
                         </div>
                       </div>

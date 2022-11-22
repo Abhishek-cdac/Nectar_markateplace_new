@@ -3,7 +3,7 @@ import CryptoHeader from "./CryptoHeader";
 import dummyData from "../containers/Dummydata";
 
 import "./CryptoSend.css";
-import SelectCurrency from "./SelectCurrency";
+
 
 function CryptoSend() {
   return (

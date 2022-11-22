@@ -31,7 +31,7 @@ function SelectCurrency() {
               <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
 
               <h5>Send to</h5>
-              <p style={{ color: "#08668F", fontSize: "15px" }}>Cancel</p>
+              <p style={{ color: "#08668F", fontSize: "15px" } } data-bs-dismiss="modal" aria-label="Close">Cancel</p>
             </div>
             <div class="modal-body">
               <img
