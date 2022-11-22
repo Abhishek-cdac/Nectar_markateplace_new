@@ -21,7 +21,7 @@ const OfferType = () => {
           <div className="col-lg-6 mt-3">
             <div className="row">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-2">
+                <label htmlFor="offer" className="mt-2" style={{color:"#666666"}}>
                   Offer Type:{" "}
                 </label>
               </div>
@@ -30,7 +30,8 @@ const OfferType = () => {
                   <select
                     id="disabledSelect"
                     class="form-select"
-                    style={{ width: "100%" }}
+                    style={{ width: "100%",color:"#666666" }}
+                  
                   >
                     <option>Promocode</option>
                     <option>Nectar HRMS</option>
@@ -44,7 +45,7 @@ const OfferType = () => {
             </div>
             <div className="row">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-2">
+                <label htmlFor="offer" className="mt-2" style={{color:"#666666"}}>
                   Offer Validation:{" "}
                 </label>
               </div>
@@ -53,7 +54,7 @@ const OfferType = () => {
                   <select
                     id="disabledSelect"
                     class="form-select"
-                    style={{ width: "100%" }}
+                    style={{ width: "100%" ,color:"#666666" }}
                   >
                     <option>3 Months</option>
                     <option>Nectar HRMS</option>
@@ -67,7 +68,7 @@ const OfferType = () => {
             </div>
             <div className="row">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-2">
+                <label htmlFor="offer" className="mt-2" style={{color:"#666666"}}>
                   Product Offer:{" "}
                 </label>
               </div>
@@ -76,7 +77,7 @@ const OfferType = () => {
                   <select
                     id="disabledSelect"
                     class="form-select"
-                    style={{ width: "100%" }}
+                    style={{ width: "100%" ,color:"#666666" }}
                   >
                     <option>Nectar HRMS</option>
                     <option>Nectar HRMS</option>
@@ -90,7 +91,7 @@ const OfferType = () => {
             </div>
             <div className="row">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-2">
+                <label htmlFor="offer" className="mt-2" style={{color:"#666666"}}>
                   Price Offer:{" "}
                 </label>
               </div>
@@ -128,7 +129,7 @@ const OfferType = () => {
           <div className="col-lg-6 mt-3">
           <div className="row">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-2">
+                <label htmlFor="offer" className="mt-2" style={{color:"#666666"}}>
                   Offer Type:{" "}
                 </label>
               </div>
@@ -137,7 +138,7 @@ const OfferType = () => {
                   <select
                     id="disabledSelect"
                     class="form-select"
-                    style={{ width: "100%" }}
+                    style={{ width: "100%" ,color:"#666666"}}
                   >
                     <option>Promocode</option>
                     <option>Nectar HRMS</option>
@@ -151,7 +152,7 @@ const OfferType = () => {
             </div> 
             <div className="row">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-2">
+                <label htmlFor="offer" className="mt-2" style={{color:"#666666"}}>
                   Offer Valid Date:{" "}
                 </label>
               </div>
@@ -166,6 +167,7 @@ const OfferType = () => {
                       background: "#fff",
                       border: "1px solid lightgray",
                       borderRadius: "5px",
+                      color:"#666666"
                     }}
                   />
                   <span>Up to</span>
@@ -179,6 +181,7 @@ const OfferType = () => {
                         background: "#fff",
                         border: "1px solid lightgray",
                         borderRadius: "5px",
+                        color:"#666666"
                       }}
                     />
                   </span>
@@ -187,7 +190,7 @@ const OfferType = () => {
             </div>
             <div className="row">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-2">
+                <label htmlFor="offer" className="mt-2" style={{color:"#666666"}}>
                   Partner's Product:{" "}
                 </label>
               </div>
@@ -196,7 +199,7 @@ const OfferType = () => {
                   <select
                     id="disabledSelect"
                     class="form-select "
-                    style={{ width: "100%" }}
+                    style={{ width: "100%" ,color:"#666666"}}
                   >
                     <option>Wipro Bug Tracker</option>
                     <option>Nectar HRMS</option>
@@ -211,11 +214,11 @@ const OfferType = () => {
             </div>
             <div className="row">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-2">
+                <label htmlFor="offer" className="mt-2" style={{color:"#666666"}}>
                   Schedule Offer:{" "}
                 </label>
               </div>
-              <div className="col-lg-9">
+              <div className="col-lg-9" >
                 <div class="mb-4">
                   <input
                     type="date"
@@ -228,6 +231,7 @@ const OfferType = () => {
                       border: "1px solid lightgray",
                       borderRadius: "5px",
                       width: "100%",
+                      color:"#666666"
                     }}
                   />
                 </div>

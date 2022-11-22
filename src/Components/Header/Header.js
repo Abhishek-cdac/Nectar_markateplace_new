@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 function Header() {
-  const navigate =useNavigate()
+  const navigate = useNavigate();
   return (
     <div className="top_header">
       <nav class="navbar navbar-expand-lg bg-light">
@@ -45,7 +45,11 @@ function Header() {
                 </a>
               </li>
               <li class="nav-item nav_register">
-                <button class="btn-register" href="/register" onClick={()=>navigate("/register")} >
+                <button
+                  class="btn-register"
+                  href="/register"
+                  onClick={() => navigate("/register")}
+                >
                   Register
                 </button>
               </li>

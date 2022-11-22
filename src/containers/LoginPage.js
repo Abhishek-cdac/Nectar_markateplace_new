@@ -31,7 +31,6 @@ function LoginPage() {
         password: password,
       })
       .then((result) => {
-      
         console.log(result.data.users[0].loginstatus);
         if (result.data.users[0].loginstatus == "successful") {
           showAlert("Logged in.", "success");
@@ -259,10 +258,8 @@ function LoginPage() {
                     ) : (
                       " "
                     )}
-                 
                   </div>
                 </div>
-             
               </div>
             </div>
           </div>

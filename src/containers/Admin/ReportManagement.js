@@ -6,7 +6,7 @@ const ReportManagement = () => {
       <div className="container">
         <div className="row"  style={{color:"#838383"}}>
           <div className="col col-lg-6">
-            <h4 className="mt-4 mb-4">Report Management</h4>
+            <h4 className="mt-4 mb-4" style={{color:"#666666"}}>Report Management</h4>
           </div>
           <div>
             <hr />
@@ -14,7 +14,7 @@ const ReportManagement = () => {
           <div className="col-lg-6 ">
             <div className="row m-4">
               <div className="col-lg-3">
-                <label htmlFor="offer">Type: </label>
+                <label htmlFor="offer" style={{color:"#666666"}}>Type: </label>
               </div>
               <div className="col-lg-9">
                 <div class="mb-3">
@@ -34,7 +34,7 @@ const ReportManagement = () => {
 
             <div className="row m-4">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-2">
+                <label htmlFor="offer" className="mt-2" style={{color:"#666666"}}>
                   Start Date:{" "}
                 </label>
               </div>
@@ -59,7 +59,7 @@ const ReportManagement = () => {
             </div>
             <div className="row m-4">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-2">
+                <label htmlFor="offer" className="mt-2" style={{color:"#666666"}}>
                   Region:{" "}
                 </label>
               </div>
@@ -82,7 +82,7 @@ const ReportManagement = () => {
             </div>
             <div className="row m-4">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-2">
+                <label htmlFor="offer" className="mt-2" style={{color:"#666666"}}>
                   Product:{" "}
                 </label>
               </div>
@@ -107,7 +107,7 @@ const ReportManagement = () => {
           <div className="col-lg-6">
             <div className="row m-4">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-2">
+                <label htmlFor="offer" className="mt-2" style={{color:"#666666"}}>
                   Report Name:{" "}
                 </label>
               </div>
@@ -132,7 +132,7 @@ const ReportManagement = () => {
 
             <div className="row m-4">
               <div className="col-lg-3">
-                <label htmlFor="offer" className="mt-1">
+                <label htmlFor="offer" className="mt-1" style={{color:"#666666"}}>
                   End Date:{" "}
                 </label>
               </div>

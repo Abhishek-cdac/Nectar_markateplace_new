@@ -90,6 +90,7 @@ const SupportTable = () => {
               display: "inherit",
               marginBottom: "20px",
               marginTop: "20px",
+              color:"#8C8C8C"
             }}
           >
             <ReactPaginate
