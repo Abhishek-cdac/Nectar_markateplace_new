@@ -3,7 +3,7 @@ import CryptoHeader from "./CryptoHeader";
 import dummyData from "../containers/Dummydata";
 
 import "./CryptoSend.css";
-import SelectCurrency from "./SelectCurrency";
+
 
 function CryptoSend() {
   return (
@@ -53,8 +53,6 @@ function CryptoSend() {
                 You are sending ETH to Nectar Infotel Solutions Pvt. Ltd{" "}
                 <hr></hr>
               </p>
-
-           
             </div>
           </div>
         </div>

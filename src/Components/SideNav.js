@@ -18,7 +18,7 @@ function SideNav({ Tabs }) {
 
   return (
     <>
-      <div 
+      <div
         className={
           toggle == true
             ? "sb-nav-fixed bg-light sb-sidenav-toggled"

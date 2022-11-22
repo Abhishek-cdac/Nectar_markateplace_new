@@ -9,7 +9,7 @@ body {
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #efefef;
+  /* background-color: #efefef; */
 }
 
 h1 {
@@ -82,7 +82,8 @@ h6.card-title {
 .btn-register {
   background-color: rgb(241, 103, 40);
   color: white;
-  border-radius: 3px;
+  /* border-radius: 0px; */
+  height: 33px;
   border: none;
 }
 
@@ -325,6 +326,7 @@ p .small_card {
   border: none;
   border-radius: 10px;
   margin-top: 2%;
+  width: 174px;
 }
 
 .form-testimonal {
@@ -1022,11 +1024,13 @@ p .product-banner-content {
 }
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .icon-toggled {
   font-size: xx-large;
+  height: 25px;
 }
 
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .icon {
   font-size: smaller;
   margin-right: 20px;
+  height: 25px;
 }
 
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .sb-nav-link-icon {
@@ -1669,7 +1673,6 @@ h3,
 p {
   color: #474747;
 } */
-
 
 .ProdPricingCardLabel {
   display: block;

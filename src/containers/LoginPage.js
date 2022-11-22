@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 import dummyData from "./Dummydata";
 import RadioButton from "../Components/Admin/Radio";
+import { showAlert } from "./ShowAlter";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
+import { Link, useNavigate } from "react-router-dom";
 
 function LoginPage() {
   const [data, setData] = useState({
-    email: "",
+    username: "",
     password: "",
   });
-  const { email, password } = data;
+  const { username, password } = data;
 
   const haandleChange = (e) => {
     const value =
@@ -16,8 +21,28 @@ function LoginPage() {
     setData({ ...data, [e.target.name]: value });
   };
 
+  const navigate = useNavigate();
   const login = () => {
     console.log(data);
+
+    axios
+      .post("http://hrmsuat.nectarinfotel.com/hrms/api/usersapi.php", {
+        username: username,
+        password: password,
+      })
+      .then((result) => {
+        console.log(result.data.users[0].loginstatus);
+        if (result.data.users[0].loginstatus == "successful") {
+          showAlert("Logged in.", "success");
+          navigate("/getproduct");
+        } else {
+          showAlert("You have enter invalid email or password .", "error");
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+        showAlert("Please enter valid credentials.", "error");
+      });
   };
 
   return (
@@ -116,8 +141,8 @@ function LoginPage() {
                       <input
                         placeholder="Enter Email ID"
                         type="text"
-                        name="email"
-                        value={email}
+                        name="username"
+                        value={username}
                         onChange={haandleChange}
                       />
 
@@ -210,9 +235,10 @@ function LoginPage() {
                         >
                           Log In
                         </button>
+                        <ToastContainer />
                       </div>
                     </div>
-                    {data.radioVal == 1 ? (
+                    {data.radioVal == 2 ? (
                       <div className="row mb-5">
                         <div className="col-lg-8">
                           <div className="icon">

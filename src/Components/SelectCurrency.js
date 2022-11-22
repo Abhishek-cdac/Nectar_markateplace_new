@@ -5,8 +5,9 @@ import dummyData from "../containers/Dummydata";
 import "./CryptoSend.css";
 import CryptoSend from "./CryptoSend";
 import { useState } from "react";
-import CongratulationModal from "../containers/CongratulationModal";
+
 import CureencyTable from "../containers/CureencyTable";
+import CongratulationModal from "../containers/CongratulationModal"
 
 function SelectCurrency() {
   const [changeCurr, setChangeCurr] = useState(false);
@@ -30,7 +31,7 @@ function SelectCurrency() {
               <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
 
               <h5>Send to</h5>
-              <p style={{ color: "#08668F", fontSize: "15px" }}>Cancel</p>
+              <p style={{ color: "#08668F", fontSize: "15px" } } data-bs-dismiss="modal" aria-label="Close">Cancel</p>
             </div>
             <div class="modal-body">
               <img
@@ -48,7 +49,7 @@ function SelectCurrency() {
                 src="/assets/images/Group 3046.svg"
               ></img>
             </div>
-            <div class="modal-footer d-flex justify-content-center">
+            <div class="modal-footer justify-content-center">
               <p style={{ color: "black" }}>
                 You are sending ETH to Nectar Infotel Solutions Pvt. Ltd{" "}
                 <hr></hr>
@@ -80,21 +81,18 @@ function SelectCurrency() {
               {changeCurr ? <CureencyTable /> : null}
               <button
                 type="button"
-                style={{ marginTop: "70% " }}
+            
                 class="btn btn-primary btn-lg"
                 data-bs-toggle="modal"
-                data-bs-target="#congratulationModal"
-                
+                data-bs-target="#congratulationeModal"
               >
                 Share
               </button>
-              <CongratulationModal />
             </div>
           </div>
         </div>
       </div>
-
-     
+      <CongratulationModal/>
     </div>
   );
 }
