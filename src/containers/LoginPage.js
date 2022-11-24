@@ -34,7 +34,9 @@ function LoginPage() {
         console.log(result.data.users[0].loginstatus);
         if (result.data.users[0].loginstatus == "successful") {
           showAlert("Logged in.", "success");
-          navigate("/getproduct");
+          setTimeout(() => {
+            navigate("/nectarcrmtab");
+          }, "3000");
         } else {
           showAlert("You have enter invalid email or password .", "error");
         }
