@@ -66,13 +66,12 @@
   .carousel-control-prev /*, .carousel-indicators */ {
   filter: invert(100%);
 }
-.content-eth{
+.content-eth {
   display: inline-block;
   /* margin-top: -2px; */
   margin-left: 2%;
   margin-top: 3%;
 }
-
 
 @media only screen and (max-width: 600px) {
   .metamask-header button {

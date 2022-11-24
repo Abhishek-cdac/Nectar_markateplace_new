@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./congratulation.css";
 const CongratulationModal = () => {
+  const navigate = useNavigate();
   return (
     <>
       {/* <button
@@ -24,13 +25,14 @@ const CongratulationModal = () => {
           <div class="modal-content">
             <div class="modal-header">
               <img
-                src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-                className="rounded mx-auto d-block"
+                src="/assets/images/Group 3042.png"
+                style={{ height: "80px" }}
+                class="congratulation-modal rounded mx-auto d-block"
                 height={"50px"}
                 alt=""
               />
             </div>
-            <div class="modal-body">
+            <div class="modal-body" style={{ color: "black" }}>
               <p className="text-center">Congratulations!</p>
               <p className="text-center">
                 {" "}
@@ -39,9 +41,15 @@ const CongratulationModal = () => {
               </p>
             </div>
             <div class="modal-footer">
-              <Link to="/nectarcrmtab">
-                <p data-bs-dismiss="modal" aria-label="Close"> Go to Home Page</p>
-              </Link>
+              <p
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                style={{ color: "black", marginTop: "-17px" }}
+                onClick={() => navigate("/nectarcrmtab")}
+              >
+                {" "}
+                Go to Home Page
+              </p>
             </div>
           </div>
         </div>
