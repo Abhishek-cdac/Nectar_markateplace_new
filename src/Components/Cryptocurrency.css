@@ -45,12 +45,12 @@
 }
 .cripto-img img.rounded.mx-auto.d-block {
   display: inline-block !important;
-  margin: 0px 30px !important;
+  /* margin: 0px 30px !important; */
 }
 
 .buy-img {
   display: inline-block;
-  color: #08668f;
+  color: #4c4e4e;
 }
 .assest h1 {
   border-bottom: 1px solid #979494;
