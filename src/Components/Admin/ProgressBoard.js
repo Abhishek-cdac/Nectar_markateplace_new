@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import dummyData from "../../containers/Dummydata";
 
 function ProgressBoard() {
-  const navigate = useNavigate();
   return (
     <div class="container progresboard">
       <div class="row ">

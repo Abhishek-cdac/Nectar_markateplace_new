@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./congratulation.css";
-import { useNavigate } from "react-router-dom";
+ 
 const CongratulationModal = () => {
   const navigate = useNavigate();
   return (
@@ -32,7 +32,7 @@ const CongratulationModal = () => {
                 alt=""
               />
             </div>
-            <div class="modal-body">
+            <div class="modal-body" style={{ color: "black" }}>
               <p className="text-center">Congratulations!</p>
               <p className="text-center">
                 {" "}

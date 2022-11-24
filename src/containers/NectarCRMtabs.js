@@ -7,15 +7,13 @@ import CRM from "../Components/CRM";
 import ProductsFooter from "../Components/productsFooter";
 import Header2 from "../Components/Header/Header2";
 
-
-
-
-const NectarCRMtabs = () => {
+const NectarCRMtabs = ( ) => {
   return (
     <>
       {/* <div className="container"> */}
       <div className="row ">
         <Header2 />
+
         <CRM
           title="Nectar CRM"
           subtext1="The easy to use and customizable CRM for your Marketing, Sales,
@@ -124,11 +122,9 @@ const NectarCRMtabs = () => {
             <NectarCRMpricesubs />
           </div>
         </div>
-
       </div>
       <ProductsFooter />
       {/* </div> */}
-
     </>
   );
 };

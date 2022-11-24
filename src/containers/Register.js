@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import dummyData from "./Dummydata";
 import RadioButton from "../Components/Admin/Radio";
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 function Register() {
   const navigate = useNavigate();
   const [data, setData] = useState({
@@ -36,15 +37,31 @@ function Register() {
     setData({ ...data, [e.target.name]: value });
   };
 
-  // const [value, setValue] = useState(true);
-  // const handleToggle = () => {
-  //   setValue(!value);
-  //   console.log("togglevalue", value);
-  // };
-  const onSubmit = () => {
-    navigate("/login")
-    console.log(data);
-  
+  const onSubmit = async (e) => {
+    console.log(data)
+    e.preventDefault();
+    if (pass !== repass) {
+      console.log("Passwords do not match");
+    } else {
+      // console.log(formData);
+      const newUser = {
+        full_name,
+        email,
+        pass
+      };
+      try {
+        const config = {
+          headers: {
+            "Content-Type": "application/json",
+          },
+        };
+        const body = JSON.stringify(newUser);
+        const res = await axios.post("/api/users", body, config);
+        console.log(res.data);
+      } catch (err) {
+        console.error(err.response.data);
+      }
+    }
   };
 
   return (
@@ -285,7 +302,6 @@ function Register() {
                       <div className="submitbtn">
                         <div className="row">
                           <button
-
                             type="button"
                             onClick={onSubmit}
                             class="btn mt-4 mb-5"
@@ -294,7 +310,7 @@ function Register() {
                               color: "white",
                             }}
                           >
-                        Register
+                            Register
                           </button>
                         </div>
                       </div>
