@@ -28,7 +28,7 @@ const CongratulationModal = () => {
               <img
                 src="/assets/images/Group 3047.png"
                 className="rounded mx-auto d-block"
-                height={"50px"}
+                height={"80px"}
                 alt=""
               />
             </div>
@@ -44,7 +44,7 @@ const CongratulationModal = () => {
               {/* <Link to="/nectarcrmtab">
                 <p data-bs-dismiss="modal" aria-label="Close"> Go to Home Page</p>
               </Link> */}
-               <p  onClick={() => navigate("/nectarcrmtab")}>Go to Home page</p>
+               <p  onClick={() => navigate("/nectarcrmtab")} style={{marginTop:"-11px"}}>Go to Home page</p>
              
                   
                 
