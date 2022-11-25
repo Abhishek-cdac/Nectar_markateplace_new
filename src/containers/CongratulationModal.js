@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./congratulation.css";
+ 
 const CongratulationModal = () => {
   const navigate = useNavigate();
   return (
@@ -25,9 +26,8 @@ const CongratulationModal = () => {
           <div class="modal-content">
             <div class="modal-header">
               <img
-                src="/assets/images/Group 3042.png"
-                style={{ height: "80px" }}
-                class="congratulation-modal rounded mx-auto d-block"
+                src="/assets/images/Group 3047.png"
+                className="rounded mx-auto d-block"
                 height={"50px"}
                 alt=""
               />
@@ -41,15 +41,14 @@ const CongratulationModal = () => {
               </p>
             </div>
             <div class="modal-footer">
-              <p
-                data-bs-dismiss="modal"
-                aria-label="Close"
-                style={{ color: "black", marginTop: "-17px" }}
-                onClick={() => navigate("/nectarcrmtab")}
-              >
-                {" "}
-                Go to Home Page
-              </p>
+              {/* <Link to="/nectarcrmtab">
+                <p data-bs-dismiss="modal" aria-label="Close"> Go to Home Page</p>
+              </Link> */}
+               <p  onClick={() => navigate("/nectarcrmtab")}>Go to Home page</p>
+             
+                  
+                
+              
             </div>
           </div>
         </div>
