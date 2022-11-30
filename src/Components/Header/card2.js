@@ -6,6 +6,7 @@ function Card2() {
   const navigate = useNavigate();
 
   return (
+    <div className="carde">
     <div className="row" style={{ justifyContent: "center" }}>
       {dummyData &&
         dummyData.CardData.map((data) => (
@@ -41,6 +42,7 @@ function Card2() {
             </div>
           </div>
         ))}
+    </div>
     </div>
   );
 }
