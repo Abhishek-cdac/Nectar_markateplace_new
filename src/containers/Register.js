@@ -38,7 +38,7 @@ function Register() {
   };
 
   const onSubmit = async (e) => {
-    console.log(data)
+    console.log(data);
     e.preventDefault();
     if (pass !== repass) {
       console.log("Passwords do not match");
@@ -47,7 +47,7 @@ function Register() {
       const newUser = {
         full_name,
         email,
-        pass
+        pass,
       };
       try {
         const config = {
@@ -189,7 +189,7 @@ function Register() {
                           onChange={handleChange}
                         />
                         <input
-                          style={{ width: "39%" }}
+                          style={{ width: "90%" }}
                           className="mt-3"
                           placeholder="Password"
                           type="password"
@@ -199,7 +199,7 @@ function Register() {
                         />
                         &nbsp;&nbsp;&nbsp;
                         <input
-                          style={{ width: "39%" }}
+                          style={{ width: "90%" }}
                           className="mt-3"
                           placeholder="Re-Enter Your Password"
                           type="password"
@@ -219,7 +219,7 @@ function Register() {
                         />
                         &nbsp;&nbsp;&nbsp;
                         <input
-                          style={{ width: "68%" }}
+                          style={{ width: "77%" }}
                           className="mt-3"
                           placeholder="Enter Your Mobile Number"
                           type="number"
@@ -238,7 +238,7 @@ function Register() {
                         />
                         &nbsp;&nbsp;&nbsp;
                         <input
-                          style={{ width: "39%" }}
+                          style={{ width: "48%" }}
                           className="mt-3"
                           placeholder="Enter State"
                           type="text"
@@ -254,7 +254,7 @@ function Register() {
                           value={organization}
                           onChange={handleChange}
                         />
-                        <p className="mt-5">
+                        <p style={{ fontSize: "13px" }}>
                           Lorem Ipsum, sometimes referred to as 'lipsum', is the
                           placeholder text used in design when creating content.
                           It helps designers plan out where the content will
@@ -270,7 +270,11 @@ function Register() {
                           checked={state.isChecked}
                           onChange={handleChange}
                         />
-                        <label class="form-check-label" for="check2">
+                        <label
+                          class="form-check-label"
+                          for="check2"
+                          style={{ marginTop: "-6px" }}
+                        >
                           I agree to the{" "}
                           <span>
                             <a
@@ -304,10 +308,14 @@ function Register() {
                           <button
                             type="button"
                             onClick={onSubmit}
-                            class="btn mt-4 mb-5"
                             style={{
                               backgroundColor: "#F16728",
                               color: "white",
+                              width: "50%",
+                              marginLeft: "19%",
+                              border: "none",
+                              borderRadius: "8px",
+                              height: "37px",
                             }}
                           >
                             Register

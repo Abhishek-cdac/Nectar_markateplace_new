@@ -137,13 +137,9 @@ function LoginPage() {
                   </p>
                 </div>
 
-                <div className="row">
+              <div className="row">
                   <div className="signinform1">
                     <div className="login mt-4">
-                    <div class="invalid-feedback">
-                        Please provide a valid zip.
-                      </div>
-
                       <input
                         placeholder="Enter Email ID"
                         type="text"
@@ -151,7 +147,7 @@ function LoginPage() {
                         value={username}
                         onChange={haandleChange}
                       />
-                   
+
                       <input
                         className="mt-2"
                         placeholder="Enter Password"
@@ -237,6 +233,8 @@ function LoginPage() {
                           style={{
                             backgroundColor: "#F16728",
                             color: "white",
+                            width:"50%", 
+                            marginLeft:"19%"
                           }}
                         >
                           Log In
