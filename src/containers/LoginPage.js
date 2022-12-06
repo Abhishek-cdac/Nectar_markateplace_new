@@ -49,6 +49,7 @@ function LoginPage() {
 
   return (
     <>
+    
       <section id="loginbg">
         <div className="container">
           <div className="row">
@@ -138,7 +139,7 @@ function LoginPage() {
                   </p>
                 </div>
 
-                <div className="row">
+              <div className="row">
                   <div className="signinform1">
                     <div className="login mt-4" style={{fontSize:'small'}}>
                       <input
@@ -148,7 +149,7 @@ function LoginPage() {
                         value={username}
                         onChange={haandleChange}
                       />
-                   
+
                       <input
                         className="mt-3"
                         placeholder="Password"

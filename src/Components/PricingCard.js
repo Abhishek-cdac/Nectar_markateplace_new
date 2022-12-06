@@ -9,10 +9,12 @@ import SupportTable from "../containers/SupportTable";
 function PricingCard() {
   const [value, setValue] = useState(false);
 
+
   const handleToggle = () => {
     setValue(!value);
     console.log("togglevalue", value);
   };
+ 
   const navigate = useNavigate();
 
   return (
@@ -34,14 +36,13 @@ function PricingCard() {
                           checked={value}
                           onChange={handleToggle}
                           className="react-switch-checkbox"
-                          id={`react-switch-new`}
+                           id={`react-switch-new`}
                           type="checkbox"
                         />
                         <label
                           className="react-switch-label"
-                          htmlFor={`react-switch-new`}
+                           htmlFor={`react-switch-new`}
                         >
-                          {" "}
                           <div className="toggleLabel">
                             <h6>Monthly</h6>
                           </div>
