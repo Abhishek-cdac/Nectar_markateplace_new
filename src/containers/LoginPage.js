@@ -49,6 +49,7 @@ function LoginPage() {
 
   return (
     <>
+    
       <section id="loginbg">
         <div className="container">
           <div className="row">

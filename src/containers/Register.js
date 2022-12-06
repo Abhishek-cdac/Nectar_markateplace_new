@@ -74,7 +74,7 @@ function Register() {
                 className="registrationleftsection"
                 style={{ marginLeft: "10px" }}
               >
-                <h1>Welcome to Nectar Marketplace</h1>
+                <h1>Welcome to <br></br> Nectar Marketplace</h1>
                 <p>
                   Nectar Infotel Solution Pvt. Ltd. is a leading International
                   IT organization offering end-to-end Telecommunication OSS/BSS
@@ -92,19 +92,19 @@ function Register() {
                   <div className="col-lg-5 mt-3">
                     <img className="header_logo" src="assets/images/logo.png" />
                     <a
-                      class="navbar-brand"
+                      class="navbar-brand marketplace"
                       href="#"
                       style={{
                         fontWeight: "bold",
-                        color: "black",
+                        color: "#474747",
                         fontSize: "large",
-                        borderLeft: "2px solid black",
+                        borderLeft: "2px solid rgb(145 141 141)",
                       }}
                     >
                       &nbsp;&nbsp;Marketplace
                     </a>
                   </div>
-                  <div className="col-lg-7 mt-3">
+                  <div className="col-lg-7 mt-3 account-text">
                     Already Have an Account?
                     <a class="nav-link" href="/login">
                       Sign In
@@ -112,45 +112,12 @@ function Register() {
                   </div>
                 </div>
                 <div className="signinform1">
-                  <div className="row mt-5">
-                    <div className="col-lg-3">
-                      <h6>Register as</h6>
-                    </div>
-                    {/* <div className="col-lg-2">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="partner"
-                          id="flexRadioDefault1"
-                          value={partner}
-                          onChange={(e) => handleChange(e)}
-                          required
-                        />
-                        <label class="form-check-label" for="flexRadioDefault1">
-                          Partner
-                        </label>
-                      </div>
-                    </div>
-                    <div className="col-lg-2">
-                      <div class="form-check">
-                        <input
-                          class="form-check-input"
-                          type="radio"
-                          name="Reseller"
-                          id="flexRadioDefault1"
-                          value={Reseller}
-                          onChange={handleChange}
-                        />
-                        <label class="form-check-label" for="flexRadioDefault1">
-                          Reseller
-                        </label>
-                      </div>
-                    </div> */}
+                  <div className="row mt-3">
+                    <div className="col-lg-3"></div>
 
                     <div class="col-lg-12 UserManRadio">
-                      <p style={{ color: "#474747", marginLeft: "3em" }}>
-                        <b style={{ marginRight: "3em" }}>Log In As</b>
+                      <p style={{ color: "#474747",}}>
+                        <b style={{ marginRight: "2em" }}>Register as</b>
 
                         {dummyData?.loginRadio.map((item) => {
                           return (
@@ -172,7 +139,7 @@ function Register() {
                 <div className="row">
                   <div className="col-lg-12">
                     <div className="registrationform1">
-                      <div className="login mt-4">
+                      <div className="login ">
                         <input
                           placeholder="Enter Full Name"
                           type="text"
@@ -271,7 +238,7 @@ function Register() {
                           onChange={handleChange}
                         />
                         <label
-                          class="form-check-label"
+                          class="form-check-label mx-2"
                           for="check2"
                           style={{ marginTop: "-6px" }}
                         >
@@ -311,7 +278,7 @@ function Register() {
                             style={{
                               backgroundColor: "#F16728",
                               color: "white",
-                              width: "50%",
+                              width: "70%",
                               marginLeft: "19%",
                               border: "none",
                               borderRadius: "8px",

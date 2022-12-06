@@ -385,7 +385,6 @@ p .small_card {
   transform: translateX(-100%);
 }
 
-
 .react-switch-label:active .react-switch-button {
   width: 60px;
 }
@@ -554,11 +553,6 @@ p .small_card {
   border-color: gray;
   background-color: #fff !important;
   width: 90%;
-  text-align: left;
-font: normal normal normal 14px/30px Lato;
-letter-spacing: 0px;
-color: #000000;
-opacity: 0.66;
 }
 
 .forgotpassword {
@@ -578,10 +572,10 @@ opacity: 0.66;
   font-family: sans-serif;
   margin-right: 2em;
 }
-/* .submitbtn {
+.submitbtn {
   padding-left: 136px;
   padding-right: 136px;
-} */
+}
 
 .icon {
   text-align: center;
@@ -595,7 +589,7 @@ opacity: 0.66;
 .registrationleftsection {
   background: url(/public/assets/images/loginleftimage.png);
   margin-right: -29px;
-  height: 735px;
+  height: 560px;
 }
 
 .registrationleftsection h1 {
@@ -614,7 +608,7 @@ opacity: 0.66;
 
 .registrationrightsection {
   background-color: #ffffff;
-  height: 735px;
+  height: 560px;
   margin-top: 110px;
   margin-bottom: 110px;
 }
@@ -624,6 +618,13 @@ opacity: 0.66;
   display: inline-block;
 }
 
+.account-text {
+  font-size: 13px;
+  margin-left: 0px;
+  line-height: 22px;
+  position: relative;
+  left: 73px;
+}
 /*Nectar CRM review Rating pattern*/
 
 .labelhead {
@@ -1803,7 +1804,6 @@ p {
   border-radius: 10px;
 }
 
-
 element.style {
   justify-content: center;
 }
@@ -1813,8 +1813,8 @@ element.style {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
- margin-right: calc(.1 * var(--bs-gutter-x)); 
-  margin-left: calc(-.5 * var(--bs-gutter-x));
+  margin-right: calc(0.1 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 /* login */
 .login input {
@@ -1824,6 +1824,15 @@ element.style {
   background-color: #fff !important;
   width: 90%;
   font-size: 12px;
+  text-align: left;
+  font: normal normal normal 14px/28px Lato;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.25;
+}
+.marketplace{
+  
+  font: normal normal 600 19px/23px Raleway;
 }
 .form-check .form-check-input {
   float: left;
@@ -1831,6 +1840,17 @@ element.style {
   width: 16px;
   margin-left: -1.5em;
 }
-.form-check-input[type=checkbox] {
-  border-radius: none
+.form-check-input[type="checkbox"] {
+  border-radius: none;
 }
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+@media (min-width: 1400px)
+{
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1241px;
+}
+}
+
