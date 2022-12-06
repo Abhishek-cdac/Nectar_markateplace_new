@@ -59,6 +59,7 @@ function LoginPage() {
                   <center>
                     <h1 className="col-lg-8">Welcome to Nectar Marketplace</h1>
                   </center>
+                  <br />
                   {/* <h1 className="col-lg-4">Nectar Marketplace</h1> */}
                   <p>
                     Nectar Infotel Solution Pvt. Ltd. is a leading International
@@ -90,7 +91,7 @@ function LoginPage() {
                       &nbsp;&nbsp;Marketplace
                     </a>
                   </div>
-                  <div className="col-lg-7 mt-3 loginNew">
+                  <div className="col-lg-7 mt-3 loginNew" style={{fontSize:'small'}}>
                     New to The Product ?
                     <span>
                       <a class="nav-link" href="/register">
@@ -108,7 +109,7 @@ function LoginPage() {
                       style={{
                         color: "grey",
                         fontFamily: "sans-serif",
-                        fontSize: "medium",
+                        fontSize: "small",
                       }}
                     >
                       To access{" "}
@@ -140,7 +141,7 @@ function LoginPage() {
 
               <div className="row">
                   <div className="signinform1">
-                    <div className="login mt-4">
+                    <div className="login mt-4" style={{fontSize:'small'}}>
                       <input
                         placeholder="Enter Email ID"
                         type="text"
@@ -150,15 +151,15 @@ function LoginPage() {
                       />
 
                       <input
-                        className="mt-2"
-                        placeholder="Enter Password"
+                        className="mt-3"
+                        placeholder="Password"
                         type="password"
                         name="password"
                         value={password}
                         onChange={haandleChange}
                       />
                       <div className="forgotpassword mt-2">
-                        <p style={{ textAlign: "right" }}>
+                        <p style={{ textAlign: "right" ,fontSize:'small' }}>
                           Forgot Password?
                           <span>
                             <a class="nav-link" href="/forgetpassword">
@@ -168,7 +169,7 @@ function LoginPage() {
                         </p>
                       </div>
                     </div>
-                    <p className="mt-2 loginText">
+                    <p className="mt-2 loginText" style={{fontSize:'small'}}>
                       Lorem Ipsum, sometimes referred to as 'lipsum', is the
                       placeholder text used in design when creating content. It
                       helps designers plan out where the content will sit.
@@ -181,13 +182,13 @@ function LoginPage() {
                         name="leaves"
                         checked={data.isChecked}
                         onChange={haandleChange}
-                        style={{ fontSize: "initial", marginTop: "0.4em" }}
+                        style={{ fontSize: "initial" }}
                       />
                       <label
                         class="form-check-label"
                         for="check2"
                         style={{
-                          fontSize: "medium",
+                          fontSize: "small",
                           color: "#333333",
                           fontFamily: "sans-serif",
                         }}
@@ -200,7 +201,7 @@ function LoginPage() {
                             style={{
                               color: "#333333",
                               textDecoration: "underline",
-                              fontSize: "medium",
+                              fontSize: "small",
                               // color:"grey",
                               fontFamily: "sans-serif",
                               padding: "2px",
@@ -226,7 +227,7 @@ function LoginPage() {
                       </label>
                     </div>
                     <div className="submitbtn">
-                      <div className="row">
+                      <div className="row" >
                         <button
                           onClick={login}
                           type="button"
@@ -234,8 +235,7 @@ function LoginPage() {
                           style={{
                             backgroundColor: "#F16728",
                             color: "white",
-                            width:"50%", 
-                            marginLeft:"19%"
+                            width:"250px"
                           }}
                         >
                           Log In
