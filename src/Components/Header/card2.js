@@ -42,6 +42,7 @@ function Card2() {
           </div>
         ))}
     </div>
+     
   );
 }
 

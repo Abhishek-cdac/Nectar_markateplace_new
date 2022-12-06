@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./congratulation.css";
- 
+
 const CongratulationModal = () => {
   const navigate = useNavigate();
   return (
@@ -16,11 +16,13 @@ const CongratulationModal = () => {
       </button> */}
 
       <div
+
         class="modal fade congratulation-modal"
         id="congratulationeModal"
         tabindex="-1"
         aria-labelledby="congratulationeModal"
         aria-hidden="true"
+      
       >
         <div class="modal-dialog congratulation-modal">
           <div class="modal-content">
@@ -28,7 +30,7 @@ const CongratulationModal = () => {
               <img
                 src="/assets/images/Group 3047.png"
                 className="rounded mx-auto d-block"
-                height={"50px"}
+                height={"80px"}
                 alt=""
               />
             </div>
@@ -44,11 +46,13 @@ const CongratulationModal = () => {
               {/* <Link to="/nectarcrmtab">
                 <p data-bs-dismiss="modal" aria-label="Close"> Go to Home Page</p>
               </Link> */}
-               <p  onClick={() => navigate("/nectarcrmtab")}>Go to Home page</p>
-             
-                  
-                
-              
+              <p
+                data-bs-dismiss="modal" aria-label="Close"
+                onClick={() => navigate("/nectarcrmtab")}
+                style={{ marginTop: "-11px" }}
+              >
+                Go to Home page
+              </p>
             </div>
           </div>
         </div>

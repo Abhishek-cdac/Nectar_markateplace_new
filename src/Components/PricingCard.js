@@ -46,13 +46,7 @@ function PricingCard() {
                             <h6>Monthly</h6>
                           </div>
                           <div className="toggleLabel">
-                            <h6>
-
-
-
-
-                              Yearly
-                            </h6>
+                            <h6>Yearly</h6>
                           </div>
                           <span className={`react-switch-button`}>
                             <div className="toggleSwitchLabel">
@@ -65,7 +59,9 @@ function PricingCard() {
                     <div>
                       {!value ? (
                         <>
-                          <div style={{ textAlign: "center" ,paddingTop:"10px"}}>
+                          <div
+                            style={{ textAlign: "center", paddingTop: "10px" }}
+                          >
                             <h5>{data.doller}</h5>
                             <p>{data.dollermonth}</p>
                             <h3>{data.heading}</h3>
@@ -110,7 +106,9 @@ function PricingCard() {
                         </>
                       ) : (
                         <>
-                          <div style={{ textAlign: "center" ,paddingTop:"10px"}}>
+                          <div
+                            style={{ textAlign: "center", paddingTop: "10px" }}
+                          >
                             <h5>{data.doller1}</h5>
                             <p>{data.dolleryearly}</p>
                             <h3>{data.heading}</h3>
@@ -194,7 +192,6 @@ function PricingCard() {
                       </button>
                     </div>
                     <br />
-             
                   </div>
                 </div>
               </div>
