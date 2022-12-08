@@ -102,7 +102,7 @@ function NectarCRMReview() {
                     type="submit"
                     class="btn btn-primary btn-lg submit_form"
                   >
-                    Share Your Review
+                    Submit
                   </button>
                 </form>
               </div>

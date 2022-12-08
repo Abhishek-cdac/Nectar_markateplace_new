@@ -5,10 +5,11 @@ function GPSAccordian() {
     <div className='container'>
       <div className='row'>
         <div className='col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 pt-5'>
-          <h1 className='text-center'>Real Time Tracking</h1>
-          <h5 className='text-center'>Nectar GPS tracker give the real experience for the tracking and convey the real time location to the user</h5>
-          <div className="accordion pt-5" id="accordionExample">
-            <div className='col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 pt-5'>
+          <h2 className='text-center'>Real Time Tracking</h2>
+          <br />
+          <h6 className='text-center'>Nectar GPS tracker give the real experience for the tracking and convey the real time location to the user</h6>
+          <div className="accordion pt-2" id="accordionExample" style={{marginLeft:"50px"}}>
+            <div className='col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-12 '>
 
               <div className="accordion-item">
                 <h2 className="accordion-header" id="headingTwo">

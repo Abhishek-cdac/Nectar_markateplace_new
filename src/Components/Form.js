@@ -13,20 +13,32 @@ function Form() {
             <h3 style={{ color: "#08668F" }}>
               We Would Love To Hear From You!
             </h3>
-            <div class="border-bottom border-secondary border-1">
-              <label for="exampleInputEmail1">Full Name</label>
+            <div className="tabsform mt-4" style={{ fontSize: "medium" }}>
+              <input placeholder="Full Name" type="text" name="username" />
+              <input
+                className="mt-3"
+                placeholder="Email ID"
+                type="text"
+                name="email"
+              />
+
+              <input
+                className="mt-3"
+                placeholder="Password"
+                type="password"
+                name="password"
+              />
+
+              <input
+                className="mt-3"
+                placeholder="Contact Number"
+                type="text"
+                name="contact"
+              />
             </div>
-            <div class="border-bottom border-secondary">
-              <label for="exampleInputPassword1">Email ID</label>
-            </div>
-            <div class="border-bottom border-secondary">
-              <label for="exampleInputPassword1">Password</label>
-            </div>
-            <div class="border-bottom border-secondary">
-              <label for="exampleInputPassword1">Contact Number</label>
-            </div>
+
             <div>
-              <p class="midpara">
+              <p class="midpara mt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
                 expedita fugit quae quo minima aliquam. Veniam doloremque
                 nesciunt distinctio asperiores pariatur.

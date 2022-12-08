@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="top_header">
       <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid" style={{fontFamily:"ruby"}}>
+        <div class="container-fluid" style={{fontFamily:"Lato, Regular"}}>
           <div className="Logo">
             <img className="header_logo" src="assets/images/60-X-60.png" />
             <div
@@ -20,7 +20,7 @@ function Header() {
               }}
             ></div>
             <a class="navbar-brand" href="/">
-              <h5 style={{ fontFamily: "ruby", color: "#474747" }}>
+              <h5 style={{  color: "#474747" }}>
                 {" "}
                 Marketplace
               </h5>
@@ -39,14 +39,14 @@ function Header() {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/login">
-                  <p style={{ fontFamily: "ruby", color: "#474747" }}>
+                  <p style={{   color: "#474747" }}>
                     Log In
                   </p>
                 </a>
               </li>
               <li class="nav-item nav_register">
                 <button
-                  class="btn-register"
+                  class="btn-register  "
                   href="/register"
                   onClick={() => navigate("/register")}
                 >
