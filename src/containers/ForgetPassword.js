@@ -4,10 +4,10 @@ function ForgetPassword() {
 
   return (
     <>
-      <section id="loginbg">
+      <section id="loginbg1">
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-12 col-lg-12">
                 <div class="panel panel-default">
                   <div class="panel-body">
                     <div class="text-center">

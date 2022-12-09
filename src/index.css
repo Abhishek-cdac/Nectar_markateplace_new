@@ -97,7 +97,8 @@ h6.card-title {
 }
 
 .nav_register {
-  padding-top: 8px;
+  padding-top: 4px;
+  width: 50px;
 }
 
 .header-right-ul #search {
@@ -366,7 +367,7 @@ p .small_card {
   height: 3.3em;
   margin: auto;
   background: #fff;
-  border: 2px solid grey;
+  border: 1px solid grey;
   border-radius: 100px;
   position: relative;
   transition: background-color 0.2s;
@@ -510,7 +511,7 @@ p .small_card {
 
 #loginbg {
   background-image: url(/public/assets/images/loginbg.png);
-  height: 100%;
+  height: 780px;
   
    
 }
@@ -594,6 +595,16 @@ p .small_card {
 
 .icon {
   text-align: center;
+}
+  
+/* tabs form */
+
+.tabsform input{ 
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: gray;
+  background-color: #EEE9E9 !important;
+  width: 90%;
 }
 
 /* Registration css */
@@ -1309,25 +1320,36 @@ h6 {
 }
 
 /* forget password */
-
+ #loginbg1{
+  width: 1600px;
+   
+  background-image: url(/public/assets/images/loginbg.png);
+ }
 .panel {
-  padding: 20%;
+  padding: 14%;
+  height: 100%;
+  margin :5px 5px;
 }
 .panel-body1 {
-  padding-top: 5%;
+  /* padding-top: 1%; */
 }
 .panel-body {
   background: url(/public/assets/images/loginleftimage.png);
   background-repeat: no-repeat;
-  padding-left: 25%;
-  padding-right: 30%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-left: 10%;
+   /* margin-left: 30%;   */
+  padding-right: 10%;
+  padding-top: 0%;
+  padding-bottom: 5%;
   opacity: 0.8;
+  width: 664px;
+  margin-left: 100px;
+
 }
 
 .panel-body h3 {
-  margin-top: 10%;
+  margin-top: 8%;
+  /* padding-right: 200px; */
 }
 
 .b1 {
