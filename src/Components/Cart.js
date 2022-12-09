@@ -2,8 +2,10 @@ import React from "react";
 import Card2 from "./Header/card2";
 import Footer from "./Footer";
 import Header2 from "./Header/Header2";
+import { useNavigate } from "react-router-dom";
 
 function Cart() {
+  const navigate =useNavigate()
   return (
     <>
       <Header2 />
@@ -174,7 +176,7 @@ function Cart() {
                 <h5 style={{ fontFamily: "sans-serif" }}>
                   Product Cost (5 Users): $3432.80
                 </h5>
-                <button style={{ color: "#fff", fontFamily: "sans-serif" }}>
+                <button style={{ color: "#fff", fontFamily: "sans-serif" }} onClick={()=>navigate("/getproduct")}>
                   Get Product
                 </button>
               </div>

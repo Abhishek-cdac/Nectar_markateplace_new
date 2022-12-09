@@ -49,7 +49,6 @@ function LoginPage() {
 
   return (
     <>
-    
       <section id="loginbg">
         <div className="container">
           <div className="row">
@@ -57,7 +56,9 @@ function LoginPage() {
               <div className="loginleftsection">
                 <div className="LogInText">
                   <center>
-                    <h1 className="col-lg-8">Welcome to Nectar Marketplace</h1>
+                    <h1 className="col-lg-8">
+                      Welcome to ,<br></br> Nectar Marketplace
+                    </h1>
                   </center>
                   <br />
                   {/* <h1 className="col-lg-4">Nectar Marketplace</h1> */}
@@ -73,7 +74,7 @@ function LoginPage() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 ">
               <div className="loginrightsection">
                 <div className="row mt-3">
                   <div className="col-lg-5 mt-3">
@@ -91,7 +92,10 @@ function LoginPage() {
                       &nbsp;&nbsp;Marketplace
                     </a>
                   </div>
-                  <div className="col-lg-7 mt-3 loginNew" style={{fontSize:'small'}}>
+                  <div
+                    className="col-lg-7 mt-3 loginNew"
+                    style={{ fontSize: "small" }}
+                  >
                     New to The Product ?
                     <span>
                       <a class="nav-link" href="/register">
@@ -103,9 +107,12 @@ function LoginPage() {
                 <div className="row">
                   <div className="signinform">
                     <h6>
-                      <b style={{ color: "#474747" }}>Sign up</b>
+                      <b style={{ color: "#474747" }} className="mx-5">
+                        Sign up
+                      </b>
                     </h6>
                     <p
+                      className="mx-5"
                       style={{
                         color: "grey",
                         fontFamily: "sans-serif",
@@ -119,7 +126,7 @@ function LoginPage() {
                   </div>
                 </div>
 
-                <div class="col-lg-12 UserManRadio">
+                <div class="col-lg-12 col-sm-12 UserManRadio">
                   <p style={{ color: "#474747", marginLeft: "3em" }}>
                     <b style={{ marginRight: "3em" }}>Log In As</b>
 
@@ -139,9 +146,9 @@ function LoginPage() {
                   </p>
                 </div>
 
-              <div className="row">
+                <div className="row">
                   <div className="signinform1">
-                    <div className="login mt-4" style={{fontSize:'small'}}>
+                    <div className="login mt-4" style={{ fontSize: "small" }}>
                       <input
                         placeholder="Enter Email ID"
                         type="text"
@@ -159,7 +166,7 @@ function LoginPage() {
                         onChange={haandleChange}
                       />
                       <div className="forgotpassword mt-2">
-                        <p style={{ textAlign: "right" ,fontSize:'small' }}>
+                        <p style={{ textAlign: "right", fontSize: "small" }}>
                           Forgot Password?
                           <span>
                             <a class="nav-link" href="/forgetpassword">
@@ -169,7 +176,7 @@ function LoginPage() {
                         </p>
                       </div>
                     </div>
-                    <p className="mt-2 loginText" style={{fontSize:'small'}}>
+                    <p className="loginText mt-3" style={{ fontSize: "small" }}>
                       Lorem Ipsum, sometimes referred to as 'lipsum', is the
                       placeholder text used in design when creating content. It
                       helps designers plan out where the content will sit.
@@ -187,11 +194,7 @@ function LoginPage() {
                       <label
                         class="form-check-label"
                         for="check2"
-                        style={{
-                          fontSize: "small",
-                          color: "#333333",
-                          fontFamily: "sans-serif",
-                        }}
+                       
                       >
                         I agree to the{" "}
                         <span>
@@ -227,16 +230,21 @@ function LoginPage() {
                       </label>
                     </div>
                     <div className="submitbtn">
-                      <div className="row" >
+                      <div className="row">
                         <button
                           onClick={login}
                           type="button"
-                          class="btn mt-4 mb-5"
-                          style={{
-                            backgroundColor: "#F16728",
-                            color: "white",
-                            width:"250px"
-                          }}
+                          className="login-b"
+                          // style={{
+                          //   backgroundColor: "#F16728",
+                          //   color: "white",
+                          //   width: "250px",
+                          //   height: "80px",
+
+                          //   border: "none",
+                          //   height: "37px",
+                          //   borderRadius: "5px",
+                          // }}
                         >
                           Log In
                         </button>
