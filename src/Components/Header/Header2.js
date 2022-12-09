@@ -73,7 +73,12 @@ function Header2() {
                     ></i>
                     <ul class="dropdown-menu  ">
                       <li>
-                        <button className="logout-btn" onClick={()=>navigate("/")}>Log out</button>
+                        <button
+                          className="logout-btn"
+                          onClick={() => navigate("/")}
+                        >
+                          Log out
+                        </button>
                       </li>
                     </ul>
                   </div>

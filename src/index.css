@@ -387,7 +387,7 @@ p .small_card {
   border-radius: 45px;
   transition: 0.2s;
   background: #f16728;
-  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+  box-shadow: 0 0 2px 0 #0a0a0a4a;
 }
 
 .react-switch-checkbox:checked + .react-switch-label .react-switch-button {
@@ -615,7 +615,7 @@ p .small_card {
 .registrationleftsection {
   background: url(/public/assets/images/loginleftimage.png);
   margin-right: -29px;
-  height: 735px;
+  height: 560px;
 }
 
 .registrationleftsection h1 {
@@ -635,7 +635,7 @@ p .small_card {
 
 .registrationrightsection {
   background-color: #ffffff;
-  height: 735px;
+  height: 560px;
   margin-top: 110px;
   margin-bottom: 110px;
 }
@@ -645,6 +645,13 @@ p .small_card {
   display: inline-block;
 }
 
+.account-text {
+  font-size: 13px;
+  margin-left: 0px;
+  line-height: 22px;
+  position: relative;
+  left: 73px;
+}
 /*Nectar CRM review Rating pattern*/
 
 .labelhead {
@@ -1835,7 +1842,6 @@ p {
   border-radius: 10px;
 }
 
-
 element.style {
   justify-content: center;
 }
@@ -1845,6 +1851,44 @@ element.style {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
- margin-right: calc(.1 * var(--bs-gutter-x)); 
-  margin-left: calc(-.5 * var(--bs-gutter-x));
+  margin-right: calc(0.1 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
+/* login */
+.login input {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: gray;
+  background-color: #fff !important;
+  width: 90%;
+  font-size: 12px;
+  text-align: left;
+  font: normal normal normal 14px/28px Lato;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.25;
+}
+.marketplace{
+  
+  font: normal normal 600 19px/23px Raleway;
+}
+.form-check .form-check-input {
+  float: left;
+  height: 15px;
+  width: 16px;
+  margin-left: -1.5em;
+}
+.form-check-input[type="checkbox"] {
+  border-radius: none;
+}
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+@media (min-width: 1400px)
+{
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1241px;
+}
+}
+
