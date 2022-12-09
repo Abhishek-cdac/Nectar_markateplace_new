@@ -6,7 +6,7 @@ import Form from "../Components/Form";
 function NectarCRMoverview() {
   console.log("dummydata", DummyData);
   return (
-    <div className="crm-overview">
+    <div className="crm-overview pt-4">
       {DummyData &&
         DummyData.TabsData.map((data) => (
           <div>
@@ -40,6 +40,8 @@ function NectarCRMoverview() {
                 <p> {data.head5}</p>
               </div>
             </div>
+            <br />
+            <br />
 
             <Form />
           </div>

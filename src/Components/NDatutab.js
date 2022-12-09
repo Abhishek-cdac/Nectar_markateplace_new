@@ -27,7 +27,7 @@ function NectarHRMStab() {
           buttontext2="Buy Now"
         />
 
-        <div className="container">
+        <div className="container"  style={{marginLeft:"20px"}}>
           <ul class="nav nav-pills navtabs mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
               <button

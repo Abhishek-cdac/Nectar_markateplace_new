@@ -13,14 +13,15 @@ function NectarHRMStab() {
     {/* <div className="container"> */}
       <div className="row ">
         <Header2/>
-        <NectarHRMS
+        <NectarHRMS 
+           
             title="Nectar HRMS"
             subtext1="Nectar HRMS offers a host of adaptable features of HRMS to meet the needs of both managers and employee.."
             heading="Get 2 months Free Subscription"
             buttontext="Free Demo"
             buttontext2="Buy Now"
              />
-        <div className="container">
+        <div className="container" style={{marginLeft:"20px"}}>
         <ul class="nav nav-pills navtabs mb-3" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
             <button
