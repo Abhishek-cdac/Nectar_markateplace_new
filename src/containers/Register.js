@@ -70,12 +70,11 @@ function Register() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <div
-                className="registrationleftsection"
-                style={{ marginLeft: "10px" }}
-              >
-                <h1>Welcome to <br></br> Nectar Marketplace</h1>
-                <p>
+              <div className="registrationleftsection">
+                <h1>
+                  Welcome to <br></br> Nectar Marketplace
+                </h1>
+                <p style={{ fontSize: "15px" }}>
                   Nectar Infotel Solution Pvt. Ltd. is a leading International
                   IT organization offering end-to-end Telecommunication OSS/BSS
                   system integration as service. Software development as
@@ -89,7 +88,7 @@ function Register() {
             <div className="col-lg-6">
               <div className="registrationrightsection">
                 <div className="row mt-3">
-                  <div className="col-lg-5 mt-3">
+                  <div className="col-lg-5">
                     <img className="header_logo" src="assets/images/logo.png" />
                     <a
                       class="navbar-brand marketplace"
@@ -104,7 +103,7 @@ function Register() {
                       &nbsp;&nbsp;Marketplace
                     </a>
                   </div>
-                  <div className="col-lg-7 mt-3 account-text">
+                  <div className="col-lg-7  account-text">
                     Already Have an Account?
                     <a class="nav-link" href="/login">
                       Sign In
@@ -116,8 +115,8 @@ function Register() {
                     <div className="col-lg-3"></div>
 
                     <div class="col-lg-12 UserManRadio">
-                      <p style={{ color: "#474747",}}>
-                        <b style={{ marginRight: "2em" }}>Register as</b>
+                      <p style={{ color: "#474747" }}>
+                        <b style={{ marginRight: "6em" }}>Register as</b>
 
                         {dummyData?.loginRadio.map((item) => {
                           return (
@@ -214,18 +213,25 @@ function Register() {
                           onChange={handleChange}
                         />
                         <input
-                          className="mt-3"
+                          className="organization-text"
                           placeholder="Organization Name"
                           type="text"
                           name="organization"
                           value={organization}
                           onChange={handleChange}
                         />
-                        <p style={{ fontSize: "13px" }}>
-                          Lorem Ipsum, sometimes referred to as 'lipsum', is the
-                          placeholder text used in design when creating content.
-                          It helps designers plan out where the content will
-                          sit.
+                        <p
+                          style={{
+                            fontSize: "11px",
+                            color: "#777777",
+                            fontFamily: "sans-serif",
+                          }}
+                        >
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the
+                          industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book.
                         </p>
                       </div>
                       <div class="form-check">
@@ -237,13 +243,13 @@ function Register() {
                           checked={state.isChecked}
                           onChange={handleChange}
                         />
-                        <label
-                          class="form-check-label mx-2"
+                        {/* <label
+                          class="account-text mx-1"
                           for="check2"
                           style={{ marginTop: "-6px" }}
                         >
                           I agree to the{" "}
-                          <span>
+                 
                             <a
                               class="nav-link"
                               href="/"
@@ -254,7 +260,7 @@ function Register() {
                             >
                               Terms of Service, Marketplace Terms
                             </a>
-                          </span>{" "}
+            
                           of Use and{" "}
                           <span>
                             <a
@@ -268,22 +274,56 @@ function Register() {
                               Privacy Policy
                             </a>
                           </span>
+                        </label> */}
+                        <label
+                          class="form-check-label"
+                          for="check2"
+                          style={{
+                            fontSize: "small",
+                            color: "#333333",
+                            fontFamily: "sans-serif",
+                          }}
+                        >
+                          I agree to the{" "}
+                          <span>
+                            <a
+                              class="nav-link"
+                              href="/"
+                              style={{
+                                color: "#333333",
+                                textDecoration: "underline",
+                                fontSize: "small",
+                                // color:"grey",
+                                fontFamily: "sans-serif",
+                                padding: "2px",
+                              }}
+                            >
+                              Terms of Service, Marketplace Terms
+                            </a>
+                          </span>{" "}
+                          of Use and{" "}
+                          <span>
+                            <a
+                              class="nav-link"
+                              href="/"
+                              style={{
+                                color: "#333333",
+                                textDecoration: "underline",
+                                padding: "2px",
+                              }}
+                            >
+                              Privacy Policy
+                            </a>
+                          </span>
                         </label>
                       </div>
                       <div className="submitbtn">
                         <div className="row">
                           <button
                             type="button"
+                            className="btn-r"
                             onClick={onSubmit}
-                            style={{
-                              backgroundColor: "#F16728",
-                              color: "white",
-                              width: "70%",
-                              marginLeft: "19%",
-                              border: "none",
-                              borderRadius: "8px",
-                              height: "37px",
-                            }}
+                            
                           >
                             Register
                           </button>
