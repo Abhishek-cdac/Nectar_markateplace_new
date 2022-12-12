@@ -39,7 +39,7 @@ function Header() {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/login">
-                  <p style={{   color: "#474747" }}>
+                  <p style={{   color: "#474747",fontSize:"15px" }}>
                     Log In
                   </p>
                 </a>
