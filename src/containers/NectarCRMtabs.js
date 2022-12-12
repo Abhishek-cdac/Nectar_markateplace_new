@@ -16,7 +16,8 @@ const NectarCRMtabs = ( ) => {
 
         <CRM
           title="Nectar CRM"
-          subtext1="The easy to use and customizable CRM for your Marketing, Sales,
+          subtext1="The easy to use and customizable CRM for your"
+            subtext2=" Marketing, Sales,
             & Customer Service Teams."
           item1="Better Sales Performance"
           item2="Increased Profitability & Efficiency "

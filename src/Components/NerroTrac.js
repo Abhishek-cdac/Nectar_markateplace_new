@@ -2,7 +2,7 @@ import React from 'react'
 
 function NerroTrac({ title, subtext1, buttontext2, buttontext, heading, item1, item2, item3 }) {
   return (
-    <section className='backgroundimage-Nerro-Trac' style={{height:"350px"}}>
+    <section className='backgroundimage-Nerro-Trac' >
     <div className='container pt-5'>
         <div className='row '>
             <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 pt-5' >

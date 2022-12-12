@@ -4,7 +4,7 @@ function cardmain() {
   return (
     <div className="banner_maincard">
       <div class="card">
-        <div class="card-header" style={{border:"none"}}><h2 style={{fontFamily:"Lato, Semibold"}}>Nectar's Featured Apps</h2></div>
+        <div class="card-header" style={{border:"none"}}><h2 >Nectar's Featured Apps</h2></div>
         <div class="card-body" >
           <p class="card-text "  style={{fontFamily:"Lucida Sans, Regular"}}>
             Nectar Infotel Solutions Pvt Ltd. is a leading International IT

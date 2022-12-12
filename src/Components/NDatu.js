@@ -11,7 +11,7 @@ function Ndatu({
   item3,
 }) {
   return (
-    <section className="backgroundimage-nDatu" style={{height:"350px"}}>
+    <section className="backgroundimage-nDatu">
       <div className="container pt-5">
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
