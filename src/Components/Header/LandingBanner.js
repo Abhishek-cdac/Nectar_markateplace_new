@@ -11,7 +11,7 @@ function LandingBanner() {
       </div>
       <div class="banner-content">
         <h1 style={{fontFamily:"Lato, Regular"}}>Explore Apps For Nectar</h1>
-        <p style={{color:"#FFFFFF",fontFamily:"Lato, Regular",fontSize:"medium",opacity:"1",letterSpacing:"0.1" , paddingTop:"5px"}}>
+        <p style={{color:"#FFFFFF",fontFamily:"Lucida Sans, Regular",fontSize:"medium",opacity:"1",letterSpacing:"0.1" , paddingTop:"5px"}}>
           Integrate Nector applications with all the tools for your business
           needs
         </p>
