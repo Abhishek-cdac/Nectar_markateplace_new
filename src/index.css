@@ -85,7 +85,7 @@ h6.card-title {
 }
 
 .become_partner {
-  color: #238ae6;
+  color: #1291C9;
 }
 
 .btn-register {
@@ -93,6 +93,7 @@ h6.card-title {
   color: white;
   /* border-radius: 0px; */
   height: 33px;
+  width: 62px;
   border: none;
 }
 
@@ -511,9 +512,7 @@ p .small_card {
 
 #loginbg {
   background-image: url(/public/assets/images/loginbg.png);
-  height: 780px;
-  
-   
+  height: 100%;
 }
 
 .loginleftsection {
@@ -1460,9 +1459,10 @@ h6 {
 
 /* forget password */
  #loginbg1{
-  width: 1600px;
+  /* width: 1600px; */
    
   background-image: url(/public/assets/images/loginbg.png);
+  padding-bottom: 2%;
  }
 .panel {
   padding: 14%;
@@ -1476,13 +1476,13 @@ h6 {
   background: url(/public/assets/images/loginleftimage.png);
   background-repeat: no-repeat;
   padding-left: 10%;
-   /* margin-left: 30%;   */
+   margin-left: 11%;  
   padding-right: 10%;
   padding-top: 0%;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
   opacity: 0.8;
-  width: 664px;
-  margin-left: 100px;
+  /* width: 664px; */
+  /* margin-left: 100px; */
 
 }
 

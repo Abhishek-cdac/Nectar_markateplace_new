@@ -12,7 +12,7 @@ function NectarHRMS({
 }) {
   return (
     <>
-      <section className="backgroundimage-hrms" style={{height:"350px"}}>
+      <section className="backgroundimage-hrms">
         <div className="container pt-5">
           <div className="row ">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 pt-5">
