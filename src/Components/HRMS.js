@@ -12,7 +12,7 @@ function HRMS() {
             Nectar HRMS offers HR resource modules with exceptional features and
             an intuitive interface. It's easy to set up, configure and use.
           </h6>
-          <img className="img-fluid mt-5 pt-5" src="\assets\images\Group 3011.png" />
+          <img className="img-fluid mt-5 pt-5 mx-3" src="\assets\images\Group 3011.png" />
           <div className="title">
             <div className="textheading"></div>
             <p>Core HR</p>
