@@ -1,6 +1,6 @@
 export const PartnerTabs = Object.freeze([
   { label: "Dashboard", link: "partner", icon: "/assets/images/dashboard.webp" },
-  { label: "Telecom", link: "partner/telecomeservices", icon: "/assets/images/partner.webp" },
+  { label: "Telecom Services", link: "partner/telecomeservices", icon: "/assets/images/partner.webp" },
   { label: "Become partner", link: "partner/becomeApartner", icon: "/assets/images/ORDER.webp" },
   { label: "Resources", link: "partner/resources", icon: "/assets/images/PAYMENT.webp" },
   { label: "Profile", link: "partner/profile", icon: "/assets/images/PRODUCT.webp" },
