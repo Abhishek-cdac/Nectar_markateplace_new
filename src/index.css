@@ -85,16 +85,19 @@ h6.card-title {
 }
 
 .become_partner {
-  color: #1291C9;
+  color: #1291c9;
 }
 
 .btn-register {
   background-color: rgb(241, 103, 40);
   color: white;
   /* border-radius: 0px; */
-  height: 33px;
-  width: 62px;
+  height: 35px;
+  width: 90px;
+  margin-left: -91px;
   border: none;
+  font-size: 13px;
+  border-radius: 2px;
 }
 
 .nav_register {
@@ -153,6 +156,24 @@ h6.card-title {
   line-height: 1.5;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.banner_maincard .card-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  background: none;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.banner_maincard .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 1.25rem;
 }
 
 .p {
@@ -324,7 +345,7 @@ p .small_card {
   border-radius: 10px;
   border: #1291c9;
   margin-top: 10px;
-  border-radius: 7px;
+  border-radius: 3px;
 }
 
 .form-group ::placeholder {
@@ -337,7 +358,7 @@ p .small_card {
   border: none;
   border-radius: 10px;
   margin-top: 2%;
-  width: 174px;
+  width: 183Ppx;
 }
 
 .form-testimonal {
@@ -669,14 +690,14 @@ p .small_card {
 .icon {
   text-align: center;
 }
-  
+
 /* tabs form */
 
-.tabsform input{ 
+.tabsform input {
   outline: 0;
   border-width: 0 0 1px;
   border-color: gray;
-  background-color: #EEE9E9 !important;
+  background-color: #eee9e9 !important;
   width: 90%;
 }
 
@@ -703,7 +724,6 @@ p .small_card {
     height: 560px;
   }
 }
-
 
 @media screen and (min-width: 1060px) {
   .registrationrightsection {
@@ -736,42 +756,36 @@ p .small_card {
   color: #238ae6;
   display: inline-block;
 }
-.btn-r{
-  background-color: #F16728 ;
+.btn-r {
+  background-color: #f16728;
   color: white;
   border: none;
   border-radius: 8px;
   height: 37px;
   width: 50%;
   margin-left: 115px;
-
-
 }
 
 @media screen and (min-width: 300px) {
-  .btn-r{
-    background-color: #F16728 ;
+  .btn-r {
+    background-color: #f16728;
     color: white;
     border: none;
     border-radius: 8px;
     height: 37px;
     width: 50%;
     margin-left: 50px;
-  
-  
   }
 }
 @media screen and (min-width: 1000px) {
-  .btn-r{
-    background-color: #F16728 ;
+  .btn-r {
+    background-color: #f16728;
     color: white;
     border: none;
     border-radius: 8px;
     height: 37px;
     width: 50%;
-    margin-left:150px;
-  
-  
+    margin-left: 150px;
   }
 }
 
@@ -780,14 +794,10 @@ p .small_card {
   margin-left: 0px;
   line-height: 22px;
   margin-top: 3%;
-
 }
 @media screen and (min-width: 1000px) {
-
   .account-text {
-  
     margin-top: 1px;
-  
   }
 }
 /*Nectar CRM review Rating pattern*/
@@ -1101,9 +1111,9 @@ p .product-banner-content {
   height: 100vh;
 }
 
-.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav .sb-sidenav-menu {
+/* .sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav .sb-sidenav-menu {
   overflow-y: auto;
-}
+} */
 
 .sb-nav-fixed #layoutSidenav #layoutSidenav_content_toggled {
   /* padding-left: 125px !important; */
@@ -1196,7 +1206,8 @@ p .product-banner-content {
 }
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .icon-toggled {
   font-size: xx-large;
-  height: 25px;
+  height: 20px;
+  margin-top: 30px;
 }
 
 .sb-sidenav .sb-sidenav-menu .nav .nav-link .icon {
@@ -1249,11 +1260,11 @@ p .product-banner-content {
 } */
 .sb-sidenav-dark .sb-sidenav-menu .nav-link:hover {
   color: #fff;
-  background: #002e5e;
+  background: #055475;
 }
 .sb-sidenav-dark .sb-sidenav-menu .nav-link.active {
   color: #fff;
-  background: #002e5e;
+  background: #1291c9;
 }
 .sb-sidenav-dark .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {
   color: #fff;
@@ -1458,16 +1469,16 @@ h6 {
 }
 
 /* forget password */
- #loginbg1{
+#loginbg1 {
   /* width: 1600px; */
-   
+
   background-image: url(/public/assets/images/loginbg.png);
   padding-bottom: 2%;
- }
+}
 .panel {
   padding: 14%;
   height: 100%;
-  margin :5px 5px;
+  margin: 5px 5px;
 }
 .panel-body1 {
   /* padding-top: 1%; */
@@ -1476,14 +1487,13 @@ h6 {
   background: url(/public/assets/images/loginleftimage.png);
   background-repeat: no-repeat;
   padding-left: 10%;
-   margin-left: 11%;  
+  margin-left: 11%;
   padding-right: 10%;
   padding-top: 0%;
   padding-bottom: 1%;
   opacity: 0.8;
   /* width: 664px; */
   /* margin-left: 100px; */
-
 }
 
 .panel-body h3 {
@@ -2032,4 +2042,80 @@ element.style {
   .container-xxl {
     max-width: 1241px;
   }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 4.5rem;
+    padding-left: 0.5rem;
+  }
+}
+.accordion-button:not(.collapsed) {
+  background: none;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordian_heading {
+  font-size: 15px;
+  color: #333333;
+  opacity: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 550px;
+}
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  border-radius: 100px;
+  content: "";
+  background: black;
+
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion,
+.accordion * {
+  border: none;
+}
+.accordion-button:not(.collapsed) {
+  color: black;
+
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.sb-sidenav .sb-sidenav-menu .nav .nav-link .Nav-label {
+  margin-top: 1rem;
+  font-size: 14px;
+  margin-left: -102px;
+}
+.sb-sidenav .sb-sidenav-menu .nav .nav-link .icon {
+  font-size: smaller;
+  margin-right: 20px;
+  height: 17px;
+}
+.sb-sidenav .sb-sidenav-menu .nav .nav-link {
+  display: flex;
+  align-items: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  position: relative;
+  color: #ffffff !important;
+  font-family: sans-serif;
+  justify-content: space-between;
+  padding: 2px 25px;
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link.active {
+  color: #fff;
+  background-color: none;
+}
+.fa-chevron-circle-left:before {
+  /* content: "\f137"; */
+  margin-left: 224px;
+}
+
+.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav .sb-sidenav-menu {
+  overflow-y: none;
 }

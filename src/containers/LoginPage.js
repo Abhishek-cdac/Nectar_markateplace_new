@@ -8,6 +8,7 @@ import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 
 function LoginPage() {
+  
   const [data, setData] = useState({
     username: "",
     password: "",
@@ -98,7 +99,7 @@ function LoginPage() {
                   >
                     New to The Product ?
                     <span>
-                      <a class="nav-link" href="/register">
+                      <a class="nav-link" onClick={()=>navigate("/register")}>
                         Register Here
                       </a>
                     </span>
@@ -169,7 +170,7 @@ function LoginPage() {
                         <p style={{ textAlign: "right", fontSize: "small" }}>
                           Forgot Password?
                           <span>
-                            <a class="nav-link" href="/forgetpassword">
+                            <a class="nav-link" onClick={()=>navigate("/forgetpassword")}>
                               Reset here
                             </a>
                           </span>

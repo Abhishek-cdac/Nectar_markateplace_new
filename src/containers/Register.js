@@ -105,7 +105,7 @@ function Register() {
                   </div>
                   <div className="col-lg-7  account-text">
                     Already Have an Account?
-                    <a class="nav-link" href="/login">
+                    <a class="nav-link" onClick={()=>navigate("/login")}>
                       Sign In
                     </a>
                   </div>

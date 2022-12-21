@@ -6,17 +6,18 @@ function Header() {
   return (
     <div className="top_header">
       <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid" style={{fontFamily:"Lato, Regular"}}>
+        <div class="container-fluid" >
           <div className="Logo">
             <img className="header_logo" src="assets/images/60-X-60.png" />
             <div
               className="verticalLine_header"
               style={{
-                borderRight: "1px solid black",
-                height: "25px",
+                borderRight: "2px solid #817c7c",
+                height: "35px",
                 marginRight: "5%",
-                marginTop: "5%",
+                marginTop: "2%",
                 marginLeft: "5%",
+              
               }}
             ></div>
             <a class="navbar-brand" href="/">
@@ -33,13 +34,14 @@ function Header() {
                   class="nav-link become_partner"
                   aria-current="page"
                   href="/partner/becomeApartner"
+                  style={{fontSize:"13px"}}
                 >
                   Become a Partner/Reseller
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/login">
-                  <p style={{   color: "#474747",fontSize:"15px" }}>
+                  <p style={{   color: "#474747",marginLeft:"-68px", fontSize:"13px"}}>
                     Log In
                   </p>
                 </a>
