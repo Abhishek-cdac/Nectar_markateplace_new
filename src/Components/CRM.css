@@ -4,3 +4,15 @@
     background: url(/public/assets/images/Group\ 3001.png);
     height: 100%;
   }
+  /* @media (min-width: 992px){
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-top: 65px;
+}
+} */
+
+.my-5 {
+  margin-top: 5rem!important;
+  margin-bottom: 3rem!important;
+}
