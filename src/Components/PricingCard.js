@@ -351,7 +351,7 @@ function PricingCard() {
                 >
                   <p>$35 whrn you renew the product</p>
                 </div>
-                <div style={{ marginLeft: "18%" }}>
+                <div style={{ margin:"0 25px" }}>
                   <button
                     type="submit"
                     class="btn "
@@ -360,7 +360,7 @@ function PricingCard() {
                       color: "#F16728",
                       border: " 2px solid #F16728",
                       fontSize: "medium",
-                      margin: 5,
+                      margin: 5, width:"125px",
                     }}
                   >
                     Add to Cart
@@ -372,7 +372,7 @@ function PricingCard() {
                     style={{
                       color: "#F16728",
                       border: " 2px solid #F16728",
-                      fontSize: "medium",
+                      fontSize: "medium", width:"125px",
                     }}
                   >
                     Buy Now
@@ -520,7 +520,7 @@ function PricingCard() {
                 >
                   <p>$35 whrn you renew the product</p>
                 </div>
-                <div style={{ marginLeft: "18%" }}>
+                <div style={{ margin:"0 25px" }}>
                   <button
                     type="submit"
                     class="btn "
@@ -529,7 +529,7 @@ function PricingCard() {
                       color: "#F16728",
                       border: " 2px solid #F16728",
                       fontSize: "medium",
-                      margin: 5,
+                      margin: 5, width:"125px",
                     }}
                   >
                     Add to Cart
@@ -541,7 +541,7 @@ function PricingCard() {
                     style={{
                       color: "#F16728",
                       border: " 2px solid #F16728",
-                      fontSize: "medium",
+                      fontSize: "medium", width:"125px",
                     }}
                   >
                     Buy Now
@@ -689,7 +689,7 @@ function PricingCard() {
                 >
                   <p>$35 whrn you renew the product</p>
                 </div>
-                <div style={{ marginLeft: "18%" }}>
+                <div style={{ margin:"0 25px" }}>
                   <button
                     type="submit"
                     class="btn "
@@ -699,6 +699,7 @@ function PricingCard() {
                       border: " 2px solid #F16728",
                       fontSize: "medium",
                       margin: 5,
+                      width:"125px",
                     }}
                   >
                     Add to Cart
@@ -710,7 +711,7 @@ function PricingCard() {
                     style={{
                       color: "#F16728",
                       border: " 2px solid #F16728",
-                      fontSize: "medium",
+                      fontSize: "medium", width:"125px",
                     }}
                   >
                     Buy Now
@@ -722,11 +723,9 @@ function PricingCard() {
           </div>
         </div>
 
-        <p className="text-center mt-5 mb-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          illo placeat dignissimos voluptates mollitia. Harum, error quisquam
-          perspiciatis ratione quo similique a saepe libero, nisi tenetur at
-          fugit esse recusandae.
+        <p className="text-center   mb-5 p-4">
+        Local taxes (VAT, GST, etc.) will be charged in addition to the prices mentioned. Need assistance? Mail us at abc@nectarinfotel.com
+        
         </p>
         <div style={{ borderTop: "2px solid #00000047" }}></div>
       </div>
