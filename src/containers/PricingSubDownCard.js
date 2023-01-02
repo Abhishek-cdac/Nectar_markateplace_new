@@ -8,10 +8,11 @@ const PricingSubDownCard = () => {
   };
   return (
     <>
-      <h1 style={{ textAlign: "center" ,paddingTop:"20px" }}>Results By Filter</h1>
-      <p style={{ textAlign: "center" }}>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, debitis!
+      <h2 style={{ textAlign: "center" ,paddingTop:"30px", color:"#474747" }}>Results By Filter</h2>
+      <p style={{ textAlign: "center",paddingTop:"20px" }}>
+      Sorry, your filter search are not available in Silver plan, Check out best recommended plan.
       </p>
+      <br />
       <div className="row ">
         <div className="col-lg-4"></div>
         {DummyData &&
@@ -20,7 +21,7 @@ const PricingSubDownCard = () => {
               <div className="card text-center mb-5">
                 <h4 className="mt-3">{data.title}</h4>
                 <div className="Toggle_pricesubsdown mx-5">
-                  <div className="switch_toggle" style={{width:'10px'}}>
+                  <div className="switch_toggle"  style={{marginLeft:"20px"}} >
                     <input
                       className="react-switch-checkbox2"
                       id={data.title}
@@ -48,7 +49,8 @@ const PricingSubDownCard = () => {
                   </div>
                 </div>
                 {/* <div>{!value ? `$80` : `$160`}</div> */}
-
+               
+                 <br />
                 <div className="cardcontent" style={{backgroundColor:"#474747",padding:"2em",opacity:"0.66"}}>
                   <h4>{data.doller}</h4>
                   <p>{data.dollermonth}</p>

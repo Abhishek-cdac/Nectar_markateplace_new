@@ -51,6 +51,7 @@ function Header2() {
               <li class="nav-item">
                 <a class="nav-link header_icon notification-modal" href="#">
                   <i
+                  style={{fontSize: "17px"}}
                     class="fa fa-bell-o"
                     aria-hidden="true"
                     // onClick={() => navigate("/notification")}
@@ -58,6 +59,7 @@ function Header2() {
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                   ></i>
+                  <i class="fas fa-shopping-cart" style={{marginLeft:"23px"}}></i>
 
                   <Notification />
                 </a>

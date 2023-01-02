@@ -60,7 +60,7 @@ function ReviewForm() {
                 class="form-control  form-control-lg testimonalInput"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Your user name"
+                placeholder="Name"
               />
 
             </div>
@@ -84,7 +84,7 @@ function ReviewForm() {
             </div>
 
             <button type="submit" class="btn btn-primary btn-lg submit_form">
-              Submit
+              Send
             </button>
           </form>
         </div>

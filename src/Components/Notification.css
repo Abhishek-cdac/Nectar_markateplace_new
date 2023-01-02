@@ -48,7 +48,7 @@ svg {
 }
 .fa-shopping-cart:before {
   content: "\f07a";
-  margin-left: -25px;
+  /* margin-left: -25px; */
 }
 .notification-modal .modal-header {
   display: flex;
