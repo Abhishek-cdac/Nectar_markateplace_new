@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4cd33cb8.css",
+    "main.js": "/static/js/main.a9802a1b.js",
+    "static/js/787.c23b093c.chunk.js": "/static/js/787.c23b093c.chunk.js",
+    "static/media/13454.jpg": "/static/media/13454.d818c631c2c1dfec8654.jpg",
+    "static/media/GPS-Tracer.png": "/static/media/GPS-Tracer.6575c2f2ce25fc589622.png",
+    "static/media/loginbg.png": "/static/media/loginbg.4060c0fc37bd0557f7e7.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/Group 3001.png": "/static/media/Group 3001.2078956b2713551f5301.png",
+    "static/media/hrms.png": "/static/media/hrms.d69e1db8f1a5115b24de.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/loginleftimage.png": "/static/media/loginleftimage.4da6366d6d29b9bd6dfd.png",
+    "static/media/Nerro-Trac.png": "/static/media/Nerro-Trac.0e670c8d049df53a3157.png",
+    "static/media/NT3-ITSMTool.png": "/static/media/NT3-ITSMTool.165ddcc1719cd9efa29e.png",
+    "static/media/nDatu.png": "/static/media/nDatu.165ddcc1719cd9efa29e.png",
+    "static/media/Group_2985.png": "/static/media/Group_2985.7f63a31b65e21b85df07.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/Contact.png": "/static/media/Contact.f2206bd73e513ed2aafa.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/Login_bg.webp": "/static/media/Login_bg.33319f3e4254db051a4d.webp",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/index.html",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.4cd33cb8.css.map": "/static/css/main.4cd33cb8.css.map",
+    "main.a9802a1b.js.map": "/static/js/main.a9802a1b.js.map",
+    "787.c23b093c.chunk.js.map": "/static/js/787.c23b093c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cd33cb8.css",
+    "static/js/main.a9802a1b.js"
+  ]
+}

@@ -39,6 +39,7 @@ function Register() {
 
   const onSubmit = async (e) => {
     console.log(data);
+    navigate('/login')
     e.preventDefault();
     if (pass !== repass) {
       console.log("Passwords do not match");
@@ -105,7 +106,7 @@ function Register() {
                   </div>
                   <div className="col-lg-7  account-text">
                     Already Have an Account?
-                    <a class="nav-link" onClick={()=>navigate("/login")}>
+                    <a class="nav-link" onClick={() => navigate("/login")}>
                       Sign In
                     </a>
                   </div>
@@ -320,10 +321,11 @@ function Register() {
                       <div className="submitbtn">
                         <div className="row">
                           <button
+                          navigate
                             type="button"
                             className="btn-r"
                             onClick={onSubmit}
-                            
+                        
                           >
                             Register
                           </button>

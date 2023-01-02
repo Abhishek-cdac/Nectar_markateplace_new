@@ -261,11 +261,11 @@ function LoginPage() {
                         </div>
                         <div className="col-lg-4">
                           <a href="#">
-                            <i class="fa-brands fa-google fa-lg"></i>
+                          <i class="fab fa-google fa-2x"></i>
                           </a>
                           &nbsp;&nbsp;&nbsp;
                           <a href="#">
-                            <i class="fa-brands fa-linkedin fa-lg"></i>
+                         <i class='fa fa-linkedin-square yellow-color fa-2x'></i>
                           </a>
                         </div>
                       </div>

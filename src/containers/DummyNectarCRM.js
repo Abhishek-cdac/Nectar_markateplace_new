@@ -15,7 +15,7 @@ const DummyData = {
 
   pricingSubscriptiondata: [
     {
-      id: "2",
+   
       title: "Silver",
       doller: "$60",
       dollermonth: "per month",
@@ -30,9 +30,10 @@ const DummyData = {
       desp6: "speed for thr deeling",
       desp7: "Easy to get",
       desp8: "$35 whrn you renew the product",
+      id:"react-switch-new-1"
     },
     {
-      id: "2",
+   
       title: "Silver",
       doller: "$60",
       dollermonth: "per month",
@@ -47,7 +48,29 @@ const DummyData = {
       desp6: "speed for thr deeling",
       desp7: "Easy to get",
       desp8: "$35 whrn you renew the product",
-      checked:"value"
+      checked:"value",
+      id:"react-switch-new-2"
+    },
+    
+
+    {
+   
+      title: "Silver",
+      doller: "$60",
+      dollermonth: "per month",
+      doller1: "$720",
+      dolleryearly: "per year",
+      heading: "Benefit",
+      desp1: "Bandwith with 5 user",
+      desp2: "24/7 support",
+      desp3: "4 customer onboard",
+      desp4: "CPU for 500",
+      desp5: "personal hosting",
+      desp6: "speed for thr deeling",
+      desp7: "Easy to get",
+      desp8: "$35 whrn you renew the product",
+      checked:"value",
+      id:"react-switch-new-3"
     },
     
   ],
