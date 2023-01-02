@@ -13,7 +13,7 @@ function CRM({
 }) {
   return (
     <>
-      <section className="backgroundimage-CRM">
+      <section className="backgroundimage-CRM pt-5">
         <div className="container pt-5 pb-5">
           <div className="row ">
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -37,19 +37,19 @@ function CRM({
               </p>
             </div>
             <div
-              className="col-xs-12 col-sm-12 col-md-6 col-lg-6 my-5 "
-              style={{ justifyContent: "end", marginTop: "5rem" }}
-            >
-              <h2 className="text-white">{heading}</h2>
+              className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4"> 
+
+            
+              <h2 className="text-white d-flex justify-content-end">{heading}</h2>
               <button
                 className="btn btn-lg text-white m-2"
-                style={{ borderRadius: "2px", background: "#F16728" }}
+                style={{ borderRadius: "3px", background: "#F16728",height:"38px",width:"164px",fontSize:"small" }}
               >
                 {buttontext}
               </button>
               <button
-                className="btn btn-lg text-white m-2"
-                style={{ borderRadius: "2px", background: "#F16728" }}
+                className="btn btn-lg text-white d-flex justify-content-end m-2 "
+                style={{ borderRadius: "3px", background: "#F16728",height:"38px",width:"164px",fontSize:"small"  }}
               >
                 {buttontext2}
               </button>

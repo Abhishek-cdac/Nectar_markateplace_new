@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function Header() {
   const navigate = useNavigate();
   return (
-    <div className="top_header">
+    <div className="top_header loginheader" >
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid" >
           <div className="Logo">
