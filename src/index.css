@@ -385,18 +385,18 @@ p .small_card {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  width: 17em;
-  height: 3.3em;
+  width: 12em;
+  height: 2.3em;
   margin: auto;
   background: #fff;
   border: 1px solid grey;
-  border-radius: 100px;
+  /* border-radius: 100px; */
   position: relative;
   transition: background-color 0.2s;
 }
 
 .toggleSwitchLabel {
-  padding: 15px 0;
+  padding: 7px 0;
   color: #fff;
 }
 
@@ -404,9 +404,9 @@ p .small_card {
   position: absolute;
   /* top: 0px; */
   left: 0px;
-  width: 145px;
-  height: 50px;
-  border-radius: 45px;
+  width: 95px;
+  height: 35px;
+  /* border-radius: 45px; */
   transition: 0.2s;
   background: #f16728;
   box-shadow: 0 0 2px 0 #0a0a0a4a;
@@ -418,7 +418,7 @@ p .small_card {
 }
 
 .react-switch-label:active .react-switch-button {
-  width: 60px;
+  width: 50px;
 }
 
 /* #frequently_question {
@@ -1667,7 +1667,7 @@ html,body{
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  width: 17em;
+  width: 12em;
   height: 3.3em;
   /* left: 38%; */
   background: #fff;
@@ -1687,7 +1687,7 @@ html,body{
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 145px;
+  width: 95px;
   height: 50px;
   /* border-radius: 45px; */
   transition: 0.2s;
@@ -1722,7 +1722,7 @@ html,body{
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  width: 17em;
+  /* width: 17em; */
   height: 3.3em;
   /* left: 38%; */
   background: #fff;
@@ -1742,8 +1742,8 @@ html,body{
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 145px;
-  height: 50px;
+  /* width: 145px; */
+  height: 20px;
   /* border-radius: 45px; */
   transition: 0.2s;
   background: #f16728;

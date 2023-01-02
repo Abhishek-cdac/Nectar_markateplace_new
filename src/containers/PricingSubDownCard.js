@@ -20,7 +20,7 @@ const PricingSubDownCard = () => {
               <div className="card text-center mb-5">
                 <h4 className="mt-3">{data.title}</h4>
                 <div className="Toggle_pricesubsdown mx-5">
-                  <div className="switch_toggle">
+                  <div className="switch_toggle" style={{width:'10px'}}>
                     <input
                       className="react-switch-checkbox2"
                       id={data.title}

@@ -688,7 +688,7 @@ function PricingCard() {
                     >
                       <p>$35 whrn you renew the product</p>
                     </div>
-                    <div style={{ marginLeft: "18%" }}>
+                    <div >
                       <button
                         type="submit"
                         class="btn "
@@ -698,6 +698,8 @@ function PricingCard() {
                           border: " 2px solid #F16728",
                           fontSize: "medium",
                           margin: 5,
+
+                          width:"125px",
                         }}
                       >
                         Add to Cart
@@ -707,9 +709,10 @@ function PricingCard() {
                         class="btn"
                         onClick={() => navigate("/getproduct")}
                         style={{
+                         
                           color: "#F16728",
                           border: " 2px solid #F16728",
-                          fontSize: "medium",
+                          fontSize: "medium",   width:"125px",
                         }}
                       >
                         Buy Now
