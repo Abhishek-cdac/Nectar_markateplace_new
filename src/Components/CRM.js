@@ -36,20 +36,31 @@ function CRM({
                 {item3}
               </p>
             </div>
-            <div
-              className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4"> 
-
-            
-              <h2 className="text-white d-flex justify-content-end">{heading}</h2>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4">
+              <h2 className="text-white d-flex justify-content-end">
+                {heading}
+              </h2>
               <button
                 className="btn btn-lg text-white m-2"
-                style={{ borderRadius: "3px", background: "#F16728",height:"38px",width:"164px",fontSize:"small" }}
+                style={{
+                  borderRadius: "3px",
+                  background: "#F16728",
+                  height: "38px",
+                  width: "164px",
+                  fontSize: "small",
+                }}
               >
                 {buttontext}
               </button>
               <button
                 className="btn btn-lg text-white d-flex justify-content-end m-2 "
-                style={{ borderRadius: "3px", background: "#F16728",height:"38px",width:"164px",fontSize:"small"  }}
+                style={{
+                  borderRadius: "3px",
+                  background: "#F16728",
+                  height: "38px",
+                  width: "164px",
+                  fontSize: "small",
+                }}
               >
                 {buttontext2}
               </button>
