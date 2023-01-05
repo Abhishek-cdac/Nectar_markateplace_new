@@ -224,12 +224,12 @@ function PricingCard() {
                     <input
                       checked={valueFirst}
                       onClick={handleToggleFirst}
-                      className="react-switch-checkbox"
+                      className="react-switch-checkbox1"
                       id={`react-switch-new-1`}
                       type="checkbox"
                     />
                     <label
-                      className="react-switch-label"
+                      className="react-switch-label1"
                       htmlFor={`react-switch-new-1`}
                     >
                       {" "}
@@ -239,8 +239,8 @@ function PricingCard() {
                       <div className="toggleLabel">
                         <h6>Yearly</h6>
                       </div>
-                      <span className={`react-switch-button`}>
-                        <div className="toggleSwitchLabel">
+                      <span className={`react-switch-button1`}>
+                        <div className="toggleSwitchLabel1">
                           {!valueFirst ? <h6>Monthly</h6> : <h6>Yearly</h6>}
                         </div>
                       </span>
@@ -393,12 +393,12 @@ function PricingCard() {
                     <input
                       checked={valueSec}
                       onClick={handleToggleSec}
-                      className="react-switch-checkbox"
+                      className="react-switch-checkbox1"
                       id={`react-switch-new-2`}
                       type="checkbox"
                     />
                     <label
-                      className="react-switch-label"
+                      className="react-switch-label1"
                       htmlFor={`react-switch-new-2`}
                     >
                       {" "}
@@ -408,8 +408,8 @@ function PricingCard() {
                       <div className="toggleLabel">
                         <h6>Yearly</h6>
                       </div>
-                      <span className={`react-switch-button`}>
-                        <div className="toggleSwitchLabel">
+                      <span className={`react-switch-button1`}>
+                        <div className="toggleSwitchLabel1">
                           {!valueSec ? <h6>Monthly</h6> : <h6>Yearly</h6>}
                         </div>
                       </span>
@@ -558,16 +558,16 @@ function PricingCard() {
                   <div>
                     <h4>Silver</h4>
                   </div>
-                  <div className="switch_toggle  ">
+                  <div className="switch_toggle">
                     <input
                       checked={valueThrid}
                       onChange={handleTogglethrid}
-                      className="react-switch-checkbox"
+                      className="react-switch-checkbox1"
                       id={`react-switch-new-3`}
                       type="checkbox"
                     />
                     <label
-                      className="react-switch-label"
+                      className="react-switch-label1"
                       htmlFor={`react-switch-new-3`}
                     >
                       {" "}
@@ -577,8 +577,8 @@ function PricingCard() {
                       <div className="toggleLabel">
                         <h6>Yearly</h6>
                       </div>
-                      <span className={`react-switch-button`}>
-                        <div className="toggleSwitchLabel">
+                      <span className={`react-switch-button1`}>
+                        <div className="toggleSwitchLabel1">
                           {!valueThrid ? <h6>Monthly</h6> : <h6>Yearly</h6>}
                         </div>
                       </span>

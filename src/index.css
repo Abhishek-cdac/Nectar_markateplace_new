@@ -151,7 +151,6 @@ h6.card-title {
   transform: translate(-50%, -50%);
   width: 80%;
   text-align: center;
-
   color: #ffffff;
   line-height: 1.5;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -174,6 +173,21 @@ h6.card-title {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 1.25rem;
+}
+
+
+/* overview page  card css*/
+
+  .card-overview{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  /* border: 1px solid rgba(0,0,0,.125); */
+  border-radius: 0.25rem;
 }
 
 .p {
@@ -243,6 +257,10 @@ p.card-text {
 @media only screen and (max-width: 767px) {
   .landing_card2 {
     margin-top: 220px !important;
+  }
+  .banner-content h2{
+    margin-top: 10px;
+    font-size: 20px;
   }
 }
 
@@ -358,7 +376,7 @@ p .small_card {
   border: none;
   border-radius: 10px;
   margin-top: 2%;
-  width: 16%
+  /* width: 16% */
 }
 
 .form-testimonal {
@@ -385,18 +403,18 @@ p .small_card {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  width: 12em;
-  height: 2.3em;
+  width: 17em;
+  height: 3.3em;
   margin: auto;
   background: #fff;
   border: 1px solid grey;
-  /* border-radius: 100px; */
+  border-radius: 100px;
   position: relative;
   transition: background-color 0.2s;
 }
 
 .toggleSwitchLabel {
-  padding: 7px 0;
+  padding: 14px 0;
   color: #fff;
 }
 
@@ -404,9 +422,9 @@ p .small_card {
   position: absolute;
   /* top: 0px; */
   left: 0px;
-  width: 95px;
-  height: 35px;
-  /* border-radius: 45px; */
+  width: 130px;
+  height: 52px;
+  border-radius: 45px;
   transition: 0.2s;
   background: #f16728;
   box-shadow: 0 0 2px 0 #0a0a0a4a;
@@ -464,9 +482,9 @@ p .small_card {
 
 .productTabs {
   font-size: medium;
-  color: #707070;
-  font-weight: 600;
-  opacity: 0.8;
+  color: #474747;
+  font-weight: 500;
+  opacity: 0.9;
 }
 .review_adress {
   font-size: small;
@@ -1554,7 +1572,8 @@ h6 {
 /* Enquiry Form */
 
 .midsec {
-  background-color: #efe8e8;
+background-color: #efe8e8;
+width: 101%;
 }
 
 .border-bottom {
@@ -1576,12 +1595,14 @@ h6 {
   /* color: #08668f; */
   font-size: 11px;
   font-weight: 500;
+  color: #08668f;
 }
 
 .midbutton {
   width: 200px;
   background-color: #f16728;
   color: white;
+  height:35px;
 }
 
 .line {
@@ -1608,9 +1629,7 @@ html,body{
   
 } */
 
-.midsec {
-  background-color: #efe8e8;
-}
+/*   */
 
 .border-bottom {
   color: #474747;
@@ -1679,7 +1698,7 @@ html,body{
   justify-content: space-between;
   cursor: pointer;
   width: 12em;
-  height: 3.3em;
+  height: 2.3em;
   /* left: 38%; */
   background: #fff;
   border: 2px solid grey;
@@ -1699,7 +1718,7 @@ html,body{
   top: 0px;
   left: 0px;
   width: 95px;
-  height: 50px;
+  height: 33px;
   /* border-radius: 45px; */
   transition: 0.2s;
   background: #f16728;
@@ -1744,7 +1763,7 @@ html,body{
 }
 
 .toggleSwitchLabel2 {
-  padding-top: 8%;
+  padding-top: 5%;
   padding-left: 0%;
   color: #fff;
 }
@@ -1795,7 +1814,9 @@ html,body{
   /* border: none; */
   border-radius: 0%;
 }
-
+.header-shodow{
+  box-shadow: 0px 15px 10px -15px #111;
+}
 .double_click {
   color: #05e223;
   margin-left: auto;

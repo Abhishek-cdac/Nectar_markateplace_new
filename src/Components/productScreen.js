@@ -42,7 +42,7 @@ function Productscreen() {
   };
 
   return (
-    <div>
+    <div className="mt-1">
       <section id="productScreen">
         <div className="container">
           {" "}
