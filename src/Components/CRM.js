@@ -64,7 +64,7 @@ function CRM({
               >
                 {buttontext2}
               </button> */}
-              <button>buy Now</button>
+              <button className="">buy Now</button>
             </div>
           </div>
         </div>
