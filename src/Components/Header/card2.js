@@ -6,7 +6,7 @@ function Card2() {
   const navigate = useNavigate();
 
   return (
-    <div className="row" style={{ justifyContent: "center" ,marginLeft:"13px"}}>
+    <div className="row" style={{ justifyContent: "center",marginBottom:"90px" }}>
       {dummyData &&
         dummyData.CardData.map((data) => (
           <div className="card  small_card col-12 col-lg-3 col-sm-6 col-md-6">
@@ -25,19 +25,20 @@ function Card2() {
               }}
             ></div>
             <div class="card-body">
-              <h6 class="card-title">{data.title}</h6>
+              <h6 class="card-title" style={{fontSize:"15px"}}>{data.title}</h6>
               <p class="card-text">
                 {data.sort.split("").splice(0, 45).join("") +
-                  (data.sort?.split(" ").length > 10 ? "..." : "")}
-              </p>
-              <button
+                  (data.sort?.split(" ").length > 10? "..." : "")}
+                  <button
                 className="Learn_card2"
                 onClick={() => navigate(data.url)}
                  >
                 <div>
-                Learn More <span> <i className="fa fa-long-arrow-right" style={{color:"#F16728",fontSize:"large"}}/></span></div>
+                Learn More <span> <i className="fa fa-long-arrow-right" style={{color:"#F16728",fontSize:"small"}}/></span></div>
                 
               </button>
+              </p>
+              
             </div>
           </div>
         ))}

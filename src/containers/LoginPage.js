@@ -84,18 +84,19 @@ function LoginPage() {
                       class="navbar-brand"
                       href="#"
                       style={{
-                        fontWeight: "bold",
-                        color: "grey",
-                        fontSize: "large",
+                        fontWeight: "500",
+                        color: "#474747",
+                        fontSize: "small",
                         borderLeft: "2px solid grey",
+                        height:"20px"
                       }}
                     >
                       &nbsp;&nbsp;Marketplace
                     </a>
                   </div>
                   <div
-                    className="col-lg-7 mt-3 loginNew"
-                    style={{ fontSize: "small" }}
+                    className="col-lg-7 mt-3 mx-0 loginNew"
+                    style={{ fontSize: "10px",color:"#333333" }}
                   >
                     New to The Product ?
                     <span>
@@ -105,19 +106,19 @@ function LoginPage() {
                     </span>
                   </div>
                 </div>
-                <div className="row">
+                <div className="row" style={{marginTop:"30px"}}>
                   <div className="signinform">
                     <h6>
-                      <b style={{ color: "#474747" }} className="mx-5">
-                        Sign up
+                      <b style={{ color: "#474747",  fontSize:"14px"}} className="mx-5">
+                        Sign in
                       </b>
                     </h6>
                     <p
                       className="mx-5"
                       style={{
-                        color: "grey",
+                        color: "#474747",
                         fontFamily: "sans-serif",
-                        fontSize: "small",
+                        fontSize: "10px",
                       }}
                     >
                       To access{" "}
@@ -129,7 +130,7 @@ function LoginPage() {
 
                 <div class="col-lg-12 col-sm-12 UserManRadio">
                   <p style={{ color: "#474747", marginLeft: "3em" }}>
-                    <b style={{ marginRight: "3em" }}>Log In As</b>
+                    <b style={{ marginRight: "1em",fontSize:"12px" }}>Log In As</b>
 
                     {dummyData?.loginRadio.map((item) => {
                       return (
@@ -149,7 +150,7 @@ function LoginPage() {
 
                 <div className="row">
                   <div className="signinform1">
-                    <div className="login mt-4" style={{ fontSize: "small" }}>
+                    <div className="login  mt-3" style={{ fontSize: "small" }}>
                       <input
                         placeholder="Enter Email ID"
                         type="text"
@@ -167,7 +168,7 @@ function LoginPage() {
                         onChange={haandleChange}
                       />
                       <div className="forgotpassword mt-2">
-                        <p style={{ textAlign: "right", fontSize: "small" }}>
+                        <p style={{ textAlign: "right", fontSize: "11px",color:"#777777" }}>
                           Forgot Password?
                           <span>
                             <a class="nav-link" onClick={()=>navigate("/forgetpassword")}>
@@ -177,10 +178,8 @@ function LoginPage() {
                         </p>
                       </div>
                     </div>
-                    <p className="loginText mt-3" style={{ fontSize: "small" }}>
-                      Lorem Ipsum, sometimes referred to as 'lipsum', is the
-                      placeholder text used in design when creating content. It
-                      helps designers plan out where the content will sit.
+                    <p className="loginText mt-3" style={{ fontSize: "11px",color:"#777777" }}>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
                     <div class="form-check">
                       <input
@@ -195,6 +194,7 @@ function LoginPage() {
                       <label
                         class="form-check-label"
                         for="check2"
+                        style={{ fontSize: "9.6px" }}
                        
                       >
                         I agree to the{" "}
@@ -205,8 +205,8 @@ function LoginPage() {
                             style={{
                               color: "#333333",
                               textDecoration: "underline",
-                              fontSize: "small",
-                              // color:"grey",
+                          
+                               color:"#333333",
                               fontFamily: "sans-serif",
                               padding: "2px",
                             }}
@@ -254,18 +254,19 @@ function LoginPage() {
                     </div>
                     {data.radioVal == 2 ? (
                       <div className="row mb-5">
-                        <div className="col-lg-8">
+                        <div className="col-lg-6 d-flex justify-content-end mt-3">
                           <div className="icon">
-                            <h6>Or Log In Using</h6>
+                            <p style={{fontSize:"12px",color:"#333333"}}>Or Log In Using</p>
                           </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-6 mt-2">
                           <a href="#">
-                          <i class="fab fa-google fa-2x"></i>
+                          <i class="fab fa-google fa-2x "></i>
                           </a>
                           &nbsp;&nbsp;&nbsp;
                           <a href="#">
-                         <i class='fa fa-linkedin-square yellow-color fa-2x'></i>
+                            <p style={{fontSize:"15px"}}>   <i class='fa fa-linkedin-square yellow-color fa-2x'></i></p>
+                      
                           </a>
                         </div>
                       </div>
