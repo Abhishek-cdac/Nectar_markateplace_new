@@ -178,7 +178,7 @@ function LoginPage() {
                         </p>
                       </div>
                     </div>
-                    <p className="loginText mt-3" style={{ fontSize: "11px",color:"#777777" }}>
+                    <p className="loginText mt-3" style={{ fontSize: "10px",color:"#777777" }}>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                     </p>
                     <div class="form-check">
@@ -256,7 +256,7 @@ function LoginPage() {
                       <div className="row mb-5">
                         <div className="col-lg-6 d-flex justify-content-end mt-3">
                           <div className="icon">
-                            <p style={{fontSize:"12px",color:"#333333"}}>Or Log In Using</p>
+                            <p style={{fontSize:"14px",color:"black"}}>Or Log In Using</p>
                           </div>
                         </div>
                         <div className="col-lg-6 mt-2">

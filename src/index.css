@@ -373,9 +373,9 @@ p .small_card {
 
 /* Toggle  FAQ*/
 
-#faq {
+/* #faq {
   padding: 60px 0;
-}
+} */
 
 .react-switch-checkbox {
   height: 0;
@@ -385,21 +385,22 @@ p .small_card {
 
 .react-switch-label {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  width: 12em;
-  height: 2.3em;
-  margin: auto;
-  background: #fff;
-  border: 1px solid grey;
-  /* border-radius: 100px; */
-  position: relative;
-  transition: background-color 0.2s;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 19em;
+    height: 3.3em;
+    margin: auto;
+    background: #fff;
+    border: 1px solid grey;
+    border-radius: 40px;
+    /* border-radius: 100px; */
+    position: relative;
+    transition: background-color 0.2s;
 }
 
 .toggleSwitchLabel {
-  padding: 7px 0;
+  padding: 14px 0;
   color: #fff;
 }
 
@@ -488,18 +489,22 @@ p .small_card {
 
 .backgroundimage-GPS-Tracer {
   background: url(/public/assets/images/GPS-Tracer.png);
+  padding-bottom: 86px;
 }
 
 .backgroundimage-Nerro-Trac {
   background: url(/public/assets/images/Nerro-Trac.png);
+  padding-bottom: 86px
 }
 
 .backgroundimage-ITSMTool {
   background: url(/public/assets/images/NT3-ITSMTool.png);
+  padding-bottom: 48px;
 }
 
 .backgroundimage-nDatu {
   background: url(/public/assets/images/nDatu.png);
+  padding-bottom: 78px;
 }
 
 /* Review Slider */
@@ -578,8 +583,8 @@ p .small_card {
     margin-right: -25px;
     height: 517px;
     margin-top: 80px;
-    width: 83%;
-    margin-left: 124px;
+    width: 82%;
+    margin-left: 130px;
   }
 }
 
@@ -605,13 +610,24 @@ p .small_card {
   background-color: #ffffff;
   width: 82%;
 
-  margin-top: 81px;
+  margin-top: 80px;
   height: 517px;
   /* margin-bottom: 43px; */
   /* height: 590px;
   margin-top: 80px;
   margin-bottom: 110px; */
 }
+@media screen and (max-width: 600px) {
+  .loginrightsection {
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 81px;
+    height: max-content
+
+    /* margin-bottom: 43px; */
+}
+}
+
 
 .loginrightsection a {
   color: #238ae6;
@@ -645,7 +661,7 @@ p .small_card {
     width: 210px;
     height: 80px;
     border: none;
-    margin-left: 180px;
+
     height: 37px;
     border-radius: 5px;
   }
@@ -657,7 +673,7 @@ p .small_card {
     width: 183px;
     height: 80px;
     border: none;
-    margin-left: 107px;
+    margin-left: 67px;
     height: 32px;
     margin-top: 6px;
     border-radius: 5px;
@@ -746,20 +762,39 @@ p .small_card {
 
 .registrationleftsection {
   background: url(/public/assets/images/loginleftimage.png);
+  margin-top: -94px;
+    height: 501px;
+    width: 83%;
+    margin-left: 101px
   /* margin-right: -29px; */
-  height: 560px;
+  /* height: 560px; */
 }
 
-@media screen and (min-width: 900px) {
+
+@media screen and (max-width: 600px) {
+  .registrationleftsection {
+    margin-top: -94px;
+    height: max-content;
+    margin-left: 0px;
+   
+  }
+}
+
+
+
+
+/* @media screen and (min-width: 900px) {
   .registrationleftsection {
     margin-right: -29px;
     height: 618px;
   }
-}
+} */
 @media screen and (min-width: 1060px) {
   .registrationleftsection {
     margin-right: -29px;
     height: 560px;
+    width: 83%;
+    margin-left: 130px;
   }
 }
 
@@ -786,8 +821,9 @@ p .small_card {
 .registrationrightsection {
   background-color: #ffffff;
   height: max-content;
-  margin-top: 110px;
-  margin-bottom: 110px;
+  /* margin-top: 110px; */
+  /* margin-bottom: 110px; */
+  width: 83%;
 }
 
 .registrationrightsection a {
@@ -823,7 +859,7 @@ p .small_card {
     border-radius: 8px;
     height: 37px;
     width: 50%;
-    margin-left: 150px;
+    margin-left: 96px;
   }
 }
 
@@ -1613,7 +1649,7 @@ h6 {
 
 .line {
   border-right: 2px solid white;
-  height: 300px;
+  height: 210px;
 }
 
 li::marker {
@@ -1816,6 +1852,7 @@ html,body{
 .nav-pills .nav-link.active {
   background-color: #f16728;
   color: #fff;
+  font-size: 14px;
 }
 
 .nav-pills .nav-link {
@@ -2053,6 +2090,8 @@ element.style {
   font: normal normal normal 12px/31px;
   letter-spacing: 0px;
   color: #000000;
+  
+
 }
 .marketplace {
   font: normal normal 600 19px/23px Raleway;
@@ -2186,4 +2225,30 @@ element.style {
 .fa-google:before {
   font-size: 22px;
   content: "\f1a0";
+}
+.button-buy {
+  border-radius: 3px;
+    background: rgb(241, 103, 40);
+    height: 32px;
+    width: 164px;
+    font-size: 12px;
+    margin: auto !important;
+
+}
+.button-free{
+  border-radius: 3px;
+  background: rgb(241, 103, 40);
+  height: 32px;
+  width: 164px;
+  font-size: small;
+  
+  margin-right: 45px !important;
+
+}
+.button-crm{
+  display: flex;
+  margin: auto !important;
+  max-width: 404px;
+  margin-right: 12px !important;
+
 }

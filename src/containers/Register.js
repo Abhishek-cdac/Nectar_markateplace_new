@@ -117,7 +117,7 @@ function Register() {
 
                     <div class="col-lg-12 UserManRadio">
                       <p style={{ color: "#474747" }}>
-                        <b style={{ marginRight: "6em" }}>Register as</b>
+                        <b style={{ marginRight: "1em" }}>Register as</b>
 
                         {dummyData?.loginRadio.map((item) => {
                           return (
@@ -223,16 +223,12 @@ function Register() {
                         />
                         <p
                           style={{
-                            fontSize: "11px",
+                            fontSize: "10px",
                             color: "#777777",
                             fontFamily: "sans-serif",
                           }}
                         >
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book.
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                         </p>
                       </div>
                       <div class="form-check">
@@ -280,8 +276,8 @@ function Register() {
                           class="form-check-label"
                           for="check2"
                           style={{
-                            fontSize: "small",
-                            color: "#333333",
+                            fontSize: "smaller",
+                            color: "black",
                             fontFamily: "sans-serif",
                           }}
                         >
@@ -291,11 +287,11 @@ function Register() {
                               class="nav-link"
                               href="/"
                               style={{
-                                color: "#333333",
+                                color: "black",
                                 textDecoration: "underline",
-                                fontSize: "small",
+                                fontSize: "9px",
                                 // color:"grey",
-                                fontFamily: "sans-serif",
+                             
                                 padding: "2px",
                               }}
                             >
