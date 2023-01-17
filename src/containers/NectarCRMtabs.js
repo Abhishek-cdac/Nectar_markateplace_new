@@ -26,9 +26,9 @@ const NectarCRMtabs = ( ) => {
           buttontext="Free Demo"
           buttontext2="Buy Now"
         />
-        <div className="container" style={{marginLeft:"20px"}}>
-          <ul class="nav nav-pills navtabs mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
+        <div className="container-fluid header-shodow">
+          <ul class="nav nav-pills" id="pills-tab" role="tablist" style={{marginLeft:"20px"}}>
+            <li class="nav-item" role="presentation " >
               <button
                 color="red"
                 class="nav-link  productTabs active productTabs"
@@ -73,7 +73,7 @@ const NectarCRMtabs = ( ) => {
                 Review
               </button>
             </li>
-            <li class="nav-item" role="presentation">
+            <li class="nav-item  " role="presentation">
               <button
                 class="nav-link  productTabs"
                 id="pills-pricingsubs-tab"

@@ -20,7 +20,7 @@ const ComplaintManagement = () => {
    };
   return (
     <>
-      <div className="container" >
+      <div className="container-fluid" >
         <div className="row" >
           <div className="col col-lg-6">
             <h4 style={{color:"#666666"}}>Complaint Management</h4>
@@ -49,6 +49,7 @@ const ComplaintManagement = () => {
                   display: "inherit",
                   marginBottom: "20px",
                   marginTop: "20px",
+                  justifyContent:"end",
                   color:"#8C8C8C"
                 }}
               >

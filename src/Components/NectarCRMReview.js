@@ -6,12 +6,12 @@ import './CRMreview.css'
 function NectarCRMReview() {
   return (
     <>
-      <section className="review_backgraound">
+      <section className="review_backgraound mt-1">
         <div className="container ">
           <div className="row d-flex justify-content-center mb-5">
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 pt-5 ">
               <div className="vertical-line">
-                <h5 className="pt-5" style={{ marginLeft: "15%" }}>
+                <h5 className="pt-5 text-center">
                   Rating Pattern
                 </h5>
                 <div className="pt-3 ">
@@ -59,10 +59,10 @@ function NectarCRMReview() {
             <div className="col-md-2">
               
             </div>
-            <div className="  col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-5 ">
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-3 mt-5">
               <div className="row d-flex justify-content-center">
                 <div className="testimonal_heading">
-                  <h2>Share Your Review</h2>
+                  <h2 className="mt-5">Share Your Review</h2>
                 </div>
                 <form className="form-testimonal">
                   <div class="form-group col-md-12 ">

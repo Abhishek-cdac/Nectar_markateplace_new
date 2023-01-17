@@ -3,7 +3,7 @@ import React from "react";
 const ReportManagement = () => {
   return (
     <>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row"  style={{color:"#838383"}}>
           <div className="col col-lg-6">
             <h4 className="mt-4 mb-4" style={{color:"#666666"}}>Report Management</h4>

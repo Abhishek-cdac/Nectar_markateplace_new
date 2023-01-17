@@ -21,7 +21,7 @@ const AdUserMan = () => {
   console.log(checkedValue);
 
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div class="row "  style={{color:"#EBEBEB"}}>
         <div class="col text-left adminSecHeading">
           <h4 className="mt-4 mb-4">{`User Management / ${
