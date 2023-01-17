@@ -88,6 +88,7 @@ const Subscribed = () => {
                   marginBottom: "20px",
                   marginTop: "20px",
                   justifyContent:"end",
+                  color:"#8C8C8C"
                 }}
               >
                 <ReactPaginate

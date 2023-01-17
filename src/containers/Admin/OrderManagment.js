@@ -1,13 +1,25 @@
-import React from "react";
+import React , {useState} from "react";
 import "./OrderManagment.css";
+import ReactPaginate from "react-paginate";
+
 import dummyData from "../Dummydata";
 import Tables from "../../Components/Admin/Tables";
 
 import Dummuydataordermanagment from "./Dummuydataordermanagment";
 
 function OrderManagment() {
+  //pagination
+  const [pageNumber, setPageNumber] = useState(0);
+  const usersPerPage = 10;
+  const pagesVisited = pageNumber * usersPerPage;
+  const pageCount = Math.ceil(
+    Dummuydataordermanagment?.orderManagmentdata.length / usersPerPage
+  );
+  const changePage = ({ selected }) => {
+    setPageNumber(selected);
+  };
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row">
         <div className="col">
           <h4 className="my-3">Order Management</h4>
@@ -50,7 +62,7 @@ function OrderManagment() {
         /> */}
 
          <div className="row">
-          <div className="col-lg-12">
+          <div className="col-lg-12 table-responsive">
             <div className="ordermanagment-table">
               <table class="table ordermanagment-table">
                 <thead>
@@ -69,7 +81,7 @@ function OrderManagment() {
                 </thead>
                 <tbody>
                   {Dummuydataordermanagment &&
-                    Dummuydataordermanagment.orderManagmentdata.map((data) => (
+                    Dummuydataordermanagment.orderManagmentdata.slice(pagesVisited, pagesVisited + usersPerPage).map((data) => (
                       <tr>
                         <td scope="row">{data.Number}</td>
 
@@ -347,6 +359,29 @@ function OrderManagment() {
               </table>
             </div>
           </div>
+          <div className="col-md-7"></div>
+            <div
+              className="col-md-5 product_pagination"
+              style={{
+                display: "inherit",
+                marginBottom: "20px",
+                marginTop: "20px",
+                justifyContent:"end",
+                color:"#8C8C8C"
+              }}
+            >
+              <ReactPaginate
+                previousLabel={<i class="fa-solid fa-less-than"></i>}
+                nextLabel={<i class="fa-solid fa-greater-than"></i>}
+                pageCount={pageCount}
+                onPageChange={changePage}
+                containerClassName={"paginationBttns"}
+                previousLinkClassName={"previousBttn"}
+                nextLinkClassName={"nextBttn"}
+                disabledClassName={"paginationDisabled"}
+                activeClassName={"paginationActive"}
+              />
+            </div>
         </div> 
       </div>
     </div>

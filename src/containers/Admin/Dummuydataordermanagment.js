@@ -19,7 +19,7 @@ const Dummuydataordermanagment = {
   ],
   orderManagmentdata: [
     {
-      Number: "110",
+      Number: "93",
       fullName: "Mark Lorenson",
       orderId: "2658987457",
       orderDate: "16-08-2021 18:05",
@@ -27,7 +27,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "109",
+      Number: "94",
       fullName: "Juker Berg",
       orderId: "23659874124",
       orderDate: "12-07-2021 11:30",
@@ -35,7 +35,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "108",
+      Number: "95",
       fullName: "Steaffen lark",
       orderId: "2658987457",
       orderDate: "16-08-2021 18:05",
@@ -43,7 +43,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "107",
+      Number: "96",
       fullName: "Hello Walt",
       orderId: "0214578956",
       orderDate: "21-05-2021 12:00",
@@ -51,7 +51,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "106",
+      Number: "97",
       fullName: "Wurth",
       orderId: "2658987457",
       orderDate: "21-05-2021 12:00",
@@ -59,7 +59,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "105",
+      Number: "98",
       fullName: "Charless Cross",
       orderId: "0565897458",
       orderDate: "21-05-2021 12:00",
@@ -67,7 +67,7 @@ const Dummuydataordermanagment = {
       Status: "Pending",
     },
     {
-      Number: "104",
+      Number: "99",
       fullName: "Numerica Lender",
       orderId: "2658987457",
       orderDate: "21-05-2021 12:00",
@@ -75,7 +75,7 @@ const Dummuydataordermanagment = {
       Status: "Pending",
     },
     {
-      Number: "103",
+      Number: "100",
       fullName: "Throbh Marker",
       orderId: "8965698740",
       orderDate: "21-05-2021 12:00",
@@ -83,7 +83,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "102",
+      Number: "101",
       fullName: "Anna Malakijt",
       orderId: "2365987410",
       orderDate: "21-05-2021 12:00",
@@ -91,7 +91,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "101",
+      Number: "102",
       fullName: "Mark Lorenson",
       orderId: "0236598745",
       orderDate: "21-05-2021 12:00",
@@ -99,7 +99,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "100",
+      Number: "103",
       fullName: "Juker Berg",
       orderId: "02365874587",
       orderDate: "21-05-2021 12:00",
@@ -107,7 +107,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "099",
+      Number: "104",
       fullName: "Steaffen lark",
       orderId: "2356978511",
       orderDate: "21-05-2021 12:00",
@@ -115,7 +115,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "098",
+      Number: "105",
       fullName: "Hello Walt",
       orderId: "0236589874",
       orderDate: "21-05-2021 12:00",
@@ -123,7 +123,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "097",
+      Number: "106",
       fullName: "Wurth",
       orderId: "2658987457",
       orderDate: "16-08-2021 18:05",
@@ -132,7 +132,7 @@ const Dummuydataordermanagment = {
       Action: "visibility",
     },
     {
-      Number: "096",
+      Number: "107",
       fullName: "Charless Cross",
       orderId: "2365987485",
       orderDate: "21-05-2021 12:00",
@@ -141,7 +141,7 @@ const Dummuydataordermanagment = {
     },
 
     {
-      Number: "095",
+      Number: "108",
       fullName: "Numerica Lender",
       orderId: "4578965874",
       orderDate: "21-05-2021 12:00",
@@ -149,7 +149,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "094",
+      Number: "109",
       fullName: "Throbh Marker",
       orderId: "1258965874",
       orderDate: "21-05-2021 12:00",
@@ -157,7 +157,7 @@ const Dummuydataordermanagment = {
       Status: "PAID",
     },
     {
-      Number: "093",
+      Number: "110",
       fullName: "Anna Malakijt",
       orderId: "4587458965",
       orderDate: "21-05-2021 12:00",

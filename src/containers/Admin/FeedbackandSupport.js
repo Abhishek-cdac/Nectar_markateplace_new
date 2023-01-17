@@ -15,7 +15,7 @@ const FeedbackandSupport = () => {
     setPageNumber(selected);
   };
   return (
-    <div className="container ">
+    <div className="container-fluid ">
       <div className="row">
         <div className="col col-lg-6">
           <h4 className="mt-3 mb-2" style={{color:"#666666"}}>Users Reviews & Feedback</h4>

@@ -27,7 +27,8 @@
   font: normal normal normal 12px/35px Lato;
   letter-spacing: 0px;
   color: #ffffff;
-
+  width: 50px;
+height: 35px;
   border: none;
   background: #f16728;
 }

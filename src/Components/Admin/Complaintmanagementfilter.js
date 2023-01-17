@@ -13,7 +13,7 @@ const Complaintmanagementfilter = () => {
         data-bs-toggle="dropdown"
         aria-expanded="false"
       ></button>
-      <div className="dropdown-menu FilterRadioGroup"  style={{width:'300px' ,paddingLeft:"30px"  }}>
+      <div className="dropdown-menu FilterRadioGroup"  style={{width:'200px' ,paddingLeft:"15px"  }}>
         <p className="FilterRadioHead">Status</p>
         {DummyData?.Status.map((item) => {
           return (

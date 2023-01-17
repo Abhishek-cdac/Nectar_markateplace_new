@@ -20,7 +20,7 @@ function PaymentManagment() {
 
   return (
     <div>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col">
             <h4 className="my-3" style={{ color: "#666666" }}>
@@ -53,7 +53,7 @@ function PaymentManagment() {
           </div>
 
           <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-12 table-responsive">
               <div className="ordermanagment-table">
                 <table class="table ordermanagment-table">
                   <thead>
@@ -109,6 +109,7 @@ function PaymentManagment() {
                 display: "inherit",
                 marginBottom: "20px",
                 marginTop: "20px",
+                justifyContent:"end",
                 color:"#8C8C8C"
               }}
             >
