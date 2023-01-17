@@ -61,6 +61,7 @@ function ReviewForm() {
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="Name"
+                style={{height:"50px",fontSize:"15px"}}
               />
 
             </div>
@@ -72,6 +73,7 @@ function ReviewForm() {
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="Email Id"
+                style={{height:"50px",fontSize:"15px"}}
               />
             </div>
             <div class="form-group col-md-6 mb-4">
@@ -79,7 +81,8 @@ function ReviewForm() {
                 type="textArea"
                 class="form-control form-control-lg testimonalInput"
                 id="exampleInputPassword1"
-                placeholder="Please write the Review..."
+                placeholder="Your Words"
+                style={{height:"110px",fontSize:"15px"}}
               />
             </div>
 

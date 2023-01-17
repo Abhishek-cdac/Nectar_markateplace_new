@@ -11,7 +11,7 @@ const Toggle = () => {
   return (
     <>
       <div className="Toggle_main">
-        <div className="Faq_heading">
+        <div className="Faq_heading mt-5">
           <h2>Frequently Asked Questions</h2>
         </div>
         <div className="switch_toggle">

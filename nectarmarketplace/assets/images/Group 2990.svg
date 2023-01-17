@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="823" viewBox="0 0 1920 823">
+  <g id="Group_2990" data-name="Group 2990" transform="translate(0 -581)">
+    <rect id="Rectangle_437" data-name="Rectangle 437" width="1920" height="823" transform="translate(0 581)" fill="#eee" opacity="0.78"/>
+    <path id="Path_2017" data-name="Path 2017" d="M445.267,528.417a61.162,61.162,0,0,0,84.553-18.193c18.328-28.387,22.919-85.971-5.468-104.3s-58.6,25.18-88.2,41.146C394.5,469.415,416.913,510.089,445.267,528.417Z" transform="translate(1223.843 1026.922) rotate(-19)" fill="#e1e2fe" opacity="0.47"/>
+    <path id="Path_2013" data-name="Path 2013" d="M26.141,103.463A49.859,49.859,0,0,0,95.068,88.631c14.941-23.141,18.683-70.083-4.458-85.024s-47.768,20.527-71.9,33.542C-15.243,55.365,3.027,88.521,26.141,103.463Z" transform="matrix(-0.921, 0.391, -0.391, -0.921, 171.229, 718.582)" fill="#e1e2fe" opacity="0.47"/>
+    <ellipse id="Ellipse_54" data-name="Ellipse 54" cx="7.765" cy="7.765" rx="7.765" ry="7.765" transform="translate(1774.754 1214.557) rotate(-19)" fill="#3e479b" opacity="0.58"/>
+    <ellipse id="Ellipse_53" data-name="Ellipse 53" cx="6.039" cy="6.039" rx="6.039" ry="6.039" transform="translate(1768.912 1331.396) rotate(-19)" fill="#ef929c" opacity="0.58"/>
+    <ellipse id="Ellipse_55" data-name="Ellipse 55" cx="7.765" cy="7.765" rx="7.765" ry="7.765" transform="translate(1892.525 1319.984) rotate(-19)" fill="#ef929c" opacity="0.58"/>
+    <path id="Path_2016" data-name="Path 2016" d="M384.686,393.129l-11.733.086a1.018,1.018,0,0,1,0-2.019l11.716-.086a1.018,1.018,0,0,1,0,2.019Z" transform="translate(1253.905 1039.945) rotate(-19)" fill="#fff"/>
+    <path id="Path_2018" data-name="Path 2018" d="M395.907,393.039l-11.716.086a1,1,0,1,1,0-2l11.716-.1a1.018,1.018,0,0,1,1.018,1,1,1,0,0,1-1.018,1.018Z" transform="translate(1261.514 1037.256) rotate(-19)" fill="#fff"/>
+  </g>
+</svg>
