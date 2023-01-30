@@ -175,10 +175,9 @@ h6.card-title {
   border-radius: 1.25rem;
 }
 
-
 /* overview page  card css*/
 
-  .card-overview{
+.card-overview {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -258,7 +257,7 @@ p.card-text {
   .landing_card2 {
     margin-top: 220px !important;
   }
-  .banner-content h2{
+  .banner-content h2 {
     margin-top: 10px;
     font-size: 20px;
   }
@@ -403,18 +402,18 @@ p .small_card {
 
 .react-switch-label {
   display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-    width: 19em;
-    height: 3.3em;
-    margin: auto;
-    background: #fff;
-    border: 1px solid grey;
-    border-radius: 40px;
-    /* border-radius: 100px; */
-    position: relative;
-    transition: background-color 0.2s;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 19em;
+  height: 3.3em;
+  margin: auto;
+  background: #fff;
+  border: 1px solid grey;
+  border-radius: 40px;
+  /* border-radius: 100px; */
+  position: relative;
+  transition: background-color 0.2s;
 }
 
 .toggleSwitchLabel {
@@ -512,7 +511,7 @@ p .small_card {
 
 .backgroundimage-Nerro-Trac {
   background: url(/public/assets/images/Nerro-Trac.png);
-  padding-bottom: 86px
+  padding-bottom: 86px;
 }
 
 .backgroundimage-ITSMTool {
@@ -640,12 +639,11 @@ p .small_card {
     background-color: #ffffff;
     width: 100%;
     margin-top: 81px;
-    height: max-content
+    height: max-content;
 
     /* margin-bottom: 43px; */
+  }
 }
-}
-
 
 .loginrightsection a {
   color: #238ae6;
@@ -781,25 +779,20 @@ p .small_card {
 .registrationleftsection {
   background: url(/public/assets/images/loginleftimage.png);
   margin-top: -94px;
-    height: 501px;
-    width: 83%;
-    margin-left: 101px
+  height: 501px;
+  width: 83%;
+  margin-left: 101px;
   /* margin-right: -29px; */
   /* height: 560px; */
 }
-
 
 @media screen and (max-width: 600px) {
   .registrationleftsection {
     margin-top: -94px;
     height: max-content;
     margin-left: 0px;
-   
   }
 }
-
-
-
 
 /* @media screen and (min-width: 900px) {
   .registrationleftsection {
@@ -1635,8 +1628,8 @@ h6 {
 /* Enquiry Form */
 
 .midsec {
-background-color: #efe8e8;
-width: 101%;
+  background-color: #efe8e8;
+  width: 101%;
 }
 
 .border-bottom {
@@ -1665,7 +1658,7 @@ width: 101%;
   width: 200px;
   background-color: #f16728;
   color: white;
-  height:35px;
+  height: 35px;
 }
 
 .line {
@@ -1824,6 +1817,18 @@ html,body{
   position: relative;
   transition: background-color 0.2s;
 }
+.pricing-card .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0px 3px 20px #00000047;
+}
 
 .toggleSwitchLabel2 {
   padding-top: 5%;
@@ -1878,7 +1883,7 @@ html,body{
   /* border: none; */
   border-radius: 0%;
 }
-.header-shodow{
+.header-shodow {
   box-shadow: 0px 15px 10px -15px #111;
 }
 .double_click {
@@ -2111,8 +2116,6 @@ element.style {
   font: normal normal normal 12px/31px;
   letter-spacing: 0px;
   color: #000000;
-  
-
 }
 .marketplace {
   font: normal normal 600 19px/23px Raleway;
@@ -2249,27 +2252,43 @@ element.style {
 }
 .button-buy {
   border-radius: 3px;
-    background: rgb(241, 103, 40);
-    height: 32px;
-    width: 164px;
-    font-size: 12px;
-    margin: auto !important;
-
+  background: rgb(241, 103, 40);
+  height: 32px;
+  width: 164px;
+  font-size: 12px;
+  margin: auto !important;
 }
-.button-free{
+.button-free {
   border-radius: 3px;
   background: rgb(241, 103, 40);
   height: 32px;
   width: 164px;
   font-size: small;
-  
-  margin-right: 45px !important;
 
+  margin-right: 45px !important;
 }
-.button-crm{
+.button-crm {
   display: flex;
   margin: auto !important;
   max-width: 404px;
   margin-right: 12px !important;
+}
+.button-subscription {
+  background-color: #f16728;
+  color: white;
 
+  font-style: italic;
+  font: italic normal normal 25px/36px Lato;
+  border: none;
+
+
+
+
+}
+
+.subscription {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px dashed #f16728;
+  padding: 10px;
+  display: inline-block;
 }
