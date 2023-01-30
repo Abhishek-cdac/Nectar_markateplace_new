@@ -213,14 +213,14 @@ function PricingCard() {
             ))}
         </div> */}
         <div className="row">
-          <div className="col-md-4">
-            <div className="card">
+          <div className="col-md-4" id="main_card">
+            <div className="card" style={{ boxShadow:" 0px 3px 20px #00000047 "}}>
               <div className="card-body">
                 <div className="Toggle_main">
                   <div>
                     <h4>Silver</h4>
                   </div>
-                  <div className="switch_toggle  ">
+                  <div className="switch_toggle">
                     <input
                       checked={valueFirst}
                       onClick={handleToggleFirst}
@@ -250,7 +250,7 @@ function PricingCard() {
                 <div>
                   {!valueFirst ? (
                     <>
-                      <div style={{ textAlign: "center", paddingTop: "10px" }}>
+                      <div className="pricing-content" style={{ textAlign: "center", paddingTop: "10px"  }}>
                         <h5>$200</h5>
                         <p>per month</p>
                         <h3>Benefit</h3>
@@ -383,7 +383,7 @@ function PricingCard() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card">
+            <div className="card" style={{ boxShadow:" 0px 3px 20px #00000047 "}}>
               <div className="card-body">
                 <div className="Toggle_main">
                   <div>
@@ -552,7 +552,7 @@ function PricingCard() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card">
+            <div className="card" style={{ boxShadow:" 0px 3px 20px #00000047 "}}>
               <div className="card-body">
                 <div className="Toggle_main">
                   <div>
