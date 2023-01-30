@@ -213,8 +213,26 @@ function PricingCard() {
             ))}
         </div> */}
         <div className="row">
+<<<<<<< HEAD
+          <div className="col-lg-6">
+            <h2 className="" style={{marginLeaft:"10px"}}>Nectar HRMS Pricing & Plans</h2>
+          </div>
+          <div className="col-lg-6">
+            <div className="subscription">
+              <button className="button-subscription">
+                Get 20% off on yearly subscription
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="row pricing-card mt-5">
+          
+          <div className="col-md-4  ">
+            <div className="card">
+=======
           <div className="col-md-4" id="main_card">
             <div className="card" style={{ boxShadow:" 0px 3px 20px #00000047 "}}>
+>>>>>>> 0edb43242b8ec17b552863ada68bfd426f2fae7e
               <div className="card-body">
                 <div className="Toggle_main">
                   <div>
@@ -345,22 +363,23 @@ function PricingCard() {
                 <div
                   style={{
                     backgroundColor: "#E6EC90",
-                    fontSize: "14px",
+                    fontSize: "18sspx",
                     fontFamily: "Open Sans",
                   }}
                 >
                   <p>$35 whrn you renew the product</p>
                 </div>
-                <div style={{ margin:"0 25px" }}>
+                <div style={{ margin: "0 25px" }}>
                   <button
                     type="submit"
                     class="btn "
                     onClick={() => navigate("/cart")}
                     style={{
                       color: "#F16728",
-                      border: " 2px solid #F16728",
-                      fontSize: "medium",
-                      margin: 5, width:"125px",
+                      border: "1px solid #F16728",
+                      fontSize: "small",
+                      margin: 5,
+                      width: "109px",
                     }}
                   >
                     Add to Cart
@@ -371,8 +390,9 @@ function PricingCard() {
                     onClick={() => navigate("/getproduct")}
                     style={{
                       color: "#F16728",
-                      border: " 2px solid #F16728",
-                      fontSize: "medium", width:"125px",
+                      border: "1px solid #F16728",
+                      fontSize: "small",
+                      width: "109px",
                     }}
                   >
                     Buy Now
@@ -514,13 +534,13 @@ function PricingCard() {
                 <div
                   style={{
                     backgroundColor: "#E6EC90",
-                    fontSize: "14px",
+                    fontSize: "18px",
                     fontFamily: "Open Sans",
                   }}
                 >
                   <p>$35 whrn you renew the product</p>
                 </div>
-                <div style={{ margin:"0 25px" }}>
+                <div style={{ margin: "0 25px" }}>
                   <button
                     type="submit"
                     class="btn "
@@ -528,8 +548,9 @@ function PricingCard() {
                     style={{
                       color: "#F16728",
                       border: " 2px solid #F16728",
-                      fontSize: "medium",
-                      margin: 5, width:"125px",
+                      fontSize: "small",
+                      margin: 5,
+                      width: "109px",
                     }}
                   >
                     Add to Cart
@@ -541,7 +562,8 @@ function PricingCard() {
                     style={{
                       color: "#F16728",
                       border: " 2px solid #F16728",
-                      fontSize: "medium", width:"125px",
+                      fontSize: "small",
+                      width: "109px",
                     }}
                   >
                     Buy Now
@@ -683,23 +705,23 @@ function PricingCard() {
                 <div
                   style={{
                     backgroundColor: "#E6EC90",
-                    fontSize: "14px",
+                    fontSize: "18px",
                     fontFamily: "Open Sans",
                   }}
                 >
                   <p>$35 whrn you renew the product</p>
                 </div>
-                <div style={{ margin:"0 25px" }}>
+                <div style={{ margin: "0 25px" }}>
                   <button
                     type="submit"
                     class="btn "
                     onClick={() => navigate("/cart")}
                     style={{
                       color: "#F16728",
-                      border: " 2px solid #F16728",
-                      fontSize: "medium",
+                      border: "1px solid #F16728",
+                      fontSize: "small",
                       margin: 5,
-                      width:"125px",
+                      width: "109px",
                     }}
                   >
                     Add to Cart
@@ -710,8 +732,9 @@ function PricingCard() {
                     onClick={() => navigate("/getproduct")}
                     style={{
                       color: "#F16728",
-                      border: " 2px solid #F16728",
-                      fontSize: "medium", width:"125px",
+                      border: "1px solid #F16728",
+                      fontSize: "small",
+                      width: "109`px",
                     }}
                   >
                     Buy Now
@@ -724,8 +747,8 @@ function PricingCard() {
         </div>
 
         <p className="text-center   mb-5 p-4">
-        Local taxes (VAT, GST, etc.) will be charged in addition to the prices mentioned. Need assistance? Mail us at abc@nectarinfotel.com
-        
+          Local taxes (VAT, GST, etc.) will be charged in addition to the prices
+          mentioned. Need assistance? Mail us at abc@nectarinfotel.com
         </p>
         <div style={{ borderTop: "2px solid #00000047" }}></div>
       </div>

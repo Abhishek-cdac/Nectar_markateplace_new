@@ -4,7 +4,7 @@ const dummyDataCard={
             id: "7",
             image: "/assets/images/nectrac_traveller.png",
             title: "Traveller",
-            sort:"Give comfort level to the traveler and secured traveling. It contains the real time tracking for the traveler for safety and responsibilities.",
+            sort:"Give comfort level to the traveler and secured traveling. It contains the real time tracking for the .",
         },
         
 

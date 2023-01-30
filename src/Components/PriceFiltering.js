@@ -5,15 +5,15 @@ import "./multiRangeSlider.css";
 function PriceFiltering() {
   return (
     <>
-      <div className="container">
-        <div className="row">
+      <div className="">
+        <div className="">
           <div className="col-lg-12">
             <h2>
               sort <sup className="sup-head">Filter By</sup>
             </h2>
 
             <div className="mt-5">
-              <h6>Choose your prefferd plan</h6>
+              <b>Choose your prefferd plan</b>
               <input type="checkbox" id="plan1" name="plan1" />
               <label for="plan1" style={{ marginLeft: "10px" }}>
                 {" "}
@@ -33,7 +33,7 @@ function PriceFiltering() {
               </label>
               <br />
               <br />
-              <h6>Choose Prefferd Users</h6>
+              <b>Choose Prefferd Users</b>
               <MultirangeSlider />
               <div className="mt-4 mb-4">
                 <label
@@ -78,7 +78,7 @@ function PriceFiltering() {
                 </span>
               </div>
 
-              <h6 className="mt-3">Choose Price Range</h6>
+              <b className="mt-3">Choose Price Range</b>
               <MultirangeSlider />
               <div className="mt-4 mb-4">
                 <label
@@ -123,7 +123,7 @@ function PriceFiltering() {
                 </span>
               </div>
               <div className="mt-4">
-                <h6>Choose with Rating</h6>
+                <b>Choose with Rating</b>
                 <div>
                   <input type="checkbox" id="plan1" name="plan1" />
 
