@@ -2273,3 +2273,13 @@ element.style {
   margin-right: 12px !important;
 
 }
+#main_card{
+  min-width: 250px;
+}
+@media screen and (max-width:350px)
+{
+  .react-switch-label1{
+    max-width: 10em;
+    margin-right: 5px;
+  }
+}
