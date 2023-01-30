@@ -2277,6 +2277,7 @@ element.style {
   background-color: #f16728;
   color: white;
 
+<<<<<<< HEAD
   font-style: italic;
   font: italic normal normal 25px/36px Lato;
   border: none;
@@ -2292,3 +2293,16 @@ element.style {
   padding: 10px;
   display: inline-block;
 }
+=======
+}
+#main_card{
+  min-width: 250px;
+}
+@media screen and (max-width:350px)
+{
+  .react-switch-label1{
+    max-width: 10em;
+    margin-right: 5px;
+  }
+}
+>>>>>>> 0edb43242b8ec17b552863ada68bfd426f2fae7e
